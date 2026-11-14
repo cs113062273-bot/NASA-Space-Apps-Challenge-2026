@@ -74,6 +74,8 @@ Python regressions run from `lunar` with `python -m unittest discover -s pipelin
 
 ## Data and credits
 
+**[Complete data, reference and software credits](SOURCES.md)**
+
 - **NASA LRO LOLA** elevation models (PDS Geosciences Node).
 - **LROC NAC** stereo terrain (NASA / Arizona State University).
 - **NASA Goddard PGDA** illumination maps.
@@ -82,7 +84,7 @@ Python regressions run from `lunar` with `python -m unittest discover -s pipelin
 - **Artemis III** candidate regions: NASA, October 2024.
 - **Photos:** Sun from NASA SDO and Earth from Apollo 17, both NASA.
 - **Wheel-soil model:** adapted from RoverDevKit (MIT); see [THIRD_PARTY_NOTICES.md](lunar/app/THIRD_PARTY_NOTICES.md).
-- **Fonts:** Inter and JetBrains Mono (SIL OFL).
+- **Fonts:** Manrope and IBM Plex Mono (SIL OFL).
 
 Lander outcomes and site coordinates are cited in the app next to each number.
 

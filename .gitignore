@@ -1,0 +1,19 @@
+
+# Isolated Sites checkout and generated deployment archive
+/published/
+
+# Local working notes and team-upload assets
+/AGENTS.md
+/lunar/*.md
+!/lunar/VALIDATION.md
+/lunar/LUNORIZON-avatar.png
+
+# Rebuildable pipeline intermediates
+/lunar/data/*.npy
+/lunar/data/*.npz
+/lunar/data/region_best.json
+
+# Internal research-access and presentation-session records
+/lunar/data/validation/competitor-browser-availability.json
+/lunar/data/validation/competitor-jsmars-source.json
+/lunar/data/validation/desktop-presentation-check.json

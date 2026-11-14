@@ -19,4 +19,4 @@ export const STEREO_CHECK = {
   timestepFlipsArtemis: crew.timestep_lola_disagree,
 }
 
-export const POLAR_LIMITS = `Single polar sunsets can shift by hours (1 in 10 by 7 h or more in the ridge/rim check). A +0.1° skyline is a sensitivity test, not an error bound. A separate 2027 check at ${STEREO_CHECK.points} points and 2 m height confirmed ${STEREO_CHECK.confirmedDays} of ${STEREO_CHECK.passDays} Artemis III PASS days on finer terrain; only ${STEREO_CHECK.pointsWithPass} points had passing days. This is a small regional sample, not a confidence level for this selected mission.`
+export const POLAR_LIMITS = `Polar sunset timing depends on fine terrain: 1 in 10 sunsets shifted by 7 h or more in the ridge/rim check. The +0.1° run shows the effect of a higher skyline. At ${STEREO_CHECK.points} sampled points and 2 m height, finer terrain confirmed ${STEREO_CHECK.confirmedDays} of ${STEREO_CHECK.passDays} Artemis III PASS days; ${STEREO_CHECK.pointsWithPass} points had passing days. These counts describe that regional sample.`

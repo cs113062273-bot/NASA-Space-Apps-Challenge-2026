@@ -6,7 +6,7 @@
 
 **[Project demo — seven slides](LUNORIZON_Demo.pdf)**
 
-At the lunar south pole the Sun circles just above the horizon, so a nearby ridge decides when a lander has power. Landing a week late moves those shadows. Odysseus, Chandrayaan-3 and Athena all ended when their solar panels lost the Sun.
+At the lunar south pole the Sun circles just above the horizon, so a nearby ridge decides when a lander has power. Landing a week late moves those shadows.
 
 LUNORIZON checks sunlight, battery power and Earth contact hour by hour against the real NASA terrain at each site. When a delay breaks the plan, it finds another site that still works that day, or the next date that works at the same site.
 

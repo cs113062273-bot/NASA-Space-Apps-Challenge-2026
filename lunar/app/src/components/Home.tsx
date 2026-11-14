@@ -57,14 +57,14 @@ export function Home({ eph, sites, stories, onOpen }: { eph: Ephemeris; sites: S
             <button className="btn-cta" onClick={stories.onRecover}>Recover a delayed landing <Icon name="arrow" /></button>
             <button className="btn-link" onClick={() => onOpen('explore')}>Plan your own landing</button>
           </div>
-          <p className="hero-cost">Odysseus, Chandrayaan-3 and Athena all ended when their solar panels lost the Sun. <button className="btn-link" onClick={() => onOpen('cases')}>See what happened</button></p>
+          <p className="hero-cost">Compare sunlight and terrain at the Odysseus, Chandrayaan-3 and Athena landing sites. <button className="btn-link" onClick={() => onOpen('cases')}>See what happened</button></p>
         </div>
         <PoleScene />
       </section>
 
       <article className="case-card case-wide" aria-label="Haworth, seven days late">
         <div className="case-head">
-          <p className="eyebrow">A real example · Haworth, an Artemis III candidate region · illustrative mission</p>
+          <p className="eyebrow">Haworth · Artemis III candidate region · 150-hour planning scenario</p>
           <h2>A crew needs about 6 days of unbroken sunlight. Here is what one week of delay does.</h2>
         </div>
         <div className="case-bars">
@@ -89,7 +89,7 @@ export function Home({ eph, sites, stories, onOpen }: { eph: Ephemeris; sites: S
             {wait && <li><Icon name="delay" /><span><b>Or keep Haworth and wait</b> until {fmtDate(wait.unix, false)}{waitDays !== null ? `, ${waitDays} days later` : ''}</span></li>}
           </ul>
           <button className="btn-link case-link" onClick={stories.onRecover}>Try it yourself <Icon name="arrow" /></button>
-          <p className="case-fine">Model scenario, not an actual mission schedule.</p>
+          <p className="case-fine">Same hardware and mission rules for every option.</p>
         </div>
       </article>
 

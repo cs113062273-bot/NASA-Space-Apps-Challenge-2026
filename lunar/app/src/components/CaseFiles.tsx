@@ -144,7 +144,7 @@ export function CaseFiles({ eph, sites, trackFor, onOpen }: {
             <div className="muted" style={{ fontSize: 12.5 }}>Landed {fmtDate(landed)}</div>
             <dl className="facts">
               <dt>Model sunset</dt>
-              <dd className="sun" title={`± = how far sunset moves if the skyline is ${SKYLINE_ERR_DEG}° higher or lower: a sensitivity test sized from LOLA vs LROC stereo terrain at two flown sites, not an error bound`}>{sunsetIdx !== null ? <><span className="nw">{fmtDate(unixAt(sunsetIdx))}</span>{halfSpread !== null && <span className="nw"> ± {fmtHours(halfSpread)}</span>} <span className="nw faint">T+{fmtHours(st.firstSunset)}</span></> : `none in ${c.days} d`}</dd>
+              <dd className="sun" title={`± shows how sunset moves with a skyline ${SKYLINE_ERR_DEG}° higher or lower, using the LOLA vs LROC stereo comparison at two flown sites.`}>{sunsetIdx !== null ? <><span className="nw">{fmtDate(unixAt(sunsetIdx))}</span>{halfSpread !== null && <span className="nw"> ± {fmtHours(halfSpread)}</span>} <span className="nw faint">T+{fmtHours(st.firstSunset)}</span></> : `none in ${c.days} d`}</dd>
               {sunrise !== null && (<><dt>Model next sunrise</dt><dd className="sun">{fmtDate(unixAt(sunrise))}</dd></>)}
               {ecl?.start != null && (<><dt>Model eclipse</dt><dd className="sun">{fmtDate(ecl.start).slice(0, 6)} {hm(ecl.start)}–{hm(ecl.end)} UTC, total {hm(ecl.totalStart)}–{hm(ecl.totalEnd)}</dd></>)}
               <dt>Model Earth in view</dt><dd className="earth">{Math.round((100 * st.earthHours) / st.hours)}% of {c.days} d</dd>

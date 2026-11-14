@@ -155,7 +155,7 @@ export function Evidence() {
               <b>Terrain model.</b> Where LROC stereo terrain exists (4 m at Athena, 3 m at Chandrayaan-3), the LOLA skyline differs from it by a median
               of <b className="mono">0.003–0.009°</b>; 90% of azimuths are within <b className="mono">0.07–0.12°</b>, the worst 0.3°. Every sunset on the page therefore carries
               a sensitivity range for a skyline 0.1° higher or lower: about ±1 h at the flown sites, far more near the pole, where the Sun skims the horizon.
-              Sites you add on the coarse whole-Moon grid use 1° instead. This is a sensitivity test, not an error bound.
+              Sites you add on the coarse whole-Moon grid use a 1° sensitivity shift instead.
             </p>
             <p className="muted">
               <b>Polar ridges and rims are harder.</b> DLR’s 2 m stereo models of the Connecting Ridge, Shackleton’s rim and Malapert’s peak, at {effect.summary.points} points:

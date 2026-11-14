@@ -991,7 +991,7 @@ function Navigator({ eph, curated, basemap, active }: { eph: Ephemeris; curated:
           <header>
             <div>
               <h2>Real landings</h2>
-              <p>Reported events vs modeled conditions. ± tests a {SKYLINE_ERR_DEG}° skyline shift, not an error bound.</p>
+              <p>Reported events vs modeled conditions. ± shows the effect of a {SKYLINE_ERR_DEG}° skyline shift.</p>
             </div>
           </header>
           <CaseFiles eph={eph} sites={sites} trackFor={trackFor} onOpen={(id, unix, days) => { setSelectedId(id); setLandingUnix(unix); setDurationDays(days); jumpTo('explore') }} />
@@ -1212,8 +1212,8 @@ function Headline({ site, stats, sunset, skyErr, windowHours, valid, maxSlope, e
       : POLAR_LIMITS
     : ''
   const spreadTip = site.localSky ? 'Mixed-terrain scenario: ±1° is an uncalibrated engineering sensitivity. It does not propagate DEM RMS or quantify registration/seam uncertainty.' : skyErr === SKYLINE_ERR_DEG
-    ? `Sensitivity test: ${SKYLINE_ERR_DEG}° is about the 90th percentile of the LOLA vs LROC 3–4 m stereo skyline difference at two flown sites. Not an error bound.`
-    : `Sensitivity test: this horizon comes from the 1.9 km whole-Moon grid, which differs from 59 m terrain by a median 0.02–0.9° and up to 4° near hills. Not an error bound.`
+    ? `Skyline sensitivity: ${SKYLINE_ERR_DEG}° is about the 90th percentile of the LOLA vs LROC 3–4 m stereo difference at two flown sites.`
+    : `Skyline sensitivity: the 1.9 km whole-Moon grid differs from 59 m terrain by a median 0.02–0.9° and up to 4° near hills.`
   const eclipseLine = stats && stats.eclipseHours > 0 && stats.firstEclipse !== null
     ? ` Earth eclipses the Sun ${fmtHours(stats.firstEclipse)} after touchdown: about ${fmtHours(stats.eclipseHours)} with no sunlight at all.`
     : ''
@@ -1243,7 +1243,7 @@ function Headline({ site, stats, sunset, skyErr, windowHours, valid, maxSlope, e
     : ''
   const verdictLine = verdict && (verdict.all
     ? <span className={`verdict ${verdict.robust ? 'ok' : 'fragile'}`}
-        title="Checks only the selected requirements and skyline shift; this is not a landing-safety or battery-survival verdict">
+        title="Selected sunlight, darkness, Earth-view and slope requirements, checked with the baseline and raised skyline">
         {verdict.robust ? `Meets selected rules, also with the skyline ${skyErr}° higher` : `Meets selected rules, but fragile: fails with the skyline ${skyErr}° higher`}
       </span>
     : <span className="verdict bad">Misses: {verdict.misses.join(', ')}</span>)
@@ -1269,7 +1269,7 @@ function Headline({ site, stats, sunset, skyErr, windowHours, valid, maxSlope, e
         <summary>{site.lat < -80 ? 'Terrain-sensitive · check the limits' : skyErr > SKYLINE_ERR_DEG ? 'Coarse terrain · check the limits' : 'Site notes & model limits'}</summary>
         {spread && <p className="spread" title={spreadTip}>{spread}</p>}
         <p>{polarNote} {site.note}</p>
-        <p className="faint">The verdict checks the selected daylight, darkness, Earth-view and slope requirements. It does not certify landing safety or battery survival. A raised skyline is a sensitivity test, not an error bound.</p>
+        <p className="faint">The verdict checks your selected daylight, darkness, Earth-view and slope requirements. Battery power is reported separately.</p>
       </details>
     </div>
   )

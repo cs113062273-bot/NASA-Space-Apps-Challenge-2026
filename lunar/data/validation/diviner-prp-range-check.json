@@ -1,0 +1,107 @@
+{
+  "source_sha256": "393deaa5d8925d45bb2ed608f937a824f5eae029c2558aad1d2da8206b83a62d",
+  "method": "HTTP byte-range fetch at the selected source offset; PDS4 XML fixed-field parser vs full-table CSV parser",
+  "scope": "Source record/column alignment; same product, no measured-temperature or registration validation",
+  "cases": [
+    {
+      "site": "im2-actual",
+      "facet_index": 786304,
+      "source_record_number": 786305,
+      "byte_start": 165124050,
+      "byte_end": 165124259,
+      "sha256": "b3393e982073c19dc1105f0151d5216ff50dde2888b49114e9ef20298b309bd6",
+      "fixed_field_values": {
+        "tri1_x": 138.45844,
+        "tri1_y": 77.09043,
+        "tri1_z": -1735.50061,
+        "tri2_x": 137.95308,
+        "tri2_y": 77.09142,
+        "tri2_z": -1735.54297,
+        "tri3_x": 137.95099,
+        "tri3_y": 77.59738,
+        "tri3_z": -1735.50549,
+        "tri_clon": 29.221054077,
+        "tri_clat": -84.789642334,
+        "tri_calt": 5.317256927,
+        "temp_avg": 127.371,
+        "temp_max": 227.044,
+        "ice_depth": -999.0
+      }
+    },
+    {
+      "site": "c1",
+      "facet_index": 1498754,
+      "source_record_number": 1498755,
+      "byte_start": 314738550,
+      "byte_end": 314738759,
+      "sha256": "9d38181893fa5ebeed686a368eb6fb8eb382b3a6f48998145042f50616ee8bb1",
+      "fixed_field_values": {
+        "tri1_x": -12.17314,
+        "tri1_y": -11.66592,
+        "tri1_z": -1739.20764,
+        "tri2_x": -12.68053,
+        "tri2_y": -11.66609,
+        "tri2_z": -1739.2301,
+        "tri3_x": -12.68066,
+        "tri3_y": -11.15898,
+        "tri3_z": -1739.24976,
+        "tri_clon": -137.419540405,
+        "tri_clat": -89.440254211,
+        "tri_calt": 1.912132144,
+        "temp_avg": 108.251,
+        "temp_max": 200.319,
+        "ice_depth": 0.28482
+      }
+    },
+    {
+      "site": "shackleton",
+      "facet_index": 1481988,
+      "source_record_number": 1481989,
+      "byte_start": 311217690,
+      "byte_end": 311217899,
+      "sha256": "dfeb6931ea611ca9a63ae2c43f285430f9ea32c25bd613204d8f9483191d158a",
+      "fixed_field_values": {
+        "tri1_x": -8.62136,
+        "tri1_y": -3.04284,
+        "tri1_z": -1738.97974,
+        "tri2_x": -9.12867,
+        "tri2_y": -3.04289,
+        "tri2_z": -1739.00977,
+        "tri3_x": -9.12882,
+        "tri3_y": -2.53578,
+        "tri3_z": -1739.0387,
+        "tri_clon": -162.216140747,
+        "tri_clat": -89.689994812,
+        "tri_calt": 1.634792328,
+        "temp_avg": 111.028,
+        "temp_max": 213.097,
+        "ice_depth": 0.44646
+      }
+    },
+    {
+      "site": "a3-degerlache-2",
+      "facet_index": 1357029,
+      "source_record_number": 1357030,
+      "byte_start": 284976300,
+      "byte_end": 284976509,
+      "sha256": "bf2dd837d0536cff5f7f0f4c0381fe0ffa4e91b2850a2173731943d89cf33f4b",
+      "fixed_field_values": {
+        "tri1_x": 17.74593,
+        "tri1_y": -43.60417,
+        "tri1_z": -1738.28479,
+        "tri2_x": 17.23871,
+        "tri2_y": -43.09678,
+        "tri2_z": -1738.27686,
+        "tri3_x": 17.74618,
+        "tri3_y": -43.09783,
+        "tri3_z": -1738.31641,
+        "tri_clon": -67.890525818,
+        "tri_clat": -88.461082458,
+        "tri_calt": 1.519852519,
+        "temp_avg": 126.67,
+        "temp_max": 221.454,
+        "ice_depth": -999.0
+      }
+    }
+  ]
+}

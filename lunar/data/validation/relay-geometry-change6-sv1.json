@@ -1,0 +1,3085 @@
+{
+  "schema": 1,
+  "site": {
+    "id": "change6",
+    "lat": -41.6385,
+    "lon": 206.0148,
+    "ground_m": -5254.0,
+    "observer_m": 2
+  },
+  "spacecraft": "SV-1",
+  "start_utc": "2027-03-01T00:00:00Z",
+  "days": 7,
+  "cadence_utc_s": 15,
+  "access_rule": "XCN+S from fixed terrain observer; clearance >=0.1 deg above interpolated 2 m curated horizon",
+  "backhaul_rule": "Moving-Moon photon path >=100 m above sampled LDEM_64 terrain AND XCN spherical-limb clearance >=0.1 deg; CN+S station reception >=10.35 deg at arrival; any one named reference antenna",
+  "hour_rule": "Every sample including both endpoints must pass; this is sampled visibility, not continuous-time certification",
+  "access_kbps_assumed": 512,
+  "backhaul_kbps_assumed": 2048,
+  "passes": [
+    {
+      "startUnix": 1803859200.0,
+      "endUnix": 1803870000.0,
+      "leg": "backhaul",
+      "kbps": 2048
+    },
+    {
+      "startUnix": 1803870000.0,
+      "endUnix": 1803960000.0,
+      "leg": "access",
+      "kbps": 512
+    },
+    {
+      "startUnix": 1803877200.0,
+      "endUnix": 1803891600.0,
+      "leg": "backhaul",
+      "kbps": 2048
+    },
+    {
+      "startUnix": 1803902400.0,
+      "endUnix": 1803960000.0,
+      "leg": "backhaul",
+      "kbps": 2048
+    },
+    {
+      "startUnix": 1803963600.0,
+      "endUnix": 1803981600.0,
+      "leg": "backhaul",
+      "kbps": 2048
+    },
+    {
+      "startUnix": 1803978000.0,
+      "endUnix": 1804068000.0,
+      "leg": "access",
+      "kbps": 512
+    },
+    {
+      "startUnix": 1803992400.0,
+      "endUnix": 1804046400.0,
+      "leg": "backhaul",
+      "kbps": 2048
+    },
+    {
+      "startUnix": 1804053600.0,
+      "endUnix": 1804075200.0,
+      "leg": "backhaul",
+      "kbps": 2048
+    },
+    {
+      "startUnix": 1804078800.0,
+      "endUnix": 1804136400.0,
+      "leg": "backhaul",
+      "kbps": 2048
+    },
+    {
+      "startUnix": 1804089600.0,
+      "endUnix": 1804176000.0,
+      "leg": "access",
+      "kbps": 512
+    },
+    {
+      "startUnix": 1804143600.0,
+      "endUnix": 1804165200.0,
+      "leg": "backhaul",
+      "kbps": 2048
+    },
+    {
+      "startUnix": 1804168800.0,
+      "endUnix": 1804226400.0,
+      "leg": "backhaul",
+      "kbps": 2048
+    },
+    {
+      "startUnix": 1804201200.0,
+      "endUnix": 1804284000.0,
+      "leg": "access",
+      "kbps": 512
+    },
+    {
+      "startUnix": 1804230000.0,
+      "endUnix": 1804312800.0,
+      "leg": "backhaul",
+      "kbps": 2048
+    },
+    {
+      "startUnix": 1804312800.0,
+      "endUnix": 1804392000.0,
+      "leg": "access",
+      "kbps": 512
+    },
+    {
+      "startUnix": 1804316400.0,
+      "endUnix": 1804399200.0,
+      "leg": "backhaul",
+      "kbps": 2048
+    },
+    {
+      "startUnix": 1804406400.0,
+      "endUnix": 1804464000.0,
+      "leg": "backhaul",
+      "kbps": 2048
+    },
+    {
+      "startUnix": 1804424400.0,
+      "endUnix": 1804464000.0,
+      "leg": "access",
+      "kbps": 512
+    }
+  ],
+  "access_hours": 130,
+  "backhaul_hours": 149,
+  "terrain_frame": "MOON_ME_DE440_ME421",
+  "force_frame": "MOON_PA_DE421; explicit ICRF transform, DE421 planetary translation retained",
+  "catalogue_sha256": "3bbd1d89977c783a6f09792f527f85d8fc135000b1dc99de2d351592562ebb9a",
+  "orbit_checks_sha256": "660b04885d3dcfda247f8399667ae13d752e4352f9b0b55ef6afae31b06c5176",
+  "horizon_centideg": [
+    49,
+    45,
+    45,
+    43,
+    41,
+    44,
+    44,
+    43,
+    44,
+    44,
+    45,
+    43,
+    36,
+    40,
+    37,
+    30,
+    24,
+    23,
+    22,
+    21,
+    20,
+    26,
+    33,
+    40,
+    45,
+    44,
+    53,
+    54,
+    45,
+    47,
+    50,
+    43,
+    36,
+    28,
+    21,
+    13,
+    7,
+    7,
+    7,
+    8,
+    7,
+    10,
+    15,
+    15,
+    14,
+    11,
+    12,
+    8,
+    10,
+    8,
+    8,
+    8,
+    7,
+    7,
+    7,
+    7,
+    8,
+    8,
+    8,
+    8,
+    7,
+    7,
+    7,
+    6,
+    6,
+    5,
+    5,
+    5,
+    6,
+    8,
+    8,
+    9,
+    8,
+    8,
+    8,
+    10,
+    10,
+    10,
+    11,
+    12,
+    12,
+    13,
+    13,
+    13,
+    14,
+    14,
+    15,
+    17,
+    18,
+    20,
+    22,
+    24,
+    24,
+    24,
+    25,
+    26,
+    26,
+    27,
+    28,
+    28,
+    29,
+    30,
+    32,
+    32,
+    33,
+    34,
+    35,
+    35,
+    36,
+    36,
+    35,
+    35,
+    35,
+    34,
+    34,
+    34,
+    34,
+    35,
+    35,
+    34,
+    34,
+    34,
+    34,
+    35,
+    35,
+    36,
+    36,
+    37,
+    37,
+    37,
+    39,
+    39,
+    39,
+    40,
+    41,
+    41,
+    42,
+    42,
+    41,
+    41,
+    42,
+    42,
+    40,
+    38,
+    36,
+    36,
+    36,
+    35,
+    34,
+    34,
+    35,
+    36,
+    36,
+    35,
+    36,
+    34,
+    33,
+    33,
+    34,
+    35,
+    38,
+    37,
+    37,
+    35,
+    33,
+    33,
+    33,
+    33,
+    31,
+    29,
+    27,
+    26,
+    25,
+    24,
+    23,
+    23,
+    23,
+    23,
+    23,
+    22,
+    21,
+    21,
+    21,
+    21,
+    20,
+    20,
+    19,
+    18,
+    17,
+    16,
+    15,
+    14,
+    14,
+    12,
+    12,
+    12,
+    12,
+    11,
+    11,
+    10,
+    10,
+    10,
+    9,
+    9,
+    8,
+    8,
+    8,
+    8,
+    9,
+    8,
+    7,
+    7,
+    6,
+    6,
+    7,
+    7,
+    6,
+    5,
+    7,
+    8,
+    11,
+    14,
+    17,
+    22,
+    28,
+    36,
+    46,
+    61,
+    81,
+    118,
+    187,
+    318,
+    408,
+    286,
+    205,
+    145,
+    104,
+    74,
+    51,
+    34,
+    22,
+    13,
+    7,
+    17,
+    16,
+    6,
+    6,
+    7,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    7,
+    6,
+    7,
+    8,
+    8,
+    6,
+    6,
+    6,
+    6,
+    6,
+    7,
+    6,
+    6,
+    5,
+    10,
+    9,
+    3,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    0,
+    0,
+    -1,
+    -2,
+    -2,
+    7,
+    11,
+    14,
+    18,
+    26,
+    27,
+    26,
+    28,
+    33,
+    35,
+    41,
+    50,
+    60,
+    65,
+    62,
+    54,
+    52,
+    55,
+    57,
+    57,
+    58,
+    59,
+    62,
+    69,
+    76,
+    85,
+    89,
+    90,
+    95,
+    102,
+    107,
+    110,
+    111,
+    111,
+    117,
+    123,
+    127,
+    133,
+    135,
+    131,
+    125,
+    118,
+    113,
+    107,
+    101,
+    122,
+    141,
+    155,
+    175,
+    193,
+    212,
+    226,
+    238,
+    253,
+    262,
+    268,
+    273,
+    272,
+    269,
+    266,
+    263,
+    261,
+    262,
+    264,
+    264,
+    262,
+    256,
+    253,
+    252,
+    238,
+    225,
+    206,
+    205,
+    210,
+    215,
+    221,
+    229,
+    233,
+    238,
+    249,
+    264,
+    283,
+    297,
+    312,
+    321,
+    327,
+    328,
+    328,
+    325,
+    320,
+    312,
+    307,
+    304,
+    302,
+    299,
+    296,
+    297,
+    299,
+    301,
+    305,
+    308,
+    315,
+    317,
+    322,
+    323,
+    321,
+    316,
+    310,
+    302,
+    292,
+    287,
+    278,
+    265,
+    248,
+    237,
+    224,
+    227,
+    225,
+    221,
+    217,
+    208,
+    199,
+    199,
+    198,
+    192,
+    183,
+    173,
+    162,
+    154,
+    144,
+    135,
+    125,
+    114,
+    101,
+    90,
+    80,
+    79,
+    75,
+    71,
+    64,
+    59,
+    60,
+    65,
+    63,
+    55,
+    43,
+    42,
+    49,
+    55,
+    64,
+    68,
+    71,
+    73,
+    71,
+    69,
+    70,
+    69,
+    64,
+    61,
+    57,
+    57,
+    59,
+    64,
+    71,
+    77,
+    83,
+    88,
+    87,
+    84,
+    76,
+    68,
+    61,
+    48,
+    29,
+    12,
+    14,
+    10,
+    3,
+    10,
+    -7,
+    -7,
+    -6,
+    -6,
+    -6,
+    -6,
+    -5,
+    -4,
+    -4,
+    -3,
+    -3,
+    -3,
+    -2,
+    -2,
+    -2,
+    -1,
+    -1,
+    -1,
+    -1,
+    -2,
+    -3,
+    -5,
+    -6,
+    -8,
+    -9,
+    -10,
+    -10,
+    -10,
+    -10,
+    -11,
+    -11,
+    -11,
+    -11,
+    -10,
+    -10,
+    -11,
+    -11,
+    -11,
+    -11,
+    -11,
+    -11,
+    -11,
+    -11,
+    -10,
+    -10,
+    -10,
+    -10,
+    -9,
+    -10,
+    -9,
+    -9,
+    -10,
+    -8,
+    -9,
+    -10,
+    -9,
+    -9,
+    -9,
+    -10,
+    -11,
+    -11,
+    -11,
+    -11,
+    -11,
+    -12,
+    -12,
+    -11,
+    -10,
+    -9,
+    -7,
+    -6,
+    -5,
+    -5,
+    -5,
+    -5,
+    -6,
+    -7,
+    -8,
+    -9,
+    -10,
+    -12,
+    -12,
+    -11,
+    -11,
+    -10,
+    -10,
+    -8,
+    -4,
+    -3,
+    -4,
+    -5,
+    -6,
+    -5,
+    -5,
+    -6,
+    -7,
+    -6,
+    -5,
+    -4,
+    -4,
+    -5,
+    -6,
+    -7,
+    -7,
+    -7,
+    -7,
+    -7,
+    -8,
+    -8,
+    -7,
+    -8,
+    -6,
+    -9,
+    -8,
+    -8,
+    -9,
+    -9,
+    -9,
+    -9,
+    -9,
+    -9,
+    -10,
+    -9,
+    -10,
+    -10,
+    -9,
+    -9,
+    -9,
+    -10,
+    -10,
+    -10,
+    -10,
+    -11,
+    -11,
+    -11,
+    -11,
+    -12,
+    -11,
+    -11,
+    -11,
+    -12,
+    -12,
+    -12,
+    -11,
+    -11,
+    -12,
+    -12,
+    -12,
+    -12,
+    -12,
+    -12,
+    -13,
+    -13,
+    -12,
+    -12,
+    -13,
+    -13,
+    -12,
+    -12,
+    -12,
+    -12,
+    -11,
+    -11,
+    -11,
+    -11,
+    -10,
+    -9,
+    -9,
+    -9,
+    -8,
+    -8,
+    -7,
+    -8,
+    -8,
+    -7,
+    -6,
+    -5,
+    -6,
+    -7,
+    -8,
+    -6,
+    -5,
+    -6,
+    -5,
+    -4,
+    -2,
+    -3,
+    -4,
+    -4,
+    -4,
+    -4,
+    -3,
+    -4,
+    -4,
+    -4,
+    -5,
+    -5,
+    -4,
+    -4,
+    -3,
+    -2,
+    1,
+    5,
+    13,
+    22,
+    29,
+    32,
+    32,
+    28,
+    21,
+    14,
+    13,
+    11,
+    9,
+    9,
+    11,
+    10,
+    15,
+    18,
+    20,
+    21,
+    24,
+    24,
+    27,
+    31,
+    32,
+    36,
+    39,
+    41,
+    42,
+    44,
+    42,
+    37,
+    31,
+    26,
+    23,
+    22,
+    22,
+    24,
+    25,
+    28,
+    32,
+    37,
+    43,
+    45,
+    43,
+    41,
+    40,
+    40,
+    39,
+    39,
+    38,
+    36,
+    43,
+    49,
+    52,
+    52,
+    52
+  ],
+  "horizon_convention": "samples at (index+0.5)*360/720 degrees; cyclic linear interpolation",
+  "hourly": [
+    {
+      "access_clearance_min_deg": -77.7524983821856,
+      "access_range_max_km": 5729.406092110166,
+      "backhaul_range_max_km": 398864.2846501307,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -38.080852948432266,
+      "access_range_max_km": 7061.386946672965,
+      "backhaul_range_max_km": 402300.16972916113,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -5.782882028043576,
+      "access_range_max_km": 8623.280575595089,
+      "backhaul_range_max_km": 405355.3642518434,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 13.270711368855077,
+      "access_range_max_km": 10132.514140623543,
+      "backhaul_range_max_km": null,
+      "access": true,
+      "backhaul": false
+    },
+    {
+      "access_clearance_min_deg": 25.502993109893676,
+      "access_range_max_km": 11505.872208252371,
+      "backhaul_range_max_km": null,
+      "access": true,
+      "backhaul": false
+    },
+    {
+      "access_clearance_min_deg": 34.03191902625058,
+      "access_range_max_km": 12725.054861764871,
+      "backhaul_range_max_km": 408532.8253699041,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 40.5591006845157,
+      "access_range_max_km": 13791.096600737925,
+      "backhaul_range_max_km": 409320.4648179149,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 45.7578505351889,
+      "access_range_max_km": 14710.353659358012,
+      "backhaul_range_max_km": 410225.0643395321,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 49.52982530006183,
+      "access_range_max_km": 15490.011883960813,
+      "backhaul_range_max_km": 411255.782517937,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 52.762228998372436,
+      "access_range_max_km": 16136.627638156018,
+      "backhaul_range_max_km": null,
+      "access": true,
+      "backhaul": false
+    },
+    {
+      "access_clearance_min_deg": 56.05142684725392,
+      "access_range_max_km": 16655.694976167495,
+      "backhaul_range_max_km": null,
+      "access": true,
+      "backhaul": false
+    },
+    {
+      "access_clearance_min_deg": 58.93376252559664,
+      "access_range_max_km": 17051.567189390586,
+      "backhaul_range_max_km": null,
+      "access": true,
+      "backhaul": false
+    },
+    {
+      "access_clearance_min_deg": 61.32558735452802,
+      "access_range_max_km": 17327.492685981855,
+      "backhaul_range_max_km": 412677.32119556697,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 62.749486713954724,
+      "access_range_max_km": 17485.67574934169,
+      "backhaul_range_max_km": 412272.55301941896,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 63.98370007546809,
+      "access_range_max_km": 17528.492702127853,
+      "backhaul_range_max_km": 412028.59101021674,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 64.77851507833955,
+      "access_range_max_km": 17527.328222091175,
+      "backhaul_range_max_km": 412079.7756474374,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 66.43533984865456,
+      "access_range_max_km": 17452.699174062996,
+      "backhaul_range_max_km": 411909.3312384013,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 68.60599458335466,
+      "access_range_max_km": 17261.077562691386,
+      "backhaul_range_max_km": 410726.47616164654,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 68.97885555864067,
+      "access_range_max_km": 16950.765764069667,
+      "backhaul_range_max_km": 409578.2607991963,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 70.93621849474081,
+      "access_range_max_km": 16519.023360363346,
+      "backhaul_range_max_km": 408522.2805202254,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 71.08673406237179,
+      "access_range_max_km": 15961.98312512616,
+      "backhaul_range_max_km": 407604.10613805166,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 69.3211270253538,
+      "access_range_max_km": 15274.548472523664,
+      "backhaul_range_max_km": 406853.7179667523,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 63.52304396593279,
+      "access_range_max_km": 14450.302540807905,
+      "backhaul_range_max_km": 406282.6449727983,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 62.55480517909129,
+      "access_range_max_km": 13481.517724038651,
+      "backhaul_range_max_km": 405881.95718848315,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 56.78431949289751,
+      "access_range_max_km": 12359.523216079211,
+      "backhaul_range_max_km": 405621.13844608935,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 48.540159382090685,
+      "access_range_max_km": 11076.203600237419,
+      "backhaul_range_max_km": 405447.7233859567,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 36.09049398242594,
+      "access_range_max_km": 9629.118420432238,
+      "backhaul_range_max_km": 405287.5209329623,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 15.603146242872805,
+      "access_range_max_km": 8039.091573251171,
+      "backhaul_range_max_km": 405045.89168619015,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -21.098162852002275,
+      "access_range_max_km": 6414.5567673684445,
+      "backhaul_range_max_km": null,
+      "access": false,
+      "backhaul": false
+    },
+    {
+      "access_clearance_min_deg": -75.53792878996339,
+      "access_range_max_km": 5171.136426627163,
+      "backhaul_range_max_km": 402817.45713798364,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -80.64901752385255,
+      "access_range_max_km": 5995.119711145623,
+      "backhaul_range_max_km": 401228.2347122143,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -47.458561691172804,
+      "access_range_max_km": 7411.528143900055,
+      "backhaul_range_max_km": 402808.19864198944,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -16.552325667458398,
+      "access_range_max_km": 8969.318209998419,
+      "backhaul_range_max_km": 404609.0920303283,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 2.0278572612783092,
+      "access_range_max_km": 10452.5706284909,
+      "backhaul_range_max_km": 406499.95491980336,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 14.337554093060655,
+      "access_range_max_km": 11795.928864670843,
+      "backhaul_range_max_km": null,
+      "access": true,
+      "backhaul": false
+    },
+    {
+      "access_clearance_min_deg": 23.217227869999398,
+      "access_range_max_km": 12985.540667410865,
+      "backhaul_range_max_km": null,
+      "access": true,
+      "backhaul": false
+    },
+    {
+      "access_clearance_min_deg": 29.874364299907544,
+      "access_range_max_km": 14023.396913017516,
+      "backhaul_range_max_km": null,
+      "access": true,
+      "backhaul": false
+    },
+    {
+      "access_clearance_min_deg": 34.99869168193965,
+      "access_range_max_km": 14915.872097133246,
+      "backhaul_range_max_km": 410112.80183672684,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 39.37011777364757,
+      "access_range_max_km": 15669.936263343287,
+      "backhaul_range_max_km": 410552.4364572331,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 43.55079375125065,
+      "access_range_max_km": 16291.899163008771,
+      "backhaul_range_max_km": 411174.74500346894,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 47.389389303864554,
+      "access_range_max_km": 16787.033217604818,
+      "backhaul_range_max_km": 411771.12671582465,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 50.60970053430934,
+      "access_range_max_km": 17159.50520543112,
+      "backhaul_range_max_km": 411632.87622764835,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 53.68016395729381,
+      "access_range_max_km": 17412.408215463518,
+      "backhaul_range_max_km": 411061.604958477,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 56.82714782285352,
+      "access_range_max_km": 17547.814600320715,
+      "backhaul_range_max_km": 410542.45829351887,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 59.55884145529257,
+      "access_range_max_km": 17573.390107676554,
+      "backhaul_range_max_km": 410135.5951096324,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 62.2269256700831,
+      "access_range_max_km": 17566.819053570198,
+      "backhaul_range_max_km": 409888.3232413472,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 64.47663477758273,
+      "access_range_max_km": 17469.559636388803,
+      "backhaul_range_max_km": 409979.5451895564,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 66.46021361816462,
+      "access_range_max_km": 17255.211526418352,
+      "backhaul_range_max_km": 410324.6375227325,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 68.77758060248779,
+      "access_range_max_km": 16921.950758110965,
+      "backhaul_range_max_km": 410841.21373337024,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 70.60606408929414,
+      "access_range_max_km": 16466.886466904234,
+      "backhaul_range_max_km": 411484.7012695633,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 73.25255082848304,
+      "access_range_max_km": 15885.962317425734,
+      "backhaul_range_max_km": 412193.93675548973,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 76.03345256475,
+      "access_range_max_km": 15173.834814990381,
+      "backhaul_range_max_km": 412893.7669774092,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 78.85890665049722,
+      "access_range_max_km": 14323.75700536576,
+      "backhaul_range_max_km": null,
+      "access": true,
+      "backhaul": false
+    },
+    {
+      "access_clearance_min_deg": 75.37070989049364,
+      "access_range_max_km": 13327.556212193687,
+      "backhaul_range_max_km": null,
+      "access": true,
+      "backhaul": false
+    },
+    {
+      "access_clearance_min_deg": 70.5019332347667,
+      "access_range_max_km": 12175.972325740739,
+      "backhaul_range_max_km": 412459.4879279972,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 61.77816847638668,
+      "access_range_max_km": 10860.181106754282,
+      "backhaul_range_max_km": 410868.9218386806,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 48.63780996096456,
+      "access_range_max_km": 9377.244980172763,
+      "backhaul_range_max_km": 409278.1118910956,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 26.605722941862435,
+      "access_range_max_km": 7749.627578684741,
+      "backhaul_range_max_km": 407645.1594359431,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -13.158600172198335,
+      "access_range_max_km": 6100.085233593425,
+      "backhaul_range_max_km": 405873.369124498,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -71.90078143263025,
+      "access_range_max_km": 5127.798531933916,
+      "backhaul_range_max_km": 403828.9133870721,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -85.57085485498314,
+      "access_range_max_km": 6252.136444342297,
+      "backhaul_range_max_km": null,
+      "access": false,
+      "backhaul": false
+    },
+    {
+      "access_clearance_min_deg": -56.693324907923724,
+      "access_range_max_km": 7727.2235553824885,
+      "backhaul_range_max_km": 401405.06450208876,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -26.960125822629866,
+      "access_range_max_km": 9273.013080530782,
+      "backhaul_range_max_km": 402043.1568877336,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -9.13844555540329,
+      "access_range_max_km": 10728.308133033812,
+      "backhaul_range_max_km": 402988.5610646755,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 3.1063783765732085,
+      "access_range_max_km": 12041.89849788601,
+      "backhaul_range_max_km": 404180.95780783147,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 12.281473167469066,
+      "access_range_max_km": 13203.195093371922,
+      "backhaul_range_max_km": 405311.7236442295,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 19.471508891398898,
+      "access_range_max_km": 14214.673559429553,
+      "backhaul_range_max_km": 405298.21830094804,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 25.328583182137468,
+      "access_range_max_km": 15082.493270243445,
+      "backhaul_range_max_km": 405278.1197047881,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 30.27137703445788,
+      "access_range_max_km": 15813.272232913336,
+      "backhaul_range_max_km": 405449.4857292031,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 34.561644991985574,
+      "access_range_max_km": 16412.98501564532,
+      "backhaul_range_max_km": 405806.4214291562,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 38.426546384839625,
+      "access_range_max_km": 16886.621348527246,
+      "backhaul_range_max_km": 406377.96447076247,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 41.985091282851094,
+      "access_range_max_km": 17238.11877430262,
+      "backhaul_range_max_km": 407174.62685907783,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 45.351049265324704,
+      "access_range_max_km": 17470.386236669507,
+      "backhaul_range_max_km": 408187.4816867601,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 48.57535694392883,
+      "access_range_max_km": 17585.347082605484,
+      "backhaul_range_max_km": 409388.58541817206,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 51.684172998033155,
+      "access_range_max_km": 17599.185922180182,
+      "backhaul_range_max_km": 410732.65163151466,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 54.74638101993196,
+      "access_range_max_km": 17583.97287587505,
+      "backhaul_range_max_km": 412159.7978786058,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 57.81050781439644,
+      "access_range_max_km": 17466.29609245762,
+      "backhaul_range_max_km": 413599.1046286613,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 60.923736653981244,
+      "access_range_max_km": 17231.396321877342,
+      "backhaul_range_max_km": null,
+      "access": true,
+      "backhaul": false
+    },
+    {
+      "access_clearance_min_deg": 64.13723589480031,
+      "access_range_max_km": 16877.356824077255,
+      "backhaul_range_max_km": null,
+      "access": true,
+      "backhaul": false
+    },
+    {
+      "access_clearance_min_deg": 67.51063774456905,
+      "access_range_max_km": 16401.18956201158,
+      "backhaul_range_max_km": 413952.7375852921,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 71.11854719860835,
+      "access_range_max_km": 15798.729223071678,
+      "backhaul_range_max_km": 413326.13949099503,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 75.03158582395852,
+      "access_range_max_km": 15064.504270238245,
+      "backhaul_range_max_km": 412835.98549450404,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 79.51073264210297,
+      "access_range_max_km": 14191.615651591852,
+      "backhaul_range_max_km": 412489.6018298575,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 84.72896249300308,
+      "access_range_max_km": 13171.719552090175,
+      "backhaul_range_max_km": 412271.1956070633,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 81.24120806628501,
+      "access_range_max_km": 11995.406849830199,
+      "backhaul_range_max_km": 412138.59679139307,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 71.39444979821293,
+      "access_range_max_km": 10653.8961212669,
+      "backhaul_range_max_km": null,
+      "access": true,
+      "backhaul": false
+    },
+    {
+      "access_clearance_min_deg": 57.01014676776346,
+      "access_range_max_km": 9145.138803430202,
+      "backhaul_range_max_km": 410545.8400071002,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 33.3152602953079,
+      "access_range_max_km": 7496.021782792354,
+      "backhaul_range_max_km": 408160.67372222035,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -9.19055632658049,
+      "access_range_max_km": 5849.187274594616,
+      "backhaul_range_max_km": 405452.17584370344,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -68.58802876078725,
+      "access_range_max_km": 5205.358471797613,
+      "backhaul_range_max_km": 402186.95738436264,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -91.54229688242152,
+      "access_range_max_km": 6503.619143870052,
+      "backhaul_range_max_km": 398628.541023853,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -64.38549703216593,
+      "access_range_max_km": 8021.302869583496,
+      "backhaul_range_max_km": 397270.3185765514,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -35.66579808905686,
+      "access_range_max_km": 9552.785416830126,
+      "backhaul_range_max_km": 396318.26968069404,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -17.767199468845867,
+      "access_range_max_km": 10980.354856225487,
+      "backhaul_range_max_km": 396335.42579058884,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -5.456971836242839,
+      "access_range_max_km": 12265.007078968329,
+      "backhaul_range_max_km": 396944.21459686285,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 3.667520762803572,
+      "access_range_max_km": 13399.091100190568,
+      "backhaul_range_max_km": 397876.95953208226,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 10.809168431201917,
+      "access_range_max_km": 14385.498753071051,
+      "backhaul_range_max_km": 399106.95225310663,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 16.65533436724594,
+      "access_range_max_km": 15230.137507004896,
+      "backhaul_range_max_km": 400602.0857715024,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 21.627925850105758,
+      "access_range_max_km": 15939.235084184389,
+      "backhaul_range_max_km": 402318.4963110323,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 25.989419612429145,
+      "access_range_max_km": 16518.38971981521,
+      "backhaul_range_max_km": 404199.49415686243,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 29.87543854587761,
+      "access_range_max_km": 16972.26709288165,
+      "backhaul_range_max_km": 406177.23353500414,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 33.47890955661995,
+      "access_range_max_km": 17304.536160123123,
+      "backhaul_range_max_km": 408175.9302290008,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 36.85339658891639,
+      "access_range_max_km": 17517.885871675968,
+      "backhaul_range_max_km": null,
+      "access": true,
+      "backhaul": false
+    },
+    {
+      "access_clearance_min_deg": 40.09661349929498,
+      "access_range_max_km": 17614.05927357537,
+      "backhaul_range_max_km": 408700.5803713161,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 43.2353647310889,
+      "access_range_max_km": 17620.249051498657,
+      "backhaul_range_max_km": 408634.7589991995,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 46.33389000946885,
+      "access_range_max_km": 17593.878885435624,
+      "backhaul_range_max_km": 408885.33992108045,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 49.43723111786002,
+      "access_range_max_km": 17457.25207078869,
+      "backhaul_range_max_km": 409347.2183952594,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 52.35596585070095,
+      "access_range_max_km": 17203.150990422677,
+      "backhaul_range_max_km": 410012.7392632943,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 55.244332162058086,
+      "access_range_max_km": 16829.563989026054,
+      "backhaul_range_max_km": 410853.9131967592,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 58.78989929852125,
+      "access_range_max_km": 16333.416680126045,
+      "backhaul_range_max_km": 411823.04641127534,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 62.622120911139916,
+      "access_range_max_km": 15710.46398765915,
+      "backhaul_range_max_km": 411911.88117608335,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 65.98935907243816,
+      "access_range_max_km": 14955.16350672141,
+      "backhaul_range_max_km": 411039.2257849306,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 69.56965928119516,
+      "access_range_max_km": 14060.566884707643,
+      "backhaul_range_max_km": 410155.2245897047,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 72.98197465326437,
+      "access_range_max_km": 13018.3422694559,
+      "backhaul_range_max_km": 409375.79381715425,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 75.45658634662153,
+      "access_range_max_km": 11819.268603116014,
+      "backhaul_range_max_km": 408700.78939610353,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 69.68261296938307,
+      "access_range_max_km": 10455.269747005248,
+      "backhaul_range_max_km": 408094.13773329166,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 56.67228833266818,
+      "access_range_max_km": 8926.618143829633,
+      "backhaul_range_max_km": 407470.58479858364,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 33.030742570283316,
+      "access_range_max_km": 7268.090244206725,
+      "backhaul_range_max_km": 405287.99491468223,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -10.42312016104427,
+      "access_range_max_km": 5650.809934181058,
+      "backhaul_range_max_km": 402215.00702888414,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -66.37924098183241,
+      "access_range_max_km": 5347.076505270938,
+      "backhaul_range_max_km": 398270.9963353684,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -83.41210990084714,
+      "access_range_max_km": 6756.444952809239,
+      "backhaul_range_max_km": 393600.3548072521,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -67.81688058255465,
+      "access_range_max_km": 8305.836375672396,
+      "backhaul_range_max_km": 390873.12167747045,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -43.29827633879466,
+      "access_range_max_km": 9825.398108820315,
+      "backhaul_range_max_km": 391254.3442444918,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -25.744604710717383,
+      "access_range_max_km": 11228.654448728577,
+      "backhaul_range_max_km": 392695.6260137412,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -13.874478622070832,
+      "access_range_max_km": 12487.196320963116,
+      "backhaul_range_max_km": 394534.4469216757,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -4.979069725985569,
+      "access_range_max_km": 13596.389607100748,
+      "backhaul_range_max_km": 396605.29794099374,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 2.2680990538758556,
+      "access_range_max_km": 14559.763179734435,
+      "backhaul_range_max_km": null,
+      "access": true,
+      "backhaul": false
+    },
+    {
+      "access_clearance_min_deg": 8.264829272579624,
+      "access_range_max_km": 15383.124385805539,
+      "backhaul_range_max_km": 398152.9985457673,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 13.466840832375805,
+      "access_range_max_km": 16072.392207350536,
+      "backhaul_range_max_km": 398353.07592307666,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 17.995409005902577,
+      "access_range_max_km": 16632.822271529458,
+      "backhaul_range_max_km": 398801.0321111256,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 21.942846047494026,
+      "access_range_max_km": 17068.7599403796,
+      "backhaul_range_max_km": 399512.6780804957,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 25.575048162904,
+      "access_range_max_km": 17383.590948412886,
+      "backhaul_range_max_km": 400491.98894057324,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 28.86402916708049,
+      "access_range_max_km": 17579.75842262455,
+      "backhaul_range_max_km": 401724.5716963537,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 32.06357503339226,
+      "access_range_max_km": 17658.792518013106,
+      "backhaul_range_max_km": 403177.5535523592,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 34.79351517404041,
+      "access_range_max_km": 17660.642429737927,
+      "backhaul_range_max_km": 404451.67946878413,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 37.62287941403169,
+      "access_range_max_km": 17621.33012629126,
+      "backhaul_range_max_km": 404373.1381948498,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 40.48422609584958,
+      "access_range_max_km": 17467.114645713395,
+      "backhaul_range_max_km": 404077.23497467395,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 43.136412352426774,
+      "access_range_max_km": 17194.9708830465,
+      "backhaul_range_max_km": 404054.1418242971,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 45.76053117204775,
+      "access_range_max_km": 16802.752182887787,
+      "backhaul_range_max_km": 404385.98586986965,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 49.16087439828256,
+      "access_range_max_km": 16287.258542007427,
+      "backhaul_range_max_km": 404949.50457074196,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 52.087433409027284,
+      "access_range_max_km": 15644.128245487842,
+      "backhaul_range_max_km": 405716.03693508456,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 54.77719942496639,
+      "access_range_max_km": 14867.716627258444,
+      "backhaul_range_max_km": 405874.7122119781,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 57.560527904545694,
+      "access_range_max_km": 13951.00713266385,
+      "backhaul_range_max_km": 405139.6738429854,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 60.01559087408653,
+      "access_range_max_km": 12885.690498540633,
+      "backhaul_range_max_km": 404290.3412887688,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 61.83148142357022,
+      "access_range_max_km": 11662.818139684627,
+      "backhaul_range_max_km": 403514.76044173207,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 59.201547397941134,
+      "access_range_max_km": 10275.302819383487,
+      "backhaul_range_max_km": 402791.8790648711,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 49.37174197650504,
+      "access_range_max_km": 8726.614232818678,
+      "backhaul_range_max_km": 402044.70454924065,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 26.793915007220747,
+      "access_range_max_km": 7062.235913910437,
+      "backhaul_range_max_km": 401105.7360039929,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -16.049202265259105,
+      "access_range_max_km": 5490.42702225672,
+      "backhaul_range_max_km": 399644.41399497807,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -64.281368664996,
+      "access_range_max_km": 5529.168008011719,
+      "backhaul_range_max_km": 397076.2225233387,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -74.23041663571856,
+      "access_range_max_km": 7009.611738401909,
+      "backhaul_range_max_km": null,
+      "access": false,
+      "backhaul": false
+    },
+    {
+      "access_clearance_min_deg": -62.188969117028016,
+      "access_range_max_km": 8586.0200356984,
+      "backhaul_range_max_km": null,
+      "access": false,
+      "backhaul": false
+    },
+    {
+      "access_clearance_min_deg": -43.5160943365678,
+      "access_range_max_km": 10100.299626252101,
+      "backhaul_range_max_km": 389159.30912321084,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -29.6963596934774,
+      "access_range_max_km": 11486.321154286527,
+      "backhaul_range_max_km": 387926.7018126419,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -18.87793447078028,
+      "access_range_max_km": 12724.533493977886,
+      "backhaul_range_max_km": 387521.28436322475,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -11.04362681259191,
+      "access_range_max_km": 13813.461326229211,
+      "backhaul_range_max_km": 388080.0118596382,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": -4.558775148802869,
+      "access_range_max_km": 14757.632970805797,
+      "backhaul_range_max_km": 389056.00278103194,
+      "access": false,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 1.1938306807129742,
+      "access_range_max_km": 15563.046245211965,
+      "backhaul_range_max_km": 390393.1904598021,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 6.131611945803562,
+      "access_range_max_km": 16235.506628225414,
+      "backhaul_range_max_km": 392029.95921512815,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 10.335016374200922,
+      "access_range_max_km": 16780.04784166521,
+      "backhaul_range_max_km": 392942.9347688932,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 14.048343322648869,
+      "access_range_max_km": 17200.762713839027,
+      "backhaul_range_max_km": 392847.96767887234,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 17.658390669828425,
+      "access_range_max_km": 17500.784496567267,
+      "backhaul_range_max_km": 393057.98052970745,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 21.053832039791516,
+      "access_range_max_km": 17682.31482292603,
+      "backhaul_range_max_km": 393588.065703252,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 24.131416827681377,
+      "access_range_max_km": 17746.655771744656,
+      "backhaul_range_max_km": 394427.0598012261,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 26.889430499543344,
+      "access_range_max_km": 17746.807888875705,
+      "backhaul_range_max_km": 395568.0330567848,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 29.57088558360897,
+      "access_range_max_km": 17694.228167110086,
+      "backhaul_range_max_km": 396982.14869589295,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 31.67401635180039,
+      "access_range_max_km": 17524.56811792911,
+      "backhaul_range_max_km": 397298.50357248995,
+      "access": true,
+      "backhaul": true
+    },
+    {
+      "access_clearance_min_deg": 34.06612333776312,
+      "access_range_max_km": 17236.297714894466,
+      "backhaul_range_max_km": 397113.57428853604,
+      "access": true,
+      "backhaul": true
+    }
+  ],
+  "access_check_samples": [
+    {
+      "azDeg": 2.5994187244243827,
+      "elDeg": -76.96993027477897,
+      "clearanceDeg": -77.40089539824446
+    },
+    {
+      "azDeg": 192.42454599891795,
+      "elDeg": 68.42700560324042,
+      "clearanceDeg": 65.2700237632837
+    },
+    {
+      "azDeg": 266.20441837945464,
+      "elDeg": -67.74441718454237,
+      "clearanceDeg": -67.68350555213146
+    },
+    {
+      "azDeg": 208.10658918984495,
+      "elDeg": 65.17429355661697,
+      "clearanceDeg": 64.12700674597666
+    },
+    {
+      "azDeg": 232.97462657758217,
+      "elDeg": -53.43559093718725,
+      "clearanceDeg": -53.37559093718725
+    },
+    {
+      "azDeg": 217.95769646961307,
+      "elDeg": 59.652511998649025,
+      "clearanceDeg": 58.93081985743355
+    },
+    {
+      "azDeg": 212.19881049959713,
+      "elDeg": -43.85102863822549,
+      "clearanceDeg": -44.45000484821744
+    },
+    {
+      "azDeg": 222.8970587670864,
+      "elDeg": 52.7600563130579,
+      "clearanceDeg": 52.099468085665805
+    },
+    {
+      "azDeg": 195.87981449834186,
+      "elDeg": -36.64619819316307,
+      "clearanceDeg": -39.640235293494705
+    },
+    {
+      "azDeg": 224.39652254510585,
+      "elDeg": 45.07225634169266,
+      "clearanceDeg": 44.22760408718207
+    },
+    {
+      "azDeg": 182.42450635203775,
+      "elDeg": -29.951682710447297,
+      "clearanceDeg": -32.83054448901787
+    },
+    {
+      "azDeg": 223.44447052279705,
+      "elDeg": 36.96740110022659,
+      "clearanceDeg": 36.234064637490945
+    }
+  ],
+  "builder_sha256": "2e143058ad65c08ac6ed07ebb8bb59c28bf9ea116c0ab606868ed573eea7cf1f",
+  "limb_terrain": {
+    "source": {
+      "schema": 1,
+      "files": {
+        "ldem_64.lbl": {
+          "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/lola_gdr/cylindrical/img/ldem_64.lbl",
+          "bytes": 5128,
+          "sha256": "4e7a94c76c716a147b21ccf07669d004246b0d1b017b7d63d50befaa1a34142d"
+        },
+        "ldem_64.img": {
+          "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/lola_gdr/cylindrical/img/ldem_64.img",
+          "bytes": 530841600,
+          "sha256": "1c4958699d4cffd7e777d51421b6044bba300aa0bef286a544309efb082cdbd6"
+        }
+      },
+      "metadata": {
+        "product": "LDEM_64",
+        "version": "V3.1",
+        "created": "2019-03-15",
+        "rows": 11520,
+        "cols": 23040,
+        "pixels_per_degree": 64,
+        "height_factor_m": 0.5,
+        "reference_radius_m": 1737400.0,
+        "minimum_dn": -18251,
+        "maximum_dn": 21546,
+        "frame": "MOON_ME_DE421",
+        "pixel_registration": "lat=90-(row+0.5)/64; east lon=(col+0.5)/64",
+        "label_limitations": "45-degree band edge artifacts; interpolated incomplete coverage; no per-pixel error bound"
+      },
+      "observed_extrema_dn": [
+        -18229,
+        21514
+      ],
+      "extrema_remote_checks": [
+        {
+          "byte_offset": 472943040,
+          "dn": -18229,
+          "content_range": "bytes 472943040-472943041/530841600"
+        },
+        {
+          "byte_offset": 249410734,
+          "dn": 21514,
+          "content_range": "bytes 249410734-249410735/530841600"
+        }
+      ],
+      "extrema_note": "Observed raster extrema differ from, but lie within, the label extrema; source discrepancy retained, not fitted away"
+    },
+    "frame": "MOON_ME_DE421",
+    "step_m": 12.5,
+    "radial_guard_m": 100.0,
+    "method": "Finite straight inertial photon segment; Moon translation and ME421 rotation linearized at closest photon approach; exact SPICE shell-end/minimum checks <=1 m",
+    "bounds": "Actual DEM minimum/maximum spheres only accelerate definite interior/exterior rays; sampled radial clearance near limb",
+    "statistics": {
+      "sampled_rays": 0,
+      "inner_bound_rays": 0,
+      "outer_bound_rays": 120963,
+      "terrain_points": 0,
+      "maximum_moving_frame_check_error_m": 0.0,
+      "sphere_guard_pass_terrain_fail_samples": 0
+    },
+    "near_limb_examples": [],
+    "code_sha256": {
+      "lunar_limb.py": "8e8047f3852e422971e9188af6c49c2752c60e64d98ce75a2da595c164855480",
+      "fetch_limb_dem.py": "b45764ed7f032ce8b5a270b6e237a868bfad54569bbca72a82fc835d2866012e"
+    }
+  },
+  "spk_vs_cubic_hermite_max_difference_km": 1.0913936421275139e-11,
+  "orbit_interpolation_check": {
+    "method": "cubic Hermite from positions/velocities; comparison with fine dense integration at all withheld bin midpoints",
+    "output_step_s": 300,
+    "maximum_midpoint_position_difference_km": 0.011207409472420632
+  },
+  "pre_epoch_light_time_halo": {
+    "seconds": 600,
+    "method": "backward DOP853, same forces; forward RK45 round trip",
+    "maximum_position_round_trip_difference_km": 6.08883236963026e-11
+  },
+  "provenance": {
+    "relay_sources": {
+      "schema": 1,
+      "purpose": "Research reference orbits, not operational provider ephemerides",
+      "sources": {
+        "de421.bsp": {
+          "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de421.bsp",
+          "bytes": 16790528,
+          "sha256": "08b20db2ae22488650641c5a9033e5bfda4b1c4b440cfeaf20f621cfa18ecdb3",
+          "etag": null,
+          "last_modified": "Tue, 08 Apr 2008 21:07:58 GMT"
+        },
+        "moon_pa_de421_1900-2050.bpc": {
+          "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/moon_pa_de421_1900-2050.bpc",
+          "bytes": 1770496,
+          "sha256": "656f90616403d75a75f0cd6c8830fc5b44f8cb4facb5ccb8915e752b397520cf",
+          "etag": null,
+          "last_modified": "Wed, 19 Mar 2008 04:51:40 GMT"
+        },
+        "moon_080317.tf": {
+          "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/moon_080317.tf",
+          "bytes": 21437,
+          "sha256": "78732477b96f9863e7b0d65bcee3c22b8707ca5ed0db56d1173319cb2e8c7993",
+          "etag": null,
+          "last_modified": "Thu, 18 Jul 2013 10:07:49 GMT"
+        },
+        "header.421": {
+          "url": "https://ssd.jpl.nasa.gov/ftp/eph/planets/ascii/de421/header.421",
+          "bytes": 8422,
+          "sha256": "0fe9e0d60df4b33772e7332d87eb883eaf4cf3219b5a4cd2d5bc2356e98b2d16",
+          "etag": "\"511403ad-20e6\"",
+          "last_modified": "Thu, 07 Feb 2013 19:42:37 GMT"
+        },
+        "gggrx_0900c_sha.tab": {
+          "url": "https://pds-geosciences.wustl.edu/grail/grail-l-lgrs-5-rdr-v1/grail_1001/shadr/gggrx_0900c_sha.tab",
+          "bytes": 49574944,
+          "sha256": "dab6ab06e0d3d7cbc594ea4bd03151a65534ed5fdf4f147ae38662428c04454e",
+          "etag": "\"7bd5d0a54f7bcf1:0\"",
+          "last_modified": "Thu, 29 May 2014 15:07:03 GMT"
+        },
+        "gggrx_0900c_sha.lbl": {
+          "url": "https://pds-geosciences.wustl.edu/grail/grail-l-lgrs-5-rdr-v1/grail_1001/shadr/gggrx_0900c_sha.lbl",
+          "bytes": 10828,
+          "sha256": "acc623e4b42a19f8feba1e7bda5189e984aa907491db12dede64bd426a1681c0",
+          "etag": "\"06fc05a578ed91:0\"",
+          "last_modified": "Wed, 24 May 2023 15:49:42 GMT"
+        },
+        "lcrns-reference-3.1.pdf": {
+          "url": "https://www.nasa.gov/wp-content/uploads/2025/08/nasa-lunar-communications-relay-and-navigation-systems-lcrns-reference-constellation-3-1.pdf?emrc=68cc484867c73",
+          "bytes": 168556,
+          "sha256": "78c442f5a114151af3599e576a2d2b38455df3266ee9129e8d3bdf3740c5726a",
+          "etag": "\"9d6e7f175a4d514c\"",
+          "last_modified": "Wed, 20 Aug 2025 14:13:48 GMT"
+        }
+      }
+    },
+    "shared_kernels": {
+      "naif0012.tls": {
+        "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/lsk/naif0012.tls",
+        "bytes": 5257,
+        "sha256": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b"
+      },
+      "pck00011.tpc": {
+        "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc",
+        "bytes": 131226,
+        "sha256": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1"
+      }
+    }
+  },
+  "extra_kernels": {
+    "moon_pa_de440_200625.bpc": {
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/moon_pa_de440_200625.bpc",
+      "bytes": 12863488,
+      "sha256": "60cd55aa401ea2ea97360636f567554bfe4e37bb829f901b4460a455dfaf783f"
+    },
+    "moon_de440_250416.tf": {
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/moon_de440_250416.tf",
+      "bytes": 19478,
+      "sha256": "a47c71e9c9f33796bdafb2c9d69a7ee447b6016ecad80f71cd6f3e479f9cf768"
+    },
+    "earth_1962_260806_2126_combined.bpc": {
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_1962_260806_2126_combined.bpc",
+      "bytes": 31318016,
+      "sha256": "cc87ad1a495cf598800ba403763d350f087ac0b97da9fec603278a3864c6a53e"
+    },
+    "earth_000101_270129_261103.bpc": {
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_000101_270129_261103.bpc",
+      "bytes": 5157888,
+      "sha256": "16026d54f3288eed906ac3bda3e9e7e0da5561d3c1a785d4b00ff78fc5bbf28f"
+    },
+    "earthstns_itrf93_260814.bsp": {
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/earthstns_itrf93_260814.bsp",
+      "bytes": 26624,
+      "sha256": "007eb0aad5dd022c6d61bdbfb2395680bd1eb31c49a8637d0b0a1cfbea737c6b"
+    }
+  },
+  "occultation_cross_checks": [
+    {
+      "sample": 0,
+      "antenna": "DSS-24",
+      "clearance_deg": 92.73144121678102,
+      "spice_code": 0
+    },
+    {
+      "sample": 1753,
+      "antenna": "DSS-24",
+      "clearance_deg": 47.72891044937422,
+      "spice_code": 0
+    },
+    {
+      "sample": 3506,
+      "antenna": "DSS-24",
+      "clearance_deg": 47.77171451654422,
+      "spice_code": 0
+    },
+    {
+      "sample": 5259,
+      "antenna": "DSS-24",
+      "clearance_deg": 51.24767699257327,
+      "spice_code": 0
+    },
+    {
+      "sample": 7012,
+      "antenna": "DSS-24",
+      "clearance_deg": 78.507024261594,
+      "spice_code": 0
+    },
+    {
+      "sample": 8765,
+      "antenna": "DSS-24",
+      "clearance_deg": 56.45702667702457,
+      "spice_code": 0
+    },
+    {
+      "sample": 10518,
+      "antenna": "DSS-24",
+      "clearance_deg": 49.19622213238042,
+      "spice_code": 0
+    },
+    {
+      "sample": 12271,
+      "antenna": "DSS-24",
+      "clearance_deg": 45.03916460571397,
+      "spice_code": 0
+    },
+    {
+      "sample": 14024,
+      "antenna": "DSS-24",
+      "clearance_deg": 51.75646786861091,
+      "spice_code": 0
+    },
+    {
+      "sample": 15777,
+      "antenna": "DSS-24",
+      "clearance_deg": 68.28267258940866,
+      "spice_code": 0
+    },
+    {
+      "sample": 17530,
+      "antenna": "DSS-24",
+      "clearance_deg": 54.38277645565749,
+      "spice_code": 0
+    },
+    {
+      "sample": 19283,
+      "antenna": "DSS-24",
+      "clearance_deg": 42.780088550669774,
+      "spice_code": 0
+    },
+    {
+      "sample": 21036,
+      "antenna": "DSS-24",
+      "clearance_deg": 32.410185436244575,
+      "spice_code": 0
+    },
+    {
+      "sample": 22789,
+      "antenna": "DSS-24",
+      "clearance_deg": 83.26552143936928,
+      "spice_code": 0
+    },
+    {
+      "sample": 24542,
+      "antenna": "DSS-24",
+      "clearance_deg": 62.47046779759164,
+      "spice_code": 0
+    },
+    {
+      "sample": 26295,
+      "antenna": "DSS-24",
+      "clearance_deg": 45.19253570554821,
+      "spice_code": 0
+    },
+    {
+      "sample": 28048,
+      "antenna": "DSS-24",
+      "clearance_deg": 19.19385569864352,
+      "spice_code": 0
+    },
+    {
+      "sample": 29801,
+      "antenna": "DSS-24",
+      "clearance_deg": 101.0133422690881,
+      "spice_code": 0
+    },
+    {
+      "sample": 31554,
+      "antenna": "DSS-24",
+      "clearance_deg": 72.64230456319034,
+      "spice_code": 0
+    },
+    {
+      "sample": 33307,
+      "antenna": "DSS-24",
+      "clearance_deg": 51.905122256174984,
+      "spice_code": 0
+    },
+    {
+      "sample": 35060,
+      "antenna": "DSS-24",
+      "clearance_deg": 14.790847142331659,
+      "spice_code": 0
+    },
+    {
+      "sample": 35386,
+      "antenna": "DSS-24",
+      "clearance_deg": 5.122610232224756,
+      "spice_code": 0
+    },
+    {
+      "sample": 35387,
+      "antenna": "DSS-24",
+      "clearance_deg": 5.119502826173947,
+      "spice_code": 0
+    },
+    {
+      "sample": 35388,
+      "antenna": "DSS-24",
+      "clearance_deg": 5.11673065216401,
+      "spice_code": 0
+    },
+    {
+      "sample": 35389,
+      "antenna": "DSS-24",
+      "clearance_deg": 5.114295384744898,
+      "spice_code": 0
+    },
+    {
+      "sample": 35390,
+      "antenna": "DSS-24",
+      "clearance_deg": 5.112198662503359,
+      "spice_code": 0
+    },
+    {
+      "sample": 35391,
+      "antenna": "DSS-24",
+      "clearance_deg": 5.110442140290856,
+      "spice_code": 0
+    },
+    {
+      "sample": 35392,
+      "antenna": "DSS-24",
+      "clearance_deg": 5.1090273858631745,
+      "spice_code": 0
+    },
+    {
+      "sample": 35393,
+      "antenna": "DSS-24",
+      "clearance_deg": 5.107956031957302,
+      "spice_code": 0
+    },
+    {
+      "sample": 35394,
+      "antenna": "DSS-24",
+      "clearance_deg": 5.107229650638881,
+      "spice_code": 0
+    },
+    {
+      "sample": 35395,
+      "antenna": "DSS-24",
+      "clearance_deg": 5.106849878792713,
+      "spice_code": 0
+    },
+    {
+      "sample": 35396,
+      "antenna": "DSS-24",
+      "clearance_deg": 5.106818266627603,
+      "spice_code": 0
+    },
+    {
+      "sample": 35397,
+      "antenna": "DSS-24",
+      "clearance_deg": 5.107136378277361,
+      "spice_code": 0
+    },
+    {
+      "sample": 35398,
+      "antenna": "DSS-24",
+      "clearance_deg": 5.107805740845667,
+      "spice_code": 0
+    },
+    {
+      "sample": 35399,
+      "antenna": "DSS-24",
+      "clearance_deg": 5.108827947215014,
+      "spice_code": 0
+    },
+    {
+      "sample": 35400,
+      "antenna": "DSS-24",
+      "clearance_deg": 5.110204475654509,
+      "spice_code": 0
+    },
+    {
+      "sample": 35401,
+      "antenna": "DSS-24",
+      "clearance_deg": 5.1119368959135,
+      "spice_code": 0
+    },
+    {
+      "sample": 35402,
+      "antenna": "DSS-24",
+      "clearance_deg": 5.1140266537884544,
+      "spice_code": 0
+    },
+    {
+      "sample": 35403,
+      "antenna": "DSS-24",
+      "clearance_deg": 5.116475258140232,
+      "spice_code": 0
+    },
+    {
+      "sample": 35404,
+      "antenna": "DSS-24",
+      "clearance_deg": 5.119284180348704,
+      "spice_code": 0
+    },
+    {
+      "sample": 35405,
+      "antenna": "DSS-24",
+      "clearance_deg": 5.122454904462385,
+      "spice_code": 0
+    },
+    {
+      "sample": 36813,
+      "antenna": "DSS-24",
+      "clearance_deg": 120.47786288395567,
+      "spice_code": 0
+    },
+    {
+      "sample": 38566,
+      "antenna": "DSS-24",
+      "clearance_deg": 84.30809213077029,
+      "spice_code": 0
+    },
+    {
+      "sample": 40320,
+      "antenna": "DSS-24",
+      "clearance_deg": 61.72906203662427,
+      "spice_code": 0
+    },
+    {
+      "sample": 0,
+      "antenna": "DSS-54",
+      "clearance_deg": 93.09902166150432,
+      "spice_code": 0
+    },
+    {
+      "sample": 1753,
+      "antenna": "DSS-54",
+      "clearance_deg": 46.94196251519944,
+      "spice_code": 0
+    },
+    {
+      "sample": 3506,
+      "antenna": "DSS-54",
+      "clearance_deg": 48.233283128992916,
+      "spice_code": 0
+    },
+    {
+      "sample": 5259,
+      "antenna": "DSS-54",
+      "clearance_deg": 50.80391249607203,
+      "spice_code": 0
+    },
+    {
+      "sample": 7012,
+      "antenna": "DSS-54",
+      "clearance_deg": 78.71168218440022,
+      "spice_code": 0
+    },
+    {
+      "sample": 8765,
+      "antenna": "DSS-54",
+      "clearance_deg": 55.92543777766288,
+      "spice_code": 0
+    },
+    {
+      "sample": 10518,
+      "antenna": "DSS-54",
+      "clearance_deg": 49.64817109518259,
+      "spice_code": 0
+    },
+    {
+      "sample": 12271,
+      "antenna": "DSS-54",
+      "clearance_deg": 44.28292288545036,
+      "spice_code": 0
+    },
+    {
+      "sample": 14024,
+      "antenna": "DSS-54",
+      "clearance_deg": 52.80227250508835,
+      "spice_code": 0
+    },
+    {
+      "sample": 15777,
+      "antenna": "DSS-54",
+      "clearance_deg": 68.52419177167347,
+      "spice_code": 0
+    },
+    {
+      "sample": 17530,
+      "antenna": "DSS-54",
+      "clearance_deg": 54.42254376068967,
+      "spice_code": 0
+    },
+    {
+      "sample": 19283,
+      "antenna": "DSS-54",
+      "clearance_deg": 42.39246279202547,
+      "spice_code": 0
+    },
+    {
+      "sample": 21036,
+      "antenna": "DSS-54",
+      "clearance_deg": 33.393625634952755,
+      "spice_code": 0
+    },
+    {
+      "sample": 22789,
+      "antenna": "DSS-54",
+      "clearance_deg": 83.9118774981386,
+      "spice_code": 0
+    },
+    {
+      "sample": 24542,
+      "antenna": "DSS-54",
+      "clearance_deg": 62.08786803304872,
+      "spice_code": 0
+    },
+    {
+      "sample": 26295,
+      "antenna": "DSS-54",
+      "clearance_deg": 45.27725496228004,
+      "spice_code": 0
+    },
+    {
+      "sample": 28048,
+      "antenna": "DSS-54",
+      "clearance_deg": 19.119327003581233,
+      "spice_code": 0
+    },
+    {
+      "sample": 29801,
+      "antenna": "DSS-54",
+      "clearance_deg": 101.3172830474063,
+      "spice_code": 0
+    },
+    {
+      "sample": 31554,
+      "antenna": "DSS-54",
+      "clearance_deg": 72.218719664982,
+      "spice_code": 0
+    },
+    {
+      "sample": 33307,
+      "antenna": "DSS-54",
+      "clearance_deg": 52.12079896883571,
+      "spice_code": 0
+    },
+    {
+      "sample": 35060,
+      "antenna": "DSS-54",
+      "clearance_deg": 14.118173896497385,
+      "spice_code": 0
+    },
+    {
+      "sample": 35384,
+      "antenna": "DSS-54",
+      "clearance_deg": 3.9578319041804084,
+      "spice_code": 0
+    },
+    {
+      "sample": 35385,
+      "antenna": "DSS-54",
+      "clearance_deg": 3.9545037293524805,
+      "spice_code": 0
+    },
+    {
+      "sample": 35386,
+      "antenna": "DSS-54",
+      "clearance_deg": 3.951536289748178,
+      "spice_code": 0
+    },
+    {
+      "sample": 35387,
+      "antenna": "DSS-54",
+      "clearance_deg": 3.9489313519618627,
+      "spice_code": 0
+    },
+    {
+      "sample": 35388,
+      "antenna": "DSS-54",
+      "clearance_deg": 3.9466905681719515,
+      "spice_code": 0
+    },
+    {
+      "sample": 35389,
+      "antenna": "DSS-54",
+      "clearance_deg": 3.944815651353598,
+      "spice_code": 0
+    },
+    {
+      "sample": 35390,
+      "antenna": "DSS-54",
+      "clearance_deg": 3.9433082736041483,
+      "spice_code": 0
+    },
+    {
+      "sample": 35391,
+      "antenna": "DSS-54",
+      "clearance_deg": 3.9421701184693028,
+      "spice_code": 0
+    },
+    {
+      "sample": 35392,
+      "antenna": "DSS-54",
+      "clearance_deg": 3.941402777306734,
+      "spice_code": 0
+    },
+    {
+      "sample": 35393,
+      "antenna": "DSS-54",
+      "clearance_deg": 3.9410079017026853,
+      "spice_code": 0
+    },
+    {
+      "sample": 35394,
+      "antenna": "DSS-54",
+      "clearance_deg": 3.940987077493887,
+      "spice_code": 0
+    },
+    {
+      "sample": 35395,
+      "antenna": "DSS-54",
+      "clearance_deg": 3.941341950544233,
+      "spice_code": 0
+    },
+    {
+      "sample": 35396,
+      "antenna": "DSS-54",
+      "clearance_deg": 3.9420740748892955,
+      "spice_code": 0
+    },
+    {
+      "sample": 35397,
+      "antenna": "DSS-54",
+      "clearance_deg": 3.94318501305184,
+      "spice_code": 0
+    },
+    {
+      "sample": 35398,
+      "antenna": "DSS-54",
+      "clearance_deg": 3.9446762868767995,
+      "spice_code": 0
+    },
+    {
+      "sample": 35399,
+      "antenna": "DSS-54",
+      "clearance_deg": 3.9465494777425727,
+      "spice_code": 0
+    },
+    {
+      "sample": 35400,
+      "antenna": "DSS-54",
+      "clearance_deg": 3.948806047598004,
+      "spice_code": 0
+    },
+    {
+      "sample": 35401,
+      "antenna": "DSS-54",
+      "clearance_deg": 3.9514475450884903,
+      "spice_code": 0
+    },
+    {
+      "sample": 35402,
+      "antenna": "DSS-54",
+      "clearance_deg": 3.9544753889029614,
+      "spice_code": 0
+    },
+    {
+      "sample": 35403,
+      "antenna": "DSS-54",
+      "clearance_deg": 3.957891057298973,
+      "spice_code": 0
+    },
+    {
+      "sample": 36813,
+      "antenna": "DSS-54",
+      "clearance_deg": 120.21990602421678,
+      "spice_code": 0
+    },
+    {
+      "sample": 38566,
+      "antenna": "DSS-54",
+      "clearance_deg": 84.15390068338277,
+      "spice_code": 0
+    },
+    {
+      "sample": 40320,
+      "antenna": "DSS-54",
+      "clearance_deg": 61.83267367129337,
+      "spice_code": 0
+    },
+    {
+      "sample": 0,
+      "antenna": "DSS-34",
+      "clearance_deg": 92.2769847876347,
+      "spice_code": 0
+    },
+    {
+      "sample": 1753,
+      "antenna": "DSS-34",
+      "clearance_deg": 48.25106721876445,
+      "spice_code": 0
+    },
+    {
+      "sample": 3506,
+      "antenna": "DSS-34",
+      "clearance_deg": 49.02877050753467,
+      "spice_code": 0
+    },
+    {
+      "sample": 5259,
+      "antenna": "DSS-34",
+      "clearance_deg": 51.31050812484495,
+      "spice_code": 0
+    },
+    {
+      "sample": 7012,
+      "antenna": "DSS-34",
+      "clearance_deg": 78.98135274500257,
+      "spice_code": 0
+    },
+    {
+      "sample": 8765,
+      "antenna": "DSS-34",
+      "clearance_deg": 57.63470598449468,
+      "spice_code": 0
+    },
+    {
+      "sample": 10518,
+      "antenna": "DSS-34",
+      "clearance_deg": 50.002323311591276,
+      "spice_code": 0
+    },
+    {
+      "sample": 12271,
+      "antenna": "DSS-34",
+      "clearance_deg": 45.67921744486728,
+      "spice_code": 0
+    },
+    {
+      "sample": 14024,
+      "antenna": "DSS-34",
+      "clearance_deg": 52.234508617585774,
+      "spice_code": 0
+    },
+    {
+      "sample": 15777,
+      "antenna": "DSS-34",
+      "clearance_deg": 69.76490612512133,
+      "spice_code": 0
+    },
+    {
+      "sample": 17530,
+      "antenna": "DSS-34",
+      "clearance_deg": 54.872338264071935,
+      "spice_code": 0
+    },
+    {
+      "sample": 19283,
+      "antenna": "DSS-34",
+      "clearance_deg": 43.99805158697711,
+      "spice_code": 0
+    },
+    {
+      "sample": 21036,
+      "antenna": "DSS-34",
+      "clearance_deg": 32.04149705654381,
+      "spice_code": 0
+    },
+    {
+      "sample": 22789,
+      "antenna": "DSS-34",
+      "clearance_deg": 84.34582850308527,
+      "spice_code": 0
+    },
+    {
+      "sample": 24542,
+      "antenna": "DSS-34",
+      "clearance_deg": 63.068518813004346,
+      "spice_code": 0
+    },
+    {
+      "sample": 26295,
+      "antenna": "DSS-34",
+      "clearance_deg": 46.5249989691337,
+      "spice_code": 0
+    },
+    {
+      "sample": 28048,
+      "antenna": "DSS-34",
+      "clearance_deg": 18.471788304922867,
+      "spice_code": 0
+    },
+    {
+      "sample": 29801,
+      "antenna": "DSS-34",
+      "clearance_deg": 101.55850385424316,
+      "spice_code": 0
+    },
+    {
+      "sample": 31554,
+      "antenna": "DSS-34",
+      "clearance_deg": 73.61664978291833,
+      "spice_code": 0
+    },
+    {
+      "sample": 33307,
+      "antenna": "DSS-34",
+      "clearance_deg": 53.07237423563555,
+      "spice_code": 0
+    },
+    {
+      "sample": 35060,
+      "antenna": "DSS-34",
+      "clearance_deg": 15.135094670404444,
+      "spice_code": 0
+    },
+    {
+      "sample": 35394,
+      "antenna": "DSS-34",
+      "clearance_deg": 4.88143566440937,
+      "spice_code": 0
+    },
+    {
+      "sample": 35395,
+      "antenna": "DSS-34",
+      "clearance_deg": 4.878358010003984,
+      "spice_code": 0
+    },
+    {
+      "sample": 35396,
+      "antenna": "DSS-34",
+      "clearance_deg": 4.8756296125355965,
+      "spice_code": 0
+    },
+    {
+      "sample": 35397,
+      "antenna": "DSS-34",
+      "clearance_deg": 4.873252189689419,
+      "spice_code": 0
+    },
+    {
+      "sample": 35398,
+      "antenna": "DSS-34",
+      "clearance_deg": 4.8712274220449885,
+      "spice_code": 0
+    },
+    {
+      "sample": 35399,
+      "antenna": "DSS-34",
+      "clearance_deg": 4.8695570534414685,
+      "spice_code": 0
+    },
+    {
+      "sample": 35400,
+      "antenna": "DSS-34",
+      "clearance_deg": 4.868242715907997,
+      "spice_code": 0
+    },
+    {
+      "sample": 35401,
+      "antenna": "DSS-34",
+      "clearance_deg": 4.867286131001103,
+      "spice_code": 0
+    },
+    {
+      "sample": 35402,
+      "antenna": "DSS-34",
+      "clearance_deg": 4.866688898061362,
+      "spice_code": 0
+    },
+    {
+      "sample": 35403,
+      "antenna": "DSS-34",
+      "clearance_deg": 4.866452679470398,
+      "spice_code": 0
+    },
+    {
+      "sample": 35404,
+      "antenna": "DSS-34",
+      "clearance_deg": 4.866579099752371,
+      "spice_code": 0
+    },
+    {
+      "sample": 35405,
+      "antenna": "DSS-34",
+      "clearance_deg": 4.8670697954603535,
+      "spice_code": 0
+    },
+    {
+      "sample": 35406,
+      "antenna": "DSS-34",
+      "clearance_deg": 4.867926312372864,
+      "spice_code": 0
+    },
+    {
+      "sample": 35407,
+      "antenna": "DSS-34",
+      "clearance_deg": 4.86915026193554,
+      "spice_code": 0
+    },
+    {
+      "sample": 35408,
+      "antenna": "DSS-34",
+      "clearance_deg": 4.870743215141379,
+      "spice_code": 0
+    },
+    {
+      "sample": 35409,
+      "antenna": "DSS-34",
+      "clearance_deg": 4.872706702954947,
+      "spice_code": 0
+    },
+    {
+      "sample": 35410,
+      "antenna": "DSS-34",
+      "clearance_deg": 4.875042322842299,
+      "spice_code": 0
+    },
+    {
+      "sample": 35411,
+      "antenna": "DSS-34",
+      "clearance_deg": 4.877751578886222,
+      "spice_code": 0
+    },
+    {
+      "sample": 35412,
+      "antenna": "DSS-34",
+      "clearance_deg": 4.880835988455749,
+      "spice_code": 0
+    },
+    {
+      "sample": 35413,
+      "antenna": "DSS-34",
+      "clearance_deg": 4.884297027325641,
+      "spice_code": 0
+    },
+    {
+      "sample": 36813,
+      "antenna": "DSS-34",
+      "clearance_deg": 121.00762181409756,
+      "spice_code": 0
+    },
+    {
+      "sample": 38566,
+      "antenna": "DSS-34",
+      "clearance_deg": 85.52812634446853,
+      "spice_code": 0
+    },
+    {
+      "sample": 40320,
+      "antenna": "DSS-34",
+      "clearance_deg": 62.77696118397711,
+      "spice_code": 0
+    }
+  ],
+  "csv": {
+    "path": "data\\validation\\relay-geometry-change6-sv1.csv",
+    "sha256": "21007ad99f274c90b3935ef8d949e297d8050ac62ab53c757701c86eab68c2d2"
+  },
+  "samples": {
+    "path": "data\\raw\\research\\relay\\relay-geometry-change6-sv1.npz",
+    "sha256": "63f0b01fc8f769f00008fbd4c23a64363f133597c3d77576c323d72d28a17dd1"
+  },
+  "limitations": [
+    "Reference design, rounded states and unresolved element-table residuals; not operational trajectories",
+    "Sampled horizon/occultation with explicit sensitivity margins, not uncertainty bounds",
+    "Backhaul terrain uses 474 m LDEM_64 grid with sampled rays and 100 m engineering guard; sub-grid peaks, DEM errors, diffraction/Fresnel zones are not resolved",
+    "Existing 0.1-degree spherical-limb guard is retained, so topographic valleys never add contacts",
+    "Generic 10-degree receiver mask plus 0.35-degree Earth-orientation stress; no local station masks",
+    "Rates, RF closure, pointing, relay power, allocation, antenna switching and service availability remain assumptions",
+    "Single spacecraft only; no data teleportation or pooled buffer across satellites",
+    "No extrapolation outside the generated plan"
+  ]
+}

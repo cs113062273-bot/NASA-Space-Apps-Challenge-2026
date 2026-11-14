@@ -1,0 +1,33 @@
+{
+  "factor": 0.5,
+  "encoding": "int16 LE, row-delta (x[0], x[1]-x[0], ...), gzip",
+  "near": {
+    "source": "LDEM_80S_80M",
+    "scale": 80.0,
+    "x0": -303960.0,
+    "y0": 303960.0,
+    "n": 7600,
+    "tile": 200,
+    "tiles": 38
+  },
+  "far": {
+    "source": "LDEM_75S_240M averaged 2x2",
+    "scale": 480.0,
+    "x0": -457200.0,
+    "y0": 457200.0,
+    "n": 1906
+  },
+  "bytes": {
+    "near_total": 52530352,
+    "far": 5024904,
+    "globe_total": 23679729
+  },
+  "globe": {
+    "source": "LDEM_16 (1.9 km/px)",
+    "res": 16,
+    "tile": 240,
+    "rows": 12,
+    "cols": 24,
+    "m_per_px": 1895.2
+  }
+}

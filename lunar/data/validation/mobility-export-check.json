@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "cases": [
+    {
+      "case": "failed",
+      "jsonSha256": "76af1913706fdabe44a01055f18b004d5cc008188efc15b243699b8c7983d38f",
+      "csvSha256": "6d2cd124227824ae22d0aaaf2f10d13417630c0415d0d7225d26a4f83af05a19",
+      "motionRows": 4,
+      "uniqueEdgeQuadratures": 2
+    },
+    {
+      "case": "passed",
+      "jsonSha256": "a995eb94052719ebc3b46ded282435e04407cdd3e060b1659f25c6cae34b839d",
+      "csvSha256": "02c841858d0acc44b3953eb417ba0b2f338a9e74d91265add9127608596da9e0",
+      "motionRows": 1164,
+      "uniqueEdgeQuadratures": 32
+    }
+  ],
+  "maximumAbsoluteDifference": {
+    "sourceHeightM": 0.0,
+    "sourceMapM": 0.0,
+    "gradeDeg": 4.440892098500626e-16,
+    "slip": 8.01428634497614e-08,
+    "torqueNm": 3.706709571227318e-07,
+    "sinkageM": 1.0212032818326944e-08,
+    "wheelRpm": 8.496854020378919e-08,
+    "driveDcW": 2.053687685604766e-07,
+    "brakeW": 0.0,
+    "normalN": 0.0,
+    "requiredN": 1.1102230246251565e-16,
+    "csvField": 0.0,
+    "driveWh": 0.0,
+    "haltDistanceM": 0.0,
+    "scheduledDriveW": 2.053687685604766e-07
+  },
+  "referenceCommit": "ec0b198f01bca4c8ce2892577e72e9c9c65914b5",
+  "referenceKernelSha256": "83450f9af555f90ae5e16585ebb0f3b8fa62b7734db19700bf271437808a5ce9",
+  "runnerSha256": "7cf7b808c4cd6d14080f34d763a13ef1f6a1c6c29050b569a568cdb09a72b050",
+  "codeSha256": {
+    "app/src/lib/mobility.ts": "97ceff5ea22cae50d33a8a0dec9db5cd3f95961ec9f4df828aca77b1dca66af2",
+    "app/src/lib/traverse.ts": "ffccfc218a7ebf55c036ebffb1bd8f21108496a30c42da7b5d7409e75bedd9ba",
+    "app/src/lib/traverse-evaluation.ts": "de2be9ea60e77eecf3ba3ce898fc6314d7094e64be721cf09f3bc4c7ebf2d4c1",
+    "app/src/components/MobilityControls.tsx": "285ccd29b06b6695e64bf2ff2cf3f2144fa8fb4c6ead6753cc18e6571102743d"
+  },
+  "limits": [
+    "Actual native-source desktop exports and CSV; numerical agreement with the reviewed publisher model, not independent soil or vehicle truth.",
+    "Reference uses the publisher normal-load solver precision; 100/200-point quadrature is selected at runtime without modifying source files.",
+    "These cases have bracketed roots; separate unit cases cover no-bracket and selected hardware/invalid-input limits. No complete mission/market superiority follows."
+  ]
+}

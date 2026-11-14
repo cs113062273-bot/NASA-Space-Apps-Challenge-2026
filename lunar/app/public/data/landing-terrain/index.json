@@ -1,0 +1,668 @@
+{
+  "schema": 1,
+  "frame": "MOON_ME_DE421",
+  "projection": "Spherical south polar stereographic, pole -90 deg, central meridian 0, radius 1737400 m; pixel centres",
+  "fieldOrder": [
+    "slp",
+    "slperr",
+    "ldec",
+    "surf",
+    "toterr"
+  ],
+  "encoding": "field-major float32 little-endian; NaN means unavailable",
+  "productURL": "https://pgda.gsfc.nasa.gov/products/78",
+  "readmeURL": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/README",
+  "sourceManifestSha256": "064c26c4a12c9d2211446f000af012217d6f7579a22c368aa0405991bfb72cce",
+  "catalogueSha256": "3bbd1d89977c783a6f09792f527f85d8fc135000b1dc99de2d351592562ebb9a",
+  "codeSha256": {
+    "build_landing_terrain.py": "90c63609ebeade40ea1a83234cd6f3d6fa87a0ae7870d550f007b6bd9044d0a9",
+    "fetch_site_terrain.py": "1448c2a44e106e726a8e715fcdd67ff9db0d1e753fa0ab55f3e80d9760a99189"
+  },
+  "patches": [
+    {
+      "id": "c1",
+      "site": {
+        "lat": -89.4398,
+        "lon": 222.83
+      },
+      "region": "Site01",
+      "rows": 256,
+      "cols": 256,
+      "stepM": 5,
+      "x0": -12187.5,
+      "y0": -11817.5,
+      "file": "c1.f32",
+      "bytes": 1310720,
+      "sha256": "ed34a5680886b2289c7c1c030bf4e54abb42bc20197d7cb8a4f7cc748c9b516c",
+      "sourceWindow": {
+        "row": 1563,
+        "col": 1362,
+        "rows": 256,
+        "cols": 256
+      },
+      "sourceFiles": {
+        "slp": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site01/Site01_final_adj_5mpp_slp.tif",
+          "bytes": 40980776,
+          "sha256": "3a90035a4946b4a04b7332c52f0b2b1cff71648bd8c105e14d8a7e15c6bcfe8e"
+        },
+        "slperr": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site01/Site01_final_adj_5mpp_slperr.tif",
+          "bytes": 40980810,
+          "sha256": "52bc3b239f61605e6bb98bab6d6b17acd22389c59e57336862157f2fbd643a33"
+        },
+        "ldec": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site01/Site01_final_adj_5mpp_ldec.tif",
+          "bytes": 40980744,
+          "sha256": "16d6ed21020ad48fa71d94e7437492acf5bf04118f52bcd292f57f22ead4cd23"
+        },
+        "surf": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site01/Site01_final_adj_5mpp_surf.tif",
+          "bytes": 40980810,
+          "sha256": "3ba7b97cb00a2bcf21189c3aeb535f65afc21207154ab9f0d43c5bdc1f7e747e"
+        },
+        "toterr": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site01/Site01_final_adj_5mpp_toterr.tif",
+          "bytes": 40980810,
+          "sha256": "cf2cf52f52d2aa51e60d058010d10b0ebfb1d3e920f5a2b9a46eb6c51054ab1c"
+        }
+      },
+      "finiteByField": {
+        "slp": 65536,
+        "slperr": 65536,
+        "ldec": 65536,
+        "surf": 65536,
+        "toterr": 65536
+      }
+    },
+    {
+      "id": "c2",
+      "site": {
+        "lat": -89.313,
+        "lon": 245.98
+      },
+      "region": "SL3",
+      "rows": 256,
+      "cols": 256,
+      "stepM": 5,
+      "x0": -19667.5,
+      "y0": -7837.5,
+      "file": "c2.f32",
+      "bytes": 1310720,
+      "sha256": "d6681d553cbcd5965d739540617171263e318dc023b064eadea345642fde1d16",
+      "sourceWindow": {
+        "row": 2347,
+        "col": 3806,
+        "rows": 256,
+        "cols": 256
+      },
+      "sourceFiles": {
+        "slp": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/SL3/SL3_final_adj_5mpp_slp.tif",
+          "bytes": 64025577,
+          "sha256": "5c5a40da984acf6c6d2bff50c306b9fdd1a77f9cc7f6cff6bf83f67eda5788c9"
+        },
+        "slperr": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/SL3/SL3_final_adj_5mpp_slperr.tif",
+          "bytes": 64025609,
+          "sha256": "e4ca984c1bc761dca6c82446d467b2feb470a1e37b5de7d77b7368d3b0551f8f"
+        },
+        "ldec": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/SL3/SL3_final_adj_5mpp_ldec.tif",
+          "bytes": 64025545,
+          "sha256": "e9a420e663af48a0d869e1a207237e447200e88486b0f605a68c51d5f92a7b40"
+        },
+        "surf": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/SL3/SL3_final_adj_5mpp_surf.tif",
+          "bytes": 64025611,
+          "sha256": "a18c153dab5c9e7e0b4d8a5f1547bd7ef5e31fba7dd1c3252d84060aebf0283b"
+        },
+        "toterr": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/SL3/SL3_final_adj_5mpp_toterr.tif",
+          "bytes": 64025613,
+          "sha256": "a337224e5c130fad7eb22928e8f09f6c52b5bcb4253c49211fc55e8af86cdc13"
+        }
+      },
+      "finiteByField": {
+        "slp": 49664,
+        "slperr": 49664,
+        "ldec": 49664,
+        "surf": 49664,
+        "toterr": 49664
+      }
+    },
+    {
+      "id": "shackleton",
+      "site": {
+        "lat": -89.6866,
+        "lon": 197.19
+      },
+      "region": "Site04",
+      "rows": 256,
+      "cols": 256,
+      "stepM": 5,
+      "x0": -3447.5,
+      "y0": -8437.5,
+      "file": "shackleton.f32",
+      "bytes": 1310720,
+      "sha256": "ce57d9f3a815c78bd6cfca2e0978d8877177c24e3cb389db261bacfd3c3012f1",
+      "sourceWindow": {
+        "row": 1887,
+        "col": 1110,
+        "rows": 256,
+        "cols": 256
+      },
+      "sourceFiles": {
+        "slp": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site04/Site04_final_adj_5mpp_slp.tif",
+          "bytes": 40980772,
+          "sha256": "ec3cfa184b114d95aff498e7452764a8569737ae829e7ff3efd38d5187182579"
+        },
+        "slperr": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site04/Site04_final_adj_5mpp_slperr.tif",
+          "bytes": 40980806,
+          "sha256": "067cd4d8e3e8c14a9a5be1915242532f85063f1b300f248407cc8c8b68e90695"
+        },
+        "ldec": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site04/Site04_final_adj_5mpp_ldec.tif",
+          "bytes": 40980740,
+          "sha256": "fcc8c2219ae2368d5b2a1f6aec05fcf96cf725f3035ac8d80efc312a4ff29227"
+        },
+        "surf": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site04/Site04_final_adj_5mpp_surf.tif",
+          "bytes": 40980806,
+          "sha256": "38ff70dbdf2f066c2cfa94a646c3a59d653ce7f6b4528b15fc1b43ee397ce758"
+        },
+        "toterr": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site04/Site04_final_adj_5mpp_toterr.tif",
+          "bytes": 40980808,
+          "sha256": "416c4baa3b64def0182bb3379a1a9228482efd8ce32a39309ea8de5d0330fbe6"
+        }
+      },
+      "finiteByField": {
+        "slp": 65536,
+        "slperr": 65536,
+        "ldec": 65536,
+        "surf": 65536,
+        "toterr": 65536
+      }
+    },
+    {
+      "id": "nobile-dm2",
+      "site": {
+        "lat": -84.20156,
+        "lon": 60.69989
+      },
+      "region": "DM2",
+      "rows": 256,
+      "cols": 256,
+      "stepM": 5,
+      "x0": 152827.5,
+      "y0": 86762.5,
+      "file": "nobile-dm2.f32",
+      "bytes": 1310720,
+      "sha256": "96248468f4ef4d2138ff946b0a86690753cb8060ca644006797214676a01f9bc",
+      "sourceWindow": {
+        "row": 3647,
+        "col": 1165,
+        "rows": 256,
+        "cols": 256
+      },
+      "sourceFiles": {
+        "slp": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/DM2/DM2_final_adj_5mpp_slp.tif",
+          "bytes": 64025575,
+          "sha256": "dc62edf86ae6717eb37aeaf4f9c8fb65e8d3833be7716461fa184012888c7254"
+        },
+        "slperr": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/DM2/DM2_final_adj_5mpp_slperr.tif",
+          "bytes": 64025607,
+          "sha256": "dccbdd00a757b17d6a67ac3eeac66757a81a8faeac6f59d10c92e2096c0ae653"
+        },
+        "ldec": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/DM2/DM2_final_adj_5mpp_ldec.tif",
+          "bytes": 64025543,
+          "sha256": "a01a6ae1ff1b8c087859940c94ad77e7eaa5015a73b115debafd9e74ecfceb19"
+        },
+        "surf": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/DM2/DM2_final_adj_5mpp_surf.tif",
+          "bytes": 64025607,
+          "sha256": "d88677c21633683061117db0a577f0510e0948fe9db315d13be28782407ff604"
+        },
+        "toterr": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/DM2/DM2_final_adj_5mpp_toterr.tif",
+          "bytes": 64025611,
+          "sha256": "7b4ad3b954dcf458f807c5637fa27fa2bae987c3e0bc369768868bca6483c418"
+        }
+      },
+      "finiteByField": {
+        "slp": 65536,
+        "slperr": 65536,
+        "ldec": 65536,
+        "surf": 65536,
+        "toterr": 65536
+      }
+    },
+    {
+      "id": "a3-haworth",
+      "site": {
+        "lat": -87.05715,
+        "lon": 335.7249
+      },
+      "region": "Haworth",
+      "rows": 256,
+      "cols": 256,
+      "stepM": 5,
+      "x0": -37337.5,
+      "y0": 82002.5,
+      "file": "a3-haworth.f32",
+      "bytes": 1310720,
+      "sha256": "02db610ca9125d10a91b53919bb71a797c20ade8e74b2937cb54e082da0a383a",
+      "sourceWindow": {
+        "row": 4679,
+        "col": 3112,
+        "rows": 256,
+        "cols": 256
+      },
+      "sourceFiles": {
+        "slp": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Haworth/Haworth_final_adj_5mpp_slp.tif",
+          "bytes": 142123729,
+          "sha256": "e6126acd792247b17109aaa57a0bed941afc37995cc72cc2f26b7a229f1e38de"
+        },
+        "slperr": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Haworth/Haworth_final_adj_5mpp_slperr.tif",
+          "bytes": 142123771,
+          "sha256": "85e540960ce12d0cc4fdd881c48e0aab5dc28fefd975685d14af5ad6480aa158"
+        },
+        "ldec": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Haworth/Haworth_final_adj_5mpp_ldec.tif",
+          "bytes": 142123705,
+          "sha256": "1c39bb83be3213bf87b551c3ee700697d3554dd9afa25649a1a4006fefd7eb27"
+        },
+        "surf": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Haworth/Haworth_final_adj_5mpp_surf.tif",
+          "bytes": 142123767,
+          "sha256": "387fd6e99bca266f4982f7256c4c185921105313882b4c2eee5b5ff1ef75016b"
+        },
+        "toterr": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Haworth/Haworth_final_adj_5mpp_toterr.tif",
+          "bytes": 142123773,
+          "sha256": "f4231e1605d27b90c21fe5183db4e37de7532fed6b8fcfda860ec2eca8c61963"
+        }
+      },
+      "finiteByField": {
+        "slp": 65536,
+        "slperr": 65536,
+        "ldec": 65536,
+        "surf": 65536,
+        "toterr": 65536
+      }
+    },
+    {
+      "id": "a3-malapert",
+      "site": {
+        "lat": -86.00089,
+        "lon": 2.0507
+      },
+      "region": "Site23",
+      "rows": 256,
+      "cols": 256,
+      "stepM": 5,
+      "x0": 3702.5,
+      "y0": 121877.5,
+      "file": "a3-malapert.f32",
+      "bytes": 1310720,
+      "sha256": "c13094189d9e0336be77b3f24b190f6f31dc5bb3f37525105f54f26481e1c2d1",
+      "sourceWindow": {
+        "row": 2024,
+        "col": 2940,
+        "rows": 256,
+        "cols": 256
+      },
+      "sourceFiles": {
+        "slp": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site23/Site23_final_adj_5mpp_slp.tif",
+          "bytes": 70586810,
+          "sha256": "e2b41c65a9c9044d359f634e706b71fa187dbe7d9f271d5410cbd81d68eadb91"
+        },
+        "slperr": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site23/Site23_final_adj_5mpp_slperr.tif",
+          "bytes": 70586809,
+          "sha256": "86bc31f33c0395feffeaafe2d0b07bfcf4936f703c6eb955804c3b8b42ece173"
+        },
+        "ldec": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site23/Site23_final_adj_5mpp_ldec.tif",
+          "bytes": 70586742,
+          "sha256": "ebb6adb3603f3921fcce9c8bfd06fb79ca5fd88b53f11ab4c65f0da158316c74"
+        },
+        "surf": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site23/Site23_final_adj_5mpp_surf.tif",
+          "bytes": 70586804,
+          "sha256": "12d280a59cd7580415f6bada638d0abe025ce6727541fddf68d5dc371a6c94cf"
+        },
+        "toterr": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site23/Site23_final_adj_5mpp_toterr.tif",
+          "bytes": 70586811,
+          "sha256": "fe08539cfa3a0f7bb4ddf15dd7e0835fae0c761d516b2157d51116311a1ff69d"
+        }
+      },
+      "finiteByField": {
+        "slp": 65536,
+        "slperr": 65536,
+        "ldec": 65536,
+        "surf": 65536,
+        "toterr": 65536
+      }
+    },
+    {
+      "id": "a3-mouton",
+      "site": {
+        "lat": -85.48091,
+        "lon": 29.5661
+      },
+      "region": "Site20v2",
+      "rows": 256,
+      "cols": 256,
+      "stepM": 5,
+      "x0": 67012.5,
+      "y0": 119892.5,
+      "file": "a3-mouton.f32",
+      "bytes": 1310720,
+      "sha256": "a2e5cdc75adcaba4947a96834eca3e15fae0e3b812386fe37dc3d92d89bcdad2",
+      "sourceWindow": {
+        "row": 2221,
+        "col": 1402,
+        "rows": 256,
+        "cols": 256
+      },
+      "sourceFiles": {
+        "slp": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site20v2/Site20v2_final_adj_5mpp_slp.tif",
+          "bytes": 108192875,
+          "sha256": "0a505d4e93642c97e171588383b5bc3170311a4c727f73bfd92fd438d87f558f"
+        },
+        "slperr": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site20v2/Site20v2_final_adj_5mpp_slperr.tif",
+          "bytes": 108192911,
+          "sha256": "bf9935893bc32e4675a0798b5aac7e3d20ecbb95b23e86ded8aaf05f1a68606d"
+        },
+        "ldec": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site20v2/Site20v2_final_adj_5mpp_ldec.tif",
+          "bytes": 108192845,
+          "sha256": "b3d94807d2c4dc87823551015b342f6188d284c7d1122ae635214d256165d37b"
+        },
+        "surf": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site20v2/Site20v2_final_adj_5mpp_surf.tif",
+          "bytes": 108192905,
+          "sha256": "0e96c40987c0814eadd4f94f85dacbb33bcab5388dd0b1dc99dc59bf987f072f"
+        },
+        "toterr": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site20v2/Site20v2_final_adj_5mpp_toterr.tif",
+          "bytes": 108192913,
+          "sha256": "c20b7bc4658ecf1d83808e55c6a370451e378207b17deffa2f8fc25fc2e8a3f2"
+        }
+      },
+      "finiteByField": {
+        "slp": 65536,
+        "slperr": 65536,
+        "ldec": 65536,
+        "surf": 65536,
+        "toterr": 65536
+      }
+    },
+    {
+      "id": "a3-nobile-1",
+      "site": {
+        "lat": -85.54572,
+        "lon": 37.6256
+      },
+      "region": "Site06",
+      "rows": 256,
+      "cols": 256,
+      "stepM": 5,
+      "x0": 81862.5,
+      "y0": 107672.5,
+      "file": "a3-nobile-1.f32",
+      "bytes": 1310720,
+      "sha256": "e5f3fbc14c7f3e89fc627c0ca3ff1357046759bb436e123140f778e66caec88b",
+      "sourceWindow": {
+        "row": 2465,
+        "col": 1572,
+        "rows": 256,
+        "cols": 256
+      },
+      "sourceFiles": {
+        "slp": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site06/Site06_final_adj_5mpp_slp.tif",
+          "bytes": 64025573,
+          "sha256": "47db26dc18aa8f253a7d281ccf86189bb8dfd2b33b8a5b7c20586e4877c24e0c"
+        },
+        "slperr": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site06/Site06_final_adj_5mpp_slperr.tif",
+          "bytes": 64025605,
+          "sha256": "fd7fe86186013df32a60130ffadff2b8b49a4b2730dd6a1e53b06a058610d382"
+        },
+        "ldec": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site06/Site06_final_adj_5mpp_ldec.tif",
+          "bytes": 64025541,
+          "sha256": "f7a42c93209bcfe7991632ee569bbb597a3c8a22e1521c7697e13be1cf5a2562"
+        },
+        "surf": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site06/Site06_final_adj_5mpp_surf.tif",
+          "bytes": 64025603,
+          "sha256": "cca17e8067601dd659b583f889204db6bce685bc30c60a9e62427a8bce36b03d"
+        },
+        "toterr": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site06/Site06_final_adj_5mpp_toterr.tif",
+          "bytes": 64025607,
+          "sha256": "997c7d2d7ae6a74a1d5c38411cf30a414b1a83474b6b3c3a7b1cb32ef675661e"
+        }
+      },
+      "finiteByField": {
+        "slp": 65536,
+        "slperr": 65536,
+        "ldec": 65536,
+        "surf": 65536,
+        "toterr": 65536
+      }
+    },
+    {
+      "id": "a3-nobile-2",
+      "site": {
+        "lat": -84.05912,
+        "lon": 59.2729
+      },
+      "region": "DM2",
+      "rows": 256,
+      "cols": 256,
+      "stepM": 5,
+      "x0": 154357.5,
+      "y0": 92767.5,
+      "file": "a3-nobile-2.f32",
+      "bytes": 1310720,
+      "sha256": "e48a89fd18287ff35350fda76ad51e713b7fc3f4221008d6a881944f71226f19",
+      "sourceWindow": {
+        "row": 2446,
+        "col": 1471,
+        "rows": 256,
+        "cols": 256
+      },
+      "sourceFiles": {
+        "slp": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/DM2/DM2_final_adj_5mpp_slp.tif",
+          "bytes": 64025575,
+          "sha256": "dc62edf86ae6717eb37aeaf4f9c8fb65e8d3833be7716461fa184012888c7254"
+        },
+        "slperr": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/DM2/DM2_final_adj_5mpp_slperr.tif",
+          "bytes": 64025607,
+          "sha256": "dccbdd00a757b17d6a67ac3eeac66757a81a8faeac6f59d10c92e2096c0ae653"
+        },
+        "ldec": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/DM2/DM2_final_adj_5mpp_ldec.tif",
+          "bytes": 64025543,
+          "sha256": "a01a6ae1ff1b8c087859940c94ad77e7eaa5015a73b115debafd9e74ecfceb19"
+        },
+        "surf": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/DM2/DM2_final_adj_5mpp_surf.tif",
+          "bytes": 64025607,
+          "sha256": "d88677c21633683061117db0a577f0510e0948fe9db315d13be28782407ff604"
+        },
+        "toterr": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/DM2/DM2_final_adj_5mpp_toterr.tif",
+          "bytes": 64025611,
+          "sha256": "7b4ad3b954dcf458f807c5637fa27fa2bae987c3e0bc369768868bca6483c418"
+        }
+      },
+      "finiteByField": {
+        "slp": 65536,
+        "slperr": 65536,
+        "ldec": 65536,
+        "surf": 65536,
+        "toterr": 65536
+      }
+    },
+    {
+      "id": "a3-degerlache-2",
+      "site": {
+        "lat": -88.4526,
+        "lon": 292.1608
+      },
+      "region": "SL2",
+      "rows": 256,
+      "cols": 256,
+      "stepM": 5,
+      "x0": -44097.5,
+      "y0": 18342.5,
+      "file": "a3-degerlache-2.f32",
+      "bytes": 1310720,
+      "sha256": "322ef6da6148cc1c770466be62874c5a526b1a09dbe857333b0b8917cd75a371",
+      "sourceWindow": {
+        "row": 2931,
+        "col": 2880,
+        "rows": 256,
+        "cols": 256
+      },
+      "sourceFiles": {
+        "slp": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/SL2/SL2_final_adj_5mpp_slp.tif",
+          "bytes": 64025575,
+          "sha256": "06d50fd00ec4d0bb00b15c6c4b8c0cff9a11afa0084c1bb4fd42e9486e815f8b"
+        },
+        "slperr": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/SL2/SL2_final_adj_5mpp_slperr.tif",
+          "bytes": 64025609,
+          "sha256": "26c1f44dd0a8e7d15cd6e55a594dac63870c55e832d65fbbf03abfc4076c8933"
+        },
+        "ldec": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/SL2/SL2_final_adj_5mpp_ldec.tif",
+          "bytes": 64025543,
+          "sha256": "ffea237023698c4970ac6a2d259ae31cd42967945ce52109c88d755c44bb42bb"
+        },
+        "surf": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/SL2/SL2_final_adj_5mpp_surf.tif",
+          "bytes": 64025605,
+          "sha256": "16737cb5fdaa47f243715e003450deadeabc6fb1b947a5ed245d5a3fd78a2208"
+        },
+        "toterr": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/SL2/SL2_final_adj_5mpp_toterr.tif",
+          "bytes": 64025609,
+          "sha256": "1d78d9b338ed7338898dca13147d487381f63ff6ec82ba7b684f4ad99a2ecf58"
+        }
+      },
+      "finiteByField": {
+        "slp": 65536,
+        "slperr": 65536,
+        "ldec": 65536,
+        "surf": 65536,
+        "toterr": 65536
+      }
+    },
+    {
+      "id": "pole",
+      "site": {
+        "lat": -89.9999,
+        "lon": 0.0
+      },
+      "region": "Site04",
+      "rows": 256,
+      "cols": 256,
+      "stepM": 5,
+      "x0": -637.5,
+      "y0": 642.5,
+      "file": "pole.f32",
+      "bytes": 1310720,
+      "sha256": "06bced576c1cd097619c81d76ae3b241386fa9c2c1d111ce3676c62b09ea611c",
+      "sourceWindow": {
+        "row": 71,
+        "col": 1672,
+        "rows": 256,
+        "cols": 256
+      },
+      "sourceFiles": {
+        "slp": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site04/Site04_final_adj_5mpp_slp.tif",
+          "bytes": 40980772,
+          "sha256": "ec3cfa184b114d95aff498e7452764a8569737ae829e7ff3efd38d5187182579"
+        },
+        "slperr": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site04/Site04_final_adj_5mpp_slperr.tif",
+          "bytes": 40980806,
+          "sha256": "067cd4d8e3e8c14a9a5be1915242532f85063f1b300f248407cc8c8b68e90695"
+        },
+        "ldec": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site04/Site04_final_adj_5mpp_ldec.tif",
+          "bytes": 40980740,
+          "sha256": "fcc8c2219ae2368d5b2a1f6aec05fcf96cf725f3035ac8d80efc312a4ff29227"
+        },
+        "surf": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site04/Site04_final_adj_5mpp_surf.tif",
+          "bytes": 40980806,
+          "sha256": "38ff70dbdf2f066c2cfa94a646c3a59d653ce7f6b4528b15fc1b43ee397ce758"
+        },
+        "toterr": {
+          "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site04/Site04_final_adj_5mpp_toterr.tif",
+          "bytes": 40980808,
+          "sha256": "416c4baa3b64def0182bb3379a1a9228482efd8ce32a39309ea8de5d0330fbe6"
+        }
+      },
+      "finiteByField": {
+        "slp": 65536,
+        "slperr": 65536,
+        "ldec": 65536,
+        "surf": 65536,
+        "toterr": 65536
+      }
+    }
+  ],
+  "uncoveredSites": [
+    "im2-actual",
+    "im2-target",
+    "im1",
+    "ch3",
+    "a3-cabeus-b",
+    "a3-mouton-plateau",
+    "a3-slater",
+    "apollo11",
+    "apollo12",
+    "apollo14",
+    "apollo15",
+    "apollo16",
+    "apollo17",
+    "slim",
+    "change6",
+    "change4",
+    "change5",
+    "reiner-gamma",
+    "blue-ghost"
+  ],
+  "limits": [
+    "Grid resolution is 5 m, not independent 5 m measurements; many pixels are interpolated",
+    "Slope and height error maps are RMS, not confidence or hard error bounds",
+    "No boulder density, sub-grid hazard, vehicle capability or flight landing safety is established",
+    "Map area and footprint lengths use the stated stereographic plane, not 3D surface area",
+    "No mission-date sunlight, power, communications, blast, rock or vehicle-clearance certification",
+    "Nominal geographic registration; no metre-level flight frame/terrain registration is established"
+  ]
+}

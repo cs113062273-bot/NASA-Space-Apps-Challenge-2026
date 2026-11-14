@@ -1,0 +1,72 @@
+{
+  "projection": "south polar stereographic, sphere R=1737.4 km, +Y toward 0\u00b0E, +X toward 90\u00b0E",
+  "source": "NASA LRO LOLA GDR polar DEMs (PDS LRO-L-LOLA-4-GDR-V1.0)",
+  "overview": {
+    "file": "overview.jpg",
+    "half_extent_m": 700000,
+    "px": 1750,
+    "m_per_px": 800.4574042309541,
+    "z_min_m": -9107.5244140625,
+    "z_max_m": 6993.28369140625
+  },
+  "detail": {
+    "file": "detail.jpg",
+    "half_extent_m": 150000,
+    "px": 2500,
+    "m_per_px": 120.04801920769387,
+    "z_min_m": -5498.40625,
+    "z_max_m": 7025.43798828125
+  },
+  "illumination": {
+    "file": "illumination.webp",
+    "half_extent_m": 200000.0,
+    "px": 2000,
+    "m_per_px": 200.0,
+    "period": "2027",
+    "observer_m": 2.0,
+    "grid_m": "1000 within 75 km, 2000 beyond",
+    "max_pct": 66.4,
+    "top_pct": 70.0
+  },
+  "globe": {
+    "relief": "globe.jpg",
+    "earthvis": "earthvis.webp",
+    "px": [
+      2048,
+      1024
+    ],
+    "lon_range": [
+      -180,
+      180
+    ],
+    "lat_range": [
+      90,
+      -90
+    ],
+    "relief_source": "LOLA LDEM_16 (1.9 km/px)",
+    "earthvis_period": "2027, every 2 h, flat horizon",
+    "always_pct": 38.7,
+    "never_pct": 39.3
+  },
+  "earthvis_polar": {
+    "file": "earthvis_polar.webp",
+    "half_extent_m": 201000.0,
+    "px": 1000,
+    "m_per_px": 402.0,
+    "period": "2027",
+    "observer_m": 2.0,
+    "grid_m": 2000.0,
+    "max_pct": 100.0
+  },
+  "layer_values": {
+    "file": "layers.u8",
+    "half_extent_m": 200000.0,
+    "step_m": 1000.0,
+    "n": 401,
+    "scale": 200,
+    "layers": [
+      "sun",
+      "earth"
+    ]
+  }
+}

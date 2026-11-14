@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "start_unix": 1672531200.0,
+  "step_s": 3600,
+  "count": 78888,
+  "filename": "stations.f32",
+  "bytes": 8519904,
+  "sha256": "f71a4e9bcd2ca690e2ff266f3fb2da3a0f11bf1ffb4f071321282ca2d1be27dd",
+  "stride": 27,
+  "layout": "float32 LE; each epoch: 3 stations x [target xyz km, receiver-to-Moon xyz km, receiver zenith unit xyz]; MOON_ME at emission",
+  "stations": [
+    {
+      "id": "399024",
+      "complex": "Goldstone",
+      "antenna": "DSS-24"
+    },
+    {
+      "id": "399054",
+      "complex": "Madrid",
+      "antenna": "DSS-54"
+    },
+    {
+      "id": "399034",
+      "complex": "Canberra",
+      "antenna": "DSS-34"
+    }
+  ],
+  "method": "NAIF moving-station SPK; XCN+S from Moon centre; CN+S from station at reception; pxfrm2 ITRF93(reception) to MOON_ME(emission); site-origin corrections in browser",
+  "kernels": [
+    "naif0012.tls",
+    "pck00011.tpc",
+    "moon_pa_de440_200625.bpc",
+    "moon_de440_250416.tf",
+    "de440s.bsp",
+    "earth_1962_260806_2126_combined.bpc",
+    "earth_000101_270129_261103.bpc",
+    "earthstns_itrf93_260814.bsp"
+  ],
+  "kernel_manifest": "lunar/data/validation/kernels.json",
+  "earth_orientation": {
+    "last_datum_utc": "2026-11-03T00:00:00Z",
+    "recent_kernel_until_unix": 1801267200.0,
+    "recent_ground_stress_deg": 0.001,
+    "long_term_ground_stress_deg": 0.35,
+    "recent_aim_stress_deg": 2e-05,
+    "long_term_aim_stress_deg": 0.006,
+    "note": "After recent-kernel coverage, uses low-accuracy long-term Earth prediction; stress values are engineering sensitivity inputs motivated by NAIF's 5-6 mrad orientation estimate, not confidence bounds."
+  },
+  "limitations": [
+    "One named reference 34 m antenna per complex, not every antenna",
+    "Earth orientation after the recent-kernel interval is low-accuracy prediction",
+    "Receiver horizon uses a 10 degree geometric mask, not azimuth-dependent local masks or cable wraps",
+    "No booking, weather or station hardware/configuration validity guarantee",
+    "Small site-origin/light-time and differential-aberration approximation is validated separately"
+  ]
+}

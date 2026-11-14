@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "coarse_cadence_s": 30,
+  "fine_cadence_s": 15,
+  "shared_epoch_maximum_difference_deg": {
+    "access_clearance_deg": 0.0,
+    "receiver_elevation_deg": 0.0,
+    "lunar_limb_clearance_deg": 0.0
+  },
+  "limb_terrain_refinement": {
+    "coarse_maximum_step_m": 25,
+    "fine_maximum_step_m": 12.5,
+    "maximum_clearance_reduction_m": 0.0,
+    "minimum_clearance_reduction_m": 0.0,
+    "changed_station_samples": 0
+  },
+  "contact_refinement": {
+    "access": {
+      "coarse_hours": 141,
+      "fine_hours": 141,
+      "removed_utc_unix": []
+    },
+    "backhaul": {
+      "coarse_hours": 149,
+      "fine_hours": 149,
+      "removed_utc_unix": []
+    }
+  },
+  "coarse_csv_sha256": "871a7dfecc46c3c60852b5ccc2f2b3d585e5cb1c415e95394c40406541c31319",
+  "fine_csv_sha256": "871a7dfecc46c3c60852b5ccc2f2b3d585e5cb1c415e95394c40406541c31319",
+  "retained_geometry_reports": {
+    "relay-geometry-c1-sv1": "657bdfd0aa3d8702a829371ac69be3906d9f54fdba1eb6129645f785d33132ae",
+    "relay-geometry-change6-sv1": "72b7b78f3caaa474ec9f9e96b211824f55978771eb97723b4f325ac1e02ed101"
+  },
+  "far_side": {
+    "site": {
+      "id": "change6",
+      "lat": -41.6385,
+      "lon": 206.0148,
+      "ground_m": -5254.0,
+      "observer_m": 2
+    },
+    "access_hours": 130,
+    "backhaul_hours": 149,
+    "csv_sha256": "21007ad99f274c90b3935ef8d949e297d8050ac62ab53c757701c86eab68c2d2"
+  },
+  "limitations": [
+    "Shared SPICE/model/source inputs; this does not independently validate physical trajectories",
+    "15-second sampling is not a proof of visibility between samples",
+    "Rates, RF, booking and actual provider relay capability remain unverified"
+  ]
+}

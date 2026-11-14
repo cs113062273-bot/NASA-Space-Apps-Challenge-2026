@@ -1,0 +1,3319 @@
+{
+  "reference": "NASA GSFC PGDA product 69, AVGVISIB_85S_060M_201608 (share of hourly timesteps over 18.6 years with any of the solar disk visible; LDEM_85S_060M)",
+  "ours": "LDEM_80S_80M + LDEM_75S_240M horizons, 2 m above ground, DE440, hourly 2017-01-01 + 18.6 years",
+  "points": "300 random points, uniform by area 3-150 km from the pole, seed 2026",
+  "summary": {
+    "n": 300,
+    "n_lit": 267,
+    "bias_pp": 1.15,
+    "rmse_pp": 2.46,
+    "median_abs_pp": 0.27,
+    "p90_abs_pp": 3.73,
+    "r": 0.9881,
+    "share_within_3x3_range": 0.943,
+    "lit_bias_pp": 1.26,
+    "lit_rmse_pp": 2.55
+  },
+  "rows": [
+    {
+      "lat": -87.90583,
+      "lon": 182.7057,
+      "pgda_pct": 6.44,
+      "pgda_3x3": [
+        3.26,
+        8.96
+      ],
+      "ours_any_sun_pct": 6.29,
+      "ours_avg_disk_pct": 5.36
+    },
+    {
+      "lat": -86.04405,
+      "lon": 329.149,
+      "pgda_pct": 35.78,
+      "pgda_3x3": [
+        31.61,
+        35.78
+      ],
+      "ours_any_sun_pct": 35.71,
+      "ours_avg_disk_pct": 33.49
+    },
+    {
+      "lat": -86.6188,
+      "lon": 86.6842,
+      "pgda_pct": 2.92,
+      "pgda_3x3": [
+        2.78,
+        3.1
+      ],
+      "ours_any_sun_pct": 2.99,
+      "ours_avg_disk_pct": 1.55
+    },
+    {
+      "lat": -86.98869,
+      "lon": 257.9917,
+      "pgda_pct": 20.96,
+      "pgda_3x3": [
+        20.16,
+        21.43
+      ],
+      "ours_any_sun_pct": 20.98,
+      "ours_avg_disk_pct": 19.7
+    },
+    {
+      "lat": -87.0526,
+      "lon": 21.7559,
+      "pgda_pct": 0.0,
+      "pgda_3x3": [
+        0.0,
+        0.0
+      ],
+      "ours_any_sun_pct": 0.0,
+      "ours_avg_disk_pct": 0.0
+    },
+    {
+      "lat": -85.60378,
+      "lon": 334.7568,
+      "pgda_pct": 39.18,
+      "pgda_3x3": [
+        36.28,
+        39.89
+      ],
+      "ours_any_sun_pct": 39.78,
+      "ours_avg_disk_pct": 37.74
+    },
+    {
+      "lat": -85.29632,
+      "lon": 246.0783,
+      "pgda_pct": 39.09,
+      "pgda_3x3": [
+        36.64,
+        40.75
+      ],
+      "ours_any_sun_pct": 40.75,
+      "ours_avg_disk_pct": 39.43
+    },
+    {
+      "lat": -87.91509,
+      "lon": 308.9401,
+      "pgda_pct": 16.72,
+      "pgda_3x3": [
+        16.19,
+        17.41
+      ],
+      "ours_any_sun_pct": 17.06,
+      "ours_avg_disk_pct": 15.08
+    },
+    {
+      "lat": -86.00452,
+      "lon": 284.7594,
+      "pgda_pct": 22.76,
+      "pgda_3x3": [
+        22.72,
+        22.77
+      ],
+      "ours_any_sun_pct": 22.78,
+      "ours_avg_disk_pct": 21.92
+    },
+    {
+      "lat": -87.2975,
+      "lon": 71.8348,
+      "pgda_pct": 9.23,
+      "pgda_3x3": [
+        8.92,
+        9.52
+      ],
+      "ours_any_sun_pct": 9.24,
+      "ours_avg_disk_pct": 7.18
+    },
+    {
+      "lat": -85.1386,
+      "lon": 24.1145,
+      "pgda_pct": 33.1,
+      "pgda_3x3": [
+        15.77,
+        37.18
+      ],
+      "ours_any_sun_pct": 36.83,
+      "ours_avg_disk_pct": 34.95
+    },
+    {
+      "lat": -85.25832,
+      "lon": 146.9176,
+      "pgda_pct": 20.93,
+      "pgda_3x3": [
+        20.91,
+        20.97
+      ],
+      "ours_any_sun_pct": 20.98,
+      "ours_avg_disk_pct": 19.97
+    },
+    {
+      "lat": -86.05655,
+      "lon": 265.7227,
+      "pgda_pct": 16.5,
+      "pgda_3x3": [
+        7.15,
+        20.45
+      ],
+      "ours_any_sun_pct": 19.6,
+      "ours_avg_disk_pct": 17.29
+    },
+    {
+      "lat": -85.70997,
+      "lon": 131.3576,
+      "pgda_pct": 13.17,
+      "pgda_3x3": [
+        6.66,
+        23.2
+      ],
+      "ours_any_sun_pct": 19.49,
+      "ours_avg_disk_pct": 17.5
+    },
+    {
+      "lat": -86.45003,
+      "lon": 141.3716,
+      "pgda_pct": 29.17,
+      "pgda_3x3": [
+        7.72,
+        32.97
+      ],
+      "ours_any_sun_pct": 31.17,
+      "ours_avg_disk_pct": 29.66
+    },
+    {
+      "lat": -85.50663,
+      "lon": 20.4588,
+      "pgda_pct": 20.12,
+      "pgda_3x3": [
+        20.08,
+        20.12
+      ],
+      "ours_any_sun_pct": 20.11,
+      "ours_avg_disk_pct": 19.73
+    },
+    {
+      "lat": -86.68775,
+      "lon": 306.1451,
+      "pgda_pct": 31.8,
+      "pgda_3x3": [
+        31.46,
+        31.99
+      ],
+      "ours_any_sun_pct": 31.78,
+      "ours_avg_disk_pct": 30.19
+    },
+    {
+      "lat": -87.12014,
+      "lon": 260.7198,
+      "pgda_pct": 38.6,
+      "pgda_3x3": [
+        30.72,
+        38.6
+      ],
+      "ours_any_sun_pct": 38.84,
+      "ours_avg_disk_pct": 36.95
+    },
+    {
+      "lat": -87.3914,
+      "lon": 54.8945,
+      "pgda_pct": 9.98,
+      "pgda_3x3": [
+        7.78,
+        9.99
+      ],
+      "ours_any_sun_pct": 9.86,
+      "ours_avg_disk_pct": 6.89
+    },
+    {
+      "lat": -87.64536,
+      "lon": 59.2718,
+      "pgda_pct": 1.29,
+      "pgda_3x3": [
+        1.14,
+        1.46
+      ],
+      "ours_any_sun_pct": 1.28,
+      "ours_avg_disk_pct": 0.37
+    },
+    {
+      "lat": -86.41353,
+      "lon": 147.0648,
+      "pgda_pct": 43.36,
+      "pgda_3x3": [
+        42.55,
+        43.4
+      ],
+      "ours_any_sun_pct": 43.44,
+      "ours_avg_disk_pct": 42.4
+    },
+    {
+      "lat": -86.75282,
+      "lon": 152.3831,
+      "pgda_pct": 20.31,
+      "pgda_3x3": [
+        19.31,
+        20.83
+      ],
+      "ours_any_sun_pct": 20.21,
+      "ours_avg_disk_pct": 18.45
+    },
+    {
+      "lat": -85.97287,
+      "lon": 312.0158,
+      "pgda_pct": 19.78,
+      "pgda_3x3": [
+        19.18,
+        20.61
+      ],
+      "ours_any_sun_pct": 19.79,
+      "ours_avg_disk_pct": 16.97
+    },
+    {
+      "lat": -89.43091,
+      "lon": 195.6295,
+      "pgda_pct": 32.9,
+      "pgda_3x3": [
+        6.34,
+        35.23
+      ],
+      "ours_any_sun_pct": 35.16,
+      "ours_avg_disk_pct": 33.27
+    },
+    {
+      "lat": -86.69025,
+      "lon": 263.5441,
+      "pgda_pct": 14.56,
+      "pgda_3x3": [
+        13.35,
+        16.23
+      ],
+      "ours_any_sun_pct": 15.29,
+      "ours_avg_disk_pct": 12.69
+    },
+    {
+      "lat": -87.01035,
+      "lon": 180.8447,
+      "pgda_pct": 33.64,
+      "pgda_3x3": [
+        12.72,
+        35.23
+      ],
+      "ours_any_sun_pct": 34.57,
+      "ours_avg_disk_pct": 32.74
+    },
+    {
+      "lat": -87.81184,
+      "lon": 336.5334,
+      "pgda_pct": 13.61,
+      "pgda_3x3": [
+        9.29,
+        14.79
+      ],
+      "ours_any_sun_pct": 15.24,
+      "ours_avg_disk_pct": 12.13
+    },
+    {
+      "lat": -86.18563,
+      "lon": 279.347,
+      "pgda_pct": 18.23,
+      "pgda_3x3": [
+        17.93,
+        19.38
+      ],
+      "ours_any_sun_pct": 19.31,
+      "ours_avg_disk_pct": 17.66
+    },
+    {
+      "lat": -86.7363,
+      "lon": 128.5357,
+      "pgda_pct": 0.0,
+      "pgda_3x3": [
+        0.0,
+        0.0
+      ],
+      "ours_any_sun_pct": 0.0,
+      "ours_avg_disk_pct": 0.0
+    },
+    {
+      "lat": -87.28987,
+      "lon": 156.0081,
+      "pgda_pct": 37.13,
+      "pgda_3x3": [
+        32.87,
+        39.1
+      ],
+      "ours_any_sun_pct": 39.13,
+      "ours_avg_disk_pct": 37.31
+    },
+    {
+      "lat": -87.73489,
+      "lon": 338.413,
+      "pgda_pct": 9.31,
+      "pgda_3x3": [
+        9.06,
+        9.49
+      ],
+      "ours_any_sun_pct": 9.29,
+      "ours_avg_disk_pct": 7.06
+    },
+    {
+      "lat": -85.37617,
+      "lon": 132.5624,
+      "pgda_pct": 35.64,
+      "pgda_3x3": [
+        31.19,
+        39.33
+      ],
+      "ours_any_sun_pct": 41.89,
+      "ours_avg_disk_pct": 39.84
+    },
+    {
+      "lat": -85.58454,
+      "lon": 306.4612,
+      "pgda_pct": 0.1,
+      "pgda_3x3": [
+        0.08,
+        0.13
+      ],
+      "ours_any_sun_pct": 0.11,
+      "ours_avg_disk_pct": 0.01
+    },
+    {
+      "lat": -86.1479,
+      "lon": 204.3432,
+      "pgda_pct": 29.83,
+      "pgda_3x3": [
+        29.39,
+        29.98
+      ],
+      "ours_any_sun_pct": 29.88,
+      "ours_avg_disk_pct": 28.85
+    },
+    {
+      "lat": -87.09358,
+      "lon": 193.8562,
+      "pgda_pct": 41.52,
+      "pgda_3x3": [
+        39.3,
+        41.52
+      ],
+      "ours_any_sun_pct": 41.52,
+      "ours_avg_disk_pct": 40.38
+    },
+    {
+      "lat": -85.18942,
+      "lon": 305.3934,
+      "pgda_pct": 6.08,
+      "pgda_3x3": [
+        6.0,
+        6.14
+      ],
+      "ours_any_sun_pct": 6.07,
+      "ours_avg_disk_pct": 4.99
+    },
+    {
+      "lat": -86.28782,
+      "lon": 152.2462,
+      "pgda_pct": 38.45,
+      "pgda_3x3": [
+        38.25,
+        38.76
+      ],
+      "ours_any_sun_pct": 38.52,
+      "ours_avg_disk_pct": 37.73
+    },
+    {
+      "lat": -86.74586,
+      "lon": 282.4734,
+      "pgda_pct": 25.09,
+      "pgda_3x3": [
+        21.45,
+        27.22
+      ],
+      "ours_any_sun_pct": 26.32,
+      "ours_avg_disk_pct": 24.32
+    },
+    {
+      "lat": -85.30851,
+      "lon": 104.1521,
+      "pgda_pct": 34.08,
+      "pgda_3x3": [
+        29.87,
+        34.27
+      ],
+      "ours_any_sun_pct": 34.54,
+      "ours_avg_disk_pct": 33.37
+    },
+    {
+      "lat": -87.20398,
+      "lon": 112.7884,
+      "pgda_pct": 19.4,
+      "pgda_3x3": [
+        16.82,
+        19.63
+      ],
+      "ours_any_sun_pct": 19.48,
+      "ours_avg_disk_pct": 18.1
+    },
+    {
+      "lat": -85.87459,
+      "lon": 125.9044,
+      "pgda_pct": 40.77,
+      "pgda_3x3": [
+        20.58,
+        43.69
+      ],
+      "ours_any_sun_pct": 43.64,
+      "ours_avg_disk_pct": 42.34
+    },
+    {
+      "lat": -87.22821,
+      "lon": 122.9928,
+      "pgda_pct": 16.12,
+      "pgda_3x3": [
+        13.08,
+        24.44
+      ],
+      "ours_any_sun_pct": 19.24,
+      "ours_avg_disk_pct": 16.81
+    },
+    {
+      "lat": -87.46914,
+      "lon": 37.0632,
+      "pgda_pct": 0.37,
+      "pgda_3x3": [
+        0.31,
+        0.42
+      ],
+      "ours_any_sun_pct": 0.4,
+      "ours_avg_disk_pct": 0.06
+    },
+    {
+      "lat": -85.86027,
+      "lon": 216.5997,
+      "pgda_pct": 33.87,
+      "pgda_3x3": [
+        33.66,
+        34.12
+      ],
+      "ours_any_sun_pct": 33.98,
+      "ours_avg_disk_pct": 32.4
+    },
+    {
+      "lat": -87.63729,
+      "lon": 183.1988,
+      "pgda_pct": 39.8,
+      "pgda_3x3": [
+        37.07,
+        40.41
+      ],
+      "ours_any_sun_pct": 39.55,
+      "ours_avg_disk_pct": 38.06
+    },
+    {
+      "lat": -86.5267,
+      "lon": 259.6467,
+      "pgda_pct": 27.48,
+      "pgda_3x3": [
+        26.49,
+        27.69
+      ],
+      "ours_any_sun_pct": 27.76,
+      "ours_avg_disk_pct": 25.96
+    },
+    {
+      "lat": -86.23344,
+      "lon": 259.4804,
+      "pgda_pct": 31.53,
+      "pgda_3x3": [
+        31.44,
+        31.61
+      ],
+      "ours_any_sun_pct": 31.64,
+      "ours_avg_disk_pct": 30.02
+    },
+    {
+      "lat": -87.84841,
+      "lon": 17.4849,
+      "pgda_pct": 12.66,
+      "pgda_3x3": [
+        11.22,
+        14.47
+      ],
+      "ours_any_sun_pct": 13.87,
+      "ours_avg_disk_pct": 10.49
+    },
+    {
+      "lat": -85.77157,
+      "lon": 32.1169,
+      "pgda_pct": 12.74,
+      "pgda_3x3": [
+        12.63,
+        12.86
+      ],
+      "ours_any_sun_pct": 12.75,
+      "ours_avg_disk_pct": 10.38
+    },
+    {
+      "lat": -86.33715,
+      "lon": 168.0716,
+      "pgda_pct": 28.76,
+      "pgda_3x3": [
+        28.61,
+        28.89
+      ],
+      "ours_any_sun_pct": 28.84,
+      "ours_avg_disk_pct": 25.76
+    },
+    {
+      "lat": -86.10129,
+      "lon": 36.142,
+      "pgda_pct": 10.86,
+      "pgda_3x3": [
+        10.65,
+        11.02
+      ],
+      "ours_any_sun_pct": 10.98,
+      "ours_avg_disk_pct": 8.09
+    },
+    {
+      "lat": -86.98202,
+      "lon": 187.8491,
+      "pgda_pct": 28.6,
+      "pgda_3x3": [
+        21.15,
+        29.39
+      ],
+      "ours_any_sun_pct": 28.93,
+      "ours_avg_disk_pct": 27.05
+    },
+    {
+      "lat": -86.7934,
+      "lon": 62.2553,
+      "pgda_pct": 0.18,
+      "pgda_3x3": [
+        0.0,
+        0.74
+      ],
+      "ours_any_sun_pct": 0.18,
+      "ours_avg_disk_pct": 0.02
+    },
+    {
+      "lat": -86.52066,
+      "lon": 301.5892,
+      "pgda_pct": 42.68,
+      "pgda_3x3": [
+        33.85,
+        42.9
+      ],
+      "ours_any_sun_pct": 42.72,
+      "ours_avg_disk_pct": 40.36
+    },
+    {
+      "lat": -86.60906,
+      "lon": 81.3559,
+      "pgda_pct": 6.02,
+      "pgda_3x3": [
+        3.25,
+        7.63
+      ],
+      "ours_any_sun_pct": 6.72,
+      "ours_avg_disk_pct": 4.42
+    },
+    {
+      "lat": -85.93528,
+      "lon": 212.2658,
+      "pgda_pct": 9.72,
+      "pgda_3x3": [
+        5.66,
+        10.49
+      ],
+      "ours_any_sun_pct": 10.22,
+      "ours_avg_disk_pct": 8.19
+    },
+    {
+      "lat": -86.24269,
+      "lon": 344.5503,
+      "pgda_pct": 5.79,
+      "pgda_3x3": [
+        4.78,
+        6.08
+      ],
+      "ours_any_sun_pct": 6.46,
+      "ours_avg_disk_pct": 5.39
+    },
+    {
+      "lat": -86.80838,
+      "lon": 281.628,
+      "pgda_pct": 27.99,
+      "pgda_3x3": [
+        26.54,
+        31.52
+      ],
+      "ours_any_sun_pct": 32.15,
+      "ours_avg_disk_pct": 29.46
+    },
+    {
+      "lat": -89.76789,
+      "lon": 346.8785,
+      "pgda_pct": 20.58,
+      "pgda_3x3": [
+        19.67,
+        20.87
+      ],
+      "ours_any_sun_pct": 20.73,
+      "ours_avg_disk_pct": 18.03
+    },
+    {
+      "lat": -85.59403,
+      "lon": 264.3212,
+      "pgda_pct": 3.08,
+      "pgda_3x3": [
+        0.0,
+        28.67
+      ],
+      "ours_any_sun_pct": 0.0,
+      "ours_avg_disk_pct": 0.0
+    },
+    {
+      "lat": -86.4355,
+      "lon": 213.2472,
+      "pgda_pct": 28.66,
+      "pgda_3x3": [
+        28.55,
+        28.74
+      ],
+      "ours_any_sun_pct": 28.65,
+      "ours_avg_disk_pct": 27.59
+    },
+    {
+      "lat": -87.17267,
+      "lon": 29.9112,
+      "pgda_pct": 4.96,
+      "pgda_3x3": [
+        4.42,
+        5.06
+      ],
+      "ours_any_sun_pct": 5.02,
+      "ours_avg_disk_pct": 3.12
+    },
+    {
+      "lat": -86.50271,
+      "lon": 170.2624,
+      "pgda_pct": 26.4,
+      "pgda_3x3": [
+        26.4,
+        33.04
+      ],
+      "ours_any_sun_pct": 33.16,
+      "ours_avg_disk_pct": 30.69
+    },
+    {
+      "lat": -88.48501,
+      "lon": 168.2945,
+      "pgda_pct": 15.03,
+      "pgda_3x3": [
+        2.43,
+        16.4
+      ],
+      "ours_any_sun_pct": 16.45,
+      "ours_avg_disk_pct": 14.26
+    },
+    {
+      "lat": -85.29746,
+      "lon": 110.8204,
+      "pgda_pct": 28.76,
+      "pgda_3x3": [
+        21.67,
+        30.32
+      ],
+      "ours_any_sun_pct": 29.21,
+      "ours_avg_disk_pct": 27.56
+    },
+    {
+      "lat": -85.08178,
+      "lon": 312.9497,
+      "pgda_pct": 7.42,
+      "pgda_3x3": [
+        0.97,
+        7.44
+      ],
+      "ours_any_sun_pct": 7.4,
+      "ours_avg_disk_pct": 6.43
+    },
+    {
+      "lat": -88.79736,
+      "lon": 135.6727,
+      "pgda_pct": 41.82,
+      "pgda_3x3": [
+        28.2,
+        51.86
+      ],
+      "ours_any_sun_pct": 50.55,
+      "ours_avg_disk_pct": 48.77
+    },
+    {
+      "lat": -87.03889,
+      "lon": 56.2732,
+      "pgda_pct": 1.4,
+      "pgda_3x3": [
+        1.3,
+        1.56
+      ],
+      "ours_any_sun_pct": 1.52,
+      "ours_avg_disk_pct": 0.87
+    },
+    {
+      "lat": -85.77497,
+      "lon": 92.1937,
+      "pgda_pct": 36.91,
+      "pgda_3x3": [
+        34.93,
+        37.15
+      ],
+      "ours_any_sun_pct": 38.33,
+      "ours_avg_disk_pct": 37.1
+    },
+    {
+      "lat": -87.22637,
+      "lon": 13.6053,
+      "pgda_pct": 4.94,
+      "pgda_3x3": [
+        4.38,
+        6.83
+      ],
+      "ours_any_sun_pct": 6.17,
+      "ours_avg_disk_pct": 4.58
+    },
+    {
+      "lat": -86.27576,
+      "lon": 315.4143,
+      "pgda_pct": 24.26,
+      "pgda_3x3": [
+        0.0,
+        24.28
+      ],
+      "ours_any_sun_pct": 24.22,
+      "ours_avg_disk_pct": 21.73
+    },
+    {
+      "lat": -86.80723,
+      "lon": 56.3388,
+      "pgda_pct": 21.2,
+      "pgda_3x3": [
+        19.48,
+        26.76
+      ],
+      "ours_any_sun_pct": 24.71,
+      "ours_avg_disk_pct": 21.34
+    },
+    {
+      "lat": -85.64928,
+      "lon": 149.349,
+      "pgda_pct": 33.67,
+      "pgda_3x3": [
+        33.33,
+        33.98
+      ],
+      "ours_any_sun_pct": 33.69,
+      "ours_avg_disk_pct": 32.74
+    },
+    {
+      "lat": -85.15998,
+      "lon": 275.0641,
+      "pgda_pct": 21.39,
+      "pgda_3x3": [
+        20.28,
+        22.35
+      ],
+      "ours_any_sun_pct": 22.14,
+      "ours_avg_disk_pct": 19.72
+    },
+    {
+      "lat": -85.33997,
+      "lon": 103.5355,
+      "pgda_pct": 28.95,
+      "pgda_3x3": [
+        28.44,
+        29.38
+      ],
+      "ours_any_sun_pct": 28.83,
+      "ours_avg_disk_pct": 27.91
+    },
+    {
+      "lat": -86.10307,
+      "lon": 37.9383,
+      "pgda_pct": 14.07,
+      "pgda_3x3": [
+        13.83,
+        14.32
+      ],
+      "ours_any_sun_pct": 14.15,
+      "ours_avg_disk_pct": 11.52
+    },
+    {
+      "lat": -88.01776,
+      "lon": 128.9442,
+      "pgda_pct": 8.93,
+      "pgda_3x3": [
+        8.21,
+        9.7
+      ],
+      "ours_any_sun_pct": 9.57,
+      "ours_avg_disk_pct": 6.85
+    },
+    {
+      "lat": -85.18881,
+      "lon": 320.5634,
+      "pgda_pct": 12.78,
+      "pgda_3x3": [
+        10.41,
+        13.37
+      ],
+      "ours_any_sun_pct": 13.29,
+      "ours_avg_disk_pct": 11.75
+    },
+    {
+      "lat": -89.23331,
+      "lon": 4.9354,
+      "pgda_pct": 5.62,
+      "pgda_3x3": [
+        4.93,
+        6.25
+      ],
+      "ours_any_sun_pct": 5.99,
+      "ours_avg_disk_pct": 3.93
+    },
+    {
+      "lat": -87.30018,
+      "lon": 213.4357,
+      "pgda_pct": 11.54,
+      "pgda_3x3": [
+        11.54,
+        17.64
+      ],
+      "ours_any_sun_pct": 20.54,
+      "ours_avg_disk_pct": 18.71
+    },
+    {
+      "lat": -87.37405,
+      "lon": 79.1322,
+      "pgda_pct": 0.0,
+      "pgda_3x3": [
+        0.0,
+        0.0
+      ],
+      "ours_any_sun_pct": 0.0,
+      "ours_avg_disk_pct": 0.0
+    },
+    {
+      "lat": -85.94675,
+      "lon": 260.8309,
+      "pgda_pct": 28.07,
+      "pgda_3x3": [
+        21.69,
+        28.35
+      ],
+      "ours_any_sun_pct": 29.29,
+      "ours_avg_disk_pct": 26.89
+    },
+    {
+      "lat": -86.54697,
+      "lon": 279.5021,
+      "pgda_pct": 0.0,
+      "pgda_3x3": [
+        0.0,
+        27.61
+      ],
+      "ours_any_sun_pct": 0.0,
+      "ours_avg_disk_pct": 0.0
+    },
+    {
+      "lat": -88.48951,
+      "lon": 72.5382,
+      "pgda_pct": 20.18,
+      "pgda_3x3": [
+        19.83,
+        24.6
+      ],
+      "ours_any_sun_pct": 24.2,
+      "ours_avg_disk_pct": 20.44
+    },
+    {
+      "lat": -89.43054,
+      "lon": 293.6944,
+      "pgda_pct": 18.08,
+      "pgda_3x3": [
+        14.83,
+        18.18
+      ],
+      "ours_any_sun_pct": 18.02,
+      "ours_avg_disk_pct": 15.75
+    },
+    {
+      "lat": -86.1555,
+      "lon": 340.2291,
+      "pgda_pct": 17.52,
+      "pgda_3x3": [
+        16.52,
+        19.7
+      ],
+      "ours_any_sun_pct": 20.29,
+      "ours_avg_disk_pct": 18.37
+    },
+    {
+      "lat": -86.53243,
+      "lon": 0.4866,
+      "pgda_pct": 18.12,
+      "pgda_3x3": [
+        16.74,
+        18.78
+      ],
+      "ours_any_sun_pct": 18.53,
+      "ours_avg_disk_pct": 15.61
+    },
+    {
+      "lat": -86.16483,
+      "lon": 115.0943,
+      "pgda_pct": 29.1,
+      "pgda_3x3": [
+        26.94,
+        29.7
+      ],
+      "ours_any_sun_pct": 29.48,
+      "ours_avg_disk_pct": 28.41
+    },
+    {
+      "lat": -86.28569,
+      "lon": 234.6131,
+      "pgda_pct": 0.0,
+      "pgda_3x3": [
+        0.0,
+        0.0
+      ],
+      "ours_any_sun_pct": 0.0,
+      "ours_avg_disk_pct": 0.0
+    },
+    {
+      "lat": -85.33457,
+      "lon": 34.5033,
+      "pgda_pct": 14.57,
+      "pgda_3x3": [
+        14.41,
+        14.76
+      ],
+      "ours_any_sun_pct": 14.64,
+      "ours_avg_disk_pct": 13.49
+    },
+    {
+      "lat": -85.26206,
+      "lon": 177.4326,
+      "pgda_pct": 6.04,
+      "pgda_3x3": [
+        5.79,
+        6.4
+      ],
+      "ours_any_sun_pct": 6.06,
+      "ours_avg_disk_pct": 4.95
+    },
+    {
+      "lat": -87.8521,
+      "lon": 316.956,
+      "pgda_pct": 0.0,
+      "pgda_3x3": [
+        0.0,
+        0.0
+      ],
+      "ours_any_sun_pct": 0.0,
+      "ours_avg_disk_pct": 0.0
+    },
+    {
+      "lat": -85.20135,
+      "lon": 234.4138,
+      "pgda_pct": 39.59,
+      "pgda_3x3": [
+        38.93,
+        39.86
+      ],
+      "ours_any_sun_pct": 40.01,
+      "ours_avg_disk_pct": 38.56
+    },
+    {
+      "lat": -85.61153,
+      "lon": 313.2234,
+      "pgda_pct": 12.18,
+      "pgda_3x3": [
+        9.2,
+        14.45
+      ],
+      "ours_any_sun_pct": 12.4,
+      "ours_avg_disk_pct": 10.45
+    },
+    {
+      "lat": -86.04679,
+      "lon": 220.1235,
+      "pgda_pct": 22.91,
+      "pgda_3x3": [
+        22.67,
+        23.11
+      ],
+      "ours_any_sun_pct": 23.0,
+      "ours_avg_disk_pct": 22.19
+    },
+    {
+      "lat": -85.98372,
+      "lon": 204.5027,
+      "pgda_pct": 22.12,
+      "pgda_3x3": [
+        20.14,
+        25.56
+      ],
+      "ours_any_sun_pct": 25.65,
+      "ours_avg_disk_pct": 24.28
+    },
+    {
+      "lat": -86.34524,
+      "lon": 347.9277,
+      "pgda_pct": 2.63,
+      "pgda_3x3": [
+        2.63,
+        4.88
+      ],
+      "ours_any_sun_pct": 6.03,
+      "ours_avg_disk_pct": 5.11
+    },
+    {
+      "lat": -85.26498,
+      "lon": 150.8192,
+      "pgda_pct": 25.73,
+      "pgda_3x3": [
+        25.64,
+        25.84
+      ],
+      "ours_any_sun_pct": 25.77,
+      "ours_avg_disk_pct": 24.7
+    },
+    {
+      "lat": -87.60966,
+      "lon": 227.4729,
+      "pgda_pct": 28.3,
+      "pgda_3x3": [
+        27.9,
+        28.58
+      ],
+      "ours_any_sun_pct": 28.28,
+      "ours_avg_disk_pct": 25.63
+    },
+    {
+      "lat": -86.17141,
+      "lon": 232.1033,
+      "pgda_pct": 21.96,
+      "pgda_3x3": [
+        21.85,
+        21.99
+      ],
+      "ours_any_sun_pct": 21.98,
+      "ours_avg_disk_pct": 20.82
+    },
+    {
+      "lat": -85.53839,
+      "lon": 11.5179,
+      "pgda_pct": 16.54,
+      "pgda_3x3": [
+        13.44,
+        22.91
+      ],
+      "ours_any_sun_pct": 20.0,
+      "ours_avg_disk_pct": 19.0
+    },
+    {
+      "lat": -88.1819,
+      "lon": 358.5735,
+      "pgda_pct": 5.86,
+      "pgda_3x3": [
+        5.73,
+        5.98
+      ],
+      "ours_any_sun_pct": 5.88,
+      "ours_avg_disk_pct": 4.45
+    },
+    {
+      "lat": -86.12011,
+      "lon": 307.6643,
+      "pgda_pct": 22.47,
+      "pgda_3x3": [
+        22.07,
+        23.25
+      ],
+      "ours_any_sun_pct": 22.97,
+      "ours_avg_disk_pct": 20.63
+    },
+    {
+      "lat": -86.86024,
+      "lon": 77.8058,
+      "pgda_pct": 0.0,
+      "pgda_3x3": [
+        0.0,
+        0.0
+      ],
+      "ours_any_sun_pct": 0.0,
+      "ours_avg_disk_pct": 0.0
+    },
+    {
+      "lat": -85.67228,
+      "lon": 70.2968,
+      "pgda_pct": 20.07,
+      "pgda_3x3": [
+        10.98,
+        21.05
+      ],
+      "ours_any_sun_pct": 21.73,
+      "ours_avg_disk_pct": 20.55
+    },
+    {
+      "lat": -88.70929,
+      "lon": 211.4345,
+      "pgda_pct": 6.37,
+      "pgda_3x3": [
+        6.23,
+        6.56
+      ],
+      "ours_any_sun_pct": 6.43,
+      "ours_avg_disk_pct": 4.42
+    },
+    {
+      "lat": -86.14757,
+      "lon": 336.0677,
+      "pgda_pct": 49.09,
+      "pgda_3x3": [
+        46.76,
+        50.08
+      ],
+      "ours_any_sun_pct": 50.86,
+      "ours_avg_disk_pct": 49.51
+    },
+    {
+      "lat": -85.42272,
+      "lon": 190.712,
+      "pgda_pct": 21.97,
+      "pgda_3x3": [
+        1.36,
+        30.66
+      ],
+      "ours_any_sun_pct": 30.39,
+      "ours_avg_disk_pct": 28.67
+    },
+    {
+      "lat": -86.07991,
+      "lon": 63.0625,
+      "pgda_pct": 15.24,
+      "pgda_3x3": [
+        14.65,
+        15.52
+      ],
+      "ours_any_sun_pct": 15.25,
+      "ours_avg_disk_pct": 13.87
+    },
+    {
+      "lat": -87.19527,
+      "lon": 183.5528,
+      "pgda_pct": 36.5,
+      "pgda_3x3": [
+        35.22,
+        36.61
+      ],
+      "ours_any_sun_pct": 36.56,
+      "ours_avg_disk_pct": 34.6
+    },
+    {
+      "lat": -85.99533,
+      "lon": 12.8956,
+      "pgda_pct": 0.0,
+      "pgda_3x3": [
+        0.0,
+        0.0
+      ],
+      "ours_any_sun_pct": 0.0,
+      "ours_avg_disk_pct": 0.0
+    },
+    {
+      "lat": -87.12294,
+      "lon": 136.9614,
+      "pgda_pct": 8.94,
+      "pgda_3x3": [
+        5.9,
+        15.34
+      ],
+      "ours_any_sun_pct": 18.2,
+      "ours_avg_disk_pct": 14.47
+    },
+    {
+      "lat": -85.9565,
+      "lon": 123.6484,
+      "pgda_pct": 28.7,
+      "pgda_3x3": [
+        17.04,
+        42.68
+      ],
+      "ours_any_sun_pct": 42.79,
+      "ours_avg_disk_pct": 41.51
+    },
+    {
+      "lat": -88.22558,
+      "lon": 201.8472,
+      "pgda_pct": 0.0,
+      "pgda_3x3": [
+        0.0,
+        0.0
+      ],
+      "ours_any_sun_pct": 0.0,
+      "ours_avg_disk_pct": 0.0
+    },
+    {
+      "lat": -87.38161,
+      "lon": 308.0568,
+      "pgda_pct": 28.9,
+      "pgda_3x3": [
+        27.04,
+        29.18
+      ],
+      "ours_any_sun_pct": 29.16,
+      "ours_avg_disk_pct": 26.78
+    },
+    {
+      "lat": -89.09998,
+      "lon": 80.7668,
+      "pgda_pct": 13.88,
+      "pgda_3x3": [
+        11.47,
+        17.16
+      ],
+      "ours_any_sun_pct": 16.65,
+      "ours_avg_disk_pct": 12.88
+    },
+    {
+      "lat": -88.56404,
+      "lon": 175.9993,
+      "pgda_pct": 10.72,
+      "pgda_3x3": [
+        10.72,
+        16.49
+      ],
+      "ours_any_sun_pct": 16.06,
+      "ours_avg_disk_pct": 13.72
+    },
+    {
+      "lat": -86.31625,
+      "lon": 247.3857,
+      "pgda_pct": 4.08,
+      "pgda_3x3": [
+        3.21,
+        4.84
+      ],
+      "ours_any_sun_pct": 4.15,
+      "ours_avg_disk_pct": 3.46
+    },
+    {
+      "lat": -87.61768,
+      "lon": 60.3752,
+      "pgda_pct": 3.93,
+      "pgda_3x3": [
+        3.82,
+        4.06
+      ],
+      "ours_any_sun_pct": 4.01,
+      "ours_avg_disk_pct": 2.88
+    },
+    {
+      "lat": -86.44683,
+      "lon": 244.5346,
+      "pgda_pct": 10.85,
+      "pgda_3x3": [
+        10.64,
+        11.13
+      ],
+      "ours_any_sun_pct": 10.82,
+      "ours_avg_disk_pct": 9.48
+    },
+    {
+      "lat": -85.98384,
+      "lon": 87.784,
+      "pgda_pct": 43.64,
+      "pgda_3x3": [
+        43.63,
+        43.65
+      ],
+      "ours_any_sun_pct": 43.65,
+      "ours_avg_disk_pct": 42.59
+    },
+    {
+      "lat": -85.35889,
+      "lon": 287.5044,
+      "pgda_pct": 37.01,
+      "pgda_3x3": [
+        36.5,
+        42.25
+      ],
+      "ours_any_sun_pct": 39.1,
+      "ours_avg_disk_pct": 37.32
+    },
+    {
+      "lat": -87.052,
+      "lon": 229.2276,
+      "pgda_pct": 22.86,
+      "pgda_3x3": [
+        15.44,
+        24.47
+      ],
+      "ours_any_sun_pct": 24.45,
+      "ours_avg_disk_pct": 21.33
+    },
+    {
+      "lat": -87.20687,
+      "lon": 161.0429,
+      "pgda_pct": 41.52,
+      "pgda_3x3": [
+        37.78,
+        41.76
+      ],
+      "ours_any_sun_pct": 41.77,
+      "ours_avg_disk_pct": 40.68
+    },
+    {
+      "lat": -87.22889,
+      "lon": 345.3819,
+      "pgda_pct": 1.31,
+      "pgda_3x3": [
+        1.24,
+        1.37
+      ],
+      "ours_any_sun_pct": 1.34,
+      "ours_avg_disk_pct": 0.63
+    },
+    {
+      "lat": -88.29943,
+      "lon": 6.4636,
+      "pgda_pct": 18.26,
+      "pgda_3x3": [
+        17.68,
+        18.46
+      ],
+      "ours_any_sun_pct": 18.28,
+      "ours_avg_disk_pct": 15.81
+    },
+    {
+      "lat": -85.97287,
+      "lon": 330.8063,
+      "pgda_pct": 36.42,
+      "pgda_3x3": [
+        34.59,
+        38.64
+      ],
+      "ours_any_sun_pct": 38.62,
+      "ours_avg_disk_pct": 36.23
+    },
+    {
+      "lat": -85.52361,
+      "lon": 68.6899,
+      "pgda_pct": 15.91,
+      "pgda_3x3": [
+        15.0,
+        16.22
+      ],
+      "ours_any_sun_pct": 16.21,
+      "ours_avg_disk_pct": 15.17
+    },
+    {
+      "lat": -86.59814,
+      "lon": 114.6602,
+      "pgda_pct": 14.23,
+      "pgda_3x3": [
+        0.0,
+        36.18
+      ],
+      "ours_any_sun_pct": 18.99,
+      "ours_avg_disk_pct": 17.39
+    },
+    {
+      "lat": -86.30457,
+      "lon": 132.9714,
+      "pgda_pct": 35.2,
+      "pgda_3x3": [
+        34.05,
+        35.9
+      ],
+      "ours_any_sun_pct": 36.16,
+      "ours_avg_disk_pct": 34.75
+    },
+    {
+      "lat": -85.15994,
+      "lon": 233.231,
+      "pgda_pct": 30.66,
+      "pgda_3x3": [
+        30.66,
+        37.36
+      ],
+      "ours_any_sun_pct": 37.46,
+      "ours_avg_disk_pct": 36.53
+    },
+    {
+      "lat": -85.86595,
+      "lon": 63.1485,
+      "pgda_pct": 7.35,
+      "pgda_3x3": [
+        2.59,
+        11.54
+      ],
+      "ours_any_sun_pct": 7.96,
+      "ours_avg_disk_pct": 6.83
+    },
+    {
+      "lat": -85.73193,
+      "lon": 59.894,
+      "pgda_pct": 17.97,
+      "pgda_3x3": [
+        15.37,
+        18.13
+      ],
+      "ours_any_sun_pct": 18.08,
+      "ours_avg_disk_pct": 16.56
+    },
+    {
+      "lat": -85.33708,
+      "lon": 114.4503,
+      "pgda_pct": 41.76,
+      "pgda_3x3": [
+        40.3,
+        41.79
+      ],
+      "ours_any_sun_pct": 41.78,
+      "ours_avg_disk_pct": 40.2
+    },
+    {
+      "lat": -87.70074,
+      "lon": 45.0002,
+      "pgda_pct": 0.0,
+      "pgda_3x3": [
+        0.0,
+        0.0
+      ],
+      "ours_any_sun_pct": 0.0,
+      "ours_avg_disk_pct": 0.0
+    },
+    {
+      "lat": -86.01253,
+      "lon": 37.5593,
+      "pgda_pct": 16.56,
+      "pgda_3x3": [
+        15.27,
+        16.61
+      ],
+      "ours_any_sun_pct": 16.58,
+      "ours_avg_disk_pct": 13.77
+    },
+    {
+      "lat": -85.81174,
+      "lon": 167.2307,
+      "pgda_pct": 10.86,
+      "pgda_3x3": [
+        10.66,
+        10.9
+      ],
+      "ours_any_sun_pct": 10.91,
+      "ours_avg_disk_pct": 8.76
+    },
+    {
+      "lat": -85.46248,
+      "lon": 341.4487,
+      "pgda_pct": 39.99,
+      "pgda_3x3": [
+        26.91,
+        39.99
+      ],
+      "ours_any_sun_pct": 39.53,
+      "ours_avg_disk_pct": 38.79
+    },
+    {
+      "lat": -87.09911,
+      "lon": 301.8405,
+      "pgda_pct": 38.92,
+      "pgda_3x3": [
+        37.56,
+        39.73
+      ],
+      "ours_any_sun_pct": 39.06,
+      "ours_avg_disk_pct": 37.31
+    },
+    {
+      "lat": -85.89595,
+      "lon": 302.3916,
+      "pgda_pct": 4.99,
+      "pgda_3x3": [
+        0.0,
+        17.28
+      ],
+      "ours_any_sun_pct": 14.89,
+      "ours_avg_disk_pct": 12.54
+    },
+    {
+      "lat": -86.15523,
+      "lon": 197.9762,
+      "pgda_pct": 11.64,
+      "pgda_3x3": [
+        0.0,
+        12.32
+      ],
+      "ours_any_sun_pct": 11.89,
+      "ours_avg_disk_pct": 10.1
+    },
+    {
+      "lat": -86.83494,
+      "lon": 279.9604,
+      "pgda_pct": 34.38,
+      "pgda_3x3": [
+        33.72,
+        34.7
+      ],
+      "ours_any_sun_pct": 34.68,
+      "ours_avg_disk_pct": 32.04
+    },
+    {
+      "lat": -88.41991,
+      "lon": 157.6062,
+      "pgda_pct": 31.45,
+      "pgda_3x3": [
+        12.09,
+        34.78
+      ],
+      "ours_any_sun_pct": 34.65,
+      "ours_avg_disk_pct": 31.33
+    },
+    {
+      "lat": -87.06035,
+      "lon": 271.4619,
+      "pgda_pct": 35.06,
+      "pgda_3x3": [
+        34.58,
+        35.64
+      ],
+      "ours_any_sun_pct": 35.03,
+      "ours_avg_disk_pct": 33.62
+    },
+    {
+      "lat": -85.14734,
+      "lon": 345.4345,
+      "pgda_pct": 40.7,
+      "pgda_3x3": [
+        40.7,
+        46.44
+      ],
+      "ours_any_sun_pct": 45.37,
+      "ours_avg_disk_pct": 44.16
+    },
+    {
+      "lat": -87.69685,
+      "lon": 19.9523,
+      "pgda_pct": 1.35,
+      "pgda_3x3": [
+        0.47,
+        2.82
+      ],
+      "ours_any_sun_pct": 3.13,
+      "ours_avg_disk_pct": 2.2
+    },
+    {
+      "lat": -88.32998,
+      "lon": 178.1952,
+      "pgda_pct": 3.39,
+      "pgda_3x3": [
+        3.29,
+        4.36
+      ],
+      "ours_any_sun_pct": 4.13,
+      "ours_avg_disk_pct": 3.21
+    },
+    {
+      "lat": -87.00015,
+      "lon": 10.9771,
+      "pgda_pct": 5.06,
+      "pgda_3x3": [
+        3.26,
+        5.3
+      ],
+      "ours_any_sun_pct": 5.32,
+      "ours_avg_disk_pct": 3.81
+    },
+    {
+      "lat": -88.42537,
+      "lon": 230.7932,
+      "pgda_pct": 0.48,
+      "pgda_3x3": [
+        0.38,
+        0.53
+      ],
+      "ours_any_sun_pct": 0.52,
+      "ours_avg_disk_pct": 0.12
+    },
+    {
+      "lat": -87.44202,
+      "lon": 233.4945,
+      "pgda_pct": 34.4,
+      "pgda_3x3": [
+        32.47,
+        34.4
+      ],
+      "ours_any_sun_pct": 34.5,
+      "ours_avg_disk_pct": 32.55
+    },
+    {
+      "lat": -85.27222,
+      "lon": 103.2309,
+      "pgda_pct": 42.6,
+      "pgda_3x3": [
+        40.38,
+        45.01
+      ],
+      "ours_any_sun_pct": 43.3,
+      "ours_avg_disk_pct": 41.91
+    },
+    {
+      "lat": -87.20642,
+      "lon": 57.7365,
+      "pgda_pct": 13.42,
+      "pgda_3x3": [
+        12.69,
+        13.91
+      ],
+      "ours_any_sun_pct": 13.51,
+      "ours_avg_disk_pct": 10.98
+    },
+    {
+      "lat": -86.21448,
+      "lon": 15.2926,
+      "pgda_pct": 21.13,
+      "pgda_3x3": [
+        20.73,
+        21.16
+      ],
+      "ours_any_sun_pct": 21.13,
+      "ours_avg_disk_pct": 20.39
+    },
+    {
+      "lat": -87.58179,
+      "lon": 211.8409,
+      "pgda_pct": 20.92,
+      "pgda_3x3": [
+        6.0,
+        24.76
+      ],
+      "ours_any_sun_pct": 24.4,
+      "ours_avg_disk_pct": 22.39
+    },
+    {
+      "lat": -85.95835,
+      "lon": 330.8762,
+      "pgda_pct": 38.34,
+      "pgda_3x3": [
+        37.8,
+        38.4
+      ],
+      "ours_any_sun_pct": 38.4,
+      "ours_avg_disk_pct": 36.0
+    },
+    {
+      "lat": -88.23032,
+      "lon": 43.7102,
+      "pgda_pct": 0.0,
+      "pgda_3x3": [
+        0.0,
+        0.0
+      ],
+      "ours_any_sun_pct": 0.0,
+      "ours_avg_disk_pct": 0.0
+    },
+    {
+      "lat": -85.60574,
+      "lon": 127.6673,
+      "pgda_pct": 44.49,
+      "pgda_3x3": [
+        43.05,
+        45.57
+      ],
+      "ours_any_sun_pct": 45.78,
+      "ours_avg_disk_pct": 44.09
+    },
+    {
+      "lat": -86.78293,
+      "lon": 186.6685,
+      "pgda_pct": 34.83,
+      "pgda_3x3": [
+        34.41,
+        35.57
+      ],
+      "ours_any_sun_pct": 35.49,
+      "ours_avg_disk_pct": 33.6
+    },
+    {
+      "lat": -87.87843,
+      "lon": 9.8812,
+      "pgda_pct": 4.82,
+      "pgda_3x3": [
+        4.41,
+        5.16
+      ],
+      "ours_any_sun_pct": 4.77,
+      "ours_avg_disk_pct": 3.3
+    },
+    {
+      "lat": -85.6943,
+      "lon": 55.7243,
+      "pgda_pct": 22.14,
+      "pgda_3x3": [
+        19.06,
+        22.85
+      ],
+      "ours_any_sun_pct": 22.38,
+      "ours_avg_disk_pct": 19.6
+    },
+    {
+      "lat": -86.31786,
+      "lon": 146.7316,
+      "pgda_pct": 43.72,
+      "pgda_3x3": [
+        43.72,
+        45.22
+      ],
+      "ours_any_sun_pct": 45.17,
+      "ours_avg_disk_pct": 44.25
+    },
+    {
+      "lat": -86.72572,
+      "lon": 244.8137,
+      "pgda_pct": 12.52,
+      "pgda_3x3": [
+        9.8,
+        14.46
+      ],
+      "ours_any_sun_pct": 11.96,
+      "ours_avg_disk_pct": 9.64
+    },
+    {
+      "lat": -87.5723,
+      "lon": 115.3517,
+      "pgda_pct": 10.34,
+      "pgda_3x3": [
+        10.19,
+        15.55
+      ],
+      "ours_any_sun_pct": 15.77,
+      "ours_avg_disk_pct": 13.89
+    },
+    {
+      "lat": -85.62926,
+      "lon": 263.8146,
+      "pgda_pct": 31.11,
+      "pgda_3x3": [
+        23.74,
+        40.92
+      ],
+      "ours_any_sun_pct": 40.43,
+      "ours_avg_disk_pct": 38.46
+    },
+    {
+      "lat": -87.00992,
+      "lon": 6.8838,
+      "pgda_pct": 1.24,
+      "pgda_3x3": [
+        1.03,
+        1.48
+      ],
+      "ours_any_sun_pct": 1.27,
+      "ours_avg_disk_pct": 0.52
+    },
+    {
+      "lat": -88.96863,
+      "lon": 41.9176,
+      "pgda_pct": 20.13,
+      "pgda_3x3": [
+        20.13,
+        23.72
+      ],
+      "ours_any_sun_pct": 23.89,
+      "ours_avg_disk_pct": 21.14
+    },
+    {
+      "lat": -85.1426,
+      "lon": 299.5514,
+      "pgda_pct": 11.12,
+      "pgda_3x3": [
+        4.81,
+        11.13
+      ],
+      "ours_any_sun_pct": 11.13,
+      "ours_avg_disk_pct": 9.87
+    },
+    {
+      "lat": -89.13114,
+      "lon": 203.7537,
+      "pgda_pct": 34.45,
+      "pgda_3x3": [
+        22.6,
+        36.13
+      ],
+      "ours_any_sun_pct": 34.44,
+      "ours_avg_disk_pct": 32.38
+    },
+    {
+      "lat": -88.2807,
+      "lon": 88.4519,
+      "pgda_pct": 7.18,
+      "pgda_3x3": [
+        5.82,
+        8.59
+      ],
+      "ours_any_sun_pct": 8.26,
+      "ours_avg_disk_pct": 6.25
+    },
+    {
+      "lat": -86.62407,
+      "lon": 307.6733,
+      "pgda_pct": 25.12,
+      "pgda_3x3": [
+        24.59,
+        25.73
+      ],
+      "ours_any_sun_pct": 25.23,
+      "ours_avg_disk_pct": 23.8
+    },
+    {
+      "lat": -87.74333,
+      "lon": 304.6218,
+      "pgda_pct": 10.7,
+      "pgda_3x3": [
+        6.23,
+        12.2
+      ],
+      "ours_any_sun_pct": 14.47,
+      "ours_avg_disk_pct": 12.29
+    },
+    {
+      "lat": -87.13578,
+      "lon": 208.4359,
+      "pgda_pct": 14.22,
+      "pgda_3x3": [
+        13.22,
+        14.76
+      ],
+      "ours_any_sun_pct": 14.49,
+      "ours_avg_disk_pct": 12.43
+    },
+    {
+      "lat": -86.27407,
+      "lon": 19.8137,
+      "pgda_pct": 5.56,
+      "pgda_3x3": [
+        5.48,
+        5.57
+      ],
+      "ours_any_sun_pct": 5.74,
+      "ours_avg_disk_pct": 3.91
+    },
+    {
+      "lat": -85.16155,
+      "lon": 134.6143,
+      "pgda_pct": 0.0,
+      "pgda_3x3": [
+        0.0,
+        0.0
+      ],
+      "ours_any_sun_pct": 0.0,
+      "ours_avg_disk_pct": 0.0
+    },
+    {
+      "lat": -85.21615,
+      "lon": 332.9683,
+      "pgda_pct": 28.96,
+      "pgda_3x3": [
+        25.41,
+        30.63
+      ],
+      "ours_any_sun_pct": 28.06,
+      "ours_avg_disk_pct": 25.9
+    },
+    {
+      "lat": -88.652,
+      "lon": 152.3491,
+      "pgda_pct": 6.24,
+      "pgda_3x3": [
+        6.09,
+        6.41
+      ],
+      "ours_any_sun_pct": 6.24,
+      "ours_avg_disk_pct": 5.11
+    },
+    {
+      "lat": -85.43277,
+      "lon": 152.0559,
+      "pgda_pct": 34.34,
+      "pgda_3x3": [
+        33.95,
+        34.54
+      ],
+      "ours_any_sun_pct": 34.4,
+      "ours_avg_disk_pct": 33.34
+    },
+    {
+      "lat": -87.97173,
+      "lon": 131.4432,
+      "pgda_pct": 23.58,
+      "pgda_3x3": [
+        22.06,
+        25.24
+      ],
+      "ours_any_sun_pct": 24.95,
+      "ours_avg_disk_pct": 22.61
+    },
+    {
+      "lat": -85.54609,
+      "lon": 356.8215,
+      "pgda_pct": 40.33,
+      "pgda_3x3": [
+        40.22,
+        40.45
+      ],
+      "ours_any_sun_pct": 40.32,
+      "ours_avg_disk_pct": 39.41
+    },
+    {
+      "lat": -87.30635,
+      "lon": 147.6483,
+      "pgda_pct": 12.79,
+      "pgda_3x3": [
+        9.7,
+        27.48
+      ],
+      "ours_any_sun_pct": 18.23,
+      "ours_avg_disk_pct": 15.57
+    },
+    {
+      "lat": -85.81046,
+      "lon": 7.0173,
+      "pgda_pct": 21.97,
+      "pgda_3x3": [
+        20.52,
+        22.91
+      ],
+      "ours_any_sun_pct": 25.28,
+      "ours_avg_disk_pct": 23.91
+    },
+    {
+      "lat": -85.80766,
+      "lon": 306.2005,
+      "pgda_pct": 12.12,
+      "pgda_3x3": [
+        11.51,
+        12.59
+      ],
+      "ours_any_sun_pct": 12.02,
+      "ours_avg_disk_pct": 10.06
+    },
+    {
+      "lat": -85.44015,
+      "lon": 26.0341,
+      "pgda_pct": 21.41,
+      "pgda_3x3": [
+        19.16,
+        24.97
+      ],
+      "ours_any_sun_pct": 23.48,
+      "ours_avg_disk_pct": 20.94
+    },
+    {
+      "lat": -85.10692,
+      "lon": 275.7129,
+      "pgda_pct": 29.1,
+      "pgda_3x3": [
+        26.12,
+        30.37
+      ],
+      "ours_any_sun_pct": 30.43,
+      "ours_avg_disk_pct": 27.53
+    },
+    {
+      "lat": -87.40275,
+      "lon": 62.93,
+      "pgda_pct": 0.0,
+      "pgda_3x3": [
+        0.0,
+        0.0
+      ],
+      "ours_any_sun_pct": 0.0,
+      "ours_avg_disk_pct": 0.0
+    },
+    {
+      "lat": -86.08003,
+      "lon": 105.5368,
+      "pgda_pct": 21.94,
+      "pgda_3x3": [
+        19.38,
+        22.23
+      ],
+      "ours_any_sun_pct": 22.09,
+      "ours_avg_disk_pct": 21.05
+    },
+    {
+      "lat": -85.74848,
+      "lon": 85.3212,
+      "pgda_pct": 11.2,
+      "pgda_3x3": [
+        1.79,
+        14.23
+      ],
+      "ours_any_sun_pct": 10.38,
+      "ours_avg_disk_pct": 8.96
+    },
+    {
+      "lat": -88.60096,
+      "lon": 271.2254,
+      "pgda_pct": 0.31,
+      "pgda_3x3": [
+        0.0,
+        0.34
+      ],
+      "ours_any_sun_pct": 0.33,
+      "ours_avg_disk_pct": 0.03
+    },
+    {
+      "lat": -85.97354,
+      "lon": 148.2857,
+      "pgda_pct": 13.6,
+      "pgda_3x3": [
+        13.6,
+        19.69
+      ],
+      "ours_any_sun_pct": 17.37,
+      "ours_avg_disk_pct": 15.34
+    },
+    {
+      "lat": -87.19449,
+      "lon": 42.2946,
+      "pgda_pct": 0.02,
+      "pgda_3x3": [
+        0.0,
+        0.28
+      ],
+      "ours_any_sun_pct": 0.14,
+      "ours_avg_disk_pct": 0.02
+    },
+    {
+      "lat": -88.0104,
+      "lon": 235.0433,
+      "pgda_pct": 0.01,
+      "pgda_3x3": [
+        0.0,
+        0.03
+      ],
+      "ours_any_sun_pct": 0.01,
+      "ours_avg_disk_pct": 0.0
+    },
+    {
+      "lat": -86.33385,
+      "lon": 258.8103,
+      "pgda_pct": 32.09,
+      "pgda_3x3": [
+        26.88,
+        32.38
+      ],
+      "ours_any_sun_pct": 32.24,
+      "ours_avg_disk_pct": 30.14
+    },
+    {
+      "lat": -86.63832,
+      "lon": 177.2868,
+      "pgda_pct": 23.64,
+      "pgda_3x3": [
+        17.05,
+        24.58
+      ],
+      "ours_any_sun_pct": 24.29,
+      "ours_avg_disk_pct": 21.52
+    },
+    {
+      "lat": -86.24301,
+      "lon": 198.5059,
+      "pgda_pct": 19.79,
+      "pgda_3x3": [
+        19.1,
+        20.11
+      ],
+      "ours_any_sun_pct": 19.98,
+      "ours_avg_disk_pct": 17.42
+    },
+    {
+      "lat": -86.03787,
+      "lon": 152.9952,
+      "pgda_pct": 43.35,
+      "pgda_3x3": [
+        3.06,
+        45.0
+      ],
+      "ours_any_sun_pct": 45.15,
+      "ours_avg_disk_pct": 43.44
+    },
+    {
+      "lat": -86.50721,
+      "lon": 164.4179,
+      "pgda_pct": 29.31,
+      "pgda_3x3": [
+        29.26,
+        29.33
+      ],
+      "ours_any_sun_pct": 29.32,
+      "ours_avg_disk_pct": 27.41
+    },
+    {
+      "lat": -85.2963,
+      "lon": 240.1704,
+      "pgda_pct": 22.89,
+      "pgda_3x3": [
+        21.83,
+        23.43
+      ],
+      "ours_any_sun_pct": 23.3,
+      "ours_avg_disk_pct": 21.6
+    },
+    {
+      "lat": -87.9118,
+      "lon": 324.0129,
+      "pgda_pct": 0.08,
+      "pgda_3x3": [
+        0.08,
+        0.78
+      ],
+      "ours_any_sun_pct": 0.75,
+      "ours_avg_disk_pct": 0.26
+    },
+    {
+      "lat": -87.34085,
+      "lon": 51.3258,
+      "pgda_pct": 2.82,
+      "pgda_3x3": [
+        2.1,
+        3.58
+      ],
+      "ours_any_sun_pct": 2.74,
+      "ours_avg_disk_pct": 1.9
+    },
+    {
+      "lat": -87.04719,
+      "lon": 31.0256,
+      "pgda_pct": 4.28,
+      "pgda_3x3": [
+        4.17,
+        4.38
+      ],
+      "ours_any_sun_pct": 4.34,
+      "ours_avg_disk_pct": 2.4
+    },
+    {
+      "lat": -85.64881,
+      "lon": 136.3653,
+      "pgda_pct": 46.34,
+      "pgda_3x3": [
+        44.23,
+        46.5
+      ],
+      "ours_any_sun_pct": 46.4,
+      "ours_avg_disk_pct": 45.19
+    },
+    {
+      "lat": -86.00662,
+      "lon": 354.0598,
+      "pgda_pct": 28.72,
+      "pgda_3x3": [
+        28.72,
+        34.78
+      ],
+      "ours_any_sun_pct": 34.89,
+      "ours_avg_disk_pct": 32.79
+    },
+    {
+      "lat": -87.7511,
+      "lon": 128.149,
+      "pgda_pct": 9.91,
+      "pgda_3x3": [
+        8.2,
+        11.25
+      ],
+      "ours_any_sun_pct": 9.61,
+      "ours_avg_disk_pct": 6.1
+    },
+    {
+      "lat": -85.73363,
+      "lon": 339.8089,
+      "pgda_pct": 44.51,
+      "pgda_3x3": [
+        32.75,
+        51.33
+      ],
+      "ours_any_sun_pct": 47.15,
+      "ours_avg_disk_pct": 45.55
+    },
+    {
+      "lat": -85.6568,
+      "lon": 69.3875,
+      "pgda_pct": 25.35,
+      "pgda_3x3": [
+        24.54,
+        26.49
+      ],
+      "ours_any_sun_pct": 27.08,
+      "ours_avg_disk_pct": 25.79
+    },
+    {
+      "lat": -85.66044,
+      "lon": 345.6009,
+      "pgda_pct": 19.96,
+      "pgda_3x3": [
+        18.73,
+        20.11
+      ],
+      "ours_any_sun_pct": 20.12,
+      "ours_avg_disk_pct": 19.35
+    },
+    {
+      "lat": -88.61198,
+      "lon": 311.5258,
+      "pgda_pct": 15.26,
+      "pgda_3x3": [
+        12.28,
+        15.53
+      ],
+      "ours_any_sun_pct": 14.55,
+      "ours_avg_disk_pct": 12.73
+    },
+    {
+      "lat": -87.72024,
+      "lon": 52.6752,
+      "pgda_pct": 0.0,
+      "pgda_3x3": [
+        0.0,
+        0.0
+      ],
+      "ours_any_sun_pct": 0.0,
+      "ours_avg_disk_pct": 0.0
+    },
+    {
+      "lat": -85.3217,
+      "lon": 295.2859,
+      "pgda_pct": 24.47,
+      "pgda_3x3": [
+        20.19,
+        25.47
+      ],
+      "ours_any_sun_pct": 24.53,
+      "ours_avg_disk_pct": 22.84
+    },
+    {
+      "lat": -85.3635,
+      "lon": 162.7406,
+      "pgda_pct": 47.68,
+      "pgda_3x3": [
+        39.79,
+        52.31
+      ],
+      "ours_any_sun_pct": 49.85,
+      "ours_avg_disk_pct": 47.76
+    },
+    {
+      "lat": -87.75572,
+      "lon": 301.0248,
+      "pgda_pct": 21.72,
+      "pgda_3x3": [
+        17.36,
+        21.72
+      ],
+      "ours_any_sun_pct": 21.83,
+      "ours_avg_disk_pct": 19.31
+    },
+    {
+      "lat": -86.32752,
+      "lon": 272.2557,
+      "pgda_pct": 11.58,
+      "pgda_3x3": [
+        8.87,
+        12.82
+      ],
+      "ours_any_sun_pct": 12.16,
+      "ours_avg_disk_pct": 9.69
+    },
+    {
+      "lat": -87.46369,
+      "lon": 90.4417,
+      "pgda_pct": 0.0,
+      "pgda_3x3": [
+        0.0,
+        0.0
+      ],
+      "ours_any_sun_pct": 0.0,
+      "ours_avg_disk_pct": 0.0
+    },
+    {
+      "lat": -86.80832,
+      "lon": 12.485,
+      "pgda_pct": 7.06,
+      "pgda_3x3": [
+        4.26,
+        7.09
+      ],
+      "ours_any_sun_pct": 7.1,
+      "ours_avg_disk_pct": 5.12
+    },
+    {
+      "lat": -89.27745,
+      "lon": 254.1907,
+      "pgda_pct": 24.44,
+      "pgda_3x3": [
+        24.14,
+        24.69
+      ],
+      "ours_any_sun_pct": 24.45,
+      "ours_avg_disk_pct": 21.55
+    },
+    {
+      "lat": -87.37337,
+      "lon": 94.4077,
+      "pgda_pct": 3.38,
+      "pgda_3x3": [
+        3.17,
+        3.6
+      ],
+      "ours_any_sun_pct": 3.39,
+      "ours_avg_disk_pct": 1.97
+    },
+    {
+      "lat": -87.42544,
+      "lon": 271.5392,
+      "pgda_pct": 37.97,
+      "pgda_3x3": [
+        35.7,
+        38.04
+      ],
+      "ours_any_sun_pct": 38.37,
+      "ours_avg_disk_pct": 36.5
+    },
+    {
+      "lat": -85.26017,
+      "lon": 237.089,
+      "pgda_pct": 31.33,
+      "pgda_3x3": [
+        29.84,
+        32.34
+      ],
+      "ours_any_sun_pct": 31.96,
+      "ours_avg_disk_pct": 30.61
+    },
+    {
+      "lat": -86.20778,
+      "lon": 253.1857,
+      "pgda_pct": 23.48,
+      "pgda_3x3": [
+        16.32,
+        27.86
+      ],
+      "ours_any_sun_pct": 25.21,
+      "ours_avg_disk_pct": 23.07
+    },
+    {
+      "lat": -87.91413,
+      "lon": 48.5031,
+      "pgda_pct": 0.0,
+      "pgda_3x3": [
+        0.0,
+        0.0
+      ],
+      "ours_any_sun_pct": 0.0,
+      "ours_avg_disk_pct": 0.0
+    },
+    {
+      "lat": -86.76544,
+      "lon": 192.1912,
+      "pgda_pct": 34.24,
+      "pgda_3x3": [
+        33.67,
+        34.43
+      ],
+      "ours_any_sun_pct": 34.33,
+      "ours_avg_disk_pct": 32.67
+    },
+    {
+      "lat": -86.52731,
+      "lon": 121.6535,
+      "pgda_pct": 31.26,
+      "pgda_3x3": [
+        27.01,
+        37.27
+      ],
+      "ours_any_sun_pct": 35.42,
+      "ours_avg_disk_pct": 34.02
+    },
+    {
+      "lat": -86.05194,
+      "lon": 116.4325,
+      "pgda_pct": 41.88,
+      "pgda_3x3": [
+        41.28,
+        42.51
+      ],
+      "ours_any_sun_pct": 42.5,
+      "ours_avg_disk_pct": 41.12
+    },
+    {
+      "lat": -86.39101,
+      "lon": 238.7992,
+      "pgda_pct": 10.5,
+      "pgda_3x3": [
+        9.3,
+        10.76
+      ],
+      "ours_any_sun_pct": 10.74,
+      "ours_avg_disk_pct": 9.33
+    },
+    {
+      "lat": -86.79035,
+      "lon": 323.0959,
+      "pgda_pct": 34.54,
+      "pgda_3x3": [
+        33.32,
+        35.22
+      ],
+      "ours_any_sun_pct": 34.7,
+      "ours_avg_disk_pct": 33.21
+    },
+    {
+      "lat": -87.24159,
+      "lon": 206.8163,
+      "pgda_pct": 0.0,
+      "pgda_3x3": [
+        0.0,
+        1.84
+      ],
+      "ours_any_sun_pct": 0.0,
+      "ours_avg_disk_pct": 0.0
+    },
+    {
+      "lat": -86.24978,
+      "lon": 109.9378,
+      "pgda_pct": 38.46,
+      "pgda_3x3": [
+        38.28,
+        38.5
+      ],
+      "ours_any_sun_pct": 38.57,
+      "ours_avg_disk_pct": 37.38
+    },
+    {
+      "lat": -85.11639,
+      "lon": 97.8711,
+      "pgda_pct": 26.98,
+      "pgda_3x3": [
+        26.11,
+        27.01
+      ],
+      "ours_any_sun_pct": 26.98,
+      "ours_avg_disk_pct": 25.62
+    },
+    {
+      "lat": -86.32216,
+      "lon": 348.1362,
+      "pgda_pct": 5.66,
+      "pgda_3x3": [
+        5.2,
+        5.93
+      ],
+      "ours_any_sun_pct": 5.9,
+      "ours_avg_disk_pct": 4.7
+    },
+    {
+      "lat": -85.34359,
+      "lon": 113.1528,
+      "pgda_pct": 40.4,
+      "pgda_3x3": [
+        38.0,
+        42.44
+      ],
+      "ours_any_sun_pct": 42.63,
+      "ours_avg_disk_pct": 41.27
+    },
+    {
+      "lat": -89.38085,
+      "lon": 187.0959,
+      "pgda_pct": 28.96,
+      "pgda_3x3": [
+        25.81,
+        29.09
+      ],
+      "ours_any_sun_pct": 29.08,
+      "ours_avg_disk_pct": 26.53
+    },
+    {
+      "lat": -87.76924,
+      "lon": 136.1386,
+      "pgda_pct": 4.45,
+      "pgda_3x3": [
+        2.36,
+        8.2
+      ],
+      "ours_any_sun_pct": 5.15,
+      "ours_avg_disk_pct": 4.11
+    },
+    {
+      "lat": -85.40226,
+      "lon": 29.7068,
+      "pgda_pct": 41.82,
+      "pgda_3x3": [
+        37.48,
+        43.8
+      ],
+      "ours_any_sun_pct": 43.17,
+      "ours_avg_disk_pct": 42.51
+    },
+    {
+      "lat": -86.26782,
+      "lon": 98.5512,
+      "pgda_pct": 18.86,
+      "pgda_3x3": [
+        0.0,
+        21.8
+      ],
+      "ours_any_sun_pct": 17.81,
+      "ours_avg_disk_pct": 15.8
+    },
+    {
+      "lat": -86.54628,
+      "lon": 178.7336,
+      "pgda_pct": 24.33,
+      "pgda_3x3": [
+        22.88,
+        24.67
+      ],
+      "ours_any_sun_pct": 24.63,
+      "ours_avg_disk_pct": 22.03
+    },
+    {
+      "lat": -86.99558,
+      "lon": 30.0537,
+      "pgda_pct": 0.95,
+      "pgda_3x3": [
+        0.91,
+        1.02
+      ],
+      "ours_any_sun_pct": 0.99,
+      "ours_avg_disk_pct": 0.41
+    },
+    {
+      "lat": -87.31126,
+      "lon": 255.5565,
+      "pgda_pct": 26.51,
+      "pgda_3x3": [
+        23.43,
+        33.52
+      ],
+      "ours_any_sun_pct": 25.33,
+      "ours_avg_disk_pct": 23.57
+    },
+    {
+      "lat": -85.9257,
+      "lon": 49.848,
+      "pgda_pct": 25.34,
+      "pgda_3x3": [
+        25.34,
+        28.32
+      ],
+      "ours_any_sun_pct": 27.97,
+      "ours_avg_disk_pct": 27.08
+    },
+    {
+      "lat": -87.00809,
+      "lon": 189.1484,
+      "pgda_pct": 33.93,
+      "pgda_3x3": [
+        32.68,
+        34.8
+      ],
+      "ours_any_sun_pct": 34.81,
+      "ours_avg_disk_pct": 33.1
+    },
+    {
+      "lat": -86.73659,
+      "lon": 235.735,
+      "pgda_pct": 4.38,
+      "pgda_3x3": [
+        4.1,
+        4.8
+      ],
+      "ours_any_sun_pct": 4.54,
+      "ours_avg_disk_pct": 3.71
+    },
+    {
+      "lat": -85.6419,
+      "lon": 241.8166,
+      "pgda_pct": 37.05,
+      "pgda_3x3": [
+        34.5,
+        39.85
+      ],
+      "ours_any_sun_pct": 37.82,
+      "ours_avg_disk_pct": 35.17
+    },
+    {
+      "lat": -85.19104,
+      "lon": 144.9975,
+      "pgda_pct": 25.85,
+      "pgda_3x3": [
+        20.04,
+        27.54
+      ],
+      "ours_any_sun_pct": 26.89,
+      "ours_avg_disk_pct": 26.02
+    },
+    {
+      "lat": -85.07206,
+      "lon": 172.8975,
+      "pgda_pct": 12.22,
+      "pgda_3x3": [
+        10.52,
+        16.15
+      ],
+      "ours_any_sun_pct": 15.28,
+      "ours_avg_disk_pct": 12.63
+    },
+    {
+      "lat": -86.55564,
+      "lon": 56.9825,
+      "pgda_pct": 41.6,
+      "pgda_3x3": [
+        40.08,
+        42.08
+      ],
+      "ours_any_sun_pct": 41.99,
+      "ours_avg_disk_pct": 39.86
+    },
+    {
+      "lat": -88.15913,
+      "lon": 175.6299,
+      "pgda_pct": 23.39,
+      "pgda_3x3": [
+        8.15,
+        27.78
+      ],
+      "ours_any_sun_pct": 26.07,
+      "ours_avg_disk_pct": 19.88
+    },
+    {
+      "lat": -89.21298,
+      "lon": 255.0724,
+      "pgda_pct": 22.69,
+      "pgda_3x3": [
+        22.36,
+        23.34
+      ],
+      "ours_any_sun_pct": 22.68,
+      "ours_avg_disk_pct": 20.1
+    },
+    {
+      "lat": -86.52127,
+      "lon": 22.039,
+      "pgda_pct": 0.0,
+      "pgda_3x3": [
+        0.0,
+        0.0
+      ],
+      "ours_any_sun_pct": 0.0,
+      "ours_avg_disk_pct": 0.0
+    },
+    {
+      "lat": -88.62987,
+      "lon": 325.0155,
+      "pgda_pct": 16.14,
+      "pgda_3x3": [
+        14.95,
+        17.21
+      ],
+      "ours_any_sun_pct": 16.54,
+      "ours_avg_disk_pct": 13.73
+    },
+    {
+      "lat": -88.30041,
+      "lon": 266.6901,
+      "pgda_pct": 0.0,
+      "pgda_3x3": [
+        0.0,
+        0.0
+      ],
+      "ours_any_sun_pct": 0.0,
+      "ours_avg_disk_pct": 0.0
+    },
+    {
+      "lat": -87.60162,
+      "lon": 140.8155,
+      "pgda_pct": 46.66,
+      "pgda_3x3": [
+        40.71,
+        46.8
+      ],
+      "ours_any_sun_pct": 47.42,
+      "ours_avg_disk_pct": 45.88
+    },
+    {
+      "lat": -85.07619,
+      "lon": 132.515,
+      "pgda_pct": 42.64,
+      "pgda_3x3": [
+        22.98,
+        45.46
+      ],
+      "ours_any_sun_pct": 45.8,
+      "ours_avg_disk_pct": 43.89
+    },
+    {
+      "lat": -88.00574,
+      "lon": 53.2432,
+      "pgda_pct": 0.0,
+      "pgda_3x3": [
+        0.0,
+        0.0
+      ],
+      "ours_any_sun_pct": 0.0,
+      "ours_avg_disk_pct": 0.0
+    },
+    {
+      "lat": -88.35585,
+      "lon": 290.8244,
+      "pgda_pct": 44.15,
+      "pgda_3x3": [
+        44.15,
+        49.66
+      ],
+      "ours_any_sun_pct": 50.11,
+      "ours_avg_disk_pct": 48.74
+    },
+    {
+      "lat": -85.26844,
+      "lon": 146.3295,
+      "pgda_pct": 22.56,
+      "pgda_3x3": [
+        22.38,
+        22.7
+      ],
+      "ours_any_sun_pct": 22.59,
+      "ours_avg_disk_pct": 21.77
+    },
+    {
+      "lat": -86.09952,
+      "lon": 233.1491,
+      "pgda_pct": 8.83,
+      "pgda_3x3": [
+        4.99,
+        15.19
+      ],
+      "ours_any_sun_pct": 15.68,
+      "ours_avg_disk_pct": 13.77
+    },
+    {
+      "lat": -85.74664,
+      "lon": 142.1417,
+      "pgda_pct": 48.76,
+      "pgda_3x3": [
+        44.34,
+        49.28
+      ],
+      "ours_any_sun_pct": 49.45,
+      "ours_avg_disk_pct": 48.13
+    },
+    {
+      "lat": -87.05336,
+      "lon": 234.9864,
+      "pgda_pct": 14.76,
+      "pgda_3x3": [
+        14.64,
+        14.94
+      ],
+      "ours_any_sun_pct": 15.09,
+      "ours_avg_disk_pct": 13.12
+    },
+    {
+      "lat": -85.22247,
+      "lon": 9.7071,
+      "pgda_pct": 16.42,
+      "pgda_3x3": [
+        16.29,
+        16.5
+      ],
+      "ours_any_sun_pct": 16.43,
+      "ours_avg_disk_pct": 14.82
+    },
+    {
+      "lat": -85.11572,
+      "lon": 268.9731,
+      "pgda_pct": 19.11,
+      "pgda_3x3": [
+        18.93,
+        19.29
+      ],
+      "ours_any_sun_pct": 19.19,
+      "ours_avg_disk_pct": 17.79
+    },
+    {
+      "lat": -86.30405,
+      "lon": 264.5443,
+      "pgda_pct": 31.04,
+      "pgda_3x3": [
+        29.2,
+        31.13
+      ],
+      "ours_any_sun_pct": 31.03,
+      "ours_avg_disk_pct": 30.12
+    },
+    {
+      "lat": -85.08897,
+      "lon": 128.132,
+      "pgda_pct": 41.78,
+      "pgda_3x3": [
+        38.49,
+        42.32
+      ],
+      "ours_any_sun_pct": 42.62,
+      "ours_avg_disk_pct": 40.54
+    },
+    {
+      "lat": -86.48238,
+      "lon": 321.9292,
+      "pgda_pct": 27.03,
+      "pgda_3x3": [
+        26.83,
+        27.27
+      ],
+      "ours_any_sun_pct": 26.94,
+      "ours_avg_disk_pct": 24.99
+    },
+    {
+      "lat": -86.71977,
+      "lon": 5.4037,
+      "pgda_pct": 23.16,
+      "pgda_3x3": [
+        19.53,
+        23.77
+      ],
+      "ours_any_sun_pct": 24.04,
+      "ours_avg_disk_pct": 19.81
+    },
+    {
+      "lat": -85.61791,
+      "lon": 180.4111,
+      "pgda_pct": 24.76,
+      "pgda_3x3": [
+        24.58,
+        24.97
+      ],
+      "ours_any_sun_pct": 24.77,
+      "ours_avg_disk_pct": 23.06
+    },
+    {
+      "lat": -86.03069,
+      "lon": 298.9509,
+      "pgda_pct": 29.91,
+      "pgda_3x3": [
+        29.85,
+        29.98
+      ],
+      "ours_any_sun_pct": 29.87,
+      "ours_avg_disk_pct": 27.56
+    },
+    {
+      "lat": -87.78336,
+      "lon": 275.6338,
+      "pgda_pct": 23.3,
+      "pgda_3x3": [
+        23.15,
+        23.52
+      ],
+      "ours_any_sun_pct": 23.35,
+      "ours_avg_disk_pct": 21.93
+    },
+    {
+      "lat": -86.45076,
+      "lon": 98.4289,
+      "pgda_pct": 26.51,
+      "pgda_3x3": [
+        4.92,
+        33.83
+      ],
+      "ours_any_sun_pct": 33.04,
+      "ours_avg_disk_pct": 31.21
+    },
+    {
+      "lat": -89.35784,
+      "lon": 207.1277,
+      "pgda_pct": 30.3,
+      "pgda_3x3": [
+        11.6,
+        42.67
+      ],
+      "ours_any_sun_pct": 39.64,
+      "ours_avg_disk_pct": 38.0
+    },
+    {
+      "lat": -85.37344,
+      "lon": 208.1344,
+      "pgda_pct": 13.22,
+      "pgda_3x3": [
+        12.94,
+        14.31
+      ],
+      "ours_any_sun_pct": 14.01,
+      "ours_avg_disk_pct": 12.59
+    },
+    {
+      "lat": -86.35734,
+      "lon": 113.8002,
+      "pgda_pct": 26.33,
+      "pgda_3x3": [
+        25.21,
+        27.04
+      ],
+      "ours_any_sun_pct": 26.84,
+      "ours_avg_disk_pct": 25.13
+    },
+    {
+      "lat": -88.93255,
+      "lon": 192.1339,
+      "pgda_pct": 5.03,
+      "pgda_3x3": [
+        4.93,
+        5.15
+      ],
+      "ours_any_sun_pct": 5.1,
+      "ours_avg_disk_pct": 3.41
+    },
+    {
+      "lat": -85.21246,
+      "lon": 106.2819,
+      "pgda_pct": 18.26,
+      "pgda_3x3": [
+        15.84,
+        19.22
+      ],
+      "ours_any_sun_pct": 20.54,
+      "ours_avg_disk_pct": 19.04
+    },
+    {
+      "lat": -85.05778,
+      "lon": 222.0109,
+      "pgda_pct": 21.72,
+      "pgda_3x3": [
+        21.69,
+        21.77
+      ],
+      "ours_any_sun_pct": 21.84,
+      "ours_avg_disk_pct": 20.27
+    },
+    {
+      "lat": -85.7541,
+      "lon": 238.5306,
+      "pgda_pct": 20.46,
+      "pgda_3x3": [
+        20.46,
+        23.18
+      ],
+      "ours_any_sun_pct": 23.59,
+      "ours_avg_disk_pct": 21.71
+    },
+    {
+      "lat": -86.75127,
+      "lon": 347.6785,
+      "pgda_pct": 7.89,
+      "pgda_3x3": [
+        7.71,
+        7.97
+      ],
+      "ours_any_sun_pct": 7.89,
+      "ours_avg_disk_pct": 6.1
+    },
+    {
+      "lat": -86.19668,
+      "lon": 6.9134,
+      "pgda_pct": 24.52,
+      "pgda_3x3": [
+        23.44,
+        26.19
+      ],
+      "ours_any_sun_pct": 26.14,
+      "ours_avg_disk_pct": 22.36
+    },
+    {
+      "lat": -89.49004,
+      "lon": 258.6591,
+      "pgda_pct": 15.9,
+      "pgda_3x3": [
+        15.73,
+        16.1
+      ],
+      "ours_any_sun_pct": 15.87,
+      "ours_avg_disk_pct": 14.1
+    },
+    {
+      "lat": -88.36841,
+      "lon": 68.7397,
+      "pgda_pct": 9.18,
+      "pgda_3x3": [
+        9.01,
+        9.39
+      ],
+      "ours_any_sun_pct": 9.34,
+      "ours_avg_disk_pct": 6.54
+    },
+    {
+      "lat": -87.15348,
+      "lon": 29.4163,
+      "pgda_pct": 3.88,
+      "pgda_3x3": [
+        3.76,
+        3.94
+      ],
+      "ours_any_sun_pct": 3.97,
+      "ours_avg_disk_pct": 2.24
+    },
+    {
+      "lat": -86.82758,
+      "lon": 194.9871,
+      "pgda_pct": 39.84,
+      "pgda_3x3": [
+        38.88,
+        40.11
+      ],
+      "ours_any_sun_pct": 40.01,
+      "ours_avg_disk_pct": 38.42
+    },
+    {
+      "lat": -85.70083,
+      "lon": 205.556,
+      "pgda_pct": 0.0,
+      "pgda_3x3": [
+        0.0,
+        9.04
+      ],
+      "ours_any_sun_pct": 8.33,
+      "ours_avg_disk_pct": 7.61
+    },
+    {
+      "lat": -87.95429,
+      "lon": 79.7965,
+      "pgda_pct": 16.19,
+      "pgda_3x3": [
+        13.08,
+        16.19
+      ],
+      "ours_any_sun_pct": 17.01,
+      "ours_avg_disk_pct": 14.28
+    },
+    {
+      "lat": -88.31202,
+      "lon": 31.2605,
+      "pgda_pct": 0.0,
+      "pgda_3x3": [
+        0.0,
+        0.0
+      ],
+      "ours_any_sun_pct": 0.0,
+      "ours_avg_disk_pct": 0.0
+    },
+    {
+      "lat": -85.87024,
+      "lon": 227.5832,
+      "pgda_pct": 17.88,
+      "pgda_3x3": [
+        14.16,
+        18.58
+      ],
+      "ours_any_sun_pct": 18.35,
+      "ours_avg_disk_pct": 16.1
+    },
+    {
+      "lat": -85.34092,
+      "lon": 303.2445,
+      "pgda_pct": 0.0,
+      "pgda_3x3": [
+        0.0,
+        0.0
+      ],
+      "ours_any_sun_pct": 0.15,
+      "ours_avg_disk_pct": 0.01
+    },
+    {
+      "lat": -85.36288,
+      "lon": 237.9723,
+      "pgda_pct": 26.07,
+      "pgda_3x3": [
+        18.94,
+        26.07
+      ],
+      "ours_any_sun_pct": 29.41,
+      "ours_avg_disk_pct": 25.74
+    },
+    {
+      "lat": -85.74086,
+      "lon": 43.6674,
+      "pgda_pct": 24.89,
+      "pgda_3x3": [
+        24.8,
+        24.95
+      ],
+      "ours_any_sun_pct": 24.87,
+      "ours_avg_disk_pct": 23.82
+    },
+    {
+      "lat": -85.09711,
+      "lon": 139.5052,
+      "pgda_pct": 41.57,
+      "pgda_3x3": [
+        39.12,
+        42.49
+      ],
+      "ours_any_sun_pct": 42.44,
+      "ours_avg_disk_pct": 40.68
+    },
+    {
+      "lat": -86.42623,
+      "lon": 356.7833,
+      "pgda_pct": 17.95,
+      "pgda_3x3": [
+        17.32,
+        19.21
+      ],
+      "ours_any_sun_pct": 18.35,
+      "ours_avg_disk_pct": 16.96
+    },
+    {
+      "lat": -85.64856,
+      "lon": 315.2145,
+      "pgda_pct": 13.74,
+      "pgda_3x3": [
+        13.67,
+        14.12
+      ],
+      "ours_any_sun_pct": 14.08,
+      "ours_avg_disk_pct": 12.09
+    },
+    {
+      "lat": -86.80491,
+      "lon": 288.2268,
+      "pgda_pct": 16.96,
+      "pgda_3x3": [
+        11.57,
+        24.4
+      ],
+      "ours_any_sun_pct": 24.4,
+      "ours_avg_disk_pct": 21.41
+    },
+    {
+      "lat": -87.05949,
+      "lon": 236.5815,
+      "pgda_pct": 14.32,
+      "pgda_3x3": [
+        8.31,
+        18.46
+      ],
+      "ours_any_sun_pct": 18.07,
+      "ours_avg_disk_pct": 15.64
+    },
+    {
+      "lat": -85.28161,
+      "lon": 97.0133,
+      "pgda_pct": 29.4,
+      "pgda_3x3": [
+        28.76,
+        29.43
+      ],
+      "ours_any_sun_pct": 29.37,
+      "ours_avg_disk_pct": 27.97
+    },
+    {
+      "lat": -86.75359,
+      "lon": 14.6055,
+      "pgda_pct": 7.5,
+      "pgda_3x3": [
+        7.4,
+        7.6
+      ],
+      "ours_any_sun_pct": 7.52,
+      "ours_avg_disk_pct": 5.76
+    },
+    {
+      "lat": -85.72783,
+      "lon": 31.5413,
+      "pgda_pct": 14.15,
+      "pgda_3x3": [
+        13.87,
+        14.93
+      ],
+      "ours_any_sun_pct": 14.84,
+      "ours_avg_disk_pct": 12.49
+    },
+    {
+      "lat": -86.51297,
+      "lon": 37.6788,
+      "pgda_pct": 11.68,
+      "pgda_3x3": [
+        11.51,
+        12.24
+      ],
+      "ours_any_sun_pct": 12.03,
+      "ours_avg_disk_pct": 9.25
+    },
+    {
+      "lat": -88.34045,
+      "lon": 171.0961,
+      "pgda_pct": 13.34,
+      "pgda_3x3": [
+        12.76,
+        13.9
+      ],
+      "ours_any_sun_pct": 13.74,
+      "ours_avg_disk_pct": 11.42
+    },
+    {
+      "lat": -88.23572,
+      "lon": 312.3159,
+      "pgda_pct": 29.74,
+      "pgda_3x3": [
+        28.67,
+        29.94
+      ],
+      "ours_any_sun_pct": 30.18,
+      "ours_avg_disk_pct": 28.8
+    },
+    {
+      "lat": -86.46738,
+      "lon": 116.292,
+      "pgda_pct": 40.91,
+      "pgda_3x3": [
+        33.98,
+        41.65
+      ],
+      "ours_any_sun_pct": 41.81,
+      "ours_avg_disk_pct": 39.99
+    },
+    {
+      "lat": -85.84016,
+      "lon": 66.0386,
+      "pgda_pct": 0.44,
+      "pgda_3x3": [
+        0.02,
+        0.8
+      ],
+      "ours_any_sun_pct": 0.84,
+      "ours_avg_disk_pct": 0.48
+    }
+  ]
+}

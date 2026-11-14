@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "sources": {
+    "lamarre-2025-full.html": {
+      "url": "https://arxiv.org/html/2401.08558v2",
+      "finalURL": "https://arxiv.org/html/2401.08558v2",
+      "bytes": 255018,
+      "sha256": "9e76ffcd6f39a5105ee0f969d96689f35f305e8873ce5786084f50c0464419ea"
+    },
+    "roverdevkit-2026-v2.html": {
+      "url": "https://arxiv.org/html/2606.21755v2",
+      "finalURL": "https://arxiv.org/html/2606.21755v2",
+      "bytes": 444765,
+      "sha256": "324382b0670ec2903c651e0bed466975f0d0caffa4b6b53b6a556cee05deced7"
+    },
+    "roverdevkit-repository.html": {
+      "url": "https://github.com/Complex-Systems-Engineering-Lab/roverdevkit",
+      "finalURL": "https://github.com/Complex-Systems-Design-Lab/roverdevkit",
+      "bytes": 309315,
+      "sha256": "1860d76f5b88289d7bdc444a963bb1676f154a0649c9329ad56e0edb436d9f8d"
+    },
+    "tompkins-2004-mission.pdf": {
+      "url": "https://publications.ri.cmu.edu/storage/publications/pub_files/pub4/tompkins_paul_2004_1/tompkins_paul_2004_1.pdf",
+      "finalURL": "https://publications.ri.cmu.edu/storage/publications/pub_files/pub4/tompkins_paul_2004_1/tompkins_paul_2004_1.pdf",
+      "bytes": 523578,
+      "sha256": "f1ef28425935c775f162bd282c006f7ecc78c17ee8ed6521fa9cd5806640bda7"
+    },
+    "hybrid-rover-energy-2025.html": {
+      "url": "https://arxiv.org/html/2509.15062",
+      "finalURL": "https://arxiv.org/html/2509.15062",
+      "bytes": 235999,
+      "sha256": "575c7e1673f4eef76971af4252db0500a226e614e02eb619279b860538ae37c8"
+    }
+  },
+  "unavailable": {},
+  "scope": "Primary publisher research and repository documentation; no remote code executed, no competitor UI task, timing or hardware validation. Retained repository request/final redirect URLs are recorded per source."
+}

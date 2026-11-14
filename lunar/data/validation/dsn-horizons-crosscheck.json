@@ -1,0 +1,133 @@
+{
+  "reference": "JPL Horizons API, Moon (301) from geodetic site on Earth, airless",
+  "max_abs_elevation_error_deg": 0.0738,
+  "n": 18,
+  "rows": [
+    {
+      "utc": "2025-03-06T17:00",
+      "station": "Goldstone (DSS-14)",
+      "horizons_el": -13.137239,
+      "ours_el": -13.1845,
+      "d_el": -0.0473
+    },
+    {
+      "utc": "2025-03-06T17:00",
+      "station": "Madrid (DSS-63)",
+      "horizons_el": 69.358745,
+      "ours_el": 69.3023,
+      "d_el": -0.0565
+    },
+    {
+      "utc": "2025-03-06T17:00",
+      "station": "Canberra (DSS-43)",
+      "horizons_el": -50.929099,
+      "ours_el": -50.861,
+      "d_el": 0.0681
+    },
+    {
+      "utc": "2026-01-15T03:00",
+      "station": "Goldstone (DSS-14)",
+      "horizons_el": -64.678005,
+      "ours_el": -64.6096,
+      "d_el": 0.0684
+    },
+    {
+      "utc": "2026-01-15T03:00",
+      "station": "Madrid (DSS-63)",
+      "horizons_el": -22.673117,
+      "ours_el": -22.7332,
+      "d_el": -0.06
+    },
+    {
+      "utc": "2026-01-15T03:00",
+      "station": "Canberra (DSS-43)",
+      "horizons_el": 40.662995,
+      "ours_el": 40.7316,
+      "d_el": 0.0686
+    },
+    {
+      "utc": "2027-07-01T12:00",
+      "station": "Goldstone (DSS-14)",
+      "horizons_el": 23.211711,
+      "ours_el": 23.1414,
+      "d_el": -0.0703
+    },
+    {
+      "utc": "2027-07-01T12:00",
+      "station": "Madrid (DSS-63)",
+      "horizons_el": 56.732509,
+      "ours_el": 56.7962,
+      "d_el": 0.0637
+    },
+    {
+      "utc": "2027-07-01T12:00",
+      "station": "Canberra (DSS-43)",
+      "horizons_el": -77.993407,
+      "ours_el": -78.0352,
+      "d_el": -0.0417
+    },
+    {
+      "utc": "2028-02-10T21:00",
+      "station": "Goldstone (DSS-14)",
+      "horizons_el": -42.799846,
+      "ours_el": -42.8185,
+      "d_el": -0.0187
+    },
+    {
+      "utc": "2028-02-10T21:00",
+      "station": "Madrid (DSS-63)",
+      "horizons_el": 32.41017,
+      "ours_el": 32.3447,
+      "d_el": -0.0655
+    },
+    {
+      "utc": "2028-02-10T21:00",
+      "station": "Canberra (DSS-43)",
+      "horizons_el": -13.687969,
+      "ours_el": -13.6166,
+      "d_el": 0.0714
+    },
+    {
+      "utc": "2029-11-20T06:00",
+      "station": "Goldstone (DSS-14)",
+      "horizons_el": 71.19405,
+      "ours_el": 71.1454,
+      "d_el": -0.0486
+    },
+    {
+      "utc": "2029-11-20T06:00",
+      "station": "Madrid (DSS-63)",
+      "horizons_el": 4.561841,
+      "ours_el": 4.6267,
+      "d_el": 0.0649
+    },
+    {
+      "utc": "2029-11-20T06:00",
+      "station": "Canberra (DSS-43)",
+      "horizons_el": -25.357637,
+      "ours_el": -25.4315,
+      "d_el": -0.0738
+    },
+    {
+      "utc": "2031-06-01T18:00",
+      "station": "Goldstone (DSS-14)",
+      "horizons_el": -56.971489,
+      "ours_el": -57.0297,
+      "d_el": -0.0582
+    },
+    {
+      "utc": "2031-06-01T18:00",
+      "station": "Madrid (DSS-63)",
+      "horizons_el": 24.689963,
+      "ours_el": 24.6369,
+      "d_el": -0.053
+    },
+    {
+      "utc": "2031-06-01T18:00",
+      "station": "Canberra (DSS-43)",
+      "horizons_el": -11.286161,
+      "ours_el": -11.2138,
+      "d_el": 0.0724
+    }
+  ]
+}

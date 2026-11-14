@@ -1,0 +1,16 @@
+{
+  "start_unix": 1672531200.0,
+  "step_s": 3600,
+  "count": 78888,
+  "layout": "per sample: sun_km_x, sun_km_y, sun_km_z, earth_km_x, earth_km_y, earth_km_z (float32 LE)",
+  "frame": "MOON_ME (DE440 ME421 via moon_de440_250416.tf)",
+  "aberration": "LT+S, observer at Moon centre",
+  "kernels": [
+    "naif0012.tls",
+    "pck00011.tpc",
+    "moon_pa_de440_200625.bpc",
+    "moon_de440_250416.tf",
+    "de440s.bsp"
+  ],
+  "source": "NASA/JPL NAIF generic kernels, https://naif.jpl.nasa.gov/pub/naif/generic_kernels/"
+}

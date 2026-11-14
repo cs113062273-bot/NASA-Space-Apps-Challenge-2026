@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "checkedUTC": "2026-11-14T06:14:29.629382+00:00",
+  "importId": "93b18025aac23ecd7600e274aa49fcaeb45bc4440ff5ce466f5abbd998b24ff7",
+  "patchSha256": "64579e05dbbde1e449d492ab8e63aa6661fdf30cd0b98fde99bc6f9f75f4e3fd",
+  "summary": {
+    "known": 1852,
+    "eligible": 1852,
+    "mapAreaM2": 740800,
+    "largestConnectedM2": 740800,
+    "components": 1,
+    "fittingCentres": 1420
+  },
+  "checks": [
+    {
+      "band": "slope",
+      "file": "terrain-import-reference-slope.tif",
+      "sha256": "01c1065aca38258e5f7e015dadbffb83f6211087553ba084cc14a580b454d6dc",
+      "finitePixels": 3000,
+      "maximumDifference": 2.3753832945061504e-07,
+      "tolerance": 2e-06
+    },
+    {
+      "band": "slopeRms",
+      "file": "terrain-import-reference-slopeRms.tif",
+      "sha256": "5dcc72f5da73e26a90f10c10d95cdb05e94fc4307c36d1247acd00ed66beb31a",
+      "finitePixels": 0,
+      "maximumDifference": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "band": "returns",
+      "file": "terrain-import-reference-returns.tif",
+      "sha256": "b498b9218ed742caa575a85ad976f6c652a0faefb02d3d0671466a257952295c",
+      "finitePixels": 0,
+      "maximumDifference": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "band": "height",
+      "file": "terrain-import-reference-height.tif",
+      "sha256": "28005f0d96b827939998348c0f41ff6d4abfb93ecf3ccfb76470c129c919532a",
+      "finitePixels": 3016,
+      "maximumDifference": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "band": "heightRms",
+      "file": "terrain-import-reference-heightRms.tif",
+      "sha256": "d2be934b42dcc3666c487cf42ace1d3cd174967d6645f802547127f34732d1ed",
+      "finitePixels": 0,
+      "maximumDifference": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "band": "eligible",
+      "file": "terrain-import-reference-eligible.tif",
+      "sha256": "f65e827d7d5c3c9e6b5b4c55a6bee7d2a152da564c3647170f031c4029234c0b",
+      "finitePixels": 1852,
+      "maximumDifference": 0.0,
+      "tolerance": 0.0
+    },
+    {
+      "band": "footprintRadius",
+      "file": "terrain-import-reference-footprintRadius.tif",
+      "sha256": "5c2f43b66ad355da48a4fd701133de66c66429b377199c1e8a0a4b8e710773e0",
+      "finitePixels": 1852,
+      "maximumDifference": 1.5225053914491582e-05,
+      "tolerance": 2e-05
+    }
+  ],
+  "method": "GDAL reads independently written source and actual JS export; SciPy Horn convolution and half-cell square EDT; float32 export rounding permitted",
+  "codeSha256": {
+    "pipeline\\validate_imported_terrain.py": "bef0d67e847cea35a2503f8b41087b1930f1ef0e45b6821259aea6edb5276c68",
+    "pipeline\\build_terrain_import_reference.py": "6055612c69d24cadade7f44a73f82ce09eb3d71ff9caebccf98a2d70648efdb4",
+    "app\\scripts\\export-terrain-reference.mjs": "577e2cdffc72785cc7e16957145b01b648a6a1dc1ca58cc85197b28c459e7c85",
+    "app\\src\\lib\\terrain-import.ts": "b7b2b6637711cbae74ba70fa13f0ddafcda497c636e87532aebc8d81022eff2d",
+    "app\\src\\lib\\terrain-geotiff.ts": "472f78f44389234286b8f5d19cbf19655938915b7673015deef8deba69b8b6c0",
+    "app\\src\\lib\\landing-area.ts": "951f312493006ebdfb232377b1839277bdda28e62b3f0bbbf6cff08bc528089a"
+  },
+  "limits": [
+    "Synthetic source, not lunar measurement or frame accuracy",
+    "User-declared ME421 frame; map-plane slope/length/area",
+    "No imported horizon propagation, vehicle, flight hazard or competitor accuracy validation"
+  ]
+}

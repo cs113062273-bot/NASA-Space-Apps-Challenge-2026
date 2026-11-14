@@ -1,0 +1,201 @@
+{
+  "schema": 1,
+  "repository": "https://github.com/Complex-Systems-Design-Lab/roverdevkit",
+  "commit": "ec0b198f01bca4c8ce2892577e72e9c9c65914b5",
+  "tree": "ec0b198f01bca4c8ce2892577e72e9c9c65914b5",
+  "files": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/Complex-Systems-Design-Lab/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/LICENSE",
+      "cache": "data/raw/research/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/LICENSE",
+      "bytes": 1108,
+      "gitBlobSha1": "476682d993a1ce26d171c19915d4137bc82ea1f1",
+      "sha256": "f8c4bb740cb92eba9532e71312b69eceaebc7ecaeb3037333787b76195137aa8"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/Complex-Systems-Design-Lab/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/README.md",
+      "cache": "data/raw/research/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/README.md",
+      "bytes": 11190,
+      "gitBlobSha1": "bd4a8016fa8d7fe4eaab41edf72594ead4068ae6",
+      "sha256": "1587b9560b50f2e7c2405328e4217dc116d80101f22876b6262450d4a0854954"
+    },
+    {
+      "path": "data/soil_simulants.csv",
+      "url": "https://raw.githubusercontent.com/Complex-Systems-Design-Lab/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/data/soil_simulants.csv",
+      "cache": "data/raw/research/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/data/soil_simulants.csv",
+      "bytes": 2156,
+      "gitBlobSha1": "2d1c88080089421002b43320e97cde604fe01c9e",
+      "sha256": "828cf5daa1ef52de2966602d764ad8511f47b11a5805339c87af121d452def4b"
+    },
+    {
+      "path": "pyproject.toml",
+      "url": "https://raw.githubusercontent.com/Complex-Systems-Design-Lab/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/pyproject.toml",
+      "cache": "data/raw/research/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/pyproject.toml",
+      "bytes": 3159,
+      "gitBlobSha1": "3e36626757b5b266c60c8e177d4a8c3b27579a50",
+      "sha256": "477bac52248fa91585904cd3501af6a91d8af9d092cb9895d740cab16e867e46"
+    },
+    {
+      "path": "roverdevkit/__init__.py",
+      "url": "https://raw.githubusercontent.com/Complex-Systems-Design-Lab/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/__init__.py",
+      "cache": "data/raw/research/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/__init__.py",
+      "bytes": 1012,
+      "gitBlobSha1": "6ddbe8c6c4c2de41d39be46a099343373c230e22",
+      "sha256": "a392026a10bd8e7eb410bee4ef25b312739e807def3e68dbdcc27cef66bac2cc"
+    },
+    {
+      "path": "roverdevkit/architecture.py",
+      "url": "https://raw.githubusercontent.com/Complex-Systems-Design-Lab/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/architecture.py",
+      "cache": "data/raw/research/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/architecture.py",
+      "bytes": 3031,
+      "gitBlobSha1": "6d5a5c58cf6411c46b2120cb93ee2daca4e7ec4e",
+      "sha256": "5dbfa6c1a27e2952894509bc372955b2e9df185dcbc1ea49e3606b65231a8d48"
+    },
+    {
+      "path": "roverdevkit/drivetrain/__init__.py",
+      "url": "https://raw.githubusercontent.com/Complex-Systems-Design-Lab/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/drivetrain/__init__.py",
+      "cache": "data/raw/research/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/drivetrain/__init__.py",
+      "bytes": 736,
+      "gitBlobSha1": "100d6cc36ec493ad2b28c534c2b9806d438bb258",
+      "sha256": "2e6852ac7f6de6f0502adb874999fedb1708ab9b98707b6f946bd1ce8ad23e7b"
+    },
+    {
+      "path": "roverdevkit/drivetrain/motor.py",
+      "url": "https://raw.githubusercontent.com/Complex-Systems-Design-Lab/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/drivetrain/motor.py",
+      "cache": "data/raw/research/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/drivetrain/motor.py",
+      "bytes": 13208,
+      "gitBlobSha1": "e3c0e04e2b547a79c37f84979e9b24c7715e7919",
+      "sha256": "cf5a622d9e5842fc49af1790fd75f466ab87cd43558436b3ffd5c9a34f1eba61"
+    },
+    {
+      "path": "roverdevkit/mass/__init__.py",
+      "url": "https://raw.githubusercontent.com/Complex-Systems-Design-Lab/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/mass/__init__.py",
+      "cache": "data/raw/research/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/mass/__init__.py",
+      "bytes": 1054,
+      "gitBlobSha1": "782e29a225deaa9c50d6b8d8bb5f3ee1405bb69d",
+      "sha256": "401857f271f8029f7541123fac1d3b7698b90de1613e24f920335bc06854e6d8"
+    },
+    {
+      "path": "roverdevkit/mass/parametric_mers.py",
+      "url": "https://raw.githubusercontent.com/Complex-Systems-Design-Lab/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/mass/parametric_mers.py",
+      "cache": "data/raw/research/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/mass/parametric_mers.py",
+      "bytes": 18913,
+      "gitBlobSha1": "d6b4478e84f958e1d509d3b1b61808a5c5a1bf77",
+      "sha256": "16219e813cd12edf627ab5b31754fb271b09daa84d4ab59e954d9d677753ff6e"
+    },
+    {
+      "path": "roverdevkit/mass/validation.py",
+      "url": "https://raw.githubusercontent.com/Complex-Systems-Design-Lab/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/mass/validation.py",
+      "cache": "data/raw/research/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/mass/validation.py",
+      "bytes": 9325,
+      "gitBlobSha1": "d4ae7df1288a746d8701ac8d9d90cd3fc0b7d0d2",
+      "sha256": "5567f8aaa2d187ba4a355bfdb35dae372df73c139d29384da5b509065662647d"
+    },
+    {
+      "path": "roverdevkit/mission/__init__.py",
+      "url": "https://raw.githubusercontent.com/Complex-Systems-Design-Lab/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/mission/__init__.py",
+      "cache": "data/raw/research/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/mission/__init__.py",
+      "bytes": 813,
+      "gitBlobSha1": "664fa287127b50afa53ff789478fc61f39e0adda",
+      "sha256": "a96c17d9831edf8edd374beb6de7f8f412ea53677a9fae78c40e4e69f342b9af"
+    },
+    {
+      "path": "roverdevkit/mission/capability.py",
+      "url": "https://raw.githubusercontent.com/Complex-Systems-Design-Lab/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/mission/capability.py",
+      "cache": "data/raw/research/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/mission/capability.py",
+      "bytes": 4232,
+      "gitBlobSha1": "44c1f61b0b4b24379b16fe8d06a9747038381944",
+      "sha256": "fa36cc5e0b3aea7436a68edd22c98e0729f43d95d134c8a4996599688baae3d6"
+    },
+    {
+      "path": "roverdevkit/mission/evaluator.py",
+      "url": "https://raw.githubusercontent.com/Complex-Systems-Design-Lab/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/mission/evaluator.py",
+      "cache": "data/raw/research/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/mission/evaluator.py",
+      "bytes": 16331,
+      "gitBlobSha1": "0e0e315b380ceee6cdd0b4d657c0ed77b9fcb0a1",
+      "sha256": "8eaa0a0f0eb59de779a57380e7ed99ed010dcf5292ba9c0f5919f821b591723b"
+    },
+    {
+      "path": "roverdevkit/mission/scenarios.py",
+      "url": "https://raw.githubusercontent.com/Complex-Systems-Design-Lab/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/mission/scenarios.py",
+      "cache": "data/raw/research/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/mission/scenarios.py",
+      "bytes": 6570,
+      "gitBlobSha1": "fcb5d36005f093e4a9ce9fb418b92c353cbcde61",
+      "sha256": "6af8945013f44331e9e7717d353f481b6e0b8cb3f9fae44fee1331989fb5a55a"
+    },
+    {
+      "path": "roverdevkit/mission/traverse_sim.py",
+      "url": "https://raw.githubusercontent.com/Complex-Systems-Design-Lab/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/mission/traverse_sim.py",
+      "cache": "data/raw/research/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/mission/traverse_sim.py",
+      "bytes": 24854,
+      "gitBlobSha1": "57b6dbafba413c5a54abd9fd4bff5ac52f0a0e66",
+      "sha256": "fc406defe32fa0aaa1085718c3e5b0ef68ac3a937fbee5d9a60bd46bc26355fc"
+    },
+    {
+      "path": "roverdevkit/power/__init__.py",
+      "url": "https://raw.githubusercontent.com/Complex-Systems-Design-Lab/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/power/__init__.py",
+      "cache": "data/raw/research/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/power/__init__.py",
+      "bytes": 328,
+      "gitBlobSha1": "7001ad1cd877c1868b43c3db6cbf63eb55c3d997",
+      "sha256": "3c1118dd8815792f0d4b39fc5517507cad22efeb08b3ec1f14704eb0e0a727f7"
+    },
+    {
+      "path": "roverdevkit/power/battery.py",
+      "url": "https://raw.githubusercontent.com/Complex-Systems-Design-Lab/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/power/battery.py",
+      "cache": "data/raw/research/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/power/battery.py",
+      "bytes": 7493,
+      "gitBlobSha1": "d808591edf26ef2a5745dfde6a219e3b3902d1b2",
+      "sha256": "dfc16aef9c3daf643dfb810aac07ec98c75679a25ba80ff23e4f019ebc9d914d"
+    },
+    {
+      "path": "roverdevkit/power/solar.py",
+      "url": "https://raw.githubusercontent.com/Complex-Systems-Design-Lab/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/power/solar.py",
+      "cache": "data/raw/research/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/power/solar.py",
+      "bytes": 13317,
+      "gitBlobSha1": "a8957ceec9d4807ce5bbf19ab3498c4dc3eaf662",
+      "sha256": "cd8cc6b8a701cc139face500723bce107c6c27dc1b14aab84adc247d31f094a3"
+    },
+    {
+      "path": "roverdevkit/power/thermal.py",
+      "url": "https://raw.githubusercontent.com/Complex-Systems-Design-Lab/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/power/thermal.py",
+      "cache": "data/raw/research/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/power/thermal.py",
+      "bytes": 14373,
+      "gitBlobSha1": "b2d5ece345a1162ede2f9a0aa721533ac8705401",
+      "sha256": "8e549f6204fbf0838fef612e5da5a40a8dd07868f34e121b95c8ddd4f70b91f4"
+    },
+    {
+      "path": "roverdevkit/schema.py",
+      "url": "https://raw.githubusercontent.com/Complex-Systems-Design-Lab/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/schema.py",
+      "cache": "data/raw/research/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/schema.py",
+      "bytes": 13372,
+      "gitBlobSha1": "ff1d2e8024dbb3175661ad2c0e75425d3c1c26d8",
+      "sha256": "825a9790b0756fcf0005c2fa452081cbd352a8ce03681c2028769a689d0c741f"
+    },
+    {
+      "path": "roverdevkit/terramechanics/__init__.py",
+      "url": "https://raw.githubusercontent.com/Complex-Systems-Design-Lab/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/terramechanics/__init__.py",
+      "cache": "data/raw/research/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/terramechanics/__init__.py",
+      "bytes": 874,
+      "gitBlobSha1": "e2e0a0f65948ca5bbcf07a28738bc3b452634fc0",
+      "sha256": "48b180283ade0567c59adaebe8bacb24f651bc4ca59e60dd396071c242bbc64a"
+    },
+    {
+      "path": "roverdevkit/terramechanics/bekker_wong.py",
+      "url": "https://raw.githubusercontent.com/Complex-Systems-Design-Lab/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/terramechanics/bekker_wong.py",
+      "cache": "data/raw/research/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/terramechanics/bekker_wong.py",
+      "bytes": 23555,
+      "gitBlobSha1": "db51c67ec41a56f73ae3d891094703ef5f3b7db5",
+      "sha256": "83450f9af555f90ae5e16585ebb0f3b8fa62b7734db19700bf271437808a5ce9"
+    },
+    {
+      "path": "roverdevkit/terramechanics/soils.py",
+      "url": "https://raw.githubusercontent.com/Complex-Systems-Design-Lab/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/terramechanics/soils.py",
+      "cache": "data/raw/research/roverdevkit/ec0b198f01bca4c8ce2892577e72e9c9c65914b5/roverdevkit/terramechanics/soils.py",
+      "bytes": 4430,
+      "gitBlobSha1": "b8b0310a34ad12d52339e4005c80ae8e087cf0a2",
+      "sha256": "8619affd9bdcd6d91655fe6b24eaf31197bbd06ebef6217bde1815fef0e82469"
+    }
+  ],
+  "scope": "Pinned analytical mission/mobility/power source subset and publisher documentation. No remote code executed, no UI, performance or model comparison result yet."
+}

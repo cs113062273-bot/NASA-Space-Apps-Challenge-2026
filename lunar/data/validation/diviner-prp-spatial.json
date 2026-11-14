@@ -1,0 +1,110 @@
+{
+  "source_sha256": "393deaa5d8925d45bb2ed608f937a824f5eae029c2558aad1d2da8206b83a62d",
+  "method": "KD-tree candidate selection + Moller-Trumbore ray intersection; independent full-table spherical half-space scan at four sites",
+  "source_rows": 2880000,
+  "sampled_sites": 17,
+  "outside_sites": 13,
+  "cases": [
+    {
+      "site": "im2-actual",
+      "selected_facet": 786304,
+      "full_table_edge_matches": [
+        786304
+      ],
+      "source_values": [
+        138.45844,
+        77.09043,
+        -1735.50061,
+        137.95308,
+        77.09142,
+        -1735.54297,
+        137.95099,
+        77.59738,
+        -1735.50549,
+        29.221054077,
+        -84.789642334,
+        5.317256927,
+        127.371,
+        227.044,
+        -999.0
+      ],
+      "center_distance_m": 75.61113933272505
+    },
+    {
+      "site": "c1",
+      "selected_facet": 1498754,
+      "full_table_edge_matches": [
+        1498754
+      ],
+      "source_values": [
+        -12.17314,
+        -11.66592,
+        -1739.20764,
+        -12.68053,
+        -11.66609,
+        -1739.2301,
+        -12.68066,
+        -11.15898,
+        -1739.24976,
+        -137.419540405,
+        -89.440254211,
+        1.912132144,
+        108.251,
+        200.319,
+        0.28482
+      ],
+      "center_distance_m": 75.22453530254181
+    },
+    {
+      "site": "shackleton",
+      "selected_facet": 1481988,
+      "full_table_edge_matches": [
+        1481988
+      ],
+      "source_values": [
+        -8.62136,
+        -3.04284,
+        -1738.97974,
+        -9.12867,
+        -3.04289,
+        -1739.00977,
+        -9.12882,
+        -2.53578,
+        -1739.0387,
+        -162.216140747,
+        -89.689994812,
+        1.634792328,
+        111.028,
+        213.097,
+        0.44646
+      ],
+      "center_distance_m": 142.10587763107378
+    },
+    {
+      "site": "a3-degerlache-2",
+      "selected_facet": 1357029,
+      "full_table_edge_matches": [
+        1357029
+      ],
+      "source_values": [
+        17.74593,
+        -43.60417,
+        -1738.28479,
+        17.23871,
+        -43.09678,
+        -1738.27686,
+        17.74618,
+        -43.09783,
+        -1738.31641,
+        -67.890525818,
+        -88.461082458,
+        1.519852519,
+        126.67,
+        221.454,
+        -999.0
+      ],
+      "center_distance_m": 260.6089718635508
+    }
+  ],
+  "scope": "Spatial software/data cross-check, not measured temperature or frame-registration validation"
+}

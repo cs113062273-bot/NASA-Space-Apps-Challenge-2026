@@ -1,0 +1,94 @@
+{
+  "reference": "Glaser, Oberst, Neumann, Mazarico, Speyerer, Robinson (2018), Illumination conditions at the lunar poles: Implications for future exploration, Planet. Space Sci. 162, Table 2; NASA NTRS 20170007365",
+  "period": "2017-01-01..2037-01-01 hourly, observer 2 m above ground",
+  "ours": "PDS LOLA LDEM_80S_20M (10 km) + LDEM_80S_80M + LDEM_75S_240M, 720 azimuth bins, DE440 apparent Sun, finite solar disk",
+  "rows": [
+    {
+      "site": "Connecting Ridge C1",
+      "lat": -89.4398,
+      "lon": 222.83,
+      "reference": {
+        "avg_illumination_pct": 88.0,
+        "solar_visibility_pct": 92.1,
+        "max_shadow_h": 112
+      },
+      "ours_at_point": {
+        "avg_illumination_pct": 84.94,
+        "solar_visibility_pct": 89.56,
+        "max_shadow_h": 268
+      },
+      "ours_best_within_100m": {
+        "lat": -89.43887,
+        "lon": 222.8336,
+        "avg_illumination_pct": 87.31,
+        "solar_visibility_pct": 91.45,
+        "max_shadow_h": 181,
+        "max_shadow_h_skyline_lower": 175,
+        "max_shadow_h_skyline_higher": 207
+      },
+      "max_shadow_h_range_within_100m": [
+        150,
+        689
+      ],
+      "min_max_shadow_h_within_100m_skyline_lower": 118
+    },
+    {
+      "site": "Connecting Ridge C2",
+      "lat": -89.313,
+      "lon": 245.98,
+      "reference": {
+        "avg_illumination_pct": 78.1,
+        "solar_visibility_pct": 82.0,
+        "max_shadow_h": 165
+      },
+      "ours_at_point": {
+        "avg_illumination_pct": 78.06,
+        "solar_visibility_pct": 82.02,
+        "max_shadow_h": 165
+      },
+      "ours_best_within_100m": {
+        "lat": -89.31387,
+        "lon": 246.0079,
+        "avg_illumination_pct": 78.06,
+        "solar_visibility_pct": 81.99,
+        "max_shadow_h": 165,
+        "max_shadow_h_skyline_lower": 164,
+        "max_shadow_h_skyline_higher": 166
+      },
+      "max_shadow_h_range_within_100m": [
+        165,
+        4901
+      ],
+      "min_max_shadow_h_within_100m_skyline_lower": 163
+    },
+    {
+      "site": "Shackleton rim S",
+      "lat": -89.6866,
+      "lon": 197.19,
+      "reference": {
+        "avg_illumination_pct": 85.5,
+        "solar_visibility_pct": 89.4,
+        "max_shadow_h": 66
+      },
+      "ours_at_point": {
+        "avg_illumination_pct": 84.03,
+        "solar_visibility_pct": 89.31,
+        "max_shadow_h": 67
+      },
+      "ours_best_within_100m": {
+        "lat": -89.68703,
+        "lon": 197.341,
+        "avg_illumination_pct": 85.36,
+        "solar_visibility_pct": 89.4,
+        "max_shadow_h": 67,
+        "max_shadow_h_skyline_lower": 63,
+        "max_shadow_h_skyline_higher": 69
+      },
+      "max_shadow_h_range_within_100m": [
+        66,
+        556
+      ],
+      "min_max_shadow_h_within_100m_skyline_lower": 63
+    }
+  ]
+}

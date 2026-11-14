@@ -1,0 +1,56 @@
+{
+  "observer_m": 2.0,
+  "azimuths": 720,
+  "sites": [
+    {
+      "site": "im2-actual",
+      "nac": "NAC_DTM_NOBILE03",
+      "nac_m": 4.0,
+      "lola": "LOLA 20 m",
+      "points": 1,
+      "median_deg": 0.003,
+      "p90_deg": 0.066,
+      "max_deg": 0.255
+    },
+    {
+      "site": "ch3",
+      "nac": "NAC_DTM_VIKRAMSITE1",
+      "nac_m": 3.0,
+      "lola": "LOLA 240 m",
+      "points": 1,
+      "median_deg": 0.009,
+      "p90_deg": 0.115,
+      "max_deg": 0.324
+    },
+    {
+      "site": "ESALL_CR1",
+      "nac": "NAC_DTM_ESALL_CR1",
+      "nac_m": 2.0,
+      "lola": "LOLA 20 m",
+      "points": 5,
+      "median_deg": 0.14,
+      "p90_deg": 1.09,
+      "max_deg": 2.34
+    },
+    {
+      "site": "ESALL_SR12",
+      "nac": "NAC_DTM_ESALL_SR12",
+      "nac_m": 2.0,
+      "lola": "LOLA 20 m",
+      "points": 5,
+      "median_deg": 0.057,
+      "p90_deg": 1.544,
+      "max_deg": 4.568
+    },
+    {
+      "site": "ESALL_MP1",
+      "nac": "NAC_DTM_ESALL_MP1",
+      "nac_m": 2.0,
+      "lola": "LOLA 20 m",
+      "points": 5,
+      "median_deg": 0.025,
+      "p90_deg": 0.503,
+      "max_deg": 2.37
+    }
+  ]
+}

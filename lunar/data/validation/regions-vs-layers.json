@@ -1,0 +1,76 @@
+{
+  "regions": 9,
+  "disc_radius_km": 200.0,
+  "area_share_pct": 5.8,
+  "scores": {
+    "sun_and_earth": [
+      {
+        "top_pct": 1.0,
+        "threshold_pct": 44.0,
+        "cells": 1300,
+        "inside_pct": 26.5,
+        "times_chance": 4.5
+      },
+      {
+        "top_pct": 0.5,
+        "threshold_pct": 45.5,
+        "cells": 739,
+        "inside_pct": 25.4,
+        "times_chance": 4.4
+      },
+      {
+        "top_pct": 0.1,
+        "threshold_pct": 48.5,
+        "cells": 136,
+        "inside_pct": 30.9,
+        "times_chance": 5.3
+      }
+    ],
+    "earth": [
+      {
+        "top_pct": 1.0,
+        "threshold_pct": 91.0,
+        "cells": 1277,
+        "inside_pct": 55.2,
+        "times_chance": 9.5
+      },
+      {
+        "top_pct": 0.5,
+        "threshold_pct": 100.0,
+        "cells": 704,
+        "inside_pct": 55.8,
+        "times_chance": 9.6
+      },
+      {
+        "top_pct": 0.1,
+        "threshold_pct": 100.0,
+        "cells": 704,
+        "inside_pct": 55.8,
+        "times_chance": 9.6
+      }
+    ],
+    "sun": [
+      {
+        "top_pct": 1.0,
+        "threshold_pct": 47.5,
+        "cells": 1327,
+        "inside_pct": 7.4,
+        "times_chance": 1.3
+      },
+      {
+        "top_pct": 0.5,
+        "threshold_pct": 48.5,
+        "cells": 790,
+        "inside_pct": 8.6,
+        "times_chance": 1.5
+      },
+      {
+        "top_pct": 0.1,
+        "threshold_pct": 51.5,
+        "cells": 158,
+        "inside_pct": 17.1,
+        "times_chance": 2.9
+      }
+    ]
+  }
+}

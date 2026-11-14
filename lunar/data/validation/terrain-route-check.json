@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "sourcePatchSha256": "ed34a5680886b2289c7c1c030bf4e54abb42bc20197d7cb8a4f7cc748c9b516c",
+  "vertices": 17,
+  "certifiedEdges": 16,
+  "summary": {
+    "mapLengthM": 113.13708498984761,
+    "ascentM": 0.0108642578125,
+    "descentM": 3.2320556640625,
+    "cost": 113.15881350547261,
+    "maxNominalGradeDeg": 4.055517247340355,
+    "maxStressedGradeDeg": 13.127356348929803
+  },
+  "jsonSha256": "cb1c3a8e882309fdceadd16e53d1ad5a006096e6fe01fbd3f9955e5784c096ee",
+  "csvSha256": "a8c7b7890fae5c50164925954bbe91f3b1c37db65db9bb2b3dc7c05dc311be09",
+  "referenceSha256": "4eea89036994864ba3608cb2cd618ee73f6f9bc889632c8aaa9da9d1812f9846",
+  "codeSha256": {
+    "pipeline/validate_terrain_route_exports.py": "c700ced98fb0d6061d12d13d4d5f7727e2a54f425701b1f6a42162ff32cc6c22",
+    "app/src/lib/terrain-route.ts": "cd90b20c31ed64b9bddb72d11a9903a995227ff8db6699da212d6fa43175e2a7",
+    "pipeline/build_route_reference.py": "fdf83ea2e0b335e2b43dfa7c3d1f9f6108cdc66aea97a52b53a82deafe5ff904"
+  },
+  "limits": [
+    "Same source raster, independent GEOS graph/SciPy Dijkstra and source arithmetic",
+    "Static map-plane grid route, not moving-vehicle mission or flight validation"
+  ]
+}

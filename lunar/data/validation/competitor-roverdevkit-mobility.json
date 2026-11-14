@@ -1,0 +1,493 @@
+{
+  "schema": 1,
+  "repository": "https://github.com/Complex-Systems-Design-Lab/roverdevkit",
+  "commit": "ec0b198f01bca4c8ce2892577e72e9c9c65914b5",
+  "sourceManifestSha256": "3a50761e6d2925ab43572953dd5191e234b0659c21b95ba23017ab49254cde0c",
+  "runnerSha256": "7cb970c05e116e6fb6536fc4bde9f3120b92a9f6366d23cdd1187c74c296bbb7",
+  "assumptions": {
+    "massKg": 20.0,
+    "gravityMps2": 1.62,
+    "wheels": 4,
+    "radiusM": 0.1,
+    "widthM": 0.05,
+    "grouserHeightM": 0.005,
+    "grouserCount": 12,
+    "forwardSpeedMps": 0.01,
+    "motorEfficiency": 0.8,
+    "peakHubTorqueNm": 2.0
+  },
+  "cases": [
+    {
+      "soil": "Apollo_regolith_nominal",
+      "publisherSoilCitation": "Heiken et al. 1991 (Lunar Sourcebook ch. 9)",
+      "slopeDeg": 0.0,
+      "normalPerWheelN": 8.100000000000001,
+      "requiredDrawbarPerWheelN": 0.0,
+      "soilParameters": {
+        "n": 1.0,
+        "k_c": 1.4,
+        "k_phi": 820.0,
+        "cohesion_kpa": 0.17,
+        "friction_angle_deg": 46.0,
+        "shear_modulus_k_m": 0.018
+      },
+      "lastlightSupport": "Not represented: no soil, wheel, load or motor/traction model in the current constant-drive input.",
+      "residualAtBracketN": [
+        -9.754807895522015,
+        3.619847351216854
+      ],
+      "status": "steady-state-root",
+      "slip": 0.11221515606913905,
+      "perWheel": {
+        "drawbar_pull_n": 2.4910629115026954e-15,
+        "driving_torque_nm": 0.16797232104666987,
+        "sinkage_m": 0.009355872334873927,
+        "rolling_resistance_n": 1.8556857595049372,
+        "slip": 0.11221515606913905,
+        "entry_angle_rad": 0.4360163426050199
+      },
+      "driveDcW": 0.09460193097177452,
+      "wheelOmegaRadS": 0.1126399044584138,
+      "balanceResidualN": 2.4910629115026954e-15
+    },
+    {
+      "soil": "Apollo_regolith_nominal",
+      "publisherSoilCitation": "Heiken et al. 1991 (Lunar Sourcebook ch. 9)",
+      "slopeDeg": 5.0,
+      "normalPerWheelN": 8.06917705454314,
+      "requiredDrawbarPerWheelN": 0.7059615162560313,
+      "soilParameters": {
+        "n": 1.0,
+        "k_c": 1.4,
+        "k_phi": 820.0,
+        "cohesion_kpa": 0.17,
+        "friction_angle_deg": 46.0,
+        "shear_modulus_k_m": 0.018
+      },
+      "lastlightSupport": "Not represented: no soil, wheel, load or motor/traction model in the current constant-drive input.",
+      "residualAtBracketN": [
+        -10.412660038375174,
+        2.9005285251813975
+      ],
+      "status": "steady-state-root",
+      "slip": 0.20191133018588514,
+      "perWheel": {
+        "drawbar_pull_n": 0.7059615163833354,
+        "driving_torque_nm": 0.23871294331437237,
+        "sinkage_m": 0.00938338790133354,
+        "rolling_resistance_n": 1.8666169323461246,
+        "slip": 0.20191133018588514,
+        "entry_angle_rad": 0.43666740303827
+      },
+      "driveDcW": 0.14955289577658815,
+      "wheelOmegaRadS": 0.12529936056264437,
+      "balanceResidualN": 1.2730405618555096e-10
+    },
+    {
+      "soil": "Apollo_regolith_nominal",
+      "publisherSoilCitation": "Heiken et al. 1991 (Lunar Sourcebook ch. 9)",
+      "slopeDeg": 10.0,
+      "normalPerWheelN": 7.976942799398886,
+      "requiredDrawbarPerWheelN": 1.4065502391021358,
+      "soilParameters": {
+        "n": 1.0,
+        "k_c": 1.4,
+        "k_phi": 820.0,
+        "cohesion_kpa": 0.17,
+        "friction_angle_deg": 46.0,
+        "shear_modulus_k_m": 0.018
+      },
+      "lastlightSupport": "Not represented: no soil, wheel, load or motor/traction model in the current constant-drive input.",
+      "residualAtBracketN": [
+        -10.969659765412683,
+        2.159934884030715
+      ],
+      "status": "steady-state-root",
+      "slip": 0.31266183594312813,
+      "perWheel": {
+        "drawbar_pull_n": 1.4065502391021356,
+        "driving_torque_nm": 0.30785265109327353,
+        "sinkage_m": 0.009398690612970939,
+        "rolling_resistance_n": 1.8727101670529784,
+        "slip": 0.31266183594312813,
+        "entry_angle_rad": 0.43702909590583067
+      },
+      "driveDcW": 0.22394555343488906,
+      "wheelOmegaRadS": 0.14548879318699634,
+      "balanceResidualN": -2.220446049250313e-16
+    },
+    {
+      "soil": "Apollo_regolith_nominal",
+      "publisherSoilCitation": "Heiken et al. 1991 (Lunar Sourcebook ch. 9)",
+      "slopeDeg": 20.0,
+      "normalPerWheelN": 7.6115102283658596,
+      "requiredDrawbarPerWheelN": 2.770363160937917,
+      "soilParameters": {
+        "n": 1.0,
+        "k_c": 1.4,
+        "k_phi": 820.0,
+        "cohesion_kpa": 0.17,
+        "friction_angle_deg": 46.0,
+        "shear_modulus_k_m": 0.018
+      },
+      "lastlightSupport": "Not represented: no soil, wheel, load or motor/traction model in the current constant-drive input.",
+      "residualAtBracketN": [
+        -11.77012218002935,
+        0.6371131546981577
+      ],
+      "status": "steady-state-root",
+      "slip": 0.6670530457188261,
+      "perWheel": {
+        "drawbar_pull_n": 2.7703631609379102,
+        "driving_torque_nm": 0.441532281365357,
+        "sinkage_m": 0.00954159316880423,
+        "rolling_resistance_n": 1.9300904042181968,
+        "slip": 0.6670530457188261,
+        "entry_angle_rad": 0.4403933069083788
+      },
+      "driveDcW": 0.663067007653842,
+      "wheelOmegaRadS": 0.3003481446943946,
+      "balanceResidualN": -6.661338147750939e-15
+    },
+    {
+      "soil": "Apollo_regolith_nominal",
+      "publisherSoilCitation": "Heiken et al. 1991 (Lunar Sourcebook ch. 9)",
+      "slopeDeg": 30.0,
+      "normalPerWheelN": 7.014805770653955,
+      "requiredDrawbarPerWheelN": 4.05,
+      "soilParameters": {
+        "n": 1.0,
+        "k_c": 1.4,
+        "k_phi": 820.0,
+        "cohesion_kpa": 0.17,
+        "friction_angle_deg": 46.0,
+        "shear_modulus_k_m": 0.018
+      },
+      "lastlightSupport": "Not represented: no soil, wheel, load or motor/traction model in the current constant-drive input.",
+      "residualAtBracketN": [
+        -12.149350455320334,
+        -0.9038837886198543
+      ],
+      "status": "no-slip-root-in-publisher-bracket",
+      "slip": null,
+      "perWheel": null,
+      "driveDcW": null
+    },
+    {
+      "soil": "Apollo_regolith_loose",
+      "publisherSoilCitation": "Heiken et al. 1991, bounds",
+      "slopeDeg": 0.0,
+      "normalPerWheelN": 8.100000000000001,
+      "requiredDrawbarPerWheelN": 0.0,
+      "soilParameters": {
+        "n": 1.0,
+        "k_c": 0.5,
+        "k_phi": 400.0,
+        "cohesion_kpa": 0.1,
+        "friction_angle_deg": 30.0,
+        "shear_modulus_k_m": 0.018
+      },
+      "lastlightSupport": "Not represented: no soil, wheel, load or motor/traction model in the current constant-drive input.",
+      "residualAtBracketN": [
+        -7.415535794508918,
+        1.1773363673541615
+      ],
+      "status": "steady-state-root",
+      "slip": 0.29173543347862285,
+      "perWheel": {
+        "drawbar_pull_n": 2.396721709985173e-14,
+        "driving_torque_nm": 0.22222043062229133,
+        "sinkage_m": 0.015594043100798195,
+        "rolling_resistance_n": 2.4925353473529057,
+        "slip": 0.29173543347862285,
+        "entry_angle_rad": 0.5659873071719668
+      },
+      "driveDcW": 0.15687671043161255,
+      "wheelOmegaRadS": 0.141190177691858,
+      "balanceResidualN": 2.396721709985173e-14
+    },
+    {
+      "soil": "Apollo_regolith_loose",
+      "publisherSoilCitation": "Heiken et al. 1991, bounds",
+      "slopeDeg": 5.0,
+      "normalPerWheelN": 8.06917705454314,
+      "requiredDrawbarPerWheelN": 0.7059615162560313,
+      "soilParameters": {
+        "n": 1.0,
+        "k_c": 0.5,
+        "k_phi": 400.0,
+        "cohesion_kpa": 0.1,
+        "friction_angle_deg": 30.0,
+        "shear_modulus_k_m": 0.018
+      },
+      "lastlightSupport": "Not represented: no soil, wheel, load or motor/traction model in the current constant-drive input.",
+      "residualAtBracketN": [
+        -8.085627618742402,
+        0.4689542166601224
+      ],
+      "status": "steady-state-root",
+      "slip": 0.5574726783891586,
+      "perWheel": {
+        "drawbar_pull_n": 0.7059615162560451,
+        "driving_torque_nm": 0.3006402347703582,
+        "sinkage_m": 0.01614570273852427,
+        "rolling_resistance_n": 2.672008098438099,
+        "slip": 0.5574726783891586,
+        "entry_angle_rad": 0.576192885956
+      },
+      "driveDcW": 0.3396855065083882,
+      "wheelOmegaRadS": 0.22597474803587383,
+      "balanceResidualN": 1.3766765505351941e-14
+    },
+    {
+      "soil": "Apollo_regolith_loose",
+      "publisherSoilCitation": "Heiken et al. 1991, bounds",
+      "slopeDeg": 10.0,
+      "normalPerWheelN": 7.976942799398886,
+      "requiredDrawbarPerWheelN": 1.4065502391021358,
+      "soilParameters": {
+        "n": 1.0,
+        "k_c": 0.5,
+        "k_phi": 400.0,
+        "cohesion_kpa": 0.1,
+        "friction_angle_deg": 30.0,
+        "shear_modulus_k_m": 0.018
+      },
+      "lastlightSupport": "Not represented: no soil, wheel, load or motor/traction model in the current constant-drive input.",
+      "residualAtBracketN": [
+        -8.679121222579287,
+        -0.2389527559063227
+      ],
+      "status": "no-slip-root-in-publisher-bracket",
+      "slip": null,
+      "perWheel": null,
+      "driveDcW": null
+    },
+    {
+      "soil": "Apollo_regolith_loose",
+      "publisherSoilCitation": "Heiken et al. 1991, bounds",
+      "slopeDeg": 20.0,
+      "normalPerWheelN": 7.6115102283658596,
+      "requiredDrawbarPerWheelN": 2.770363160937917,
+      "soilParameters": {
+        "n": 1.0,
+        "k_c": 0.5,
+        "k_phi": 400.0,
+        "cohesion_kpa": 0.1,
+        "friction_angle_deg": 30.0,
+        "shear_modulus_k_m": 0.018
+      },
+      "lastlightSupport": "Not represented: no soil, wheel, load or motor/traction model in the current constant-drive input.",
+      "residualAtBracketN": [
+        -9.622236633563748,
+        -1.632871627340248
+      ],
+      "status": "no-slip-root-in-publisher-bracket",
+      "slip": null,
+      "perWheel": null,
+      "driveDcW": null
+    },
+    {
+      "soil": "Apollo_regolith_loose",
+      "publisherSoilCitation": "Heiken et al. 1991, bounds",
+      "slopeDeg": 30.0,
+      "normalPerWheelN": 7.014805770653955,
+      "requiredDrawbarPerWheelN": 4.05,
+      "soilParameters": {
+        "n": 1.0,
+        "k_c": 0.5,
+        "k_phi": 400.0,
+        "cohesion_kpa": 0.1,
+        "friction_angle_deg": 30.0,
+        "shear_modulus_k_m": 0.018
+      },
+      "lastlightSupport": "Not represented: no soil, wheel, load or motor/traction model in the current constant-drive input.",
+      "residualAtBracketN": [
+        -10.227741277292125,
+        -2.965553260013883
+      ],
+      "status": "no-slip-root-in-publisher-bracket",
+      "slip": null,
+      "perWheel": null,
+      "driveDcW": null
+    },
+    {
+      "soil": "Apollo_regolith_dense",
+      "publisherSoilCitation": "Heiken et al. 1991, bounds",
+      "slopeDeg": 0.0,
+      "normalPerWheelN": 8.100000000000001,
+      "requiredDrawbarPerWheelN": 0.0,
+      "soilParameters": {
+        "n": 1.2,
+        "k_c": 2.0,
+        "k_phi": 1200.0,
+        "cohesion_kpa": 0.5,
+        "friction_angle_deg": 50.0,
+        "shear_modulus_k_m": 0.018
+      },
+      "lastlightSupport": "Not represented: no soil, wheel, load or motor/traction model in the current constant-drive input.",
+      "residualAtBracketN": [
+        -15.160093631777398,
+        4.895898049032917
+      ],
+      "status": "steady-state-root",
+      "slip": 0.05283610130257642,
+      "perWheel": {
+        "drawbar_pull_n": 1.6027499903648048e-10,
+        "driving_torque_nm": 0.20074995701180537,
+        "sinkage_m": 0.013690687467956354,
+        "rolling_resistance_n": 2.2392602606484417,
+        "slip": 0.05283610130257642,
+        "entry_angle_rad": 0.5294338789166209
+      },
+      "driveDcW": 0.10597424441951624,
+      "wheelOmegaRadS": 0.10557834830647987,
+      "balanceResidualN": 1.6027499903648048e-10
+    },
+    {
+      "soil": "Apollo_regolith_dense",
+      "publisherSoilCitation": "Heiken et al. 1991, bounds",
+      "slopeDeg": 5.0,
+      "normalPerWheelN": 8.06917705454314,
+      "requiredDrawbarPerWheelN": 0.7059615162560313,
+      "soilParameters": {
+        "n": 1.2,
+        "k_c": 2.0,
+        "k_phi": 1200.0,
+        "cohesion_kpa": 0.5,
+        "friction_angle_deg": 50.0,
+        "shear_modulus_k_m": 0.018
+      },
+      "lastlightSupport": "Not represented: no soil, wheel, load or motor/traction model in the current constant-drive input.",
+      "residualAtBracketN": [
+        -15.793912149997148,
+        4.174180782121717
+      ],
+      "status": "steady-state-root",
+      "slip": 0.1113131044989025,
+      "perWheel": {
+        "drawbar_pull_n": 0.7059615162560284,
+        "driving_torque_nm": 0.2701001692737697,
+        "sinkage_m": 0.013653680915736889,
+        "rolling_resistance_n": 2.2259656437474744,
+        "slip": 0.1113131044989025,
+        "entry_angle_rad": 0.5287006815044352
+      },
+      "driveDcW": 0.15196587833191252,
+      "wheelOmegaRadS": 0.11252557059887074,
+      "balanceResidualN": -2.886579864025407e-15
+    },
+    {
+      "soil": "Apollo_regolith_dense",
+      "publisherSoilCitation": "Heiken et al. 1991, bounds",
+      "slopeDeg": 10.0,
+      "normalPerWheelN": 7.976942799398886,
+      "requiredDrawbarPerWheelN": 1.4065502391021358,
+      "soilParameters": {
+        "n": 1.2,
+        "k_c": 2.0,
+        "k_phi": 1200.0,
+        "cohesion_kpa": 0.5,
+        "friction_angle_deg": 50.0,
+        "shear_modulus_k_m": 0.018
+      },
+      "lastlightSupport": "Not represented: no soil, wheel, load or motor/traction model in the current constant-drive input.",
+      "residualAtBracketN": [
+        -16.279127760914456,
+        3.4263761006270643
+      ],
+      "status": "steady-state-root",
+      "slip": 0.18094163919500825,
+      "perWheel": {
+        "drawbar_pull_n": 1.4065502391021394,
+        "driving_torque_nm": 0.3373353549669334,
+        "sinkage_m": 0.013578697397913998,
+        "rolling_resistance_n": 2.1991601183629474,
+        "slip": 0.18094163919500825,
+        "entry_angle_rad": 0.5272122312540768
+      },
+      "driveDcW": 0.20592876595227688,
+      "wheelOmegaRadS": 0.1220914220345879,
+      "balanceResidualN": 3.552713678800501e-15
+    },
+    {
+      "soil": "Apollo_regolith_dense",
+      "publisherSoilCitation": "Heiken et al. 1991, bounds",
+      "slopeDeg": 20.0,
+      "normalPerWheelN": 7.6115102283658596,
+      "requiredDrawbarPerWheelN": 2.770363160937917,
+      "soilParameters": {
+        "n": 1.2,
+        "k_c": 2.0,
+        "k_phi": 1200.0,
+        "cohesion_kpa": 0.5,
+        "friction_angle_deg": 50.0,
+        "shear_modulus_k_m": 0.018
+      },
+      "lastlightSupport": "Not represented: no soil, wheel, load or motor/traction model in the current constant-drive input.",
+      "residualAtBracketN": [
+        -16.79724071579313,
+        1.8744689759957902
+      ],
+      "status": "steady-state-root",
+      "slip": 0.3796655307606137,
+      "perWheel": {
+        "drawbar_pull_n": 2.7703631609476314,
+        "driving_torque_nm": 0.4643295166769934,
+        "sinkage_m": 0.01337409147238815,
+        "rolling_resistance_n": 2.1269165225739766,
+        "slip": 0.3796655307606137,
+        "entry_angle_rad": 0.523131223280277
+      },
+      "driveDcW": 0.3742573883136979,
+      "wheelOmegaRadS": 0.1612033587664627,
+      "balanceResidualN": 9.71445146547012e-12
+    },
+    {
+      "soil": "Apollo_regolith_dense",
+      "publisherSoilCitation": "Heiken et al. 1991, bounds",
+      "slopeDeg": 30.0,
+      "normalPerWheelN": 7.014805770653955,
+      "requiredDrawbarPerWheelN": 4.05,
+      "soilParameters": {
+        "n": 1.2,
+        "k_c": 2.0,
+        "k_phi": 1200.0,
+        "cohesion_kpa": 0.5,
+        "friction_angle_deg": 50.0,
+        "shear_modulus_k_m": 0.018
+      },
+      "lastlightSupport": "Not represented: no soil, wheel, load or motor/traction model in the current constant-drive input.",
+      "residualAtBracketN": [
+        -16.72315242736039,
+        0.2840776906414426
+      ],
+      "status": "steady-state-root",
+      "slip": 0.7986464482610057,
+      "perWheel": {
+        "drawbar_pull_n": 4.050000000001369,
+        "driving_torque_nm": 0.5831341085826934,
+        "sinkage_m": 0.013506513784530095,
+        "rolling_resistance_n": 2.1735227698206234,
+        "slip": 0.7986464482610057,
+        "entry_angle_rad": 0.5257757562724994
+      },
+      "driveDcW": 1.4480353178437704,
+      "wheelOmegaRadS": 0.4966388679829476,
+      "balanceResidualN": 1.3695711231775931e-12
+    }
+  ],
+  "environment": {
+    "python": "3.11.14",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  },
+  "method": "Reviewed publisher wheel kernel executed directly from verified immutable source. Runner solves constant-slope per-wheel drawbar balance in the publisher slip bracket and computes torque-times-angular-speed / efficiency for an explicitly prescribed speed.",
+  "limits": [
+    "A sub-model capability probe, not the full evaluator, UI, NSGA-II, timing or human-task benchmark.",
+    "Soil table values/citations belong to the publisher and were not independently measured or validated here. Kernel heuristics and model-form uncertainty remain.",
+    "Chosen mass, wheels, speed, efficiency and motor capacity are illustrative assumptions, not a NASA rover specification or validated mobility prediction.",
+    "No physical or numerical superiority follows: LASTLIGHT currently lacks equivalent wheel/soil inputs, so the probe records an actual missing capability rather than a matched numeric win.",
+    "Static slope, equal load and steady-state straight travel omit dynamics, turns, load transfer, rocks and registration; no route-level or flight feasibility follows."
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "purpose": "Model-gap diagnostic, not independent ground truth or flight validation",
+  "period_utc": [
+    "2027-01-01T00:00:00Z",
+    "2027-02-01T00:00:00Z"
+  ],
+  "step_s": 3600,
+  "method": "Shipped Earth-centre LT+S vectors vs SPICE spkcpt XLT+S station targets; 2 m viewpoint and shipped complex visibility mask",
+  "limitations": [
+    "DSS-14/63/43 70 m complex proxies, not 34 m coordinates",
+    "IAU_EARTH orientation, without measured EOP",
+    "Same terrain and sampling in both cases; no new terrain validation",
+    "Earth-centre optical LT+S vs transmit XLT+S includes both target-location and aberration differences"
+  ],
+  "kernels_manifest": "kernels.json",
+  "results": [
+    {
+      "site": "c1",
+      "name": "Connecting Ridge C1",
+      "eligible_station_hours": 910,
+      "earth_center_pass_station_fail": 9,
+      "earth_center_fail_station_pass": 0,
+      "max_abs_clearance_change_deg": 0.93629,
+      "examples": [
+        {
+          "utc": "2027-01-09T21:00:00+00:00",
+          "station": "Goldstone (DSS-14)",
+          "center_clearance_deg": 0.02307,
+          "station_clearance_deg": -0.69899
+        },
+        {
+          "utc": "2027-01-09T22:00:00+00:00",
+          "station": "Goldstone (DSS-14)",
+          "center_clearance_deg": 0.08556,
+          "station_clearance_deg": -0.57063
+        },
+        {
+          "utc": "2027-01-09T23:00:00+00:00",
+          "station": "Goldstone (DSS-14)",
+          "center_clearance_deg": 0.14815,
+          "station_clearance_deg": -0.42911
+        }
+      ]
+    },
+    {
+      "site": "shackleton",
+      "name": "Shackleton rim",
+      "eligible_station_hours": 910,
+      "earth_center_pass_station_fail": 14,
+      "earth_center_fail_station_pass": 8,
+      "max_abs_clearance_change_deg": 1.02964,
+      "examples": [
+        {
+          "utc": "2027-01-10T09:00:00+00:00",
+          "station": "Canberra (DSS-43)",
+          "center_clearance_deg": -0.66384,
+          "station_clearance_deg": 0.04564
+        },
+        {
+          "utc": "2027-01-10T19:00:00+00:00",
+          "station": "Goldstone (DSS-14)",
+          "center_clearance_deg": 0.00248,
+          "station_clearance_deg": -0.81473
+        },
+        {
+          "utc": "2027-01-10T20:00:00+00:00",
+          "station": "Goldstone (DSS-14)",
+          "center_clearance_deg": 0.06988,
+          "station_clearance_deg": -0.71162
+        }
+      ]
+    },
+    {
+      "site": "a3-haworth",
+      "name": "Haworth",
+      "eligible_station_hours": 910,
+      "earth_center_pass_station_fail": 11,
+      "earth_center_fail_station_pass": 2,
+      "max_abs_clearance_change_deg": 0.91392,
+      "examples": [
+        {
+          "utc": "2027-01-10T08:00:00+00:00",
+          "station": "Canberra (DSS-43)",
+          "center_clearance_deg": -0.53484,
+          "station_clearance_deg": 0.00954
+        },
+        {
+          "utc": "2027-01-10T09:00:00+00:00",
+          "station": "Canberra (DSS-43)",
+          "center_clearance_deg": -0.47736,
+          "station_clearance_deg": 0.13002
+        },
+        {
+          "utc": "2027-01-10T18:00:00+00:00",
+          "station": "Goldstone (DSS-14)",
+          "center_clearance_deg": 0.0382,
+          "station_clearance_deg": -0.71219
+        }
+      ]
+    },
+    {
+      "site": "a3-nobile-2",
+      "name": "Nobile Rim 2",
+      "eligible_station_hours": 910,
+      "earth_center_pass_station_fail": 20,
+      "earth_center_fail_station_pass": 14,
+      "max_abs_clearance_change_deg": 0.91604,
+      "examples": [
+        {
+          "utc": "2027-01-07T20:00:00+00:00",
+          "station": "Canberra (DSS-43)",
+          "center_clearance_deg": -0.38525,
+          "station_clearance_deg": 0.10532
+        },
+        {
+          "utc": "2027-01-07T21:00:00+00:00",
+          "station": "Canberra (DSS-43)",
+          "center_clearance_deg": -0.34364,
+          "station_clearance_deg": 0.0652
+        },
+        {
+          "utc": "2027-01-07T22:00:00+00:00",
+          "station": "Canberra (DSS-43)",
+          "center_clearance_deg": -0.30177,
+          "station_clearance_deg": 0.02888
+        }
+      ]
+    },
+    {
+      "site": "a3-degerlache-2",
+      "name": "de Gerlache Rim 2",
+      "eligible_station_hours": 910,
+      "earth_center_pass_station_fail": 16,
+      "earth_center_fail_station_pass": 8,
+      "max_abs_clearance_change_deg": 1.01577,
+      "examples": [
+        {
+          "utc": "2027-01-09T07:00:00+00:00",
+          "station": "Canberra (DSS-43)",
+          "center_clearance_deg": -0.48063,
+          "station_clearance_deg": 0.17857
+        },
+        {
+          "utc": "2027-01-09T08:00:00+00:00",
+          "station": "Canberra (DSS-43)",
+          "center_clearance_deg": -0.40242,
+          "station_clearance_deg": 0.35435
+        },
+        {
+          "utc": "2027-01-09T09:00:00+00:00",
+          "station": "Canberra (DSS-43)",
+          "center_clearance_deg": -0.32409,
+          "station_clearance_deg": 0.50938
+        }
+      ]
+    },
+    {
+      "site": "change4",
+      "name": "Chang'e 4 (far side)",
+      "eligible_station_hours": 910,
+      "earth_center_pass_station_fail": 0,
+      "earth_center_fail_station_pass": 0,
+      "max_abs_clearance_change_deg": 0.95878,
+      "examples": []
+    }
+  ]
+}

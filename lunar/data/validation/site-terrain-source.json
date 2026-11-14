@@ -1,0 +1,1359 @@
+{
+  "schema": 1,
+  "regions": {
+    "Site01": {
+      "surf": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site01/Site01_final_adj_5mpp_surf.tif",
+        "bytes": 40980810,
+        "sha256": "3ba7b97cb00a2bcf21189c3aeb535f65afc21207154ab9f0d43c5bdc1f7e747e",
+        "grid": {
+          "width": 3200,
+          "height": 3200,
+          "transform": [
+            5.0,
+            0.0,
+            -19000.0,
+            0.0,
+            -5.0,
+            -4000.0
+          ],
+          "crs_wkt": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "slp": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site01/Site01_final_adj_5mpp_slp.tif",
+        "bytes": 40980776,
+        "sha256": "3a90035a4946b4a04b7332c52f0b2b1cff71648bd8c105e14d8a7e15c6bcfe8e",
+        "grid": {
+          "width": 3200,
+          "height": 3200,
+          "transform": [
+            5.0,
+            0.0,
+            -19000.0,
+            0.0,
+            -5.0,
+            -4000.0
+          ],
+          "crs_wkt": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "slperr": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site01/Site01_final_adj_5mpp_slperr.tif",
+        "bytes": 40980810,
+        "sha256": "52bc3b239f61605e6bb98bab6d6b17acd22389c59e57336862157f2fbd643a33",
+        "grid": {
+          "width": 3200,
+          "height": 3200,
+          "transform": [
+            5.0,
+            0.0,
+            -19000.0,
+            0.0,
+            -5.0,
+            -4000.0
+          ],
+          "crs_wkt": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "ldec": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site01/Site01_final_adj_5mpp_ldec.tif",
+        "bytes": 40980744,
+        "sha256": "16d6ed21020ad48fa71d94e7437492acf5bf04118f52bcd292f57f22ead4cd23",
+        "grid": {
+          "width": 3200,
+          "height": 3200,
+          "transform": [
+            5.0,
+            0.0,
+            -19000.0,
+            0.0,
+            -5.0,
+            -4000.0
+          ],
+          "crs_wkt": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "toterr": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site01/Site01_final_adj_5mpp_toterr.tif",
+        "bytes": 40980810,
+        "sha256": "cf2cf52f52d2aa51e60d058010d10b0ebfb1d3e920f5a2b9a46eb6c51054ab1c",
+        "grid": {
+          "width": 3200,
+          "height": 3200,
+          "transform": [
+            5.0,
+            0.0,
+            -19000.0,
+            0.0,
+            -5.0,
+            -4000.0
+          ],
+          "crs_wkt": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      }
+    },
+    "Site04": {
+      "surf": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site04/Site04_final_adj_5mpp_surf.tif",
+        "bytes": 40980806,
+        "sha256": "38ff70dbdf2f066c2cfa94a646c3a59d653ce7f6b4528b15fc1b43ee397ce758",
+        "grid": {
+          "width": 3200,
+          "height": 3200,
+          "transform": [
+            5.0,
+            0.0,
+            -9000.0,
+            0.0,
+            -5.0,
+            1000.0
+          ],
+          "crs_wkt": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "slp": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site04/Site04_final_adj_5mpp_slp.tif",
+        "bytes": 40980772,
+        "sha256": "ec3cfa184b114d95aff498e7452764a8569737ae829e7ff3efd38d5187182579",
+        "grid": {
+          "width": 3200,
+          "height": 3200,
+          "transform": [
+            5.0,
+            0.0,
+            -9000.0,
+            0.0,
+            -5.0,
+            1000.0
+          ],
+          "crs_wkt": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "slperr": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site04/Site04_final_adj_5mpp_slperr.tif",
+        "bytes": 40980806,
+        "sha256": "067cd4d8e3e8c14a9a5be1915242532f85063f1b300f248407cc8c8b68e90695",
+        "grid": {
+          "width": 3200,
+          "height": 3200,
+          "transform": [
+            5.0,
+            0.0,
+            -9000.0,
+            0.0,
+            -5.0,
+            1000.0
+          ],
+          "crs_wkt": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "ldec": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site04/Site04_final_adj_5mpp_ldec.tif",
+        "bytes": 40980740,
+        "sha256": "fcc8c2219ae2368d5b2a1f6aec05fcf96cf725f3035ac8d80efc312a4ff29227",
+        "grid": {
+          "width": 3200,
+          "height": 3200,
+          "transform": [
+            5.0,
+            0.0,
+            -9000.0,
+            0.0,
+            -5.0,
+            1000.0
+          ],
+          "crs_wkt": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "toterr": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site04/Site04_final_adj_5mpp_toterr.tif",
+        "bytes": 40980808,
+        "sha256": "416c4baa3b64def0182bb3379a1a9228482efd8ce32a39309ea8de5d0330fbe6",
+        "grid": {
+          "width": 3200,
+          "height": 3200,
+          "transform": [
+            5.0,
+            0.0,
+            -9000.0,
+            0.0,
+            -5.0,
+            1000.0
+          ],
+          "crs_wkt": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      }
+    },
+    "Site11": {
+      "surf": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site11/Site11_final_adj_5mpp_surf.tif",
+        "bytes": 40980806,
+        "sha256": "58f3372c35bbd6baf38ffd5633c1c96b59bd89dbd252150581d12893a43136e5",
+        "grid": {
+          "width": 3200,
+          "height": 3200,
+          "transform": [
+            5.0,
+            0.0,
+            -45000.0,
+            0.0,
+            -5.0,
+            23000.0
+          ],
+          "crs_wkt": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "slp": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site11/Site11_final_adj_5mpp_slp.tif",
+        "bytes": 40980774,
+        "sha256": "c7f3eca389cf323e276955ed8e77b3eb870c576f4adf6b481014a1de6a403e23",
+        "grid": {
+          "width": 3200,
+          "height": 3200,
+          "transform": [
+            5.0,
+            0.0,
+            -45000.0,
+            0.0,
+            -5.0,
+            23000.0
+          ],
+          "crs_wkt": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "slperr": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site11/Site11_final_adj_5mpp_slperr.tif",
+        "bytes": 40980808,
+        "sha256": "57cf88cc62721ade317cdd7b0300b607f8a8b3e6bfe571e307319ad4329f4cc1",
+        "grid": {
+          "width": 3200,
+          "height": 3200,
+          "transform": [
+            5.0,
+            0.0,
+            -45000.0,
+            0.0,
+            -5.0,
+            23000.0
+          ],
+          "crs_wkt": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "ldec": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site11/Site11_final_adj_5mpp_ldec.tif",
+        "bytes": 40980742,
+        "sha256": "aa779cddc7948809d0053ae855ab09a3e1321ac1289223aa68080f89a0d4dbff",
+        "grid": {
+          "width": 3200,
+          "height": 3200,
+          "transform": [
+            5.0,
+            0.0,
+            -45000.0,
+            0.0,
+            -5.0,
+            23000.0
+          ],
+          "crs_wkt": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "toterr": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site11/Site11_final_adj_5mpp_toterr.tif",
+        "bytes": 40980810,
+        "sha256": "0d61e972981483fb3022af8e65d052506969a758aa95eb0ebe0478a83ac55e1b",
+        "grid": {
+          "width": 3200,
+          "height": 3200,
+          "transform": [
+            5.0,
+            0.0,
+            -45000.0,
+            0.0,
+            -5.0,
+            23000.0
+          ],
+          "crs_wkt": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      }
+    },
+    "Site06": {
+      "surf": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site06/Site06_final_adj_5mpp_surf.tif",
+        "bytes": 64025603,
+        "sha256": "cca17e8067601dd659b583f889204db6bce685bc30c60a9e62427a8bce36b03d",
+        "grid": {
+          "width": 4000,
+          "height": 4000,
+          "transform": [
+            5.0,
+            0.0,
+            74000.0,
+            0.0,
+            -5.0,
+            120000.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "slp": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site06/Site06_final_adj_5mpp_slp.tif",
+        "bytes": 64025573,
+        "sha256": "47db26dc18aa8f253a7d281ccf86189bb8dfd2b33b8a5b7c20586e4877c24e0c",
+        "grid": {
+          "width": 4000,
+          "height": 4000,
+          "transform": [
+            5.0,
+            0.0,
+            74000.0,
+            0.0,
+            -5.0,
+            120000.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "slperr": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site06/Site06_final_adj_5mpp_slperr.tif",
+        "bytes": 64025605,
+        "sha256": "fd7fe86186013df32a60130ffadff2b8b49a4b2730dd6a1e53b06a058610d382",
+        "grid": {
+          "width": 4000,
+          "height": 4000,
+          "transform": [
+            5.0,
+            0.0,
+            74000.0,
+            0.0,
+            -5.0,
+            120000.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "ldec": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site06/Site06_final_adj_5mpp_ldec.tif",
+        "bytes": 64025541,
+        "sha256": "f7a42c93209bcfe7991632ee569bbb597a3c8a22e1521c7697e13be1cf5a2562",
+        "grid": {
+          "width": 4000,
+          "height": 4000,
+          "transform": [
+            5.0,
+            0.0,
+            74000.0,
+            0.0,
+            -5.0,
+            120000.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "toterr": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site06/Site06_final_adj_5mpp_toterr.tif",
+        "bytes": 64025607,
+        "sha256": "997c7d2d7ae6a74a1d5c38411cf30a414b1a83474b6b3c3a7b1cb32ef675661e",
+        "grid": {
+          "width": 4000,
+          "height": 4000,
+          "transform": [
+            5.0,
+            0.0,
+            74000.0,
+            0.0,
+            -5.0,
+            120000.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      }
+    },
+    "Site07": {
+      "surf": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site07/Site07_final_adj_5mpp_surf.tif",
+        "bytes": 40980808,
+        "sha256": "38aaee10bb4da4d63e7427aa1ca25c79bdbc649d212079a04990e135462091f8",
+        "grid": {
+          "width": 3200,
+          "height": 3200,
+          "transform": [
+            5.0,
+            0.0,
+            22000.0,
+            0.0,
+            -5.0,
+            -12000.0
+          ],
+          "crs_wkt": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "slp": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site07/Site07_final_adj_5mpp_slp.tif",
+        "bytes": 40980774,
+        "sha256": "febfe1bf19087f537bba2f7854d40ac83adadba5003f2585b1685cbd90d02219",
+        "grid": {
+          "width": 3200,
+          "height": 3200,
+          "transform": [
+            5.0,
+            0.0,
+            22000.0,
+            0.0,
+            -5.0,
+            -12000.0
+          ],
+          "crs_wkt": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "slperr": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site07/Site07_final_adj_5mpp_slperr.tif",
+        "bytes": 40980808,
+        "sha256": "a7cca9566b91e12da4b0f5d31547a122afe859d3ccf81b1379e094bdd85d6488",
+        "grid": {
+          "width": 3200,
+          "height": 3200,
+          "transform": [
+            5.0,
+            0.0,
+            22000.0,
+            0.0,
+            -5.0,
+            -12000.0
+          ],
+          "crs_wkt": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "ldec": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site07/Site07_final_adj_5mpp_ldec.tif",
+        "bytes": 40980742,
+        "sha256": "860ff76518edaa4f6b3d5b637c9192dc84541a8cc27487f21f9d2bd19181487b",
+        "grid": {
+          "width": 3200,
+          "height": 3200,
+          "transform": [
+            5.0,
+            0.0,
+            22000.0,
+            0.0,
+            -5.0,
+            -12000.0
+          ],
+          "crs_wkt": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "toterr": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site07/Site07_final_adj_5mpp_toterr.tif",
+        "bytes": 40980810,
+        "sha256": "9be3e4b989ad3164ab5c9036fadab548e5c1c027d056b96f5ef055362c4b1e3e",
+        "grid": {
+          "width": 3200,
+          "height": 3200,
+          "transform": [
+            5.0,
+            0.0,
+            22000.0,
+            0.0,
+            -5.0,
+            -12000.0
+          ],
+          "crs_wkt": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      }
+    },
+    "Site23": {
+      "surf": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site23/Site23_final_adj_5mpp_surf.tif",
+        "bytes": 70586804,
+        "sha256": "12d280a59cd7580415f6bada638d0abe025ce6727541fddf68d5dc371a6c94cf",
+        "grid": {
+          "width": 4200,
+          "height": 4200,
+          "transform": [
+            5.0,
+            0.0,
+            -11000.0,
+            0.0,
+            -5.0,
+            132000.0
+          ],
+          "crs_wkt": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "slp": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site23/Site23_final_adj_5mpp_slp.tif",
+        "bytes": 70586810,
+        "sha256": "e2b41c65a9c9044d359f634e706b71fa187dbe7d9f271d5410cbd81d68eadb91",
+        "grid": {
+          "width": 4200,
+          "height": 4200,
+          "transform": [
+            5.0,
+            0.0,
+            -11000.0,
+            0.0,
+            -5.0,
+            132000.0
+          ],
+          "crs_wkt": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "slperr": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site23/Site23_final_adj_5mpp_slperr.tif",
+        "bytes": 70586809,
+        "sha256": "86bc31f33c0395feffeaafe2d0b07bfcf4936f703c6eb955804c3b8b42ece173",
+        "grid": {
+          "width": 4200,
+          "height": 4200,
+          "transform": [
+            5.0,
+            0.0,
+            -11000.0,
+            0.0,
+            -5.0,
+            132000.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "ldec": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site23/Site23_final_adj_5mpp_ldec.tif",
+        "bytes": 70586742,
+        "sha256": "ebb6adb3603f3921fcce9c8bfd06fb79ca5fd88b53f11ab4c65f0da158316c74",
+        "grid": {
+          "width": 4200,
+          "height": 4200,
+          "transform": [
+            5.0,
+            0.0,
+            -11000.0,
+            0.0,
+            -5.0,
+            132000.0
+          ],
+          "crs_wkt": "PROJCS[\"unnamed\",GEOGCS[\"unnamed ellipse\",DATUM[\"unknown\",SPHEROID[\"unnamed\",1737400,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "toterr": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site23/Site23_final_adj_5mpp_toterr.tif",
+        "bytes": 70586811,
+        "sha256": "fe08539cfa3a0f7bb4ddf15dd7e0835fae0c761d516b2157d51116311a1ff69d",
+        "grid": {
+          "width": 4200,
+          "height": 4200,
+          "transform": [
+            5.0,
+            0.0,
+            -11000.0,
+            0.0,
+            -5.0,
+            132000.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      }
+    },
+    "Site42": {
+      "surf": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site42/Site42_final_adj_5mpp_surf.tif",
+        "bytes": 64025611,
+        "sha256": "5af35ddca6ee9d7b10348610cb6714fd6d04dcce08d4e8cb6fb1113f4c1839cf",
+        "grid": {
+          "width": 4000,
+          "height": 4000,
+          "transform": [
+            5.0,
+            0.0,
+            -123400.0,
+            0.0,
+            -5.0,
+            -46100.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "slp": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site42/Site42_final_adj_5mpp_slp.tif",
+        "bytes": 64025581,
+        "sha256": "11e2ffa5d1f53e8f27b2b499380f5aa2fbd6c56d9181034e8e2e241aa48822e2",
+        "grid": {
+          "width": 4000,
+          "height": 4000,
+          "transform": [
+            5.0,
+            0.0,
+            -123400.0,
+            0.0,
+            -5.0,
+            -46100.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "slperr": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site42/Site42_final_adj_5mpp_slperr.tif",
+        "bytes": 64025615,
+        "sha256": "92f00ca37de2841f1fbf85860f9a4d4caa7ab003da67677ed390241a28a25b4a",
+        "grid": {
+          "width": 4000,
+          "height": 4000,
+          "transform": [
+            5.0,
+            0.0,
+            -123400.0,
+            0.0,
+            -5.0,
+            -46100.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "ldec": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site42/Site42_final_adj_5mpp_ldec.tif",
+        "bytes": 64025549,
+        "sha256": "9cafd653e42d92e47c5cdb1eacdbe8acdd43ae52ff7dc1f3ed722c6b4fa22ec4",
+        "grid": {
+          "width": 4000,
+          "height": 4000,
+          "transform": [
+            5.0,
+            0.0,
+            -123400.0,
+            0.0,
+            -5.0,
+            -46100.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "toterr": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site42/Site42_final_adj_5mpp_toterr.tif",
+        "bytes": 64025617,
+        "sha256": "df1e12ab9307b45fb4474dd276a7cb1ce5b6eff5fd3a528166ad7061f96ebef4",
+        "grid": {
+          "width": 4000,
+          "height": 4000,
+          "transform": [
+            5.0,
+            0.0,
+            -123400.0,
+            0.0,
+            -5.0,
+            -46100.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      }
+    },
+    "Haworth": {
+      "surf": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Haworth/Haworth_final_adj_5mpp_surf.tif",
+        "bytes": 142123767,
+        "sha256": "387fd6e99bca266f4982f7256c4c185921105313882b4c2eee5b5ff1ef75016b",
+        "grid": {
+          "width": 5960,
+          "height": 5960,
+          "transform": [
+            5.0,
+            0.0,
+            -52900.0,
+            0.0,
+            -5.0,
+            105400.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "slp": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Haworth/Haworth_final_adj_5mpp_slp.tif",
+        "bytes": 142123729,
+        "sha256": "e6126acd792247b17109aaa57a0bed941afc37995cc72cc2f26b7a229f1e38de",
+        "grid": {
+          "width": 5960,
+          "height": 5960,
+          "transform": [
+            5.0,
+            0.0,
+            -52900.0,
+            0.0,
+            -5.0,
+            105400.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "slperr": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Haworth/Haworth_final_adj_5mpp_slperr.tif",
+        "bytes": 142123771,
+        "sha256": "85e540960ce12d0cc4fdd881c48e0aab5dc28fefd975685d14af5ad6480aa158",
+        "grid": {
+          "width": 5960,
+          "height": 5960,
+          "transform": [
+            5.0,
+            0.0,
+            -52900.0,
+            0.0,
+            -5.0,
+            105400.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "ldec": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Haworth/Haworth_final_adj_5mpp_ldec.tif",
+        "bytes": 142123705,
+        "sha256": "1c39bb83be3213bf87b551c3ee700697d3554dd9afa25649a1a4006fefd7eb27",
+        "grid": {
+          "width": 5960,
+          "height": 5960,
+          "transform": [
+            5.0,
+            0.0,
+            -52900.0,
+            0.0,
+            -5.0,
+            105400.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "toterr": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Haworth/Haworth_final_adj_5mpp_toterr.tif",
+        "bytes": 142123773,
+        "sha256": "f4231e1605d27b90c21fe5183db4e37de7532fed6b8fcfda860ec2eca8c61963",
+        "grid": {
+          "width": 5960,
+          "height": 5960,
+          "transform": [
+            5.0,
+            0.0,
+            -52900.0,
+            0.0,
+            -5.0,
+            105400.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      }
+    },
+    "Shoemaker": {
+      "surf": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Shoemaker/Shoemaker_final_adj_5mpp_surf.tif",
+        "bytes": 64025605,
+        "sha256": "75329262a6dbe37e4370adcf23ec3854396c9d3e911a682d76c170178a0b8290",
+        "grid": {
+          "width": 4000,
+          "height": 4000,
+          "transform": [
+            5.0,
+            0.0,
+            66000.0,
+            0.0,
+            -5.0,
+            49000.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "slp": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Shoemaker/Shoemaker_final_adj_5mpp_slp.tif",
+        "bytes": 64025571,
+        "sha256": "1d03f26f3d011da0a43b8785ea4c9b565b268b06144844809a6b3a4a07d6e81b",
+        "grid": {
+          "width": 4000,
+          "height": 4000,
+          "transform": [
+            5.0,
+            0.0,
+            66000.0,
+            0.0,
+            -5.0,
+            49000.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "slperr": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Shoemaker/Shoemaker_final_adj_5mpp_slperr.tif",
+        "bytes": 64025605,
+        "sha256": "2ccf53ad0519aec411b1def321ca28d72d21b66b3ea713253f3630cb26e33ba9",
+        "grid": {
+          "width": 4000,
+          "height": 4000,
+          "transform": [
+            5.0,
+            0.0,
+            66000.0,
+            0.0,
+            -5.0,
+            49000.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "ldec": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Shoemaker/Shoemaker_final_adj_5mpp_ldec.tif",
+        "bytes": 64025539,
+        "sha256": "d054fbce5cdbf23ead0a667bf897d8075169d6d649b60d2b02da0c9f0a622765",
+        "grid": {
+          "width": 4000,
+          "height": 4000,
+          "transform": [
+            5.0,
+            0.0,
+            66000.0,
+            0.0,
+            -5.0,
+            49000.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "toterr": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Shoemaker/Shoemaker_final_adj_5mpp_toterr.tif",
+        "bytes": 64025605,
+        "sha256": "6e9aae69ff0f1bd6fa65c4ecd0e270c02aa6318da834c53c3e2edd81ce0c5d0e",
+        "grid": {
+          "width": 4000,
+          "height": 4000,
+          "transform": [
+            5.0,
+            0.0,
+            66000.0,
+            0.0,
+            -5.0,
+            49000.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      }
+    },
+    "DM2": {
+      "surf": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/DM2/DM2_final_adj_5mpp_surf.tif",
+        "bytes": 64025607,
+        "sha256": "d88677c21633683061117db0a577f0510e0948fe9db315d13be28782407ff604",
+        "grid": {
+          "width": 4000,
+          "height": 4000,
+          "transform": [
+            5.0,
+            0.0,
+            147000.0,
+            0.0,
+            -5.0,
+            105000.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "slp": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/DM2/DM2_final_adj_5mpp_slp.tif",
+        "bytes": 64025575,
+        "sha256": "dc62edf86ae6717eb37aeaf4f9c8fb65e8d3833be7716461fa184012888c7254",
+        "grid": {
+          "width": 4000,
+          "height": 4000,
+          "transform": [
+            5.0,
+            0.0,
+            147000.0,
+            0.0,
+            -5.0,
+            105000.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "slperr": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/DM2/DM2_final_adj_5mpp_slperr.tif",
+        "bytes": 64025607,
+        "sha256": "dccbdd00a757b17d6a67ac3eeac66757a81a8faeac6f59d10c92e2096c0ae653",
+        "grid": {
+          "width": 4000,
+          "height": 4000,
+          "transform": [
+            5.0,
+            0.0,
+            147000.0,
+            0.0,
+            -5.0,
+            105000.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "ldec": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/DM2/DM2_final_adj_5mpp_ldec.tif",
+        "bytes": 64025543,
+        "sha256": "a01a6ae1ff1b8c087859940c94ad77e7eaa5015a73b115debafd9e74ecfceb19",
+        "grid": {
+          "width": 4000,
+          "height": 4000,
+          "transform": [
+            5.0,
+            0.0,
+            147000.0,
+            0.0,
+            -5.0,
+            105000.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "toterr": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/DM2/DM2_final_adj_5mpp_toterr.tif",
+        "bytes": 64025611,
+        "sha256": "7b4ad3b954dcf458f807c5637fa27fa2bae987c3e0bc369768868bca6483c418",
+        "grid": {
+          "width": 4000,
+          "height": 4000,
+          "transform": [
+            5.0,
+            0.0,
+            147000.0,
+            0.0,
+            -5.0,
+            105000.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      }
+    },
+    "SL2": {
+      "surf": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/SL2/SL2_final_adj_5mpp_surf.tif",
+        "bytes": 64025605,
+        "sha256": "16737cb5fdaa47f243715e003450deadeabc6fb1b947a5ed245d5a3fd78a2208",
+        "grid": {
+          "width": 4000,
+          "height": 4000,
+          "transform": [
+            5.0,
+            0.0,
+            -58500.0,
+            0.0,
+            -5.0,
+            33000.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "slp": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/SL2/SL2_final_adj_5mpp_slp.tif",
+        "bytes": 64025575,
+        "sha256": "06d50fd00ec4d0bb00b15c6c4b8c0cff9a11afa0084c1bb4fd42e9486e815f8b",
+        "grid": {
+          "width": 4000,
+          "height": 4000,
+          "transform": [
+            5.0,
+            0.0,
+            -58500.0,
+            0.0,
+            -5.0,
+            33000.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "slperr": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/SL2/SL2_final_adj_5mpp_slperr.tif",
+        "bytes": 64025609,
+        "sha256": "26c1f44dd0a8e7d15cd6e55a594dac63870c55e832d65fbbf03abfc4076c8933",
+        "grid": {
+          "width": 4000,
+          "height": 4000,
+          "transform": [
+            5.0,
+            0.0,
+            -58500.0,
+            0.0,
+            -5.0,
+            33000.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "ldec": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/SL2/SL2_final_adj_5mpp_ldec.tif",
+        "bytes": 64025543,
+        "sha256": "ffea237023698c4970ac6a2d259ae31cd42967945ce52109c88d755c44bb42bb",
+        "grid": {
+          "width": 4000,
+          "height": 4000,
+          "transform": [
+            5.0,
+            0.0,
+            -58500.0,
+            0.0,
+            -5.0,
+            33000.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "toterr": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/SL2/SL2_final_adj_5mpp_toterr.tif",
+        "bytes": 64025609,
+        "sha256": "1d78d9b338ed7338898dca13147d487381f63ff6ec82ba7b684f4ad99a2ecf58",
+        "grid": {
+          "width": 4000,
+          "height": 4000,
+          "transform": [
+            5.0,
+            0.0,
+            -58500.0,
+            0.0,
+            -5.0,
+            33000.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      }
+    },
+    "SL3": {
+      "surf": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/SL3/SL3_final_adj_5mpp_surf.tif",
+        "bytes": 64025611,
+        "sha256": "a18c153dab5c9e7e0b4d8a5f1547bd7ef5e31fba7dd1c3252d84060aebf0283b",
+        "grid": {
+          "width": 4000,
+          "height": 4000,
+          "transform": [
+            5.0,
+            0.0,
+            -38700.0,
+            0.0,
+            -5.0,
+            3900.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "slp": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/SL3/SL3_final_adj_5mpp_slp.tif",
+        "bytes": 64025577,
+        "sha256": "5c5a40da984acf6c6d2bff50c306b9fdd1a77f9cc7f6cff6bf83f67eda5788c9",
+        "grid": {
+          "width": 4000,
+          "height": 4000,
+          "transform": [
+            5.0,
+            0.0,
+            -38700.0,
+            0.0,
+            -5.0,
+            3900.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "slperr": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/SL3/SL3_final_adj_5mpp_slperr.tif",
+        "bytes": 64025609,
+        "sha256": "e4ca984c1bc761dca6c82446d467b2feb470a1e37b5de7d77b7368d3b0551f8f",
+        "grid": {
+          "width": 4000,
+          "height": 4000,
+          "transform": [
+            5.0,
+            0.0,
+            -38700.0,
+            0.0,
+            -5.0,
+            3900.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "ldec": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/SL3/SL3_final_adj_5mpp_ldec.tif",
+        "bytes": 64025545,
+        "sha256": "e9a420e663af48a0d869e1a207237e447200e88486b0f605a68c51d5f92a7b40",
+        "grid": {
+          "width": 4000,
+          "height": 4000,
+          "transform": [
+            5.0,
+            0.0,
+            -38700.0,
+            0.0,
+            -5.0,
+            3900.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "toterr": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/SL3/SL3_final_adj_5mpp_toterr.tif",
+        "bytes": 64025613,
+        "sha256": "a337224e5c130fad7eb22928e8f09f6c52b5bcb4253c49211fc55e8af86cdc13",
+        "grid": {
+          "width": 4000,
+          "height": 4000,
+          "transform": [
+            5.0,
+            0.0,
+            -38700.0,
+            0.0,
+            -5.0,
+            3900.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      }
+    },
+    "Site20v2": {
+      "surf": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site20v2/Site20v2_final_adj_5mpp_surf.tif",
+        "bytes": 108192905,
+        "sha256": "0e96c40987c0814eadd4f94f85dacbb33bcab5388dd0b1dc99dc59bf987f072f",
+        "grid": {
+          "width": 5200,
+          "height": 5200,
+          "transform": [
+            5.0,
+            0.0,
+            60000.0,
+            0.0,
+            -5.0,
+            131000.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "slp": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site20v2/Site20v2_final_adj_5mpp_slp.tif",
+        "bytes": 108192875,
+        "sha256": "0a505d4e93642c97e171588383b5bc3170311a4c727f73bfd92fd438d87f558f",
+        "grid": {
+          "width": 5200,
+          "height": 5200,
+          "transform": [
+            5.0,
+            0.0,
+            60000.0,
+            0.0,
+            -5.0,
+            131000.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "slperr": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site20v2/Site20v2_final_adj_5mpp_slperr.tif",
+        "bytes": 108192911,
+        "sha256": "bf9935893bc32e4675a0798b5aac7e3d20ecbb95b23e86ded8aaf05f1a68606d",
+        "grid": {
+          "width": 5200,
+          "height": 5200,
+          "transform": [
+            5.0,
+            0.0,
+            60000.0,
+            0.0,
+            -5.0,
+            131000.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "ldec": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site20v2/Site20v2_final_adj_5mpp_ldec.tif",
+        "bytes": 108192845,
+        "sha256": "b3d94807d2c4dc87823551015b342f6188d284c7d1122ae635214d256165d37b",
+        "grid": {
+          "width": 5200,
+          "height": 5200,
+          "transform": [
+            5.0,
+            0.0,
+            60000.0,
+            0.0,
+            -5.0,
+            131000.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      },
+      "toterr": {
+        "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/Site20v2/Site20v2_final_adj_5mpp_toterr.tif",
+        "bytes": 108192913,
+        "sha256": "c20b7bc4658ecf1d83808e55c6a370451e378207b17deffa2f8fc25fc2e8a3f2",
+        "grid": {
+          "width": 5200,
+          "height": 5200,
+          "transform": [
+            5.0,
+            0.0,
+            60000.0,
+            0.0,
+            -5.0,
+            131000.0
+          ],
+          "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+          "nodata": "NaN",
+          "dtype": "float32"
+        }
+      }
+    }
+  },
+  "readme": {
+    "url": "https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/README",
+    "sha256": "e985a2337c9de1cd665b0ddad8b7f1fac88d65c96d1e47d1b975a91c8e53e7bd",
+    "bytes": 1829
+  },
+  "frame": "MOON_ME_DE421",
+  "product_page": "https://pgda.gsfc.nasa.gov/products/78",
+  "limits": [
+    "Grid resolution is 5 m, not independent 5 m measurements; many pixels are interpolated",
+    "Slope and height error maps are RMS, not confidence or hard error bounds",
+    "No boulder density, sub-grid hazard, vehicle capability or flight landing safety is established"
+  ],
+  "crs_name_variants": {
+    "Site23": {
+      "distinct_original_wkt_strings": 2,
+      "validated_projection_parameters": {
+        "proj": "stere",
+        "lat_0": -90,
+        "lat_ts": -90,
+        "lon_0": 0,
+        "x_0": 0,
+        "y_0": 0,
+        "R": 1737400,
+        "units": "m"
+      },
+      "note": "Original names/prime-meridian labels differ; numeric projection, zero meridian, radius, pixel grid and units agree. Same ME421 frame follows the official companion-product documentation; no fitted registration correction applied."
+    }
+  }
+}

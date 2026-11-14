@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "sources": {
+    "otten-2015-routes.pdf": {
+      "url": "https://publications.ri.cmu.edu/storage/publications/2018/01/ICRA2015_Otten_3109.pdf",
+      "finalURL": "https://publications.ri.cmu.edu/storage/publications/2018/01/ICRA2015_Otten_3109.pdf",
+      "bytes": 2620070,
+      "sha256": "2f9d60c7b75cb1e795ceb94d4a5dd51b254170c966cf90df633f82c9383df935"
+    },
+    "lamarre-route-abstract.html": {
+      "url": "https://arxiv.org/abs/2401.08558",
+      "finalURL": "https://arxiv.org/abs/2401.08558",
+      "bytes": 44072,
+      "sha256": "61395bdff54e9cbee5a86bee2c401f247107d7d787257a10ee18c91d6f35e370"
+    }
+  },
+  "unavailable": {
+    "navlunar-home.html": {
+      "url": "https://navlunar.com/",
+      "status": 429,
+      "reason": "First direct retention attempt returned HTTP 429. Publisher text was inspected with the web tool; original response bytes were not retained."
+    }
+  },
+  "scope": "Publisher descriptions and research methodology, not an executed competitor task, measured vehicle model or superiority result. Homepage/about descriptions of NavLunar route shadows differ; no missing/present runtime feature inferred."
+}

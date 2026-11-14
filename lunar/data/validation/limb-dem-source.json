@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "files": {
+    "ldem_64.lbl": {
+      "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/lola_gdr/cylindrical/img/ldem_64.lbl",
+      "bytes": 5128,
+      "sha256": "4e7a94c76c716a147b21ccf07669d004246b0d1b017b7d63d50befaa1a34142d"
+    },
+    "ldem_64.img": {
+      "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/lola_gdr/cylindrical/img/ldem_64.img",
+      "bytes": 530841600,
+      "sha256": "1c4958699d4cffd7e777d51421b6044bba300aa0bef286a544309efb082cdbd6"
+    }
+  },
+  "metadata": {
+    "product": "LDEM_64",
+    "version": "V3.1",
+    "created": "2019-03-15",
+    "rows": 11520,
+    "cols": 23040,
+    "pixels_per_degree": 64,
+    "height_factor_m": 0.5,
+    "reference_radius_m": 1737400.0,
+    "minimum_dn": -18251,
+    "maximum_dn": 21546,
+    "frame": "MOON_ME_DE421",
+    "pixel_registration": "lat=90-(row+0.5)/64; east lon=(col+0.5)/64",
+    "label_limitations": "45-degree band edge artifacts; interpolated incomplete coverage; no per-pixel error bound"
+  },
+  "observed_extrema_dn": [
+    -18229,
+    21514
+  ],
+  "extrema_remote_checks": [
+    {
+      "byte_offset": 472943040,
+      "dn": -18229,
+      "content_range": "bytes 472943040-472943041/530841600"
+    },
+    {
+      "byte_offset": 249410734,
+      "dn": 21514,
+      "content_range": "bytes 249410734-249410735/530841600"
+    }
+  ],
+  "extrema_note": "Observed raster extrema differ from, but lie within, the label extrema; source discrepancy retained, not fitted away"
+}

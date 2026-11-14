@@ -1,0 +1,383 @@
+{
+  "schema": 1,
+  "epoch_utc": "2027-03-01T00:00:00",
+  "epoch_et_tdb_s": 857131269.1853731,
+  "days": 30.0,
+  "output_step_tdb_s": 300,
+  "count": 8641,
+  "artifact": "data\\raw\\research\\relay\\lcrns-propagated.npz",
+  "artifact_sha256": "309c3b4521f8fc17ea08d503ef5bfb6471925bb0bac1fd2fe52f51e63ae14acf",
+  "frame": "Moon-centred ICRF/J2000; force rotates through MOON_PA_DE421, not epoch-frozen PA",
+  "method": "SciPy DOP853",
+  "rtol": 1e-12,
+  "position_atol_km": 1e-09,
+  "velocity_atol_km_s": 1e-12,
+  "max_step_s": 300,
+  "force_calls": 129782,
+  "elapsed_s": 97.33474779990502,
+  "gravity": {
+    "name": "GRGM900C",
+    "degree": 25,
+    "order": 25,
+    "gm_km3_s2": 4902.79996708864,
+    "reference_radius_km": 1738.0,
+    "normalization": "fully normalized geodesy; no Condon–Shortley phase"
+  },
+  "point_masses": {
+    "ids": [
+      "10",
+      "2",
+      "399",
+      "4",
+      "5",
+      "6"
+    ],
+    "gm_km3_s2": [
+      132712440040.9446,
+      324858.59200000117,
+      398600.43623333966,
+      42828.37521400019,
+      126712764.8000003,
+      37940585.20000016
+    ],
+    "note": "Venus and outer planetary system barycentres from DE421; Earth centre, not EMB"
+  },
+  "srp": {
+    "flux_w_m2_at_au": 1367,
+    "cr": 1.8,
+    "area_m2": 1,
+    "mass_kg": 850,
+    "shadow": "uniform apparent angular disks; Moon/Earth union; analytic one disk, adaptive quadrature for two partial disks",
+    "sun_radius_km": 695700.0,
+    "earth_radius_km": 6378.1366,
+    "moon_radius_km": 1737.4
+  },
+  "minimum_sampled_radius_km": [
+    3464.9861855610434,
+    3441.53190473097,
+    3077.539796619444,
+    3058.6848958109304,
+    3042.941556204964
+  ],
+  "maximum_sampled_radius_km": [
+    19143.436809940962,
+    19170.529848744154,
+    19527.62400227341,
+    19549.632849368365,
+    19564.13037479201
+  ],
+  "initial_states_icrf_km_kms": [
+    [
+      -198.931445,
+      386.023132,
+      3458.355412,
+      -1.539867,
+      0.022243,
+      -0.091059
+    ],
+    [
+      1089.980598,
+      -2260.918271,
+      -18984.562823,
+      0.280301,
+      -0.004049,
+      0.016575
+    ],
+    [
+      9187.665852,
+      -260.470721,
+      -8543.222759,
+      0.273629,
+      0.417588,
+      -0.313828
+    ],
+    [
+      6484.019002,
+      14329.883921,
+      -7966.345594,
+      -0.258433,
+      0.033951,
+      0.235264
+    ],
+    [
+      -5074.242314,
+      14473.022751,
+      -8638.530033,
+      -0.229931,
+      -0.026926,
+      -0.264381
+    ]
+  ],
+  "table_cross_check": [
+    {
+      "spacecraft": "SV-1",
+      "reconstructed_elements": [
+        11315.89888588435,
+        0.6919807868347113,
+        59.3732005010496,
+        321.0191895279308,
+        92.49400252137019,
+        359.9999972508461
+      ],
+      "minus_table1": [
+        -0.03761511565062392,
+        -1.2131652886715472e-06,
+        -2.849895039958028e-05,
+        -7.472069228242617e-06,
+        -2.8478629815253953e-05,
+        -2.7491539640323026e-06
+      ],
+      "printed_state_corner_sensitivity_min": [
+        -0.04318891623734089,
+        -1.1755572072447151e-06,
+        -9.177376796287717e-07,
+        -2.4240206130343722e-05,
+        -5.4975709701921005e-05,
+        -5.2693362590616744e-05
+      ],
+      "printed_state_corner_sensitivity_max": [
+        0.04318928513021092,
+        1.1755583287920146e-06,
+        9.177427386930503e-07,
+        2.4240192090019264e-05,
+        5.4975815942270856e-05,
+        5.269323594347952e-05
+      ]
+    },
+    {
+      "spacecraft": "SV-2",
+      "reconstructed_elements": [
+        11317.941137730273,
+        0.6919829387635191,
+        58.9517040297257,
+        320.9977437089153,
+        92.50503106113874,
+        179.99996215033337
+      ],
+      "minus_table1": [
+        -0.007537269726526574,
+        9.387635191426824e-07,
+        -2.7970274288691144e-05,
+        -2.429108468504637e-05,
+        1.5061138753935666e-05,
+        -3.7849666625788814e-05
+      ],
+      "printed_state_corner_sensitivity_min": [
+        -0.007862670512622572,
+        -1.1753909967548992e-06,
+        -5.0452754010166245e-06,
+        -0.00013456770273023722,
+        -0.00010540080199916702,
+        -5.296439536550679e-05
+      ],
+      "printed_state_corner_sensitivity_max": [
+        0.00786272062396165,
+        1.1753867291686149e-06,
+        5.0454316351533635e-06,
+        0.00013456727396032875,
+        0.00010540095391320392,
+        5.2964055441862e-05
+      ]
+    },
+    {
+      "spacecraft": "SV-3",
+      "reconstructed_elements": [
+        11305.410937739654,
+        0.6919818461472615,
+        52.73317580378478,
+        81.14884311997857,
+        92.06282568339886,
+        140.0492240131054
+      ],
+      "minus_table1": [
+        -0.002716260345550836,
+        -1.5385273843815384e-07,
+        7.980378478578132e-05,
+        5.3119978559834635e-05,
+        -6.531660113751059e-05,
+        1.701310540624945e-05
+      ],
+      "printed_state_corner_sensitivity_min": [
+        -0.026201852488156874,
+        -9.917674581583213e-07,
+        -6.1927428873787e-05,
+        -0.00010000662086895318,
+        -0.00014444236904864738,
+        -0.00014229876461513413
+      ],
+      "printed_state_corner_sensitivity_max": [
+        0.026202013048532535,
+        9.91765709001946e-07,
+        6.192763621015729e-05,
+        0.00010000665537290843,
+        0.0001444425658974069,
+        0.00014229856267888863
+      ]
+    },
+    {
+      "spacecraft": "SV-4",
+      "reconstructed_elements": [
+        11326.30070784763,
+        0.6919815297311385,
+        52.51348246090419,
+        81.13872325969544,
+        92.06900470832433,
+        195.9923735941251
+      ],
+      "minus_table1": [
+        -0.0014461523714999203,
+        -4.7026886151879665e-07,
+        6.346090418674066e-05,
+        -9.474030457568006e-05,
+        5.9708324329221796e-05,
+        -1.940587489457357e-05
+      ],
+      "printed_state_corner_sensitivity_min": [
+        -0.01380690513906302,
+        -1.6704168301906464e-06,
+        -4.3822781776725606e-05,
+        -0.00016935047503352507,
+        -0.00011241758738833596,
+        -0.0001000850394916597
+      ],
+      "printed_state_corner_sensitivity_max": [
+        0.01380697805325326,
+        1.67041322696182e-06,
+        4.382295878713194e-05,
+        0.000169350923613365,
+        0.00011241707974818382,
+        0.00010008527860350114
+      ]
+    },
+    {
+      "spacecraft": "SV-5",
+      "reconstructed_elements": [
+        11307.889946835785,
+        0.6919817046541155,
+        56.31038359187555,
+        204.88959461298495,
+        85.44417406119153,
+        164.00754673330877
+      ],
+      "minus_table1": [
+        0.007083835784214898,
+        -2.9534588452673205e-07,
+        -1.240812446212658e-05,
+        -3.138701504212804e-05,
+        0.00010306119153824511,
+        -6.026669123571082e-05
+      ],
+      "printed_state_corner_sensitivity_min": [
+        -0.01359486831461254,
+        -1.6825044636403774e-06,
+        -5.00386666999475e-05,
+        -0.000160433160061757,
+        -0.00011421936721944803,
+        -0.00010071574598669031
+      ],
+      "printed_state_corner_sensitivity_max": [
+        0.013594940124676214,
+        1.6825007560505867e-06,
+        5.003878325737787e-05,
+        0.00016043268223597806,
+        0.00011421961045243734,
+        0.0001007154804426591
+      ]
+    }
+  ],
+  "de421_constants": {
+    "AU": 149597870.6996262,
+    "c_km_s": 299792.458,
+    "10": 132712440040.9446,
+    "2": 324858.59200000117,
+    "399": 398600.43623333966,
+    "4": 42828.37521400019,
+    "5": 126712764.8000003,
+    "6": 37940585.20000016
+  },
+  "provenance": {
+    "relay_sources": {
+      "schema": 1,
+      "purpose": "Research reference orbits, not operational provider ephemerides",
+      "sources": {
+        "de421.bsp": {
+          "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de421.bsp",
+          "bytes": 16790528,
+          "sha256": "08b20db2ae22488650641c5a9033e5bfda4b1c4b440cfeaf20f621cfa18ecdb3",
+          "etag": null,
+          "last_modified": "Tue, 08 Apr 2008 21:07:58 GMT"
+        },
+        "moon_pa_de421_1900-2050.bpc": {
+          "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/moon_pa_de421_1900-2050.bpc",
+          "bytes": 1770496,
+          "sha256": "656f90616403d75a75f0cd6c8830fc5b44f8cb4facb5ccb8915e752b397520cf",
+          "etag": null,
+          "last_modified": "Wed, 19 Mar 2008 04:51:40 GMT"
+        },
+        "moon_080317.tf": {
+          "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/moon_080317.tf",
+          "bytes": 21437,
+          "sha256": "78732477b96f9863e7b0d65bcee3c22b8707ca5ed0db56d1173319cb2e8c7993",
+          "etag": null,
+          "last_modified": "Thu, 18 Jul 2013 10:07:49 GMT"
+        },
+        "header.421": {
+          "url": "https://ssd.jpl.nasa.gov/ftp/eph/planets/ascii/de421/header.421",
+          "bytes": 8422,
+          "sha256": "0fe9e0d60df4b33772e7332d87eb883eaf4cf3219b5a4cd2d5bc2356e98b2d16",
+          "etag": "\"511403ad-20e6\"",
+          "last_modified": "Thu, 07 Feb 2013 19:42:37 GMT"
+        },
+        "gggrx_0900c_sha.tab": {
+          "url": "https://pds-geosciences.wustl.edu/grail/grail-l-lgrs-5-rdr-v1/grail_1001/shadr/gggrx_0900c_sha.tab",
+          "bytes": 49574944,
+          "sha256": "dab6ab06e0d3d7cbc594ea4bd03151a65534ed5fdf4f147ae38662428c04454e",
+          "etag": "\"7bd5d0a54f7bcf1:0\"",
+          "last_modified": "Thu, 29 May 2014 15:07:03 GMT"
+        },
+        "gggrx_0900c_sha.lbl": {
+          "url": "https://pds-geosciences.wustl.edu/grail/grail-l-lgrs-5-rdr-v1/grail_1001/shadr/gggrx_0900c_sha.lbl",
+          "bytes": 10828,
+          "sha256": "acc623e4b42a19f8feba1e7bda5189e984aa907491db12dede64bd426a1681c0",
+          "etag": "\"06fc05a578ed91:0\"",
+          "last_modified": "Wed, 24 May 2023 15:49:42 GMT"
+        },
+        "lcrns-reference-3.1.pdf": {
+          "url": "https://www.nasa.gov/wp-content/uploads/2025/08/nasa-lunar-communications-relay-and-navigation-systems-lcrns-reference-constellation-3-1.pdf?emrc=68cc484867c73",
+          "bytes": 168556,
+          "sha256": "78c442f5a114151af3599e576a2d2b38455df3266ee9129e8d3bdf3740c5726a",
+          "etag": "\"9d6e7f175a4d514c\"",
+          "last_modified": "Wed, 20 Aug 2025 14:13:48 GMT"
+        }
+      }
+    },
+    "shared_kernels": {
+      "naif0012.tls": {
+        "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/lsk/naif0012.tls",
+        "bytes": 5257,
+        "sha256": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b"
+      },
+      "pck00011.tpc": {
+        "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc",
+        "bytes": 131226,
+        "sha256": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1"
+      }
+    }
+  },
+  "software": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "spiceypy": "6.0.0"
+  },
+  "code_sha256": {
+    "relay_orbits.py": "271e9eeac5324d91a19da54fc23b5a31ea31aa1fdefdfe81527c1be477a1bb8c",
+    "propagate_relay.py": "06368bec6758c6c07dac71f1e21cf1d709043d9a34f5a269d35cf281f2cbee05"
+  },
+  "limitations": [
+    "Rounded initial reference states, not final provider or measured trajectories",
+    "No station keeping, actual area/attitude, unmodeled forces or covariance",
+    "Shadow algorithm/radii are explicit modeling choices beyond the white paper",
+    "No terrain/contact/RF/service coverage is inferred from propagation alone",
+    "Numerical convergence and independent integrator checks are recorded separately"
+  ]
+}

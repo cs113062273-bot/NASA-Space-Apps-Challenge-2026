@@ -1,0 +1,169 @@
+{
+  "schema": 1,
+  "method": "Independent source/geometry/power validation of actual desktop moving exports.\n\nSciPy interpolation, NumPy three-dimensional rays, source-cell and GEOS graph\ncertificates are independent of the browser simulator. These checks share the\nsource products; they do not validate physical terrain or vehicle performance.\n",
+  "cases": [
+    {
+      "case": "failed",
+      "jsonSha256": "0ae4e9f50054f38cb62c4dc77bcc3e74d9e44f4a99ed06479727eab27cca35a8",
+      "csvSha256": "38ba2898438dd72836df4493a19bcc3b415e28d10f9b46ee5a196831ac86eedc",
+      "resultSha256": "734aa84b1f6f861779d389ddfbb12852fa38fbf99cc97e80bcad25d513cc2df3",
+      "runs": [
+        {
+          "name": "nominal",
+          "samples": 250,
+          "pass": false,
+          "arrived": false,
+          "finalDistanceM": 16.874999798834324,
+          "endStoredWh": 0,
+          "returnedBits": 5668047917.393748
+        },
+        {
+          "name": "raised",
+          "samples": 250,
+          "pass": false,
+          "arrived": false,
+          "finalDistanceM": 16.874999798834324,
+          "endStoredWh": 0,
+          "returnedBits": 5668047917.393748
+        },
+        {
+          "name": "refinedNominal",
+          "samples": 499,
+          "pass": false,
+          "arrived": false,
+          "finalDistanceM": 16.87499979883432,
+          "endStoredWh": 0,
+          "returnedBits": 5668013344.299442
+        },
+        {
+          "name": "refinedRaised",
+          "samples": 499,
+          "pass": false,
+          "arrived": false,
+          "finalDistanceM": 16.87499979883432,
+          "endStoredWh": 0,
+          "returnedBits": 5668013344.299442
+        }
+      ]
+    },
+    {
+      "case": "passed",
+      "jsonSha256": "f180c21ed34a3acd99d565c5a78fde4cfc433f5f3e0853167a820594648a5fb0",
+      "csvSha256": "32800081ec80069867e38e9e0d46093860f00b38d23b8fe0460e12ef5343ee96",
+      "resultSha256": "8ab2c1ad8e9e0435ff41cbd7d10a19e6ed6ffbb6cbb14f7d4f79f76cc2d37c2a",
+      "runs": [
+        {
+          "name": "nominal",
+          "samples": 109,
+          "pass": true,
+          "arrived": true,
+          "finalDistanceM": 113.13708498984761,
+          "endStoredWh": 903.5663705220857,
+          "returnedBits": 15878069709.169716
+        },
+        {
+          "name": "raised",
+          "samples": 109,
+          "pass": true,
+          "arrived": true,
+          "finalDistanceM": 113.13708498984761,
+          "endStoredWh": 890.1917861405379,
+          "returnedBits": 15878069709.169716
+        },
+        {
+          "name": "refinedNominal",
+          "samples": 217,
+          "pass": true,
+          "arrived": true,
+          "finalDistanceM": 113.13708498984761,
+          "endStoredWh": 903.566358045208,
+          "returnedBits": 15877940870.34502
+        },
+        {
+          "name": "refinedRaised",
+          "samples": 217,
+          "pass": true,
+          "arrived": true,
+          "finalDistanceM": 113.13708498984761,
+          "endStoredWh": 890.088891337667,
+          "returnedBits": 15877940870.34502
+        }
+      ]
+    },
+    {
+      "case": "delayed",
+      "jsonSha256": "001eb629ad28002afe82d5c27eca596e9557ecec61ff3617ee2250458a70cbeb",
+      "csvSha256": "04aaa16c12d3d9a23d4510033c37ca98627fada3f4229d0c2ff75ae3f437367d",
+      "resultSha256": "738db38bd3e53566faef6dd01c25e23c34365eecc36b7d20c3c7543ca4443d55",
+      "runs": [
+        {
+          "name": "nominal",
+          "samples": 169,
+          "pass": true,
+          "arrived": true,
+          "finalDistanceM": 113.13708498984761,
+          "endStoredWh": 849.3186004746751,
+          "returnedBits": 27946740422.71401
+        },
+        {
+          "name": "raised",
+          "samples": 169,
+          "pass": true,
+          "arrived": true,
+          "finalDistanceM": 113.13708498984761,
+          "endStoredWh": 839.9850469822791,
+          "returnedBits": 27946740422.71401
+        },
+        {
+          "name": "refinedNominal",
+          "samples": 337,
+          "pass": true,
+          "arrived": true,
+          "finalDistanceM": 113.13708498984761,
+          "endStoredWh": 849.3185766772049,
+          "returnedBits": 27946775417.997925
+        },
+        {
+          "name": "refinedRaised",
+          "samples": 337,
+          "pass": true,
+          "arrived": true,
+          "finalDistanceM": 113.13708498984761,
+          "endStoredWh": 839.941415212786,
+          "returnedBits": 27946775417.997925
+        }
+      ]
+    }
+  ],
+  "rowsChecked": 3162,
+  "startPoseDirectionalRaysChecked": 15810,
+  "csvRowsChecked": 3162,
+  "maximumAbsoluteDifference": {
+    "groundM": 6.821210263296962e-13,
+    "directionalClearanceDeg": 1.1920130082998526e-07,
+    "sunFraction": 2.958780875861322e-08,
+    "arrayW": 5.766451423028229e-06,
+    "storageWh": 1.7438289887650171e-06,
+    "positionM": 2.1614615656308813e-10
+  },
+  "sourceSha256": {
+    "body": "9b4f08e1cfcb43565e2fb3fd03365ae5986243d6bf409e031a690e3f99a8f659",
+    "stations": "f71a4e9bcd2ca690e2ff266f3fb2da3a0f11bf1ffb4f071321282ca2d1be27dd",
+    "nativeGraph": "4eea89036994864ba3608cb2cd618ee73f6f9bc889632c8aaa9da9d1812f9846"
+  },
+  "codeSha256": {
+    "pipeline/validate_moving_exports.py": "189f64960a854d56edbcba4982c0be0c2c955053e397edc619b81ee9c2343e91",
+    "app/src/lib/traverse.ts": "4e3a4c2e099eda8ba226c7517bf9b14a843a29dcd780f6fe1e3db2033756cef8",
+    "app/src/lib/traverse-evaluation.ts": "cacad0bf81e24b0a08586cf374cf093966dfefdaf357a9d08166f9553cc82851",
+    "app/src/lib/traverse.worker.ts": "599bab9b06b5c93b3430ebc0cf9d35d0998d0db21d7f97da8dcfd2f7dcb38dc3",
+    "app/src/lib/moving-sky.ts": "2aaa842ca853d3b26257f016cafc4238a8def7ddab37a1fceeccd653860007cf",
+    "app/src/lib/moving-ephemeris.ts": "4e47b5b5bf91871a9fad13aced2191f3ac87bfb0f2e0646bebf4b4288e219744",
+    "app/src/lib/power.ts": "417757b6ccbfb553f2f6ba832ee38472b9a33110285650d9f41e0c530ecb995c",
+    "app/src/lib/link.ts": "694a0b5764c2a47e14b9be28214b901927d53d0c70055f79195e0dfc52b90045",
+    "app/src/components/TerrainTraversePanel.tsx": "f34dba8b6e13b0d3d3e57df687ab65c0c45a5f5c2236d4958382a86b9e6a94b0"
+  },
+  "limits": [
+    "Actual export cases are direct service, default allocation, ideal storage and disabled equipment thermal; analytic regressions cover additional selected mechanisms.",
+    "Independent arithmetic on the same source grids, not terrain truth, vehicle/soil qualification, a continuous-path proof or a running-competitor outcome."
+  ]
+}

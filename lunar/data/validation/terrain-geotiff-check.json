@@ -1,0 +1,156 @@
+{
+  "schema": 1,
+  "checkedUTC": "2026-11-14T06:14:27.382599+00:00",
+  "patchSha256": "ed34a5680886b2289c7c1c030bf4e54abb42bc20197d7cb8a4f7cc748c9b516c",
+  "checks": [
+    {
+      "band": "slope",
+      "file": "terrain-reference-slope.tif",
+      "sha256": "c461218004736164af1a58ea7318845f27104ce09e47c8cf0ee64ed78c3bb0d0",
+      "rows": 256,
+      "cols": 256,
+      "maximum_value_difference": 0.0,
+      "crs": {
+        "proj": "stere",
+        "lat_0": -90,
+        "lat_ts": -90,
+        "lon_0": 0,
+        "x_0": 0,
+        "y_0": 0,
+        "R": 1737400,
+        "units": "m",
+        "no_defs": true
+      },
+      "valid_pixels": 65536
+    },
+    {
+      "band": "slopeRms",
+      "file": "terrain-reference-slopeRms.tif",
+      "sha256": "f3dcf277d3204dc7e8a17bfc211e73f43b7ebc8035ab0b2ba72d36420357e324",
+      "rows": 256,
+      "cols": 256,
+      "maximum_value_difference": 0.0,
+      "crs": {
+        "proj": "stere",
+        "lat_0": -90,
+        "lat_ts": -90,
+        "lon_0": 0,
+        "x_0": 0,
+        "y_0": 0,
+        "R": 1737400,
+        "units": "m",
+        "no_defs": true
+      },
+      "valid_pixels": 65536
+    },
+    {
+      "band": "returns",
+      "file": "terrain-reference-returns.tif",
+      "sha256": "b5df62f594662dbffd7e3bd080de519ad8d74bc6730b1634dde4e088a12c5f70",
+      "rows": 256,
+      "cols": 256,
+      "maximum_value_difference": 0.0,
+      "crs": {
+        "proj": "stere",
+        "lat_0": -90,
+        "lat_ts": -90,
+        "lon_0": 0,
+        "x_0": 0,
+        "y_0": 0,
+        "R": 1737400,
+        "units": "m",
+        "no_defs": true
+      },
+      "valid_pixels": 65536
+    },
+    {
+      "band": "height",
+      "file": "terrain-reference-height.tif",
+      "sha256": "1ad81b446784b252ed6758f4758735a6074023422fce9e0a20d727a5600123c0",
+      "rows": 256,
+      "cols": 256,
+      "maximum_value_difference": 0.0,
+      "crs": {
+        "proj": "stere",
+        "lat_0": -90,
+        "lat_ts": -90,
+        "lon_0": 0,
+        "x_0": 0,
+        "y_0": 0,
+        "R": 1737400,
+        "units": "m",
+        "no_defs": true
+      },
+      "valid_pixels": 65536
+    },
+    {
+      "band": "heightRms",
+      "file": "terrain-reference-heightRms.tif",
+      "sha256": "285fa2d2ddc214374acb3805e01016ba4693883de21d3da1bbdf98d29d3c2fcc",
+      "rows": 256,
+      "cols": 256,
+      "maximum_value_difference": 0.0,
+      "crs": {
+        "proj": "stere",
+        "lat_0": -90,
+        "lat_ts": -90,
+        "lon_0": 0,
+        "x_0": 0,
+        "y_0": 0,
+        "R": 1737400,
+        "units": "m",
+        "no_defs": true
+      },
+      "valid_pixels": 65536
+    },
+    {
+      "band": "eligible",
+      "file": "terrain-reference-eligible.tif",
+      "sha256": "1b48e9c5a20e80fd73d6e112aadd5d137de286dac35c6a8d85c24931ace72e65",
+      "rows": 256,
+      "cols": 256,
+      "maximum_value_difference": 0.0,
+      "crs": {
+        "proj": "stere",
+        "lat_0": -90,
+        "lat_ts": -90,
+        "lon_0": 0,
+        "x_0": 0,
+        "y_0": 0,
+        "R": 1737400,
+        "units": "m",
+        "no_defs": true
+      },
+      "valid_pixels": 31028
+    },
+    {
+      "band": "footprintRadius",
+      "file": "terrain-reference-footprintRadius.tif",
+      "sha256": "75988fbdf6db0bd0acce829f33a3a5829fccf2754716304c3dd6c88fbeaf9b44",
+      "rows": 256,
+      "cols": 256,
+      "maximum_value_difference": 3.8062634786228955e-06,
+      "crs": {
+        "proj": "stere",
+        "lat_0": -90,
+        "lat_ts": -90,
+        "lon_0": 0,
+        "x_0": 0,
+        "y_0": 0,
+        "R": 1737400,
+        "units": "m",
+        "no_defs": true
+      },
+      "valid_pixels": 31028
+    }
+  ],
+  "codeSha256": {
+    "pipeline\\validate_terrain_geotiff.py": "ea5f6ac008d4e583d5ff31008818240f80dc526adf32194d565edf05c4a8f365",
+    "app\\src\\lib\\terrain-geotiff.ts": "472f78f44389234286b8f5d19cbf19655938915b7673015deef8deba69b8b6c0",
+    "app\\scripts\\export-terrain-reference.mjs": "577e2cdffc72785cc7e16957145b01b648a6a1dc1ca58cc85197b28c459e7c85"
+  },
+  "limits": [
+    "Independent file reader and distance implementation, same terrain source",
+    "Nominal geographic registration; not flight qualification"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "product": "LRO-L-DLRE-5-PRP-V2.0",
+  "provenance": "SHA-256 of acquired official PDS source, not an independently supplied signature",
+  "files": {
+    "dlre_prp_south.tab": {
+      "url": "https://pds-geosciences.wustl.edu/lro/urn-nasa-pds-lro_diviner_derived1/data_derived_prp/dlre_prp_south.tab",
+      "bytes": 604800210,
+      "sha256": "393deaa5d8925d45bb2ed608f937a824f5eae029c2558aad1d2da8206b83a62d",
+      "headers": {
+        "etag": "\"96add61994abd31:0\"",
+        "last-modified": "Thu, 22 Feb 2018 04:17:50 GMT",
+        "content-length": "604800210"
+      }
+    },
+    "dlre_prp_south.xml": {
+      "url": "https://pds-geosciences.wustl.edu/lro/urn-nasa-pds-lro_diviner_derived1/data_derived_prp/dlre_prp_south.xml",
+      "bytes": 14561,
+      "sha256": "24a7bba837bbf013f59dc657a8766b6c4d1d06c0d4eea35a5f497908b17beece",
+      "headers": {
+        "etag": "\"42cae54c8295d91:0\"",
+        "last-modified": "Fri, 02 Jun 2023 18:44:45 GMT",
+        "content-length": "14561"
+      }
+    },
+    "prpds.cat": {
+      "url": "https://pds-geosciences.wustl.edu/lro/urn-nasa-pds-lro_diviner_derived1/catalog/prpds.cat",
+      "bytes": 5776,
+      "sha256": "0b4f7955de876f882583c9b0622861ed7ff1ee3074b707c528360234d932bb25",
+      "headers": {
+        "etag": "\"46625f6e7747dd1:0\"",
+        "last-modified": "Fri, 18 Sep 2026 14:10:16 GMT",
+        "content-length": "5776"
+      }
+    }
+  }
+}

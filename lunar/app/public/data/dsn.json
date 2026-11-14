@@ -1,0 +1,20 @@
+{
+  "start_unix": 1672531200.0,
+  "step_s": 3600,
+  "count": 78888,
+  "layout": "uint8 per hour; bit k set when station k sees the Moon's centre at >= min_el_deg",
+  "stations": [
+    "Goldstone (DSS-14)",
+    "Madrid (DSS-63)",
+    "Canberra (DSS-43)"
+  ],
+  "min_el_deg": 10.0,
+  "share_any_pct": 98.32,
+  "share_each_pct": {
+    "Goldstone (DSS-14)": 41.85,
+    "Madrid (DSS-63)": 41.06,
+    "Canberra (DSS-43)": 41.79
+  },
+  "longest_gap_h": 2,
+  "source": "DSN 810-005 station coordinates (ITRF93) via NAIF earthstns kernel comments; DE440 + pck00011 IAU_EARTH"
+}

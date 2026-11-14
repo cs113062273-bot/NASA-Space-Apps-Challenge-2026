@@ -1,0 +1,3282 @@
+{
+  "method": "Complete fixed-lander SPK as observer/target; XCN+S station at emission and CN+S lander at reception; WGS84 geodetic zenith in ITRF93",
+  "scope": "Numerical approximation cross-check against the same kernels; not independent validation of Earth-orientation prediction or terrain",
+  "station_sha256": "f71a4e9bcd2ca690e2ff266f3fb2da3a0f11bf1ffb4f071321282ca2d1be27dd",
+  "samples": 192,
+  "max_abs_error": {
+    "lunar_az_deg": 2.17584925508163e-05,
+    "lunar_el_deg": 2.6866977099970768e-05,
+    "receiver_el_deg": 2.9349583229532072e-05,
+    "range_km": 0.1897510719136335
+  },
+  "acceptance": {
+    "angles_deg": 0.0002,
+    "range_km": 0.25
+  },
+  "cases": [
+    {
+      "site": "im2-actual",
+      "lat": -84.7906,
+      "lon": 29.1957,
+      "ground_m": 5321.3,
+      "observer_m": 2.0,
+      "utc": "2023-01-01T00:00:00Z",
+      "index": 0,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 338.2201968819776,
+        "el_deg": 3.1335265048573353,
+        "receiver_el_deg": 39.85262998381498,
+        "range_km": 385348.42487537937
+      }
+    },
+    {
+      "site": "im2-actual",
+      "lat": -84.7906,
+      "lon": 29.1957,
+      "ground_m": 5321.3,
+      "observer_m": 2.0,
+      "utc": "2023-01-01T00:00:00Z",
+      "index": 0,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 337.0103605461209,
+        "el_deg": 3.3767471603982053,
+        "receiver_el_deg": 26.199332410097053,
+        "range_km": 386610.31997567404
+      }
+    },
+    {
+      "site": "im2-actual",
+      "lat": -84.7906,
+      "lon": 29.1957,
+      "ground_m": 5321.3,
+      "observer_m": 2.0,
+      "utc": "2023-01-01T00:00:00Z",
+      "index": 0,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 338.3420877549483,
+        "el_deg": 3.961230788793381,
+        "receiver_el_deg": -49.232461886743316,
+        "range_km": 394276.5686880508
+      }
+    },
+    {
+      "site": "im2-actual",
+      "lat": -84.7906,
+      "lon": 29.1957,
+      "ground_m": 5321.3,
+      "observer_m": 2.0,
+      "utc": "2025-03-06T18:00:00Z",
+      "index": 19098,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 336.53672082353245,
+        "el_deg": 10.49167885074981,
+        "receiver_el_deg": -4.776344989074512,
+        "range_km": 375446.33445573575
+      }
+    },
+    {
+      "site": "im2-actual",
+      "lat": -84.7906,
+      "lon": 29.1957,
+      "ground_m": 5321.3,
+      "observer_m": 2.0,
+      "utc": "2025-03-06T18:00:00Z",
+      "index": 19098,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 335.91634980969354,
+        "el_deg": 10.980395458518169,
+        "receiver_el_deg": 76.41266667214173,
+        "range_km": 368757.1182643962
+      }
+    },
+    {
+      "site": "im2-actual",
+      "lat": -84.7906,
+      "lon": 29.1957,
+      "ground_m": 5321.3,
+      "observer_m": 2.0,
+      "utc": "2025-03-06T18:00:00Z",
+      "index": 19098,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 335.45049631754586,
+        "el_deg": 11.402520314699373,
+        "receiver_el_deg": -62.3976169775484,
+        "range_km": 380593.5491495905
+      }
+    },
+    {
+      "site": "im2-actual",
+      "lat": -84.7906,
+      "lon": 29.1957,
+      "ground_m": 5321.3,
+      "observer_m": 2.0,
+      "utc": "2026-11-05T00:00:00Z",
+      "index": 33696,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 336.0594041001416,
+        "el_deg": 0.88545110846604,
+        "receiver_el_deg": -20.983659297331346,
+        "range_km": 385732.2073377913
+      }
+    },
+    {
+      "site": "im2-actual",
+      "lat": -84.7906,
+      "lon": 29.1957,
+      "ground_m": 5321.3,
+      "observer_m": 2.0,
+      "utc": "2026-11-05T00:00:00Z",
+      "index": 33696,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 337.2160807597727,
+        "el_deg": 1.3247134592944312,
+        "receiver_el_deg": -30.517460205469238,
+        "range_km": 386696.41977859923
+      }
+    },
+    {
+      "site": "im2-actual",
+      "lat": -84.7906,
+      "lon": 29.1957,
+      "ground_m": 5321.3,
+      "observer_m": 2.0,
+      "utc": "2026-11-05T00:00:00Z",
+      "index": 33696,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 335.97906129585056,
+        "el_deg": 2.073666028922191,
+        "receiver_el_deg": 47.81203716645233,
+        "range_km": 378735.6360128486
+      }
+    },
+    {
+      "site": "im2-actual",
+      "lat": -84.7906,
+      "lon": 29.1957,
+      "ground_m": 5321.3,
+      "observer_m": 2.0,
+      "utc": "2027-01-09T21:00:00Z",
+      "index": 35277,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 327.6739223991124,
+        "el_deg": 2.247439842441839,
+        "receiver_el_deg": 35.08737591133737,
+        "range_km": 400777.20990601275
+      }
+    },
+    {
+      "site": "im2-actual",
+      "lat": -84.7906,
+      "lon": 29.1957,
+      "ground_m": 5321.3,
+      "observer_m": 2.0,
+      "utc": "2027-01-09T21:00:00Z",
+      "index": 35277,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 326.99249659054175,
+        "el_deg": 2.635703369197912,
+        "receiver_el_deg": -24.590757823693355,
+        "range_km": 407097.34509029693
+      }
+    },
+    {
+      "site": "im2-actual",
+      "lat": -84.7906,
+      "lon": 29.1957,
+      "ground_m": 5321.3,
+      "observer_m": 2.0,
+      "utc": "2027-01-09T21:00:00Z",
+      "index": 35277,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 328.557794964396,
+        "el_deg": 3.360618220441276,
+        "receiver_el_deg": 1.2522316506455133,
+        "range_km": 404308.4286994276
+      }
+    },
+    {
+      "site": "im2-actual",
+      "lat": -84.7906,
+      "lon": 29.1957,
+      "ground_m": 5321.3,
+      "observer_m": 2.0,
+      "utc": "2027-01-29T22:00:00Z",
+      "index": 35758,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 337.1208634168343,
+        "el_deg": -2.7902617554005102,
+        "receiver_el_deg": -38.02280802644869,
+        "range_km": 399138.99742460705
+      }
+    },
+    {
+      "site": "im2-actual",
+      "lat": -84.7906,
+      "lon": 29.1957,
+      "ground_m": 5321.3,
+      "observer_m": 2.0,
+      "utc": "2027-01-29T22:00:00Z",
+      "index": 35758,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 338.272694823958,
+        "el_deg": -2.437160626595071,
+        "receiver_el_deg": -41.73260550202439,
+        "range_km": 399459.6031233037
+      }
+    },
+    {
+      "site": "im2-actual",
+      "lat": -84.7906,
+      "lon": 29.1957,
+      "ground_m": 5321.3,
+      "observer_m": 2.0,
+      "utc": "2027-01-29T22:00:00Z",
+      "index": 35758,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 337.19687271671273,
+        "el_deg": -2.1292120014792237,
+        "receiver_el_deg": 62.225821267179185,
+        "range_km": 389594.9120242024
+      }
+    },
+    {
+      "site": "im2-actual",
+      "lat": -84.7906,
+      "lon": 29.1957,
+      "ground_m": 5321.3,
+      "observer_m": 2.0,
+      "utc": "2027-01-30T01:00:00Z",
+      "index": 35761,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 337.40402975693473,
+        "el_deg": -2.5363545763485367,
+        "receiver_el_deg": -71.50174235413736,
+        "range_km": 401884.792748056
+      }
+    },
+    {
+      "site": "im2-actual",
+      "lat": -84.7906,
+      "lon": 29.1957,
+      "ground_m": 5321.3,
+      "observer_m": 2.0,
+      "utc": "2027-01-30T01:00:00Z",
+      "index": 35761,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 338.36827125967267,
+        "el_deg": -2.593814053179771,
+        "receiver_el_deg": -9.73519484160273,
+        "range_km": 396863.25421006756
+      }
+    },
+    {
+      "site": "im2-actual",
+      "lat": -84.7906,
+      "lon": 29.1957,
+      "ground_m": 5321.3,
+      "observer_m": 2.0,
+      "utc": "2027-01-30T01:00:00Z",
+      "index": 35761,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 336.710241785741,
+        "el_deg": -2.1228087414019647,
+        "receiver_el_deg": 27.130713599667406,
+        "range_km": 392900.16258337995
+      }
+    },
+    {
+      "site": "im2-actual",
+      "lat": -84.7906,
+      "lon": 29.1957,
+      "ground_m": 5321.3,
+      "observer_m": 2.0,
+      "utc": "2028-07-01T06:00:00Z",
+      "index": 48198,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 335.2278905681568,
+        "el_deg": -3.09762313911334,
+        "receiver_el_deg": 21.485620122134836,
+        "range_km": 373479.19307546277
+      }
+    },
+    {
+      "site": "im2-actual",
+      "lat": -84.7906,
+      "lon": 29.1957,
+      "ground_m": 5321.3,
+      "observer_m": 2.0,
+      "utc": "2028-07-01T06:00:00Z",
+      "index": 48198,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 335.3571118314553,
+        "el_deg": -2.6940530502216293,
+        "receiver_el_deg": -60.24078257782261,
+        "range_km": 381397.1840467293
+      }
+    },
+    {
+      "site": "im2-actual",
+      "lat": -84.7906,
+      "lon": 29.1957,
+      "ground_m": 5321.3,
+      "observer_m": 2.0,
+      "utc": "2028-07-01T06:00:00Z",
+      "index": 48198,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 335.8806113500475,
+        "el_deg": -1.6342261345479852,
+        "receiver_el_deg": 41.940593009020475,
+        "range_km": 371581.682584713
+      }
+    },
+    {
+      "site": "im2-actual",
+      "lat": -84.7906,
+      "lon": 29.1957,
+      "ground_m": 5321.3,
+      "observer_m": 2.0,
+      "utc": "2031-12-31T20:00:00Z",
+      "index": 78884,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 329.3344816731903,
+        "el_deg": -3.1318796187964715,
+        "receiver_el_deg": -35.162671560077996,
+        "range_km": 409865.9297604097
+      }
+    },
+    {
+      "site": "im2-actual",
+      "lat": -84.7906,
+      "lon": 29.1957,
+      "ground_m": 5321.3,
+      "observer_m": 2.0,
+      "utc": "2031-12-31T20:00:00Z",
+      "index": 78884,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 330.3244406274074,
+        "el_deg": -2.753586123470593,
+        "receiver_el_deg": -0.002840435423753518,
+        "range_km": 406171.92265789234
+      }
+    },
+    {
+      "site": "im2-actual",
+      "lat": -84.7906,
+      "lon": 29.1957,
+      "ground_m": 5321.3,
+      "observer_m": 2.0,
+      "utc": "2031-12-31T20:00:00Z",
+      "index": 78884,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 328.7296818914803,
+        "el_deg": -2.0448541498543125,
+        "receiver_el_deg": 19.552249117939343,
+        "range_km": 404030.56452992983
+      }
+    },
+    {
+      "site": "im1",
+      "lat": -80.13,
+      "lon": 1.44,
+      "ground_m": 2594.4,
+      "observer_m": 10.0,
+      "utc": "2023-01-01T00:00:00Z",
+      "index": 0,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 6.071697765755262,
+        "el_deg": 8.113059281319988,
+        "receiver_el_deg": 39.84701679836548,
+        "range_km": 385198.1871934733
+      }
+    },
+    {
+      "site": "im1",
+      "lat": -80.13,
+      "lon": 1.44,
+      "ground_m": 2594.4,
+      "observer_m": 10.0,
+      "utc": "2023-01-01T00:00:00Z",
+      "index": 0,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 4.864713444379263,
+        "el_deg": 8.417568959419883,
+        "receiver_el_deg": 26.212250081894936,
+        "range_km": 386458.3201643439
+      }
+    },
+    {
+      "site": "im1",
+      "lat": -80.13,
+      "lon": 1.44,
+      "ground_m": 2594.4,
+      "observer_m": 10.0,
+      "utc": "2023-01-01T00:00:00Z",
+      "index": 0,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 6.237799851118755,
+        "el_deg": 8.933583741482824,
+        "receiver_el_deg": -49.24561842217488,
+        "range_km": 394126.82271342725
+      }
+    },
+    {
+      "site": "im1",
+      "lat": -80.13,
+      "lon": 1.44,
+      "ground_m": 2594.4,
+      "observer_m": 10.0,
+      "utc": "2025-03-06T18:00:00Z",
+      "index": 19098,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 4.750647233176521,
+        "el_deg": 15.550055285224566,
+        "receiver_el_deg": -4.780760301681175,
+        "range_km": 375297.3636130735
+      }
+    },
+    {
+      "site": "im1",
+      "lat": -80.13,
+      "lon": 1.44,
+      "ground_m": 2594.4,
+      "observer_m": 10.0,
+      "utc": "2025-03-06T18:00:00Z",
+      "index": 19098,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 4.143459464529726,
+        "el_deg": 16.069046604858823,
+        "receiver_el_deg": 76.41578063440586,
+        "range_km": 368607.59676112566
+      }
+    },
+    {
+      "site": "im1",
+      "lat": -80.13,
+      "lon": 1.44,
+      "ground_m": 2594.4,
+      "observer_m": 10.0,
+      "utc": "2025-03-06T18:00:00Z",
+      "index": 19098,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 3.689057552605178,
+        "el_deg": 16.513237981074596,
+        "receiver_el_deg": -62.38953203515357,
+        "range_km": 380443.67480006727
+      }
+    },
+    {
+      "site": "im1",
+      "lat": -80.13,
+      "lon": 1.44,
+      "ground_m": 2594.4,
+      "observer_m": 10.0,
+      "utc": "2026-11-05T00:00:00Z",
+      "index": 33696,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 3.7842919624993674,
+        "el_deg": 5.974981450814783,
+        "receiver_el_deg": -20.97607247773645,
+        "range_km": 385578.08466595283
+      }
+    },
+    {
+      "site": "im1",
+      "lat": -80.13,
+      "lon": 1.44,
+      "ground_m": 2594.4,
+      "observer_m": 10.0,
+      "utc": "2026-11-05T00:00:00Z",
+      "index": 33696,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 4.9682329816560955,
+        "el_deg": 6.3570105119787215,
+        "receiver_el_deg": -30.528107823802667,
+        "range_km": 386544.12525482045
+      }
+    },
+    {
+      "site": "im1",
+      "lat": -80.13,
+      "lon": 1.44,
+      "ground_m": 2594.4,
+      "observer_m": 10.0,
+      "utc": "2026-11-05T00:00:00Z",
+      "index": 33696,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 3.761459930438595,
+        "el_deg": 7.166199104209068,
+        "receiver_el_deg": 47.82014457731872,
+        "range_km": 378581.71979292313
+      }
+    },
+    {
+      "site": "im1",
+      "lat": -80.13,
+      "lon": 1.44,
+      "ground_m": 2594.4,
+      "observer_m": 10.0,
+      "utc": "2027-01-09T21:00:00Z",
+      "index": 35277,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 355.40240908435817,
+        "el_deg": 7.68529843110447,
+        "receiver_el_deg": 35.090691063132944,
+        "range_km": 400612.9299222692
+      }
+    },
+    {
+      "site": "im1",
+      "lat": -80.13,
+      "lon": 1.44,
+      "ground_m": 2594.4,
+      "observer_m": 10.0,
+      "utc": "2027-01-09T21:00:00Z",
+      "index": 35277,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 354.7285300464746,
+        "el_deg": 8.096809380686228,
+        "receiver_el_deg": -24.58220517090926,
+        "range_km": 406932.4889273697
+      }
+    },
+    {
+      "site": "im1",
+      "lat": -80.13,
+      "lon": 1.44,
+      "ground_m": 2594.4,
+      "observer_m": 10.0,
+      "utc": "2027-01-09T21:00:00Z",
+      "index": 35277,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 356.33420867769956,
+        "el_deg": 8.766735261712668,
+        "receiver_el_deg": 1.2429192623497451,
+        "range_km": 404145.4751949488
+      }
+    },
+    {
+      "site": "im1",
+      "lat": -80.13,
+      "lon": 1.44,
+      "ground_m": 2594.4,
+      "observer_m": 10.0,
+      "utc": "2027-01-29T22:00:00Z",
+      "index": 35758,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 4.666661523322018,
+        "el_deg": 2.250270000726222,
+        "receiver_el_deg": -38.01409266117411,
+        "range_km": 398985.8655222327
+      }
+    },
+    {
+      "site": "im1",
+      "lat": -80.13,
+      "lon": 1.44,
+      "ground_m": 2594.4,
+      "observer_m": 10.0,
+      "utc": "2027-01-29T22:00:00Z",
+      "index": 35758,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 5.835123099788653,
+        "el_deg": 2.5448955796197037,
+        "receiver_el_deg": -41.74472675687573,
+        "range_km": 399308.26449567033
+      }
+    },
+    {
+      "site": "im1",
+      "lat": -80.13,
+      "lon": 1.44,
+      "ground_m": 2594.4,
+      "observer_m": 10.0,
+      "utc": "2027-01-29T22:00:00Z",
+      "index": 35758,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 4.7758264790079386,
+        "el_deg": 2.906984810515359,
+        "receiver_el_deg": 62.237756378925205,
+        "range_km": 389441.9529461956
+      }
+    },
+    {
+      "site": "im1",
+      "lat": -80.13,
+      "lon": 1.44,
+      "ground_m": 2594.4,
+      "observer_m": 10.0,
+      "utc": "2027-01-30T01:00:00Z",
+      "index": 35761,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 4.962110665774457,
+        "el_deg": 2.489848772948476,
+        "receiver_el_deg": -71.49630061646961,
+        "range_km": 401732.1089991658
+      }
+    },
+    {
+      "site": "im1",
+      "lat": -80.13,
+      "lon": 1.44,
+      "ground_m": 2594.4,
+      "observer_m": 10.0,
+      "utc": "2027-01-30T01:00:00Z",
+      "index": 35761,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 5.922614896018886,
+        "el_deg": 2.3834735229847284,
+        "receiver_el_deg": -9.747021154240537,
+        "range_km": 396712.0514832028
+      }
+    },
+    {
+      "site": "im1",
+      "lat": -80.13,
+      "lon": 1.44,
+      "ground_m": 2594.4,
+      "observer_m": 10.0,
+      "utc": "2027-01-30T01:00:00Z",
+      "index": 35761,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 4.289511758122541,
+        "el_deg": 2.937418966016408,
+        "receiver_el_deg": 27.142778990776712,
+        "range_km": 392746.47528921335
+      }
+    },
+    {
+      "site": "im1",
+      "lat": -80.13,
+      "lon": 1.44,
+      "ground_m": 2594.4,
+      "observer_m": 10.0,
+      "utc": "2028-07-01T06:00:00Z",
+      "index": 48198,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 2.7623121416375076,
+        "el_deg": 2.034250487860996,
+        "receiver_el_deg": 21.4893630498412,
+        "range_km": 373323.24454530195
+      }
+    },
+    {
+      "site": "im1",
+      "lat": -80.13,
+      "lon": 1.44,
+      "ground_m": 2594.4,
+      "observer_m": 10.0,
+      "utc": "2028-07-01T06:00:00Z",
+      "index": 48198,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 2.9100318610710416,
+        "el_deg": 2.4315012915238876,
+        "receiver_el_deg": -60.237398786791225,
+        "range_km": 381241.4449759248
+      }
+    },
+    {
+      "site": "im1",
+      "lat": -80.13,
+      "lon": 1.44,
+      "ground_m": 2594.4,
+      "observer_m": 10.0,
+      "utc": "2028-07-01T06:00:00Z",
+      "index": 48198,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 3.484077670776997,
+        "el_deg": 3.465804143482074,
+        "receiver_el_deg": 41.932406701875195,
+        "range_km": 371426.8012566989
+      }
+    },
+    {
+      "site": "im1",
+      "lat": -80.13,
+      "lon": 1.44,
+      "ground_m": 2594.4,
+      "observer_m": 10.0,
+      "utc": "2031-12-31T20:00:00Z",
+      "index": 78884,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 356.873856435892,
+        "el_deg": 2.24742912657958,
+        "receiver_el_deg": -35.160392426942785,
+        "range_km": 409702.4923678471
+      }
+    },
+    {
+      "site": "im1",
+      "lat": -80.13,
+      "lon": 1.44,
+      "ground_m": 2594.4,
+      "observer_m": 10.0,
+      "utc": "2031-12-31T20:00:00Z",
+      "index": 78884,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 357.8775791917303,
+        "el_deg": 2.587927762230633,
+        "receiver_el_deg": -0.011466763314989678,
+        "range_km": 406009.6497650436
+      }
+    },
+    {
+      "site": "im1",
+      "lat": -80.13,
+      "lon": 1.44,
+      "ground_m": 2594.4,
+      "observer_m": 10.0,
+      "utc": "2031-12-31T20:00:00Z",
+      "index": 78884,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 356.30931058071656,
+        "el_deg": 3.356400443176913,
+        "receiver_el_deg": 19.559924649959918,
+        "range_km": 403866.53236044
+      }
+    },
+    {
+      "site": "c1",
+      "lat": -89.4398,
+      "lon": 222.83,
+      "ground_m": 1958.0,
+      "observer_m": 2.0,
+      "utc": "2023-01-01T00:00:00Z",
+      "index": 0,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 144.60923720376186,
+        "el_deg": -2.161439317097095,
+        "receiver_el_deg": 39.84692094205974,
+        "range_km": 385509.3087159418
+      }
+    },
+    {
+      "site": "c1",
+      "lat": -89.4398,
+      "lon": 222.83,
+      "ground_m": 1958.0,
+      "observer_m": 2.0,
+      "utc": "2023-01-01T00:00:00Z",
+      "index": 0,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 143.4118653804126,
+        "el_deg": -1.8698261859001872,
+        "receiver_el_deg": 26.209257950881618,
+        "range_km": 386769.7395488708
+      }
+    },
+    {
+      "site": "c1",
+      "lat": -89.4398,
+      "lon": 222.83,
+      "ground_m": 1958.0,
+      "observer_m": 2.0,
+      "utc": "2023-01-01T00:00:00Z",
+      "index": 0,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 144.76306994995267,
+        "el_deg": -1.3394862156028713,
+        "receiver_el_deg": -49.24149760988784,
+        "range_km": 394437.6287069884
+      }
+    },
+    {
+      "site": "c1",
+      "lat": -89.4398,
+      "lon": 222.83,
+      "ground_m": 1958.0,
+      "observer_m": 2.0,
+      "utc": "2025-03-06T18:00:00Z",
+      "index": 19098,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 143.23934153311814,
+        "el_deg": 5.255494244587829,
+        "receiver_el_deg": -4.785830813808647,
+        "range_km": 375604.2819182485
+      }
+    },
+    {
+      "site": "c1",
+      "lat": -89.4398,
+      "lon": 222.83,
+      "ground_m": 1958.0,
+      "observer_m": 2.0,
+      "utc": "2025-03-06T18:00:00Z",
+      "index": 19098,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 142.64899546740955,
+        "el_deg": 5.769540180453567,
+        "receiver_el_deg": 76.40719080367394,
+        "range_km": 368914.1302456679
+      }
+    },
+    {
+      "site": "c1",
+      "lat": -89.4398,
+      "lon": 222.83,
+      "ground_m": 1958.0,
+      "observer_m": 2.0,
+      "utc": "2025-03-06T18:00:00Z",
+      "index": 19098,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 142.20827498951195,
+        "el_deg": 6.211128021390857,
+        "receiver_el_deg": -62.38611200865024,
+        "range_km": 380749.82224657654
+      }
+    },
+    {
+      "site": "c1",
+      "lat": -89.4398,
+      "lon": 222.83,
+      "ground_m": 1958.0,
+      "observer_m": 2.0,
+      "utc": "2026-11-05T00:00:00Z",
+      "index": 33696,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 142.35646459270788,
+        "el_deg": -4.317913715779153,
+        "receiver_el_deg": -20.977265811520475,
+        "range_km": 385890.124212618
+      }
+    },
+    {
+      "site": "c1",
+      "lat": -89.4398,
+      "lon": 222.83,
+      "ground_m": 1958.0,
+      "observer_m": 2.0,
+      "utc": "2026-11-05T00:00:00Z",
+      "index": 33696,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 143.53287583444262,
+        "el_deg": -3.927732117013179,
+        "receiver_el_deg": -30.526465547719187,
+        "range_km": 386855.87518681836
+      }
+    },
+    {
+      "site": "c1",
+      "lat": -89.4398,
+      "lon": 222.83,
+      "ground_m": 1958.0,
+      "observer_m": 2.0,
+      "utc": "2026-11-05T00:00:00Z",
+      "index": 33696,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 142.32739022589706,
+        "el_deg": -3.127824842487076,
+        "receiver_el_deg": 47.820160139001146,
+        "range_km": 378893.61546177755
+      }
+    },
+    {
+      "site": "c1",
+      "lat": -89.4398,
+      "lon": 222.83,
+      "ground_m": 1958.0,
+      "observer_m": 2.0,
+      "utc": "2027-01-09T21:00:00Z",
+      "index": 35277,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 134.03918265489241,
+        "el_deg": -2.5447573597932824,
+        "receiver_el_deg": 35.08948773710598,
+        "range_km": 400922.8087571751
+      }
+    },
+    {
+      "site": "c1",
+      "lat": -89.4398,
+      "lon": 222.83,
+      "ground_m": 1958.0,
+      "observer_m": 2.0,
+      "utc": "2027-01-09T21:00:00Z",
+      "index": 35277,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 133.3806985227826,
+        "el_deg": -2.119073320512403,
+        "receiver_el_deg": -24.577905414510926,
+        "range_km": 407241.8262483495
+      }
+    },
+    {
+      "site": "c1",
+      "lat": -89.4398,
+      "lon": 222.83,
+      "ground_m": 1958.0,
+      "observer_m": 2.0,
+      "utc": "2027-01-09T21:00:00Z",
+      "index": 35277,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 134.98193870957957,
+        "el_deg": -1.4821450991764256,
+        "receiver_el_deg": 1.239902544972663,
+        "range_km": 404455.5949765695
+      }
+    },
+    {
+      "site": "c1",
+      "lat": -89.4398,
+      "lon": 222.83,
+      "ground_m": 1958.0,
+      "observer_m": 2.0,
+      "utc": "2027-01-29T22:00:00Z",
+      "index": 35758,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 143.26633298699733,
+        "el_deg": -8.033671371141063,
+        "receiver_el_deg": -38.01384097744222,
+        "range_km": 399297.31023378635
+      }
+    },
+    {
+      "site": "c1",
+      "lat": -89.4398,
+      "lon": 222.83,
+      "ground_m": 1958.0,
+      "observer_m": 2.0,
+      "utc": "2027-01-29T22:00:00Z",
+      "index": 35758,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 144.44095591346382,
+        "el_deg": -7.727628500018304,
+        "receiver_el_deg": -41.741266120646536,
+        "range_km": 399619.4380856643
+      }
+    },
+    {
+      "site": "c1",
+      "lat": -89.4398,
+      "lon": 222.83,
+      "ground_m": 1958.0,
+      "observer_m": 2.0,
+      "utc": "2027-01-29T22:00:00Z",
+      "index": 35758,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 143.37072254910524,
+        "el_deg": -7.376539156202409,
+        "receiver_el_deg": 62.23508789241875,
+        "range_km": 389753.53804820374
+      }
+    },
+    {
+      "site": "c1",
+      "lat": -89.4398,
+      "lon": 222.83,
+      "ground_m": 1958.0,
+      "observer_m": 2.0,
+      "utc": "2027-01-30T01:00:00Z",
+      "index": 35761,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 143.5620539377799,
+        "el_deg": -7.791758270477859,
+        "receiver_el_deg": -71.49532529677552,
+        "range_km": 402043.54295615084
+      }
+    },
+    {
+      "site": "c1",
+      "lat": -89.4398,
+      "lon": 222.83,
+      "ground_m": 1958.0,
+      "observer_m": 2.0,
+      "utc": "2027-01-30T01:00:00Z",
+      "index": 35761,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 144.53103852835574,
+        "el_deg": -7.887853335160304,
+        "receiver_el_deg": -9.743342179102735,
+        "range_km": 397023.15055034385
+      }
+    },
+    {
+      "site": "c1",
+      "lat": -89.4398,
+      "lon": 222.83,
+      "ground_m": 1958.0,
+      "observer_m": 2.0,
+      "utc": "2027-01-30T01:00:00Z",
+      "index": 35761,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 142.881186018584,
+        "el_deg": -7.349898064286808,
+        "receiver_el_deg": 27.14064404218861,
+        "range_km": 393058.1804269392
+      }
+    },
+    {
+      "site": "c1",
+      "lat": -89.4398,
+      "lon": 222.83,
+      "ground_m": 1958.0,
+      "observer_m": 2.0,
+      "utc": "2028-07-01T06:00:00Z",
+      "index": 48198,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 141.3465288284071,
+        "el_deg": -8.259176390213122,
+        "receiver_el_deg": 21.491753158380483,
+        "range_km": 373634.9804219952
+      }
+    },
+    {
+      "site": "c1",
+      "lat": -89.4398,
+      "lon": 222.83,
+      "ground_m": 1958.0,
+      "observer_m": 2.0,
+      "utc": "2028-07-01T06:00:00Z",
+      "index": 48198,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 141.49453539069117,
+        "el_deg": -7.861952713887091,
+        "receiver_el_deg": -60.23535313049554,
+        "range_km": 381553.28451670066
+      }
+    },
+    {
+      "site": "c1",
+      "lat": -89.4398,
+      "lon": 222.83,
+      "ground_m": 1958.0,
+      "observer_m": 2.0,
+      "utc": "2028-07-01T06:00:00Z",
+      "index": 48198,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 142.0683739853552,
+        "el_deg": -6.826438762962336,
+        "receiver_el_deg": 41.931924436067796,
+        "range_km": 371738.807179865
+      }
+    },
+    {
+      "site": "c1",
+      "lat": -89.4398,
+      "lon": 222.83,
+      "ground_m": 1958.0,
+      "observer_m": 2.0,
+      "utc": "2031-12-31T20:00:00Z",
+      "index": 78884,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 135.40860393420266,
+        "el_deg": -8.004692194064827,
+        "receiver_el_deg": -35.157187029708595,
+        "range_km": 410012.98880646576
+      }
+    },
+    {
+      "site": "c1",
+      "lat": -89.4398,
+      "lon": 222.83,
+      "ground_m": 1958.0,
+      "observer_m": 2.0,
+      "utc": "2031-12-31T20:00:00Z",
+      "index": 78884,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 136.42512363265524,
+        "el_deg": -7.679267540834871,
+        "receiver_el_deg": -0.013526018397577399,
+        "range_km": 406320.6833221102
+      }
+    },
+    {
+      "site": "c1",
+      "lat": -89.4398,
+      "lon": 222.83,
+      "ground_m": 1958.0,
+      "observer_m": 2.0,
+      "utc": "2031-12-31T20:00:00Z",
+      "index": 78884,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 134.85974750643175,
+        "el_deg": -6.88700892757089,
+        "receiver_el_deg": 19.563117590191858,
+        "range_km": 404176.9978898511
+      }
+    },
+    {
+      "site": "shackleton",
+      "lat": -89.6866,
+      "lon": 197.19,
+      "ground_m": 1728.9,
+      "observer_m": 10.0,
+      "utc": "2023-01-01T00:00:00Z",
+      "index": 0,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 170.25723985843211,
+        "el_deg": -2.013596476587557,
+        "receiver_el_deg": 39.84762654821108,
+        "range_km": 385504.8159877017
+      }
+    },
+    {
+      "site": "shackleton",
+      "lat": -89.6866,
+      "lon": 197.19,
+      "ground_m": 1728.9,
+      "observer_m": 10.0,
+      "utc": "2023-01-01T00:00:00Z",
+      "index": 0,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 169.05858465695835,
+        "el_deg": -1.7276848453780167,
+        "receiver_el_deg": 26.20811146823937,
+        "range_km": 386765.4202720332
+      }
+    },
+    {
+      "site": "shackleton",
+      "lat": -89.6866,
+      "lon": 197.19,
+      "ground_m": 1728.9,
+      "observer_m": 10.0,
+      "utc": "2023-01-01T00:00:00Z",
+      "index": 0,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 170.40719603416449,
+        "el_deg": -1.1909154284843566,
+        "receiver_el_deg": -49.240402391639385,
+        "range_km": 394433.1154518605
+      }
+    },
+    {
+      "site": "shackleton",
+      "lat": -89.6866,
+      "lon": 197.19,
+      "ground_m": 1728.9,
+      "observer_m": 10.0,
+      "utc": "2025-03-06T18:00:00Z",
+      "index": 19098,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 168.85177652659087,
+        "el_deg": 5.396808142171754,
+        "receiver_el_deg": -4.784929893995225,
+        "range_km": 375600.033777807
+      }
+    },
+    {
+      "site": "shackleton",
+      "lat": -89.6866,
+      "lon": 197.19,
+      "ground_m": 1728.9,
+      "observer_m": 10.0,
+      "utc": "2025-03-06T18:00:00Z",
+      "index": 19098,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 168.25876906563073,
+        "el_deg": 5.90801454347851,
+        "receiver_el_deg": 76.40754547313391,
+        "range_km": 368909.97374011343
+      }
+    },
+    {
+      "site": "shackleton",
+      "lat": -89.6866,
+      "lon": 197.19,
+      "ground_m": 1728.9,
+      "observer_m": 10.0,
+      "utc": "2025-03-06T18:00:00Z",
+      "index": 19098,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 167.81581863482091,
+        "el_deg": 6.3474682689916335,
+        "receiver_el_deg": -62.38726466989687,
+        "range_km": 380745.73525010963
+      }
+    },
+    {
+      "site": "shackleton",
+      "lat": -89.6866,
+      "lon": 197.19,
+      "ground_m": 1728.9,
+      "observer_m": 10.0,
+      "utc": "2026-11-05T00:00:00Z",
+      "index": 33696,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 168.0151271868091,
+        "el_deg": -4.180847218853827,
+        "receiver_el_deg": -20.977899730633283,
+        "range_km": 385885.95796711656
+      }
+    },
+    {
+      "site": "shackleton",
+      "lat": -89.6866,
+      "lon": 197.19,
+      "ground_m": 1728.9,
+      "observer_m": 10.0,
+      "utc": "2026-11-05T00:00:00Z",
+      "index": 33696,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 169.189452468673,
+        "el_deg": -3.785011175723941,
+        "receiver_el_deg": -30.5253772040015,
+        "range_km": 386851.53726476384
+      }
+    },
+    {
+      "site": "shackleton",
+      "lat": -89.6866,
+      "lon": 197.19,
+      "ground_m": 1728.9,
+      "observer_m": 10.0,
+      "utc": "2026-11-05T00:00:00Z",
+      "index": 33696,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 167.98025951435505,
+        "el_deg": -2.990900016433665,
+        "receiver_el_deg": 47.81920939018222,
+        "range_km": 378889.45297860337
+      }
+    },
+    {
+      "site": "shackleton",
+      "lat": -89.6866,
+      "lon": 197.19,
+      "ground_m": 1728.9,
+      "observer_m": 10.0,
+      "utc": "2027-01-09T21:00:00Z",
+      "index": 35277,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 159.69005834196145,
+        "el_deg": -2.449186524540296,
+        "receiver_el_deg": 35.08932355031992,
+        "range_km": 400919.9002610001
+      }
+    },
+    {
+      "site": "shackleton",
+      "lat": -89.6866,
+      "lon": 197.19,
+      "ground_m": 1728.9,
+      "observer_m": 10.0,
+      "utc": "2027-01-09T21:00:00Z",
+      "index": 35277,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 159.02945081137588,
+        "el_deg": -2.0268881146926003,
+        "receiver_el_deg": -24.57906649635665,
+        "range_km": 407239.0213349626
+      }
+    },
+    {
+      "site": "shackleton",
+      "lat": -89.6866,
+      "lon": 197.19,
+      "ground_m": 1728.9,
+      "observer_m": 10.0,
+      "utc": "2027-01-09T21:00:00Z",
+      "index": 35277,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 160.62732416523957,
+        "el_deg": -1.3817591433805014,
+        "receiver_el_deg": 1.2410600307752866,
+        "range_km": 404452.5428352047
+      }
+    },
+    {
+      "site": "shackleton",
+      "lat": -89.6866,
+      "lon": 197.19,
+      "ground_m": 1728.9,
+      "observer_m": 10.0,
+      "utc": "2027-01-29T22:00:00Z",
+      "index": 35758,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 168.94288807842912,
+        "el_deg": -7.892222523294567,
+        "receiver_el_deg": -38.01471254844384,
+        "range_km": 399293.02599468024
+      }
+    },
+    {
+      "site": "shackleton",
+      "lat": -89.6866,
+      "lon": 197.19,
+      "ground_m": 1728.9,
+      "observer_m": 10.0,
+      "utc": "2027-01-29T22:00:00Z",
+      "index": 35758,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 170.11561999292965,
+        "el_deg": -7.580582423451745,
+        "receiver_el_deg": -41.74015891801795,
+        "range_km": 399614.9835002548
+      }
+    },
+    {
+      "site": "shackleton",
+      "lat": -89.6866,
+      "lon": 197.19,
+      "ground_m": 1728.9,
+      "observer_m": 10.0,
+      "utc": "2027-01-29T22:00:00Z",
+      "index": 35758,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 169.04401003057083,
+        "el_deg": -7.234592245511859,
+        "receiver_el_deg": 62.233945691808835,
+        "range_km": 389749.2349530458
+      }
+    },
+    {
+      "site": "shackleton",
+      "lat": -89.6866,
+      "lon": 197.19,
+      "ground_m": 1728.9,
+      "observer_m": 10.0,
+      "utc": "2027-01-30T01:00:00Z",
+      "index": 35761,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 169.2373365741193,
+        "el_deg": -7.648894388186144,
+        "receiver_el_deg": -71.49587288238051,
+        "range_km": 402039.2146408354
+      }
+    },
+    {
+      "site": "shackleton",
+      "lat": -89.6866,
+      "lon": 197.19,
+      "ground_m": 1728.9,
+      "observer_m": 10.0,
+      "utc": "2027-01-30T01:00:00Z",
+      "index": 35761,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 170.206436383158,
+        "el_deg": -7.74038085043555,
+        "receiver_el_deg": -9.742271428880153,
+        "range_km": 397018.6841116253
+      }
+    },
+    {
+      "site": "shackleton",
+      "lat": -89.6866,
+      "lon": 197.19,
+      "ground_m": 1728.9,
+      "observer_m": 10.0,
+      "utc": "2027-01-30T01:00:00Z",
+      "index": 35761,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 168.55450829629328,
+        "el_deg": -7.2102991338752025,
+        "receiver_el_deg": 27.139464778210463,
+        "range_km": 393053.9479167929
+      }
+    },
+    {
+      "site": "shackleton",
+      "lat": -89.6866,
+      "lon": 197.19,
+      "ground_m": 1728.9,
+      "observer_m": 10.0,
+      "utc": "2028-07-01T06:00:00Z",
+      "index": 48198,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 167.02476410425865,
+        "el_deg": -8.127005857364082,
+        "receiver_el_deg": 21.49130770236252,
+        "range_km": 373630.97609600495
+      }
+    },
+    {
+      "site": "shackleton",
+      "lat": -89.6866,
+      "lon": 197.19,
+      "ground_m": 1728.9,
+      "observer_m": 10.0,
+      "utc": "2028-07-01T06:00:00Z",
+      "index": 48198,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 167.17077790773013,
+        "el_deg": -7.7290611596141945,
+        "receiver_el_deg": -60.235738388422035,
+        "range_km": 381549.2562983384
+      }
+    },
+    {
+      "site": "shackleton",
+      "lat": -89.6866,
+      "lon": 197.19,
+      "ground_m": 1728.9,
+      "observer_m": 10.0,
+      "utc": "2028-07-01T06:00:00Z",
+      "index": 48198,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 167.739302541931,
+        "el_deg": -6.690764604833298,
+        "receiver_el_deg": 41.93273842554204,
+        "range_km": 371734.6900599188
+      }
+    },
+    {
+      "site": "shackleton",
+      "lat": -89.6866,
+      "lon": 197.19,
+      "ground_m": 1728.9,
+      "observer_m": 10.0,
+      "utc": "2031-12-31T20:00:00Z",
+      "index": 78884,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 161.08741421553287,
+        "el_deg": -7.902097838963867,
+        "receiver_el_deg": -35.15753821580533,
+        "range_km": 410009.8739088781
+      }
+    },
+    {
+      "site": "shackleton",
+      "lat": -89.6866,
+      "lon": 197.19,
+      "ground_m": 1728.9,
+      "observer_m": 10.0,
+      "utc": "2031-12-31T20:00:00Z",
+      "index": 78884,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 162.10198217876092,
+        "el_deg": -7.571524088954285,
+        "receiver_el_deg": -0.01241656611902962,
+        "range_km": 406317.412324126
+      }
+    },
+    {
+      "site": "shackleton",
+      "lat": -89.6866,
+      "lon": 197.19,
+      "ground_m": 1728.9,
+      "observer_m": 10.0,
+      "utc": "2031-12-31T20:00:00Z",
+      "index": 78884,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 160.53288110150004,
+        "el_deg": -6.787216188485769,
+        "receiver_el_deg": 19.56202793764838,
+        "range_km": 404173.9641816789
+      }
+    },
+    {
+      "site": "a3-malapert",
+      "lat": -86.00089,
+      "lon": 2.0507,
+      "ground_m": 5156.6,
+      "observer_m": 2.0,
+      "utc": "2023-01-01T00:00:00Z",
+      "index": 0,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 5.401598813147447,
+        "el_deg": 2.2761979243872146,
+        "receiver_el_deg": 39.846412316230634,
+        "range_km": 385374.4733446026
+      }
+    },
+    {
+      "site": "a3-malapert",
+      "lat": -86.00089,
+      "lon": 2.0507,
+      "ground_m": 5156.6,
+      "observer_m": 2.0,
+      "utc": "2023-01-01T00:00:00Z",
+      "index": 0,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 4.20350661168401,
+        "el_deg": 2.568026214701098,
+        "receiver_el_deg": 26.20896090800301,
+        "range_km": 386634.8866798184
+      }
+    },
+    {
+      "site": "a3-malapert",
+      "lat": -86.00089,
+      "lon": 2.0507,
+      "ground_m": 5156.6,
+      "observer_m": 2.0,
+      "utc": "2023-01-01T00:00:00Z",
+      "index": 0,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 5.556405489832088,
+        "el_deg": 3.098287091368631,
+        "receiver_el_deg": -49.241695559436415,
+        "range_km": 394302.76798130595
+      }
+    },
+    {
+      "site": "a3-malapert",
+      "lat": -86.00089,
+      "lon": 2.0507,
+      "ground_m": 5156.6,
+      "observer_m": 2.0,
+      "utc": "2025-03-06T18:00:00Z",
+      "index": 19098,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 4.023985327562809,
+        "el_deg": 9.695744554535217,
+        "receiver_el_deg": -4.784001239162654,
+        "range_km": 375470.17989093874
+      }
+    },
+    {
+      "site": "a3-malapert",
+      "lat": -86.00089,
+      "lon": 2.0507,
+      "ground_m": 5156.6,
+      "observer_m": 2.0,
+      "utc": "2025-03-06T18:00:00Z",
+      "index": 19098,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 3.4264559922970412,
+        "el_deg": 10.209212166141151,
+        "receiver_el_deg": 76.40965527686257,
+        "range_km": 368780.1865414932
+      }
+    },
+    {
+      "site": "a3-malapert",
+      "lat": -86.00089,
+      "lon": 2.0507,
+      "ground_m": 5156.6,
+      "observer_m": 2.0,
+      "utc": "2025-03-06T18:00:00Z",
+      "index": 19098,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 2.979704020519345,
+        "el_deg": 10.64996761529564,
+        "receiver_el_deg": -62.38787962087753,
+        "range_km": 380616.0296932891
+      }
+    },
+    {
+      "site": "a3-malapert",
+      "lat": -86.00089,
+      "lon": 2.0507,
+      "ground_m": 5156.6,
+      "observer_m": 2.0,
+      "utc": "2026-11-05T00:00:00Z",
+      "index": 33696,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 3.1524854075117412,
+        "el_deg": 0.11758039000256505,
+        "receiver_el_deg": -20.978586588695336,
+        "range_km": 385755.5645294357
+      }
+    },
+    {
+      "site": "a3-malapert",
+      "lat": -86.00089,
+      "lon": 2.0507,
+      "ground_m": 5156.6,
+      "observer_m": 2.0,
+      "utc": "2026-11-05T00:00:00Z",
+      "index": 33696,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 4.325753192103881,
+        "el_deg": 0.5094803507138078,
+        "receiver_el_deg": -30.526835702066617,
+        "range_km": 386721.2154552661
+      }
+    },
+    {
+      "site": "a3-malapert",
+      "lat": -86.00089,
+      "lon": 2.0507,
+      "ground_m": 5156.6,
+      "observer_m": 2.0,
+      "utc": "2026-11-05T00:00:00Z",
+      "index": 33696,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 3.1208776611786275,
+        "el_deg": 1.308004508245248,
+        "receiver_el_deg": 47.8202690176314,
+        "range_km": 378758.9179477083
+      }
+    },
+    {
+      "site": "a3-malapert",
+      "lat": -86.00089,
+      "lon": 2.0507,
+      "ground_m": 5156.6,
+      "observer_m": 2.0,
+      "utc": "2027-01-09T21:00:00Z",
+      "index": 35277,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 354.8327273622905,
+        "el_deg": 1.8270159120336664,
+        "receiver_el_deg": 35.08846920169706,
+        "range_km": 400790.00064266013
+      }
+    },
+    {
+      "site": "a3-malapert",
+      "lat": -86.00089,
+      "lon": 2.0507,
+      "ground_m": 5156.6,
+      "observer_m": 2.0,
+      "utc": "2027-01-09T21:00:00Z",
+      "index": 35277,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 354.1684107445457,
+        "el_deg": 2.243753759682099,
+        "receiver_el_deg": -24.581282263333122,
+        "range_km": 407109.26803170715
+      }
+    },
+    {
+      "site": "a3-malapert",
+      "lat": -86.00089,
+      "lon": 2.0507,
+      "ground_m": 5156.6,
+      "observer_m": 2.0,
+      "utc": "2027-01-09T21:00:00Z",
+      "index": 35277,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 355.7624635851125,
+        "el_deg": 2.901860315685779,
+        "receiver_el_deg": 1.2427381373069912,
+        "range_km": 404322.3744146297
+      }
+    },
+    {
+      "site": "a3-malapert",
+      "lat": -86.00089,
+      "lon": 2.0507,
+      "ground_m": 5156.6,
+      "observer_m": 2.0,
+      "utc": "2027-01-29T22:00:00Z",
+      "index": 35758,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 4.063489013267518,
+        "el_deg": -3.5979997312326297,
+        "receiver_el_deg": -38.015729464043524,
+        "range_km": 399163.5217563242
+      }
+    },
+    {
+      "site": "a3-malapert",
+      "lat": -86.00089,
+      "lon": 2.0507,
+      "ground_m": 5156.6,
+      "observer_m": 2.0,
+      "utc": "2027-01-29T22:00:00Z",
+      "index": 35758,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 5.229478763048428,
+        "el_deg": -3.2917144305365427,
+        "receiver_el_deg": -41.74215176802534,
+        "range_km": 399485.5575969343
+      }
+    },
+    {
+      "site": "a3-malapert",
+      "lat": -86.00089,
+      "lon": 2.0507,
+      "ground_m": 5156.6,
+      "observer_m": 2.0,
+      "utc": "2027-01-29T22:00:00Z",
+      "index": 35758,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 4.166580136397826,
+        "el_deg": -2.940613965542047,
+        "receiver_el_deg": 62.235639834417306,
+        "range_km": 389619.5626173329
+      }
+    },
+    {
+      "site": "a3-malapert",
+      "lat": -86.00089,
+      "lon": 2.0507,
+      "ground_m": 5156.6,
+      "observer_m": 2.0,
+      "utc": "2027-01-30T01:00:00Z",
+      "index": 35761,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 4.356860798569943,
+        "el_deg": -3.355780696050674,
+        "receiver_el_deg": -71.49747833899804,
+        "range_km": 401909.67825661844
+      }
+    },
+    {
+      "site": "a3-malapert",
+      "lat": -86.00089,
+      "lon": 2.0507,
+      "ground_m": 5156.6,
+      "observer_m": 2.0,
+      "utc": "2027-01-30T01:00:00Z",
+      "index": 35761,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 5.318793986560086,
+        "el_deg": -3.4520741566056,
+        "receiver_el_deg": -9.744471525302151,
+        "range_km": 396889.31767079164
+      }
+    },
+    {
+      "site": "a3-malapert",
+      "lat": -86.00089,
+      "lon": 2.0507,
+      "ground_m": 5156.6,
+      "observer_m": 2.0,
+      "utc": "2027-01-30T01:00:00Z",
+      "index": 35761,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 3.6802528416452667,
+        "el_deg": -2.9144803016955465,
+        "receiver_el_deg": 27.140786589403326,
+        "range_km": 392924.21404353593
+      }
+    },
+    {
+      "site": "a3-malapert",
+      "lat": -86.00089,
+      "lon": 2.0507,
+      "ground_m": 5156.6,
+      "observer_m": 2.0,
+      "utc": "2028-07-01T06:00:00Z",
+      "index": 48198,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 2.1588682803508057,
+        "el_deg": -3.8279560557584387,
+        "receiver_el_deg": 21.488934257241024,
+        "range_km": 373501.3614851794
+      }
+    },
+    {
+      "site": "a3-malapert",
+      "lat": -86.00089,
+      "lon": 2.0507,
+      "ground_m": 5156.6,
+      "observer_m": 2.0,
+      "utc": "2028-07-01T06:00:00Z",
+      "index": 48198,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 2.304419363379385,
+        "el_deg": -3.430040351204282,
+        "receiver_el_deg": -60.237960605248325,
+        "range_km": 381419.53336133086
+      }
+    },
+    {
+      "site": "a3-malapert",
+      "lat": -86.00089,
+      "lon": 2.0507,
+      "ground_m": 5156.6,
+      "observer_m": 2.0,
+      "utc": "2028-07-01T06:00:00Z",
+      "index": 48198,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 2.8714375151279965,
+        "el_deg": -2.3925606882911437,
+        "receiver_el_deg": 41.934055357592804,
+        "range_km": 371604.73063467257
+      }
+    },
+    {
+      "site": "a3-malapert",
+      "lat": -86.00089,
+      "lon": 2.0507,
+      "ground_m": 5156.6,
+      "observer_m": 2.0,
+      "utc": "2031-12-31T20:00:00Z",
+      "index": 78884,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 356.2646842225189,
+        "el_deg": -3.6173411715572534,
+        "receiver_el_deg": -35.160156258898716,
+        "range_km": 409880.6568223617
+      }
+    },
+    {
+      "site": "a3-malapert",
+      "lat": -86.00089,
+      "lon": 2.0507,
+      "ground_m": 5156.6,
+      "observer_m": 2.0,
+      "utc": "2031-12-31T20:00:00Z",
+      "index": 78884,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 357.27024128059696,
+        "el_deg": -3.280951773544521,
+        "receiver_el_deg": -0.012231813432730268,
+        "range_km": 406187.9285134921
+      }
+    },
+    {
+      "site": "a3-malapert",
+      "lat": -86.00089,
+      "lon": 2.0507,
+      "ground_m": 5156.6,
+      "observer_m": 2.0,
+      "utc": "2031-12-31T20:00:00Z",
+      "index": 78884,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 355.7062154279932,
+        "el_deg": -2.5058625278771385,
+        "receiver_el_deg": 19.561452780468592,
+        "range_km": 404044.564289553
+      }
+    },
+    {
+      "site": "a3-slater",
+      "lat": -87.2545,
+      "lon": 127.6012,
+      "ground_m": 532.5,
+      "observer_m": 10.0,
+      "utc": "2023-01-01T00:00:00Z",
+      "index": 0,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 239.93608385118986,
+        "el_deg": -3.081759127678133,
+        "receiver_el_deg": 39.8544000850333,
+        "range_km": 385537.15991268225
+      }
+    },
+    {
+      "site": "a3-slater",
+      "lat": -87.2545,
+      "lon": 127.6012,
+      "ground_m": 532.5,
+      "observer_m": 10.0,
+      "utc": "2023-01-01T00:00:00Z",
+      "index": 0,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 238.72559135951735,
+        "el_deg": -2.846667826834409,
+        "receiver_el_deg": 26.198266297802327,
+        "range_km": 386799.3162448187
+      }
+    },
+    {
+      "site": "a3-slater",
+      "lat": -87.2545,
+      "lon": 127.6012,
+      "ground_m": 532.5,
+      "observer_m": 10.0,
+      "utc": "2023-01-01T00:00:00Z",
+      "index": 0,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 240.05132444129947,
+        "el_deg": -2.2535331703958414,
+        "receiver_el_deg": -49.23075128102532,
+        "range_km": 394465.32349493937
+      }
+    },
+    {
+      "site": "a3-slater",
+      "lat": -87.2545,
+      "lon": 127.6012,
+      "ground_m": 532.5,
+      "observer_m": 10.0,
+      "utc": "2025-03-06T18:00:00Z",
+      "index": 19098,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 238.21976683852972,
+        "el_deg": 4.262250596449478,
+        "receiver_el_deg": -4.777695898744532,
+        "range_km": 375634.4339480349
+      }
+    },
+    {
+      "site": "a3-slater",
+      "lat": -87.2545,
+      "lon": 127.6012,
+      "ground_m": 532.5,
+      "observer_m": 10.0,
+      "utc": "2025-03-06T18:00:00Z",
+      "index": 19098,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 237.60669707301963,
+        "el_deg": 4.748218643449233,
+        "receiver_el_deg": 76.40969306651687,
+        "range_km": 368945.11838358396
+      }
+    },
+    {
+      "site": "a3-slater",
+      "lat": -87.2545,
+      "lon": 127.6012,
+      "ground_m": 532.5,
+      "observer_m": 10.0,
+      "utc": "2025-03-06T18:00:00Z",
+      "index": 19098,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 237.14698140312652,
+        "el_deg": 5.168875374331899,
+        "receiver_el_deg": -62.39666108292947,
+        "range_km": 380781.4296483012
+      }
+    },
+    {
+      "site": "a3-slater",
+      "lat": -87.2545,
+      "lon": 127.6012,
+      "ground_m": 532.5,
+      "observer_m": 10.0,
+      "utc": "2026-11-05T00:00:00Z",
+      "index": 33696,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 237.78478577808693,
+        "el_deg": -5.341073542049239,
+        "receiver_el_deg": -20.9825044115704,
+        "range_km": 385920.95315797254
+      }
+    },
+    {
+      "site": "a3-slater",
+      "lat": -87.2545,
+      "lon": 127.6012,
+      "ground_m": 532.5,
+      "observer_m": 10.0,
+      "utc": "2026-11-05T00:00:00Z",
+      "index": 33696,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 238.9431899142777,
+        "el_deg": -4.8964994426507324,
+        "receiver_el_deg": -30.515417707494922,
+        "range_km": 386885.0853793886
+      }
+    },
+    {
+      "site": "a3-slater",
+      "lat": -87.2545,
+      "lon": 127.6012,
+      "ground_m": 532.5,
+      "observer_m": 10.0,
+      "utc": "2026-11-05T00:00:00Z",
+      "index": 33696,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 237.69991136503313,
+        "el_deg": -4.153715389350541,
+        "receiver_el_deg": 47.81053250160622,
+        "range_km": 378924.6014299152
+      }
+    },
+    {
+      "site": "a3-slater",
+      "lat": -87.2545,
+      "lon": 127.6012,
+      "ground_m": 532.5,
+      "observer_m": 10.0,
+      "utc": "2027-01-09T21:00:00Z",
+      "index": 35277,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 229.3846870011688,
+        "el_deg": -3.944043376646425,
+        "receiver_el_deg": 35.08873301491527,
+        "range_km": 400965.1323493014
+      }
+    },
+    {
+      "site": "a3-slater",
+      "lat": -87.2545,
+      "lon": 127.6012,
+      "ground_m": 532.5,
+      "observer_m": 10.0,
+      "utc": "2027-01-09T21:00:00Z",
+      "index": 35277,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 228.70774299666292,
+        "el_deg": -3.547264084753336,
+        "receiver_el_deg": -24.587395406632222,
+        "range_km": 407285.0508265145
+      }
+    },
+    {
+      "site": "a3-slater",
+      "lat": -87.2545,
+      "lon": 127.6012,
+      "ground_m": 532.5,
+      "observer_m": 10.0,
+      "utc": "2027-01-09T21:00:00Z",
+      "index": 35277,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 230.28122809423084,
+        "el_deg": -2.841495632702113,
+        "receiver_el_deg": 1.2496459826536999,
+        "range_km": 404496.768451788
+      }
+    },
+    {
+      "site": "a3-slater",
+      "lat": -87.2545,
+      "lon": 127.6012,
+      "ground_m": 532.5,
+      "observer_m": 10.0,
+      "utc": "2027-01-29T22:00:00Z",
+      "index": 35758,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 238.8714776057056,
+        "el_deg": -9.010069026304127,
+        "receiver_el_deg": -38.02117071897316,
+        "range_km": 399326.4232085191
+      }
+    },
+    {
+      "site": "a3-slater",
+      "lat": -87.2545,
+      "lon": 127.6012,
+      "ground_m": 532.5,
+      "observer_m": 10.0,
+      "utc": "2027-01-29T22:00:00Z",
+      "index": 35758,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 240.03289157147043,
+        "el_deg": -8.64926406537614,
+        "receiver_el_deg": -41.72981085586783,
+        "range_km": 399646.93770229834
+      }
+    },
+    {
+      "site": "a3-slater",
+      "lat": -87.2545,
+      "lon": 127.6012,
+      "ground_m": 532.5,
+      "observer_m": 10.0,
+      "utc": "2027-01-29T22:00:00Z",
+      "index": 35758,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 238.94433195800585,
+        "el_deg": -8.348821917794854,
+        "receiver_el_deg": 62.22345966382093,
+        "range_km": 389782.5911287154
+      }
+    },
+    {
+      "site": "a3-slater",
+      "lat": -87.2545,
+      "lon": 127.6012,
+      "ground_m": 532.5,
+      "observer_m": 10.0,
+      "utc": "2027-01-30T01:00:00Z",
+      "index": 35761,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 239.15609581363117,
+        "el_deg": -8.754605785358557,
+        "receiver_el_deg": -71.49926876028044,
+        "range_km": 402072.27273002174
+      }
+    },
+    {
+      "site": "a3-slater",
+      "lat": -87.2545,
+      "lon": 127.6012,
+      "ground_m": 532.5,
+      "observer_m": 10.0,
+      "utc": "2027-01-30T01:00:00Z",
+      "index": 35761,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 240.13070655306439,
+        "el_deg": -8.805049484615022,
+        "receiver_el_deg": -9.732087834936097,
+        "range_km": 397050.5020969886
+      }
+    },
+    {
+      "site": "a3-slater",
+      "lat": -87.2545,
+      "lon": 127.6012,
+      "ground_m": 532.5,
+      "observer_m": 10.0,
+      "utc": "2027-01-30T01:00:00Z",
+      "index": 35761,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 238.4530492378471,
+        "el_deg": -8.345085241945792,
+        "receiver_el_deg": 27.12890505938827,
+        "range_km": 393087.9234435965
+      }
+    },
+    {
+      "site": "a3-slater",
+      "lat": -87.2545,
+      "lon": 127.6012,
+      "ground_m": 532.5,
+      "observer_m": 10.0,
+      "utc": "2028-07-01T06:00:00Z",
+      "index": 48198,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 236.9586449173397,
+        "el_deg": -9.324483492954933,
+        "receiver_el_deg": 21.48920334687417,
+        "range_km": 373666.74582695763
+      }
+    },
+    {
+      "site": "a3-slater",
+      "lat": -87.2545,
+      "lon": 127.6012,
+      "ground_m": 532.5,
+      "observer_m": 10.0,
+      "utc": "2028-07-01T06:00:00Z",
+      "index": 48198,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 237.08838207570338,
+        "el_deg": -8.920902647281034,
+        "receiver_el_deg": -60.23742453447329,
+        "range_km": 381584.9009112276
+      }
+    },
+    {
+      "site": "a3-slater",
+      "lat": -87.2545,
+      "lon": 127.6012,
+      "ground_m": 532.5,
+      "observer_m": 10.0,
+      "utc": "2028-07-01T06:00:00Z",
+      "index": 48198,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 237.61380767174586,
+        "el_deg": -7.860019729926949,
+        "receiver_el_deg": 41.938513077922046,
+        "range_km": 371769.7638584609
+      }
+    },
+    {
+      "site": "a3-slater",
+      "lat": -87.2545,
+      "lon": 127.6012,
+      "ground_m": 532.5,
+      "observer_m": 10.0,
+      "utc": "2031-12-31T20:00:00Z",
+      "index": 78884,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 230.99765063401068,
+        "el_deg": -9.338347996411475,
+        "receiver_el_deg": -35.158753442554634,
+        "range_km": 410052.8175250806
+      }
+    },
+    {
+      "site": "a3-slater",
+      "lat": -87.2545,
+      "lon": 127.6012,
+      "ground_m": 532.5,
+      "observer_m": 10.0,
+      "utc": "2031-12-31T20:00:00Z",
+      "index": 78884,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 232.00172896995537,
+        "el_deg": -8.968329535822189,
+        "receiver_el_deg": -0.003180139676679055,
+        "range_km": 406359.2163699922
+      }
+    },
+    {
+      "site": "a3-slater",
+      "lat": -87.2545,
+      "lon": 127.6012,
+      "ground_m": 532.5,
+      "observer_m": 10.0,
+      "utc": "2031-12-31T20:00:00Z",
+      "index": 78884,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 230.39732683264637,
+        "el_deg": -8.245949522297755,
+        "receiver_el_deg": 19.55314397226407,
+        "range_km": 404217.72214692744
+      }
+    },
+    {
+      "site": "equator-test",
+      "lat": 0.0,
+      "lon": 0.0,
+      "ground_m": 0.0,
+      "observer_m": 2.0,
+      "utc": "2023-01-01T00:00:00Z",
+      "index": 0,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 78.97896435724823,
+        "el_deg": 82.37868281070406,
+        "receiver_el_deg": 40.03462564826388,
+        "range_km": 383725.3330894029
+      }
+    },
+    {
+      "site": "equator-test",
+      "lat": 0.0,
+      "lon": 0.0,
+      "ground_m": 0.0,
+      "observer_m": 2.0,
+      "utc": "2023-01-01T00:00:00Z",
+      "index": 0,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 79.4422942858983,
+        "el_deg": 83.6146649302189,
+        "receiver_el_deg": 26.325623698504018,
+        "range_km": 384990.04719050234
+      }
+    },
+    {
+      "site": "equator-test",
+      "lat": 0.0,
+      "lon": 0.0,
+      "ground_m": 0.0,
+      "observer_m": 2.0,
+      "utc": "2023-01-01T00:00:00Z",
+      "index": 0,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 85.2513932583064,
+        "el_deg": 82.34259429289853,
+        "receiver_el_deg": -49.36790101716637,
+        "range_km": 392678.6541358032
+      }
+    },
+    {
+      "site": "equator-test",
+      "lat": 0.0,
+      "lon": 0.0,
+      "ground_m": 0.0,
+      "observer_m": 2.0,
+      "utc": "2025-03-06T18:00:00Z",
+      "index": 19098,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 134.83573954821355,
+        "el_deg": 81.48033692579699,
+        "receiver_el_deg": -4.582550137190223,
+        "range_km": 374049.1069219189
+      }
+    },
+    {
+      "site": "equator-test",
+      "lat": 0.0,
+      "lon": 0.0,
+      "ground_m": 0.0,
+      "observer_m": 2.0,
+      "utc": "2025-03-06T18:00:00Z",
+      "index": 19098,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 140.1555835079049,
+        "el_deg": 81.50318640917243,
+        "receiver_el_deg": 76.69518028339985,
+        "range_km": 367374.44840396394
+      }
+    },
+    {
+      "site": "equator-test",
+      "lat": 0.0,
+      "lon": 0.0,
+      "ground_m": 0.0,
+      "observer_m": 2.0,
+      "utc": "2025-03-06T18:00:00Z",
+      "index": 19098,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 144.30374989869546,
+        "el_deg": 81.43706298459783,
+        "receiver_el_deg": -62.508958632780484,
+        "range_km": 379223.6379919049
+      }
+    },
+    {
+      "site": "equator-test",
+      "lat": 0.0,
+      "lon": 0.0,
+      "ground_m": 0.0,
+      "observer_m": 2.0,
+      "utc": "2026-11-05T00:00:00Z",
+      "index": 33696,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 55.15667317153252,
+        "el_deg": 83.63243576504881,
+        "receiver_el_deg": -20.756754651065258,
+        "range_km": 384036.4774522413
+      }
+    },
+    {
+      "site": "equator-test",
+      "lat": 0.0,
+      "lon": 0.0,
+      "ground_m": 0.0,
+      "observer_m": 2.0,
+      "utc": "2026-11-05T00:00:00Z",
+      "index": 33696,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 63.15762428744564,
+        "el_deg": 82.82167168366801,
+        "receiver_el_deg": -30.439268121515912,
+        "range_km": 385016.92688478617
+      }
+    },
+    {
+      "site": "equator-test",
+      "lat": 0.0,
+      "lon": 0.0,
+      "ground_m": 0.0,
+      "observer_m": 2.0,
+      "utc": "2026-11-05T00:00:00Z",
+      "index": 33696,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 64.87156141145006,
+        "el_deg": 84.26316649372458,
+        "receiver_el_deg": 47.6701145924515,
+        "range_km": 377074.0954638301
+      }
+    },
+    {
+      "site": "equator-test",
+      "lat": 0.0,
+      "lon": 0.0,
+      "ground_m": 0.0,
+      "observer_m": 2.0,
+      "utc": "2027-01-09T21:00:00Z",
+      "index": 35277,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 301.48704170496546,
+        "el_deg": 86.3313847844168,
+        "receiver_el_deg": 35.325302467909886,
+        "range_km": 399115.4188555561
+      }
+    },
+    {
+      "site": "equator-test",
+      "lat": 0.0,
+      "lon": 0.0,
+      "ground_m": 0.0,
+      "observer_m": 2.0,
+      "utc": "2027-01-09T21:00:00Z",
+      "index": 35277,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 291.5412929890021,
+        "el_deg": 85.92253622685851,
+        "receiver_el_deg": -24.503771375030066,
+        "range_km": 405448.12397739093
+      }
+    },
+    {
+      "site": "equator-test",
+      "lat": 0.0,
+      "lon": 0.0,
+      "ground_m": 0.0,
+      "observer_m": 2.0,
+      "utc": "2027-01-09T21:00:00Z",
+      "index": 35277,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 291.06565048689396,
+        "el_deg": 87.6530128238014,
+        "receiver_el_deg": 1.1582106301175616,
+        "range_km": 402678.322750694
+      }
+    },
+    {
+      "site": "equator-test",
+      "lat": 0.0,
+      "lon": 0.0,
+      "ground_m": 0.0,
+      "observer_m": 2.0,
+      "utc": "2027-01-29T22:00:00Z",
+      "index": 35758,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 39.7181736098725,
+        "el_deg": 80.4012612611401,
+        "receiver_el_deg": -37.84093553333792,
+        "range_km": 397344.93771113
+      }
+    },
+    {
+      "site": "equator-test",
+      "lat": 0.0,
+      "lon": 0.0,
+      "ground_m": 0.0,
+      "observer_m": 2.0,
+      "utc": "2027-01-29T22:00:00Z",
+      "index": 35758,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 45.92849580602984,
+        "el_deg": 79.82945414875384,
+        "receiver_el_deg": -41.70314380952914,
+        "range_km": 397679.2383043859
+      }
+    },
+    {
+      "site": "equator-test",
+      "lat": 0.0,
+      "lon": 0.0,
+      "ground_m": 0.0,
+      "observer_m": 2.0,
+      "utc": "2027-01-29T22:00:00Z",
+      "index": 35758,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 42.89785181402759,
+        "el_deg": 80.83205502890675,
+        "receiver_el_deg": 62.187143505269404,
+        "range_km": 387818.9148283789
+      }
+    },
+    {
+      "site": "equator-test",
+      "lat": 0.0,
+      "lon": 0.0,
+      "ground_m": 0.0,
+      "observer_m": 2.0,
+      "utc": "2027-01-30T01:00:00Z",
+      "index": 35761,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 41.99917193227306,
+        "el_deg": 80.39116528148803,
+        "receiver_el_deg": -71.28877213445436,
+        "range_km": 400098.4761383151
+      }
+    },
+    {
+      "site": "equator-test",
+      "lat": 0.0,
+      "lon": 0.0,
+      "ground_m": 0.0,
+      "observer_m": 2.0,
+      "utc": "2027-01-30T01:00:00Z",
+      "index": 35761,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 45.636051181984946,
+        "el_deg": 79.65384966814143,
+        "receiver_el_deg": -9.686760412679138,
+        "range_km": 395079.09714454267
+      }
+    },
+    {
+      "site": "equator-test",
+      "lat": 0.0,
+      "lon": 0.0,
+      "ground_m": 0.0,
+      "observer_m": 2.0,
+      "utc": "2027-01-30T01:00:00Z",
+      "index": 35761,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 40.67649319671466,
+        "el_deg": 81.1760149928881,
+        "receiver_el_deg": 27.11558131047702,
+        "range_km": 391122.70359054446
+      }
+    },
+    {
+      "site": "equator-test",
+      "lat": 0.0,
+      "lon": 0.0,
+      "ground_m": 0.0,
+      "observer_m": 2.0,
+      "utc": "2028-07-01T06:00:00Z",
+      "index": 48198,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 29.03957048317794,
+        "el_deg": 81.30782237984725,
+        "receiver_el_deg": 21.715694558641584,
+        "range_km": 371671.37941101455
+      }
+    },
+    {
+      "site": "equator-test",
+      "lat": 0.0,
+      "lon": 0.0,
+      "ground_m": 0.0,
+      "observer_m": 2.0,
+      "utc": "2028-07-01T06:00:00Z",
+      "index": 48198,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 31.2217276872693,
+        "el_deg": 81.57575562428525,
+        "receiver_el_deg": -60.012101762849724,
+        "range_km": 379600.34731643443
+      }
+    },
+    {
+      "site": "equator-test",
+      "lat": 0.0,
+      "lon": 0.0,
+      "ground_m": 0.0,
+      "observer_m": 2.0,
+      "utc": "2028-07-01T06:00:00Z",
+      "index": 48198,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 38.75825273891788,
+        "el_deg": 82.1077186405235,
+        "receiver_el_deg": 41.72842426759901,
+        "range_km": 369814.890355308
+      }
+    },
+    {
+      "site": "equator-test",
+      "lat": 0.0,
+      "lon": 0.0,
+      "ground_m": 0.0,
+      "observer_m": 2.0,
+      "utc": "2031-12-31T20:00:00Z",
+      "index": 78884,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 347.00567272093525,
+        "el_deg": 82.40848621012346,
+        "receiver_el_deg": -34.95691117813021,
+        "range_km": 408052.2620316991
+      }
+    },
+    {
+      "site": "equator-test",
+      "lat": 0.0,
+      "lon": 0.0,
+      "ground_m": 0.0,
+      "observer_m": 2.0,
+      "utc": "2031-12-31T20:00:00Z",
+      "index": 78884,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 354.37517096670285,
+        "el_deg": 82.90548291087526,
+        "receiver_el_deg": 0.0802889990224515,
+        "range_km": 404367.8665963055
+      }
+    },
+    {
+      "site": "equator-test",
+      "lat": 0.0,
+      "lon": 0.0,
+      "ground_m": 0.0,
+      "observer_m": 2.0,
+      "utc": "2031-12-31T20:00:00Z",
+      "index": 78884,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 340.14430959441074,
+        "el_deg": 83.3280090370591,
+        "receiver_el_deg": 19.447753386294856,
+        "range_km": 402246.5369084002
+      }
+    },
+    {
+      "site": "north-test",
+      "lat": 89.5,
+      "lon": 180.0,
+      "ground_m": 5000.0,
+      "observer_m": 10.0,
+      "utc": "2023-01-01T00:00:00Z",
+      "index": 0,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 352.5526340536956,
+        "el_deg": 0.6915402084897029,
+        "receiver_el_deg": 40.27120039742027,
+        "range_km": 385422.65456194035
+      }
+    },
+    {
+      "site": "north-test",
+      "lat": 89.5,
+      "lon": 180.0,
+      "ground_m": 5000.0,
+      "observer_m": 10.0,
+      "utc": "2023-01-01T00:00:00Z",
+      "index": 0,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 353.7509169071066,
+        "el_deg": 0.4072018222088544,
+        "receiver_el_deg": 26.39411627887197,
+        "range_km": 386700.58006376185
+      }
+    },
+    {
+      "site": "north-test",
+      "lat": 89.5,
+      "lon": 180.0,
+      "ground_m": 5000.0,
+      "observer_m": 10.0,
+      "utc": "2023-01-01T00:00:00Z",
+      "index": 0,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 352.402529677571,
+        "el_deg": -0.11948125036472994,
+        "receiver_el_deg": -49.434661589417935,
+        "range_km": 394400.5816746719
+      }
+    },
+    {
+      "site": "north-test",
+      "lat": 89.5,
+      "lon": 180.0,
+      "ground_m": 5000.0,
+      "observer_m": 10.0,
+      "utc": "2025-03-06T18:00:00Z",
+      "index": 19098,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 353.95866581035534,
+        "el_deg": -6.729420398110479,
+        "receiver_el_deg": -4.3852687891078705,
+        "range_km": 375967.7953716636
+      }
+    },
+    {
+      "site": "north-test",
+      "lat": 89.5,
+      "lon": 180.0,
+      "ground_m": 5000.0,
+      "observer_m": 10.0,
+      "utc": "2025-03-06T18:00:00Z",
+      "index": 19098,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 354.55270732232384,
+        "el_deg": -7.249511459002973,
+        "receiver_el_deg": 76.93328586088123,
+        "range_km": 369308.8778872356
+      }
+    },
+    {
+      "site": "north-test",
+      "lat": 89.5,
+      "lon": 180.0,
+      "ground_m": 5000.0,
+      "observer_m": 10.0,
+      "utc": "2025-03-06T18:00:00Z",
+      "index": 19098,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 354.9965474827465,
+        "el_deg": -7.671649549977255,
+        "receiver_el_deg": -62.6384786631595,
+        "range_km": 381170.6322102768
+      }
+    },
+    {
+      "site": "north-test",
+      "lat": 89.5,
+      "lon": 180.0,
+      "ground_m": 5000.0,
+      "observer_m": 10.0,
+      "utc": "2026-11-05T00:00:00Z",
+      "index": 33696,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 354.7932562384315,
+        "el_deg": 2.8602890126059255,
+        "receiver_el_deg": -20.529767350723713,
+        "range_km": 385672.1915126374
+      }
+    },
+    {
+      "site": "north-test",
+      "lat": 89.5,
+      "lon": 180.0,
+      "ground_m": 5000.0,
+      "observer_m": 10.0,
+      "utc": "2026-11-05T00:00:00Z",
+      "index": 33696,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 353.6199675866184,
+        "el_deg": 2.465315637262763,
+        "receiver_el_deg": -30.287917919144892,
+        "range_km": 386661.7570155251
+      }
+    },
+    {
+      "site": "north-test",
+      "lat": 89.5,
+      "lon": 180.0,
+      "ground_m": 5000.0,
+      "observer_m": 10.0,
+      "utc": "2026-11-05T00:00:00Z",
+      "index": 33696,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 354.8285159418662,
+        "el_deg": 1.6603123996580282,
+        "receiver_el_deg": 47.469490672410195,
+        "range_km": 378748.2010901228
+      }
+    },
+    {
+      "site": "north-test",
+      "lat": 89.5,
+      "lon": 180.0,
+      "ground_m": 5000.0,
+      "observer_m": 10.0,
+      "utc": "2027-01-09T21:00:00Z",
+      "index": 35277,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 3.1152546744086465,
+        "el_deg": 1.1586254977440125,
+        "receiver_el_deg": 35.58208391035797,
+        "range_km": 400810.33583524165
+      }
+    },
+    {
+      "site": "north-test",
+      "lat": 89.5,
+      "lon": 180.0,
+      "ground_m": 5000.0,
+      "observer_m": 10.0,
+      "utc": "2027-01-09T21:00:00Z",
+      "index": 35277,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 3.776632924004143,
+        "el_deg": 0.7455835573389749,
+        "receiver_el_deg": -24.39254111145709,
+        "range_km": 407154.8260355779
+      }
+    },
+    {
+      "site": "north-test",
+      "lat": 89.5,
+      "lon": 180.0,
+      "ground_m": 5000.0,
+      "observer_m": 10.0,
+      "utc": "2027-01-09T21:00:00Z",
+      "index": 35277,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 2.1806879269282127,
+        "el_deg": 0.09326339571090995,
+        "receiver_el_deg": 1.0545299766261311,
+        "range_km": 404407.7596446344
+      }
+    },
+    {
+      "site": "north-test",
+      "lat": 89.5,
+      "lon": 180.0,
+      "ground_m": 5000.0,
+      "observer_m": 10.0,
+      "utc": "2027-01-29T22:00:00Z",
+      "index": 35758,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 353.86585911085183,
+        "el_deg": 6.591696599214939,
+        "receiver_el_deg": -37.65710377455825,
+        "range_km": 398854.1807554322
+      }
+    },
+    {
+      "site": "north-test",
+      "lat": 89.5,
+      "lon": 180.0,
+      "ground_m": 5000.0,
+      "observer_m": 10.0,
+      "utc": "2027-01-29T22:00:00Z",
+      "index": 35758,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 352.695164658496,
+        "el_deg": 6.280164414913211,
+        "receiver_el_deg": -41.585391992103986,
+        "range_km": 399194.9274997263
+      }
+    },
+    {
+      "site": "north-test",
+      "lat": 89.5,
+      "lon": 180.0,
+      "ground_m": 5000.0,
+      "observer_m": 10.0,
+      "utc": "2027-01-29T22:00:00Z",
+      "index": 35758,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 353.76497919985775,
+        "el_deg": 5.92122031817725,
+        "receiver_el_deg": 62.065828220287074,
+        "range_km": 389350.4467081691
+      }
+    },
+    {
+      "site": "north-test",
+      "lat": 89.5,
+      "lon": 180.0,
+      "ground_m": 5000.0,
+      "observer_m": 10.0,
+      "utc": "2027-01-30T01:00:00Z",
+      "index": 35761,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 353.57194666202923,
+        "el_deg": 6.351482469020778,
+        "receiver_el_deg": -71.04772043591008,
+        "range_km": 401614.9472754117
+      }
+    },
+    {
+      "site": "north-test",
+      "lat": 89.5,
+      "lon": 180.0,
+      "ground_m": 5000.0,
+      "observer_m": 10.0,
+      "utc": "2027-01-30T01:00:00Z",
+      "index": 35761,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 352.60453410791615,
+        "el_deg": 6.436899002088619,
+        "receiver_el_deg": -9.546340353576888,
+        "range_km": 396589.0831500174
+      }
+    },
+    {
+      "site": "north-test",
+      "lat": 89.5,
+      "lon": 180.0,
+      "ground_m": 5000.0,
+      "observer_m": 10.0,
+      "utc": "2027-01-30T01:00:00Z",
+      "index": 35761,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 354.2536935075899,
+        "el_deg": 5.901258532096806,
+        "receiver_el_deg": 27.028286741285388,
+        "range_km": 392656.49520647933
+      }
+    },
+    {
+      "site": "north-test",
+      "lat": 89.5,
+      "lon": 180.0,
+      "ground_m": 5000.0,
+      "observer_m": 10.0,
+      "utc": "2028-07-01T06:00:00Z",
+      "index": 48198,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 355.78043353973294,
+        "el_deg": 6.7932300609032925,
+        "receiver_el_deg": 21.99650139401947,
+        "range_km": 373178.96589771594
+      }
+    },
+    {
+      "site": "north-test",
+      "lat": 89.5,
+      "lon": 180.0,
+      "ground_m": 5000.0,
+      "observer_m": 10.0,
+      "utc": "2028-07-01T06:00:00Z",
+      "index": 48198,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 355.63490746841103,
+        "el_deg": 6.405765383564181,
+        "receiver_el_deg": -59.7345586664648,
+        "range_km": 381120.91712326603
+      }
+    },
+    {
+      "site": "north-test",
+      "lat": 89.5,
+      "lon": 180.0,
+      "ground_m": 5000.0,
+      "observer_m": 10.0,
+      "utc": "2028-07-01T06:00:00Z",
+      "index": 48198,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 355.0678069065997,
+        "el_deg": 5.352409140055464,
+        "receiver_el_deg": 41.50454119421941,
+        "range_km": 371369.4844664141
+      }
+    },
+    {
+      "site": "north-test",
+      "lat": 89.5,
+      "lon": 180.0,
+      "ground_m": 5000.0,
+      "observer_m": 10.0,
+      "utc": "2031-12-31T20:00:00Z",
+      "index": 78884,
+      "station": 0,
+      "antenna": "DSS-24",
+      "exact": {
+        "az_deg": 1.7073332833472095,
+        "el_deg": 6.622987842094775,
+        "receiver_el_deg": -34.6908782322802,
+        "range_km": 409569.78463081364
+      }
+    },
+    {
+      "site": "north-test",
+      "lat": 89.5,
+      "lon": 180.0,
+      "ground_m": 5000.0,
+      "observer_m": 10.0,
+      "utc": "2031-12-31T20:00:00Z",
+      "index": 78884,
+      "station": 1,
+      "antenna": "DSS-54",
+      "exact": {
+        "az_deg": 0.6951684727489179,
+        "el_deg": 6.285747306569226,
+        "receiver_el_deg": 0.19302223612026986,
+        "range_km": 405897.4578054726
+      }
+    },
+    {
+      "site": "north-test",
+      "lat": 89.5,
+      "lon": 180.0,
+      "ground_m": 5000.0,
+      "observer_m": 10.0,
+      "utc": "2031-12-31T20:00:00Z",
+      "index": 78884,
+      "station": 2,
+      "antenna": "DSS-34",
+      "exact": {
+        "az_deg": 2.2633416831537834,
+        "el_deg": 5.501212640765788,
+        "receiver_el_deg": 19.32421232196538,
+        "range_km": 403801.3627048369
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "samples": 80,
+  "method": "Complete pinned SPICE sub-hour station/body vectors compared with independently evaluated SciPy cubic interpolation; Float32 channel rounding and receiver zenith normalization retained.",
+  "maximumSampledDifference": {
+    "receiverElevationDeg": 0.004106546927360455,
+    "lunarAimDeg": 0.00011591336941172598,
+    "bodyDirectionDeg": 3.334341665386321e-06
+  },
+  "engineeringInterpolationGuardsDeg": {
+    "receiver": 0.01,
+    "aim": 0.0005
+  },
+  "referenceSha256": "85847abc1470b840ee8bac5dc55908771543349922274a1e7f53a1105694cfa7",
+  "generatorSha256": "7e3ac40622079fbd4604f6bdf2ee6c9988e791f4a20decc65cd46ad45121ac59",
+  "limits": [
+    "Sampled interpolation differences, not independent flight or general source/model accuracy.",
+    "Guards are selected engineering sensitivities, not confidence bounds; source Earth orientation and small-origin approximations retain separate limits."
+  ]
+}

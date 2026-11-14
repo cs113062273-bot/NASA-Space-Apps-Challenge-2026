@@ -1,0 +1,856 @@
+{
+  "reference": "SciPy solve_ivp DOP853, rtol 1e-11, atol 1e-10; continuous constant-input heat equation",
+  "scipy_version": "1.15.3",
+  "numpy_version": "2.2.6",
+  "scope": "Numerical solver verification only; no measured lander, hardware or local regolith calibration",
+  "browser_max_step_s": 300,
+  "sample_acceptance_k": 0.2,
+  "duration_acceptance_s": 30,
+  "browser_local_step_tolerance_k": "0.00001 + 0.0000001 * max(start_K, end_K); one-step vs two-half-step difference; not a global error bound",
+  "cases": [
+    {
+      "name": "passive cold radiation",
+      "model": {
+        "initialK": 283,
+        "minK": 253,
+        "maxK": 323,
+        "setpointK": 273,
+        "heatCapacityJPerK": 50000,
+        "solarAbsorptivity": 0.2,
+        "solarAreaM2": 0.25,
+        "emissivity": 0.8,
+        "radiatingAreaM2": 1,
+        "groundViewFactor": 0.5,
+        "groundK": 100,
+        "conductanceWPerK": 0,
+        "baseK": 100,
+        "wasteHeatFraction": 0.8,
+        "maxHeaterW": 200
+      },
+      "heat_w": 0,
+      "duration_s": 86400,
+      "expected_end_k": 154.9409258339121,
+      "rhs_evaluations": 347,
+      "cold_s": 79857.57424715933,
+      "hot_s": 0.0,
+      "trajectory": [
+        {
+          "seconds": 0.0,
+          "kelvin": 283.0
+        },
+        {
+          "seconds": 300.0,
+          "kelvin": 281.2888618131015
+        },
+        {
+          "seconds": 600.0,
+          "kelvin": 279.61869151512667
+        },
+        {
+          "seconds": 900.0,
+          "kelvin": 277.98780847116626
+        },
+        {
+          "seconds": 1200.0,
+          "kelvin": 276.3946288385857
+        },
+        {
+          "seconds": 1500.0,
+          "kelvin": 274.8376584429677
+        },
+        {
+          "seconds": 1800.0,
+          "kelvin": 273.3154862891479
+        },
+        {
+          "seconds": 2100.0,
+          "kelvin": 271.8267786395347
+        },
+        {
+          "seconds": 2400.0,
+          "kelvin": 270.37027360371263
+        },
+        {
+          "seconds": 2700.0,
+          "kelvin": 268.94477618911435
+        },
+        {
+          "seconds": 3000.0,
+          "kelvin": 267.5491537613355
+        },
+        {
+          "seconds": 3300.0,
+          "kelvin": 266.18233187537953
+        },
+        {
+          "seconds": 3600.0,
+          "kelvin": 264.8432904543764
+        },
+        {
+          "seconds": 7200.0,
+          "kelvin": 250.6311393728243
+        },
+        {
+          "seconds": 10800.0,
+          "kelvin": 239.076846418611
+        },
+        {
+          "seconds": 14400.0,
+          "kelvin": 229.42019079756344
+        },
+        {
+          "seconds": 18000.0,
+          "kelvin": 221.17784210693438
+        },
+        {
+          "seconds": 21600.0,
+          "kelvin": 214.02510719073916
+        },
+        {
+          "seconds": 25200.0,
+          "kelvin": 207.73428276599932
+        },
+        {
+          "seconds": 28800.0,
+          "kelvin": 202.14007642457747
+        },
+        {
+          "seconds": 32400.0,
+          "kelvin": 197.11905172712787
+        },
+        {
+          "seconds": 36000.0,
+          "kelvin": 192.57681885151746
+        },
+        {
+          "seconds": 39600.0,
+          "kelvin": 188.4397327915344
+        },
+        {
+          "seconds": 43200.0,
+          "kelvin": 184.64933173218634
+        },
+        {
+          "seconds": 46800.0,
+          "kelvin": 181.15850397189996
+        },
+        {
+          "seconds": 50400.0,
+          "kelvin": 177.92878045492435
+        },
+        {
+          "seconds": 54000.0,
+          "kelvin": 174.92838083530157
+        },
+        {
+          "seconds": 57600.0,
+          "kelvin": 172.13077633355746
+        },
+        {
+          "seconds": 61200.0,
+          "kelvin": 169.51361473621793
+        },
+        {
+          "seconds": 64800.0,
+          "kelvin": 167.05790403728568
+        },
+        {
+          "seconds": 68400.0,
+          "kelvin": 164.7473840206532
+        },
+        {
+          "seconds": 72000.0,
+          "kelvin": 162.56803650890137
+        },
+        {
+          "seconds": 75600.0,
+          "kelvin": 160.50769940125755
+        },
+        {
+          "seconds": 79200.0,
+          "kelvin": 158.55575936280098
+        },
+        {
+          "seconds": 82800.0,
+          "kelvin": 156.7029048392341
+        },
+        {
+          "seconds": 86400.0,
+          "kelvin": 154.9409258339121
+        }
+      ]
+    },
+    {
+      "name": "warm ground plus internal heat",
+      "model": {
+        "initialK": 283,
+        "minK": 253,
+        "maxK": 323,
+        "setpointK": 273,
+        "heatCapacityJPerK": 50000,
+        "solarAbsorptivity": 0.2,
+        "solarAreaM2": 0.25,
+        "emissivity": 0.8,
+        "radiatingAreaM2": 1,
+        "groundViewFactor": 0.5,
+        "groundK": 350,
+        "conductanceWPerK": 0,
+        "baseK": 100,
+        "wasteHeatFraction": 0.8,
+        "maxHeaterW": 200
+      },
+      "heat_w": 100,
+      "duration_s": 43200,
+      "expected_end_k": 313.60798711743047,
+      "rhs_evaluations": 293,
+      "cold_s": 0.0,
+      "hot_s": 0.0,
+      "trajectory": [
+        {
+          "seconds": 0.0,
+          "kelvin": 283.0
+        },
+        {
+          "seconds": 300.0,
+          "kelvin": 283.88536521613
+        },
+        {
+          "seconds": 600.0,
+          "kelvin": 284.74895070181435
+        },
+        {
+          "seconds": 900.0,
+          "kelvin": 285.59110019195225
+        },
+        {
+          "seconds": 1200.0,
+          "kelvin": 286.4121620914319
+        },
+        {
+          "seconds": 1500.0,
+          "kelvin": 287.21248885856886
+        },
+        {
+          "seconds": 1800.0,
+          "kelvin": 287.9924364051312
+        },
+        {
+          "seconds": 2100.0,
+          "kelvin": 288.75236351389736
+        },
+        {
+          "seconds": 2400.0,
+          "kelvin": 289.49263127473677
+        },
+        {
+          "seconds": 2700.0,
+          "kelvin": 290.2136025403089
+        },
+        {
+          "seconds": 3000.0,
+          "kelvin": 290.91564140179054
+        },
+        {
+          "seconds": 3300.0,
+          "kelvin": 291.5991126849841
+        },
+        {
+          "seconds": 3600.0,
+          "kelvin": 292.26438146729936
+        },
+        {
+          "seconds": 7200.0,
+          "kelvin": 298.95920226719846
+        },
+        {
+          "seconds": 10800.0,
+          "kelvin": 303.68640043700606
+        },
+        {
+          "seconds": 14400.0,
+          "kelvin": 306.96777556350355
+        },
+        {
+          "seconds": 18000.0,
+          "kelvin": 309.21789515688926
+        },
+        {
+          "seconds": 21600.0,
+          "kelvin": 310.747725279022
+        },
+        {
+          "seconds": 25200.0,
+          "kelvin": 311.7817263080446
+        },
+        {
+          "seconds": 28800.0,
+          "kelvin": 312.4777945740588
+        },
+        {
+          "seconds": 32400.0,
+          "kelvin": 312.9450981055287
+        },
+        {
+          "seconds": 36000.0,
+          "kelvin": 313.2582450553311
+        },
+        {
+          "seconds": 39600.0,
+          "kelvin": 313.4678303966537
+        },
+        {
+          "seconds": 43200.0,
+          "kelvin": 313.60798711743047
+        }
+      ]
+    },
+    {
+      "name": "mounting conduction",
+      "model": {
+        "initialK": 283,
+        "minK": 253,
+        "maxK": 323,
+        "setpointK": 273,
+        "heatCapacityJPerK": 50000,
+        "solarAbsorptivity": 0.2,
+        "solarAreaM2": 0.25,
+        "emissivity": 0,
+        "radiatingAreaM2": 1,
+        "groundViewFactor": 0.5,
+        "groundK": 100,
+        "conductanceWPerK": 2,
+        "baseK": 200,
+        "wasteHeatFraction": 0.8,
+        "maxHeaterW": 200
+      },
+      "heat_w": 30,
+      "duration_s": 21600,
+      "expected_end_k": 243.66015140481753,
+      "rhs_evaluations": 122,
+      "cold_s": 7051.9613647381375,
+      "hot_s": 0.0,
+      "trajectory": [
+        {
+          "seconds": 0.0,
+          "kelvin": 283.0
+        },
+        {
+          "seconds": 300.0,
+          "kelvin": 282.1888764746113
+        },
+        {
+          "seconds": 600.0,
+          "kelvin": 281.3874282635378
+        },
+        {
+          "seconds": 900.0,
+          "kelvin": 280.59553995685235
+        },
+        {
+          "seconds": 1200.0,
+          "kelvin": 279.81309752127606
+        },
+        {
+          "seconds": 1500.0,
+          "kelvin": 279.0399882837954
+        },
+        {
+          "seconds": 1800.0,
+          "kelvin": 278.276100915246
+        },
+        {
+          "seconds": 2100.0,
+          "kelvin": 277.52132541450356
+        },
+        {
+          "seconds": 2400.0,
+          "kelvin": 276.7755530926463
+        },
+        {
+          "seconds": 2700.0,
+          "kelvin": 276.0386765572473
+        },
+        {
+          "seconds": 3000.0,
+          "kelvin": 275.3105896968719
+        },
+        {
+          "seconds": 3300.0,
+          "kelvin": 274.59118766577626
+        },
+        {
+          "seconds": 3600.0,
+          "kelvin": 273.88036686880207
+        },
+        {
+          "seconds": 7200.0,
+          "kelvin": 265.98378826928297
+        },
+        {
+          "seconds": 10800.0,
+          "kelvin": 259.1462376153035
+        },
+        {
+          "seconds": 14400.0,
+          "kelvin": 253.22568627157838
+        },
+        {
+          "seconds": 18000.0,
+          "kelvin": 248.0991534057213
+        },
+        {
+          "seconds": 21600.0,
+          "kelvin": 243.66015140481753
+        }
+      ]
+    },
+    {
+      "name": "combined radiation and mounting",
+      "model": {
+        "initialK": 283,
+        "minK": 253,
+        "maxK": 323,
+        "setpointK": 273,
+        "heatCapacityJPerK": 50000,
+        "solarAbsorptivity": 0.2,
+        "solarAreaM2": 0.25,
+        "emissivity": 0.8,
+        "radiatingAreaM2": 1,
+        "groundViewFactor": 0.5,
+        "groundK": 100,
+        "conductanceWPerK": 0.5,
+        "baseK": 180,
+        "wasteHeatFraction": 0.8,
+        "maxHeaterW": 200
+      },
+      "heat_w": 200,
+      "duration_s": 172800,
+      "expected_end_k": 246.97649986498735,
+      "rhs_evaluations": 467,
+      "cold_s": 147407.34888007774,
+      "hot_s": 0.0,
+      "trajectory": [
+        {
+          "seconds": 0.0,
+          "kelvin": 283.0
+        },
+        {
+          "seconds": 300.0,
+          "kelvin": 282.17029588027225
+        },
+        {
+          "seconds": 600.0,
+          "kelvin": 281.36306589217355
+        },
+        {
+          "seconds": 900.0,
+          "kelvin": 280.57753683569956
+        },
+        {
+          "seconds": 1200.0,
+          "kelvin": 279.8129704459129
+        },
+        {
+          "seconds": 1500.0,
+          "kelvin": 279.06866137331133
+        },
+        {
+          "seconds": 1800.0,
+          "kelvin": 278.34393530688396
+        },
+        {
+          "seconds": 2100.0,
+          "kelvin": 277.63814722783843
+        },
+        {
+          "seconds": 2400.0,
+          "kelvin": 276.9506797821099
+        },
+        {
+          "seconds": 2700.0,
+          "kelvin": 276.280941764935
+        },
+        {
+          "seconds": 3000.0,
+          "kelvin": 275.62836670768667
+        },
+        {
+          "seconds": 3300.0,
+          "kelvin": 274.99241155673843
+        },
+        {
+          "seconds": 3600.0,
+          "kelvin": 274.3725554344905
+        },
+        {
+          "seconds": 7200.0,
+          "kelvin": 268.02616698850596
+        },
+        {
+          "seconds": 10800.0,
+          "kelvin": 263.26954276931536
+        },
+        {
+          "seconds": 14400.0,
+          "kelvin": 259.65632817295347
+        },
+        {
+          "seconds": 18000.0,
+          "kelvin": 256.88452495618816
+        },
+        {
+          "seconds": 21600.0,
+          "kelvin": 254.7425018863387
+        },
+        {
+          "seconds": 25200.0,
+          "kelvin": 253.07792603793737
+        },
+        {
+          "seconds": 28800.0,
+          "kelvin": 251.7788571366127
+        },
+        {
+          "seconds": 32400.0,
+          "kelvin": 250.76170464892277
+        },
+        {
+          "seconds": 36000.0,
+          "kelvin": 249.96325948759107
+        },
+        {
+          "seconds": 39600.0,
+          "kelvin": 249.3352517153842
+        },
+        {
+          "seconds": 43200.0,
+          "kelvin": 248.84053338251903
+        },
+        {
+          "seconds": 46800.0,
+          "kelvin": 248.4503410945734
+        },
+        {
+          "seconds": 50400.0,
+          "kelvin": 248.14229621559988
+        },
+        {
+          "seconds": 54000.0,
+          "kelvin": 247.89892136944317
+        },
+        {
+          "seconds": 57600.0,
+          "kelvin": 247.70652599136423
+        },
+        {
+          "seconds": 61200.0,
+          "kelvin": 247.5543603588404
+        },
+        {
+          "seconds": 64800.0,
+          "kelvin": 247.43396802773313
+        },
+        {
+          "seconds": 68400.0,
+          "kelvin": 247.33868670829887
+        },
+        {
+          "seconds": 72000.0,
+          "kelvin": 247.26326143819432
+        },
+        {
+          "seconds": 75600.0,
+          "kelvin": 247.20354344188033
+        },
+        {
+          "seconds": 79200.0,
+          "kelvin": 247.15625486156
+        },
+        {
+          "seconds": 82800.0,
+          "kelvin": 247.11880441742167
+        },
+        {
+          "seconds": 86400.0,
+          "kelvin": 247.0891426566113
+        },
+        {
+          "seconds": 90000.0,
+          "kelvin": 247.06564805663652
+        },
+        {
+          "seconds": 93600.0,
+          "kelvin": 247.04703731351597
+        },
+        {
+          "seconds": 97200.0,
+          "kelvin": 247.03229454714298
+        },
+        {
+          "seconds": 100800.0,
+          "kelvin": 247.02061543996757
+        },
+        {
+          "seconds": 104400.0,
+          "kelvin": 247.0113630793206
+        },
+        {
+          "seconds": 108000.0,
+          "kelvin": 247.00403305676528
+        },
+        {
+          "seconds": 111600.0,
+          "kelvin": 246.998225874944
+        },
+        {
+          "seconds": 115200.0,
+          "kelvin": 246.99362509104643
+        },
+        {
+          "seconds": 118800.0,
+          "kelvin": 246.98998004270393
+        },
+        {
+          "seconds": 122400.0,
+          "kelvin": 246.98709217027243
+        },
+        {
+          "seconds": 126000.0,
+          "kelvin": 246.98480416998487
+        },
+        {
+          "seconds": 129600.0,
+          "kelvin": 246.98299142372383
+        },
+        {
+          "seconds": 133200.0,
+          "kelvin": 246.98155521119085
+        },
+        {
+          "seconds": 136800.0,
+          "kelvin": 246.9804173149768
+        },
+        {
+          "seconds": 140400.0,
+          "kelvin": 246.97951576775276
+        },
+        {
+          "seconds": 144000.0,
+          "kelvin": 246.97880147954947
+        },
+        {
+          "seconds": 147600.0,
+          "kelvin": 246.97823555235408
+        },
+        {
+          "seconds": 151200.0,
+          "kelvin": 246.9777871707965
+        },
+        {
+          "seconds": 154800.0,
+          "kelvin": 246.97743191829952
+        },
+        {
+          "seconds": 158400.0,
+          "kelvin": 246.97715045435575
+        },
+        {
+          "seconds": 162000.0,
+          "kelvin": 246.97692745067243
+        },
+        {
+          "seconds": 165600.0,
+          "kelvin": 246.97675076508702
+        },
+        {
+          "seconds": 169200.0,
+          "kelvin": 246.9766107764542
+        },
+        {
+          "seconds": 172800.0,
+          "kelvin": 246.97649986498735
+        }
+      ]
+    },
+    {
+      "name": "stiff small node",
+      "model": {
+        "initialK": 400,
+        "minK": 253,
+        "maxK": 323,
+        "setpointK": 273,
+        "heatCapacityJPerK": 1000,
+        "solarAbsorptivity": 0.2,
+        "solarAreaM2": 0.25,
+        "emissivity": 0.8,
+        "radiatingAreaM2": 10,
+        "groundViewFactor": 0.5,
+        "groundK": 250,
+        "conductanceWPerK": 0,
+        "baseK": 100,
+        "wasteHeatFraction": 0.8,
+        "maxHeaterW": 200
+      },
+      "heat_w": 100,
+      "duration_s": 3600,
+      "expected_end_k": 215.92024270605015,
+      "rhs_evaluations": 923,
+      "cold_s": 3550.3668474535602,
+      "hot_s": 12.026981690475168,
+      "trajectory": [
+        {
+          "seconds": 0.0,
+          "kelvin": 400.0
+        },
+        {
+          "seconds": 300.0,
+          "kelvin": 216.2219750879193
+        },
+        {
+          "seconds": 600.0,
+          "kelvin": 215.92149838390037
+        },
+        {
+          "seconds": 900.0,
+          "kelvin": 215.92024794255963
+        },
+        {
+          "seconds": 1200.0,
+          "kelvin": 215.92024272792926
+        },
+        {
+          "seconds": 1500.0,
+          "kelvin": 215.92024270620556
+        },
+        {
+          "seconds": 1800.0,
+          "kelvin": 215.92024270607848
+        },
+        {
+          "seconds": 2100.0,
+          "kelvin": 215.9202426948326
+        },
+        {
+          "seconds": 2400.0,
+          "kelvin": 215.92024270674082
+        },
+        {
+          "seconds": 2700.0,
+          "kelvin": 215.92024269824302
+        },
+        {
+          "seconds": 3000.0,
+          "kelvin": 215.92024271411276
+        },
+        {
+          "seconds": 3300.0,
+          "kelvin": 215.92024272005546
+        },
+        {
+          "seconds": 3600.0,
+          "kelvin": 215.92024270605015
+        }
+      ]
+    },
+    {
+      "name": "linear isolated heating",
+      "model": {
+        "initialK": 283,
+        "minK": 253,
+        "maxK": 323,
+        "setpointK": 273,
+        "heatCapacityJPerK": 50000,
+        "solarAbsorptivity": 0.2,
+        "solarAreaM2": 0.25,
+        "emissivity": 0,
+        "radiatingAreaM2": 1,
+        "groundViewFactor": 0.5,
+        "groundK": 100,
+        "conductanceWPerK": 0,
+        "baseK": 100,
+        "wasteHeatFraction": 0.8,
+        "maxHeaterW": 200
+      },
+      "heat_w": 50,
+      "duration_s": 21600,
+      "expected_end_k": 304.6,
+      "rhs_evaluations": 107,
+      "cold_s": 0.0,
+      "hot_s": 0.0,
+      "trajectory": [
+        {
+          "seconds": 0.0,
+          "kelvin": 283.0
+        },
+        {
+          "seconds": 300.0,
+          "kelvin": 283.3
+        },
+        {
+          "seconds": 600.0,
+          "kelvin": 283.6
+        },
+        {
+          "seconds": 900.0,
+          "kelvin": 283.90000000000003
+        },
+        {
+          "seconds": 1200.0,
+          "kelvin": 284.20000000000005
+        },
+        {
+          "seconds": 1500.0,
+          "kelvin": 284.50000000000006
+        },
+        {
+          "seconds": 1800.0,
+          "kelvin": 284.80000000000007
+        },
+        {
+          "seconds": 2100.0,
+          "kelvin": 285.1
+        },
+        {
+          "seconds": 2400.0,
+          "kelvin": 285.40000000000003
+        },
+        {
+          "seconds": 2700.0,
+          "kelvin": 285.70000000000005
+        },
+        {
+          "seconds": 3000.0,
+          "kelvin": 286.00000000000006
+        },
+        {
+          "seconds": 3300.0,
+          "kelvin": 286.30000000000007
+        },
+        {
+          "seconds": 3600.0,
+          "kelvin": 286.6
+        },
+        {
+          "seconds": 7200.0,
+          "kelvin": 290.20000000000005
+        },
+        {
+          "seconds": 10800.0,
+          "kelvin": 293.80000000000007
+        },
+        {
+          "seconds": 14400.0,
+          "kelvin": 297.40000000000003
+        },
+        {
+          "seconds": 18000.0,
+          "kelvin": 301.00000000000006
+        },
+        {
+          "seconds": 21600.0,
+          "kelvin": 304.6
+        }
+      ]
+    }
+  ]
+}

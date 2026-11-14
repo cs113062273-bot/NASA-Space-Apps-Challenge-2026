@@ -1,0 +1,125 @@
+{
+  "schema": 1,
+  "elapsed_s": 218.3071998001542,
+  "baseline_report_sha256": "b29efe6eff7e70a4cd1f1bd68083baa846e558b86c83e90b180a33c40bef5d43",
+  "baseline_artifact_sha256": "309c3b4521f8fc17ea08d503ef5bfb6471925bb0bac1fd2fe52f51e63ae14acf",
+  "code_sha256": {
+    "relay_orbits.py": "271e9eeac5324d91a19da54fc23b5a31ea31aa1fdefdfe81527c1be477a1bb8c",
+    "propagate_relay.py": "06368bec6758c6c07dac71f1e21cf1d709043d9a34f5a269d35cf281f2cbee05"
+  },
+  "gravity_gradient": {
+    "samples": 43,
+    "maximum_vector_difference_km_s2": 2.068703487927255e-19,
+    "methods": "analytic spherical derivatives vs Cartesian solid-harmonic recurrence/complex step"
+  },
+  "thirty_day_tighter_dop853": {
+    "rtol": 3e-14,
+    "max_step_s": 150,
+    "position_atol_km": 1e-11,
+    "velocity_atol_km_s": 1e-14,
+    "force_calls": 259652,
+    "maximum_position_difference_km_by_sv": [
+      0.006311384893135692,
+      0.009849112426730922,
+      0.00013047186286176354,
+      0.00013768362616691537,
+      0.00020944751540033198
+    ],
+    "maximum_velocity_difference_km_s_by_sv": [
+      1.5392452656478944e-06,
+      2.494023061279701e-06,
+      3.268856315027191e-08,
+      3.4203517402165924e-08,
+      5.903969879315554e-08
+    ]
+  },
+  "three_day_rk45": {
+    "rtol": 1e-12,
+    "max_step_s": 60,
+    "position_atol_km": 1e-10,
+    "velocity_atol_km_s": 1e-13,
+    "force_calls": 28106,
+    "maximum_position_difference_km_by_sv": [
+      0.000218607883423243,
+      2.7313123108795e-05,
+      1.3172357413048222e-06,
+      4.185368074196355e-06,
+      1.5268236750387712e-06
+    ],
+    "maximum_velocity_difference_km_s_by_sv": [
+      5.629372680596493e-08,
+      7.233230690667039e-09,
+      3.1147493536123104e-10,
+      1.0028827575572081e-09,
+      4.246960765639032e-10
+    ]
+  },
+  "state_interpolation": {
+    "method": "cubic Hermite from positions/velocities; comparison with fine dense integration at all withheld bin midpoints",
+    "output_step_s": 300,
+    "maximum_midpoint_position_difference_km": 0.011207409472420632
+  },
+  "table1_table2_residual_audit": [
+    {
+      "spacecraft": "SV-1",
+      "residual_outside_sampled_quantization_sensitivity": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "spacecraft": "SV-2",
+      "residual_outside_sampled_quantization_sensitivity": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "spacecraft": "SV-3",
+      "residual_outside_sampled_quantization_sensitivity": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "spacecraft": "SV-4",
+      "residual_outside_sampled_quantization_sensitivity": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "spacecraft": "SV-5",
+      "residual_outside_sampled_quantization_sensitivity": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  ],
+  "limitations": [
+    "Numerical checks share the same force model and initial states, not physical orbit truth",
+    "Some PA element residuals exceed sampled printed-rounding sensitivities; exact generating frame/constants remain unresolved",
+    "No empirical rotation/element correction applied; published ICRF Cartesian states are retained verbatim",
+    "No measured trajectory, provider ephemeris, covariance, station keeping, terrain/RF or service validation"
+  ]
+}

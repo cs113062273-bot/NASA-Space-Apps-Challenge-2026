@@ -1,0 +1,908 @@
+{
+  "schema": 1,
+  "product": "LRO-L-DLRE-5-PRP-V2.0",
+  "data_type": "annual thermal model fitted to first mapping-year Diviner observations",
+  "terrain": "Kaguya laser-altimeter triangular mesh; not the application's LOLA/LROC terrain",
+  "coordinate_note": "Published Moon-centred vertices and planetocentric east longitude/latitude; exact frame/terrain registration to current site data is unresolved. Context only.",
+  "source": {
+    "url": "https://pds-geosciences.wustl.edu/lro/urn-nasa-pds-lro_diviner_derived1/data_derived_prp/dlre_prp_south.tab",
+    "bytes": 604800210,
+    "sha256": "393deaa5d8925d45bb2ed608f937a824f5eae029c2558aad1d2da8206b83a62d",
+    "headers": {
+      "etag": "\"96add61994abd31:0\"",
+      "last-modified": "Thu, 22 Feb 2018 04:17:50 GMT",
+      "content-length": "604800210"
+    }
+  },
+  "label": {
+    "url": "https://pds-geosciences.wustl.edu/lro/urn-nasa-pds-lro_diviner_derived1/data_derived_prp/dlre_prp_south.xml",
+    "bytes": 14561,
+    "sha256": "24a7bba837bbf013f59dc657a8766b6c4d1d06c0d4eea35a5f497908b17beece",
+    "headers": {
+      "etag": "\"42cae54c8295d91:0\"",
+      "last-modified": "Fri, 02 Jun 2023 18:44:45 GMT",
+      "content-length": "14561"
+    }
+  },
+  "catalog": {
+    "url": "https://pds-geosciences.wustl.edu/lro/urn-nasa-pds-lro_diviner_derived1/catalog/prpds.cat",
+    "bytes": 5776,
+    "sha256": "0b4f7955de876f882583c9b0622861ed7ff1ee3074b707c528360234d932bb25",
+    "headers": {
+      "etag": "\"46625f6e7747dd1:0\"",
+      "last-modified": "Fri, 18 Sep 2026 14:10:16 GMT",
+      "content-length": "5776"
+    }
+  },
+  "sampling": "geocentric site ray intersects a published triangle; facet value retained without interpolation; zero-based facet_index; source_record_number is 1-based data row after header",
+  "limits": [
+    "Not a mission-date temperature forecast or equipment-node temperature",
+    "Annual mean is at 2 cm depth; annual maximum is at the surface",
+    "Model-calculated ice-stability depth is not an ice detection; source -999 maps to null",
+    "Published V1 is invalid; only V2 is used",
+    "Neighbourhood spans are context, not a confidence interval or landing safety probability",
+    "No automatic thermal boundary or mission pass/fail is derived"
+  ],
+  "sites": [
+    {
+      "id": "im2-actual",
+      "lat": -84.7906,
+      "lon": 29.1957,
+      "status": "sampled",
+      "facet_index": 786304,
+      "source_record_number": 786305,
+      "centre_lat": -84.789642334,
+      "centre_lon": 29.221054077,
+      "centre_distance_m": 75.61113933272505,
+      "annual_mean_2cm_k": 127.371,
+      "annual_surface_max_k": 227.044,
+      "ice_stability_depth_m": null,
+      "vertices_km": [
+        [
+          138.45844,
+          77.09043,
+          -1735.50061
+        ],
+        [
+          137.95308,
+          77.09142,
+          -1735.54297
+        ],
+        [
+          137.95099,
+          77.59738,
+          -1735.50549
+        ]
+      ],
+      "barycentric_weights": [
+        0.3506682361144172,
+        0.46449670660708176,
+        0.18483505727850105
+      ],
+      "ray_radius_km": 1742.719463027772,
+      "neighborhood": {
+        "radius_m": 1000,
+        "selection": "facet centres within radius",
+        "count": 22,
+        "annual_mean_2cm_min_k": 92.615,
+        "annual_mean_2cm_max_k": 138.073,
+        "annual_surface_max_min_k": 188.435,
+        "annual_surface_max_max_k": 240.736
+      }
+    },
+    {
+      "id": "im2-target",
+      "lat": -84.78,
+      "lon": 29.13,
+      "status": "sampled",
+      "facet_index": 783904,
+      "source_record_number": 783905,
+      "centre_lat": -84.775085449,
+      "centre_lon": 29.131664276,
+      "centre_distance_m": 149.0964324328756,
+      "annual_mean_2cm_k": 138.073,
+      "annual_surface_max_k": 239.062,
+      "ice_stability_depth_m": null,
+      "vertices_km": [
+        [
+          138.96223,
+          77.0885,
+          -1735.43677
+        ],
+        [
+          138.45844,
+          77.09043,
+          -1735.50061
+        ],
+        [
+          138.45654,
+          77.5965,
+          -1735.46582
+        ]
+      ],
+      "barycentric_weights": [
+        0.08034462758460592,
+        0.7377597135602783,
+        0.18189565885511583
+      ],
+      "ray_radius_km": 1742.7167195999025,
+      "neighborhood": {
+        "radius_m": 1000,
+        "selection": "facet centres within radius",
+        "count": 24,
+        "annual_mean_2cm_min_k": 103.484,
+        "annual_mean_2cm_max_k": 140.865,
+        "annual_surface_max_min_k": 202.095,
+        "annual_surface_max_max_k": 244.192
+      }
+    },
+    {
+      "id": "im1",
+      "lat": -80.13,
+      "lon": 1.44,
+      "status": "sampled",
+      "facet_index": 20429,
+      "source_record_number": 20430,
+      "centre_lat": -80.13520813,
+      "centre_lon": 1.419999957,
+      "centre_distance_m": 189.0571105756679,
+      "annual_mean_2cm_k": 159.244,
+      "annual_surface_max_k": 271.791,
+      "ice_stability_depth_m": null,
+      "vertices_km": [
+        [
+          298.17508,
+          7.05144,
+          -1714.23279
+        ],
+        [
+          297.69025,
+          7.5556,
+          -1714.38733
+        ],
+        [
+          298.18002,
+          7.55523,
+          -1714.26001
+        ]
+      ],
+      "barycentric_weights": [
+        0.1189015223247859,
+        0.0249335789193284,
+        0.8561648987558858
+      ],
+      "ray_radius_km": 1740.0135175279831,
+      "neighborhood": {
+        "radius_m": 1000,
+        "selection": "facet centres within radius",
+        "count": 25,
+        "annual_mean_2cm_min_k": 145.895,
+        "annual_mean_2cm_max_k": 164.478,
+        "annual_surface_max_min_k": 252.738,
+        "annual_surface_max_max_k": 276.301
+      }
+    },
+    {
+      "id": "ch3",
+      "lat": -69.373,
+      "lon": 32.319,
+      "status": "outside-published-mesh"
+    },
+    {
+      "id": "c1",
+      "lat": -89.4398,
+      "lon": 222.83,
+      "status": "sampled",
+      "facet_index": 1498754,
+      "source_record_number": 1498755,
+      "centre_lat": -89.440254211,
+      "centre_lon": -137.419540405,
+      "centre_distance_m": 75.22453530254181,
+      "annual_mean_2cm_k": 108.251,
+      "annual_surface_max_k": 200.319,
+      "ice_stability_depth_m": 0.28482,
+      "vertices_km": [
+        [
+          -12.17314,
+          -11.66592,
+          -1739.20764
+        ],
+        [
+          -12.68053,
+          -11.66609,
+          -1739.2301
+        ],
+        [
+          -12.68066,
+          -11.15898,
+          -1739.24976
+        ]
+      ],
+      "barycentric_weights": [
+        0.41220054882479273,
+        0.3802867102901898,
+        0.2075127408850175
+      ],
+      "ray_radius_km": 1739.308056694593,
+      "neighborhood": {
+        "radius_m": 1000,
+        "selection": "facet centres within radius",
+        "count": 24,
+        "annual_mean_2cm_min_k": 77.42,
+        "annual_mean_2cm_max_k": 154.726,
+        "annual_surface_max_min_k": 187.293,
+        "annual_surface_max_max_k": 267.822
+      }
+    },
+    {
+      "id": "c2",
+      "lat": -89.313,
+      "lon": 245.98,
+      "status": "sampled",
+      "facet_index": 1479524,
+      "source_record_number": 1479525,
+      "centre_lat": -89.311775208,
+      "centre_lon": -113.868331909,
+      "centre_distance_m": 66.52518428264145,
+      "annual_mean_2cm_k": 113.41,
+      "annual_surface_max_k": 204.103,
+      "ice_stability_depth_m": 0.54812,
+      "vertices_km": [
+        [
+          -8.11401,
+          -19.27082,
+          -1738.88281
+        ],
+        [
+          -8.62129,
+          -19.27116,
+          -1738.91248
+        ],
+        [
+          -8.62135,
+          -18.76403,
+          -1738.92712
+        ]
+      ],
+      "barycentric_weights": [
+        0.26355516552167735,
+        0.291869267429246,
+        0.44457556704907664
+      ],
+      "ray_radius_km": 1739.0361780042122,
+      "neighborhood": {
+        "radius_m": 1000,
+        "selection": "facet centres within radius",
+        "count": 24,
+        "annual_mean_2cm_min_k": 105.105,
+        "annual_mean_2cm_max_k": 152.195,
+        "annual_surface_max_min_k": 202.096,
+        "annual_surface_max_max_k": 273.7
+      }
+    },
+    {
+      "id": "shackleton",
+      "lat": -89.6866,
+      "lon": 197.19,
+      "status": "sampled",
+      "facet_index": 1481988,
+      "source_record_number": 1481989,
+      "centre_lat": -89.689994812,
+      "centre_lon": -162.216140747,
+      "centre_distance_m": 142.10587763107378,
+      "annual_mean_2cm_k": 111.028,
+      "annual_surface_max_k": 213.097,
+      "ice_stability_depth_m": 0.44646,
+      "vertices_km": [
+        [
+          -8.62136,
+          -3.04284,
+          -1738.97974
+        ],
+        [
+          -9.12867,
+          -3.04289,
+          -1739.00977
+        ],
+        [
+          -9.12882,
+          -2.53578,
+          -1739.0387
+        ]
+      ],
+      "barycentric_weights": [
+        0.08152060562540475,
+        0.4617557380383098,
+        0.4567236563362854
+      ],
+      "ray_radius_km": 1739.046550491791,
+      "neighborhood": {
+        "radius_m": 1000,
+        "selection": "facet centres within radius",
+        "count": 25,
+        "annual_mean_2cm_min_k": 109.037,
+        "annual_mean_2cm_max_k": 162.043,
+        "annual_surface_max_min_k": 199.342,
+        "annual_surface_max_max_k": 300.91
+      }
+    },
+    {
+      "id": "nobile-dm2",
+      "lat": -84.20156,
+      "lon": 60.69989,
+      "status": "sampled",
+      "facet_index": 1033805,
+      "source_record_number": 1033806,
+      "centre_lat": -84.207252502,
+      "centre_lon": 60.726211548,
+      "centre_distance_m": 190.50509493446864,
+      "annual_mean_2cm_k": 58.445,
+      "annual_surface_max_k": 133.223,
+      "ice_stability_depth_m": 0.00057,
+      "vertices_km": [
+        [
+          85.96629,
+          152.71671,
+          -1729.57434
+        ],
+        [
+          85.46262,
+          153.22588,
+          -1729.60437
+        ],
+        [
+          85.96902,
+          153.2272,
+          -1729.60693
+        ]
+      ],
+      "barycentric_weights": [
+        0.1133474549505945,
+        0.02709452184352792,
+        0.8595580232058776
+      ],
+      "ray_radius_km": 1738.4982626607248,
+      "neighborhood": {
+        "radius_m": 1000,
+        "selection": "facet centres within radius",
+        "count": 25,
+        "annual_mean_2cm_min_k": 55.53,
+        "annual_mean_2cm_max_k": 143.668,
+        "annual_surface_max_min_k": 77.615,
+        "annual_surface_max_max_k": 251.455
+      }
+    },
+    {
+      "id": "a3-cabeus-b",
+      "lat": -83.5228,
+      "lon": 291.7018,
+      "status": "sampled",
+      "facet_index": 1094878,
+      "source_record_number": 1094879,
+      "centre_lat": -83.522041321,
+      "centre_lon": -68.326515198,
+      "centre_distance_m": 99.55827764305147,
+      "annual_mean_2cm_k": 166.348,
+      "annual_surface_max_k": 278.841,
+      "ice_stability_depth_m": null,
+      "vertices_km": [
+        [
+          72.90799,
+          -182.77649,
+          -1730.55591
+        ],
+        [
+          72.40087,
+          -182.77431,
+          -1730.54578
+        ],
+        [
+          72.40592,
+          -182.28008,
+          -1730.69312
+        ]
+      ],
+      "barycentric_weights": [
+        0.4947999946349253,
+        0.05899737877570428,
+        0.4462026265893704
+      ],
+      "ray_radius_km": 1741.7343316680387,
+      "neighborhood": {
+        "radius_m": 1000,
+        "selection": "facet centres within radius",
+        "count": 23,
+        "annual_mean_2cm_min_k": 150.138,
+        "annual_mean_2cm_max_k": 173.488,
+        "annual_surface_max_min_k": 252.73,
+        "annual_surface_max_max_k": 290.631
+      }
+    },
+    {
+      "id": "a3-haworth",
+      "lat": -87.05715,
+      "lon": 335.7249,
+      "status": "sampled",
+      "facet_index": 1054655,
+      "source_record_number": 1054656,
+      "centre_lat": -87.056533813,
+      "centre_lon": -24.237606049,
+      "centre_distance_m": 61.29391416451789,
+      "annual_mean_2cm_k": 91.76,
+      "annual_surface_max_k": 171.318,
+      "ice_stability_depth_m": 0.12754,
+      "vertices_km": [
+        [
+          81.5998,
+          -36.99869,
+          -1736.77869
+        ],
+        [
+          81.09198,
+          -36.49135,
+          -1736.77747
+        ],
+        [
+          81.59984,
+          -36.49175,
+          -1736.78491
+        ]
+      ],
+      "barycentric_weights": [
+        0.4232811167510374,
+        0.4142777966992762,
+        0.16244108654968634
+      ],
+      "ray_radius_km": 1739.0726130334654,
+      "neighborhood": {
+        "radius_m": 1000,
+        "selection": "facet centres within radius",
+        "count": 24,
+        "annual_mean_2cm_min_k": 86.174,
+        "annual_mean_2cm_max_k": 140.926,
+        "annual_surface_max_min_k": 163.374,
+        "annual_surface_max_max_k": 252.91
+      }
+    },
+    {
+      "id": "a3-malapert",
+      "lat": -86.00089,
+      "lon": 2.0507,
+      "status": "sampled",
+      "facet_index": 865216,
+      "source_record_number": 865217,
+      "centre_lat": -86.000160217,
+      "centre_lon": 1.994176149,
+      "centre_distance_m": 121.57736232480181,
+      "annual_mean_2cm_k": 113.792,
+      "annual_surface_max_k": 199.093,
+      "ice_stability_depth_m": 0.55868,
+      "vertices_km": [
+        [
+          121.81181,
+          4.0604,
+          -1738.26367
+        ],
+        [
+          121.30446,
+          4.0604,
+          -1738.28357
+        ],
+        [
+          121.30596,
+          4.56801,
+          -1738.30432
+        ]
+      ],
+      "barycentric_weights": [
+        0.2814317966056159,
+        0.15068615786022843,
+        0.5678820455341557
+      ],
+      "ray_radius_km": 1742.5325869378546,
+      "neighborhood": {
+        "radius_m": 1000,
+        "selection": "facet centres within radius",
+        "count": 24,
+        "annual_mean_2cm_min_k": 97.122,
+        "annual_mean_2cm_max_k": 140.896,
+        "annual_surface_max_min_k": 171.75,
+        "annual_surface_max_max_k": 239.854
+      }
+    },
+    {
+      "id": "a3-mouton-plateau",
+      "lat": -84.24877,
+      "lon": 18.4952,
+      "status": "sampled",
+      "facet_index": 656618,
+      "source_record_number": 656619,
+      "centre_lat": -84.254196167,
+      "centre_lon": 18.522697449,
+      "centre_distance_m": 184.52187993150397,
+      "annual_mean_2cm_k": 158.314,
+      "annual_surface_max_k": 265.637,
+      "ice_stability_depth_m": null,
+      "vertices_km": [
+        [
+          165.62978,
+          55.20992,
+          -1732.4563
+        ],
+        [
+          165.13182,
+          55.21283,
+          -1732.57166
+        ],
+        [
+          165.13544,
+          55.72054,
+          -1732.60156
+        ]
+      ],
+      "barycentric_weights": [
+        0.6945876434393337,
+        0.02537338912666201,
+        0.2800389674340043
+      ],
+      "ray_radius_km": 1741.264793059141,
+      "neighborhood": {
+        "radius_m": 1000,
+        "selection": "facet centres within radius",
+        "count": 24,
+        "annual_mean_2cm_min_k": 123.214,
+        "annual_mean_2cm_max_k": 172.742,
+        "annual_surface_max_min_k": 223.156,
+        "annual_surface_max_max_k": 296.357
+      }
+    },
+    {
+      "id": "a3-mouton",
+      "lat": -85.48091,
+      "lon": 29.5661,
+      "status": "sampled",
+      "facet_index": 875066,
+      "source_record_number": 875067,
+      "centre_lat": -85.48286438,
+      "centre_lon": 29.53468895,
+      "centre_distance_m": 95.61316326381875,
+      "annual_mean_2cm_k": 90.954,
+      "annual_surface_max_k": 186.951,
+      "ice_stability_depth_m": 0.07526,
+      "vertices_km": [
+        [
+          119.80995,
+          67.52006,
+          -1738.09277
+        ],
+        [
+          119.3002,
+          67.51885,
+          -1738.0791
+        ],
+        [
+          119.29998,
+          68.02634,
+          -1738.06592
+        ]
+      ],
+      "barycentric_weights": [
+        0.36212970812021905,
+        0.11770276540001066,
+        0.5201675264797703
+      ],
+      "ray_radius_km": 1743.4974891051504,
+      "neighborhood": {
+        "radius_m": 1000,
+        "selection": "facet centres within radius",
+        "count": 22,
+        "annual_mean_2cm_min_k": 78.335,
+        "annual_mean_2cm_max_k": 118.025,
+        "annual_surface_max_min_k": 168.423,
+        "annual_surface_max_max_k": 252.014
+      }
+    },
+    {
+      "id": "a3-nobile-1",
+      "lat": -85.54572,
+      "lon": 37.6256,
+      "status": "sampled",
+      "facet_index": 932725,
+      "source_record_number": 932726,
+      "centre_lat": -85.541732788,
+      "centre_lon": 37.542411804,
+      "centre_distance_m": 230.28918941864507,
+      "annual_mean_2cm_k": 97.402,
+      "annual_surface_max_k": 181.783,
+      "ice_stability_depth_m": 0.17902,
+      "vertices_km": [
+        [
+          107.62536,
+          82.24204,
+          -1738.16589
+        ],
+        [
+          107.11877,
+          82.75046,
+          -1738.1864
+        ],
+        [
+          107.62704,
+          82.75096,
+          -1738.18115
+        ]
+      ],
+      "barycentric_weights": [
+        0.17198315226087785,
+        0.7589286090561993,
+        0.06908823868292287
+      ],
+      "ray_radius_km": 1743.4483797125215,
+      "neighborhood": {
+        "radius_m": 1000,
+        "selection": "facet centres within radius",
+        "count": 28,
+        "annual_mean_2cm_min_k": 97.104,
+        "annual_mean_2cm_max_k": 157.349,
+        "annual_surface_max_min_k": 179.71,
+        "annual_surface_max_max_k": 267.746
+      }
+    },
+    {
+      "id": "a3-nobile-2",
+      "lat": -84.05912,
+      "lon": 59.2729,
+      "status": "sampled",
+      "facet_index": 1005011,
+      "source_record_number": 1005012,
+      "centre_lat": -84.063957214,
+      "centre_lon": 59.275733948,
+      "centre_distance_m": 146.9497408327866,
+      "annual_mean_2cm_k": 122.884,
+      "annual_surface_max_k": 212.565,
+      "ice_stability_depth_m": null,
+      "vertices_km": [
+        [
+          92.04294,
+          154.24759,
+          -1729.50818
+        ],
+        [
+          91.53687,
+          154.75308,
+          -1729.495
+        ],
+        [
+          92.04231,
+          154.7524,
+          -1729.47388
+        ]
+      ],
+      "barycentric_weights": [
+        0.09297699860784991,
+        0.16998881813705544,
+        0.7370341832550946
+      ],
+      "ray_radius_km": 1738.8194718950126,
+      "neighborhood": {
+        "radius_m": 1000,
+        "selection": "facet centres within radius",
+        "count": 24,
+        "annual_mean_2cm_min_k": 122.695,
+        "annual_mean_2cm_max_k": 158.228,
+        "annual_surface_max_min_k": 212.565,
+        "annual_surface_max_max_k": 268.025
+      }
+    },
+    {
+      "id": "a3-degerlache-2",
+      "lat": -88.4526,
+      "lon": 292.1608,
+      "status": "sampled",
+      "facet_index": 1357029,
+      "source_record_number": 1357030,
+      "centre_lat": -88.461082458,
+      "centre_lon": -67.890525818,
+      "centre_distance_m": 260.6089718635508,
+      "annual_mean_2cm_k": 126.67,
+      "annual_surface_max_k": 221.454,
+      "ice_stability_depth_m": null,
+      "vertices_km": [
+        [
+          17.74593,
+          -43.60417,
+          -1738.28479
+        ],
+        [
+          17.23871,
+          -43.09678,
+          -1738.27686
+        ],
+        [
+          17.74618,
+          -43.09783,
+          -1738.31641
+        ]
+      ],
+      "barycentric_weights": [
+        0.7726109038269253,
+        0.065359931183428,
+        0.16202916498964667
+      ],
+      "ray_radius_km": 1738.923533398569,
+      "neighborhood": {
+        "radius_m": 1000,
+        "selection": "facet centres within radius",
+        "count": 26,
+        "annual_mean_2cm_min_k": 92.522,
+        "annual_mean_2cm_max_k": 151.996,
+        "annual_surface_max_min_k": 189.83,
+        "annual_surface_max_max_k": 269.353
+      }
+    },
+    {
+      "id": "a3-slater",
+      "lat": -87.2545,
+      "lon": 127.6012,
+      "status": "sampled",
+      "facet_index": 1681460,
+      "source_record_number": 1681461,
+      "centre_lat": -87.248825073,
+      "centre_lon": 127.681732178,
+      "centre_distance_m": 208.14184351691296,
+      "annual_mean_2cm_k": 127.711,
+      "annual_surface_max_k": 217.82,
+      "ice_stability_depth_m": null,
+      "vertices_km": [
+        [
+          -50.65342,
+          65.84955,
+          -1735.92554
+        ],
+        [
+          -51.15958,
+          65.84891,
+          -1735.90125
+        ],
+        [
+          -51.15872,
+          66.35427,
+          -1735.8623
+        ]
+      ],
+      "barycentric_weights": [
+        0.7239053088855076,
+        0.07067111228738551,
+        0.20542357882710685
+      ],
+      "ray_radius_km": 1737.905684675147,
+      "neighborhood": {
+        "radius_m": 1000,
+        "selection": "facet centres within radius",
+        "count": 26,
+        "annual_mean_2cm_min_k": 74.47,
+        "annual_mean_2cm_max_k": 148.598,
+        "annual_surface_max_min_k": 178.89,
+        "annual_surface_max_max_k": 253.275
+      }
+    },
+    {
+      "id": "pole",
+      "lat": -89.9999,
+      "lon": 0.0,
+      "status": "sampled",
+      "facet_index": 1438799,
+      "source_record_number": 1438800,
+      "centre_lat": -89.987548828,
+      "centre_lon": -26.564283371,
+      "centre_distance_m": 374.8514835232779,
+      "annual_mean_2cm_k": 130.96,
+      "annual_surface_max_k": 267.051,
+      "ice_stability_depth_m": null,
+      "vertices_km": [
+        [
+          0.507,
+          -0.507,
+          -1738.50623
+        ],
+        [
+          0.0,
+          0.0,
+          -1738.66406
+        ],
+        [
+          0.50703,
+          0.0,
+          -1738.6228
+        ]
+      ],
+      "barycentric_weights": [
+        1.7607443281164592e-16,
+        0.9940150665395325,
+        0.0059849334604672915
+      ],
+      "ray_radius_km": 1738.663813064294,
+      "neighborhood": {
+        "radius_m": 1000,
+        "selection": "facet centres within radius",
+        "count": 26,
+        "annual_mean_2cm_min_k": 79.477,
+        "annual_mean_2cm_max_k": 149.907,
+        "annual_surface_max_min_k": 172.581,
+        "annual_surface_max_max_k": 292.328
+      }
+    },
+    {
+      "id": "apollo11",
+      "lat": 0.67416,
+      "lon": 23.47314,
+      "status": "outside-published-mesh"
+    },
+    {
+      "id": "apollo12",
+      "lat": -3.0128,
+      "lon": 336.5781,
+      "status": "outside-published-mesh"
+    },
+    {
+      "id": "apollo14",
+      "lat": -3.64589,
+      "lon": 342.52806,
+      "status": "outside-published-mesh"
+    },
+    {
+      "id": "apollo15",
+      "lat": 26.13239,
+      "lon": 3.6333,
+      "status": "outside-published-mesh"
+    },
+    {
+      "id": "apollo16",
+      "lat": -8.9734,
+      "lon": 15.5011,
+      "status": "outside-published-mesh"
+    },
+    {
+      "id": "apollo17",
+      "lat": 20.1911,
+      "lon": 30.7723,
+      "status": "outside-published-mesh"
+    },
+    {
+      "id": "slim",
+      "lat": -13.316,
+      "lon": 25.251,
+      "status": "outside-published-mesh"
+    },
+    {
+      "id": "change6",
+      "lat": -41.6385,
+      "lon": 206.0148,
+      "status": "outside-published-mesh"
+    },
+    {
+      "id": "change4",
+      "lat": -45.457,
+      "lon": 177.589,
+      "status": "outside-published-mesh"
+    },
+    {
+      "id": "change5",
+      "lat": 43.0576,
+      "lon": 308.0839,
+      "status": "outside-published-mesh"
+    },
+    {
+      "id": "reiner-gamma",
+      "lat": 7.5,
+      "lon": 301.0,
+      "status": "outside-published-mesh"
+    },
+    {
+      "id": "blue-ghost",
+      "lat": 18.56,
+      "lon": 61.81,
+      "status": "outside-published-mesh"
+    }
+  ]
+}

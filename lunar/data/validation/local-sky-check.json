@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "method": "SciPy bilinear interpolation with strict four-cell support; NumPy 3D great-circle vectors and observer-frame dot products. Background/native source bytes retained and SHA-256 checked; no TypeScript output forms the oracle.",
+  "cases": [
+    {
+      "name": "native-c1",
+      "sha256": "f7ca20fc72517c3ac2ef6ed94937edc2a926713fc0c3f7da56f2915133bcf946",
+      "restoredSha256": "f7ca20fc72517c3ac2ef6ed94937edc2a926713fc0c3f7da56f2915133bcf946",
+      "horizonValues": 5760,
+      "groundM": 1958.5030063044658,
+      "groundDifferenceM": 1.502841688286935,
+      "localGapFallbacks": 0,
+      "missingSamples": 0,
+      "resultSha256": "401933b1852a274e00079a6f388e4f17710edd92842a9679d83a10b5233ea1e7"
+    },
+    {
+      "name": "imported-height-c1",
+      "sha256": "0ea6296f776d647fdc8038d2f3a935962e6773f76b84910593bf083adf1c2ee7",
+      "restoredSha256": "0ea6296f776d647fdc8038d2f3a935962e6773f76b84910593bf083adf1c2ee7",
+      "horizonValues": 5760,
+      "groundM": 99.42028808593746,
+      "groundDifferenceM": -1857.5798765302413,
+      "localGapFallbacks": 1033,
+      "missingSamples": 0,
+      "resultSha256": "be791a37d2972735d46aa0a4f11868340b4beb1c30262ec3b3280fd538afdfb7"
+    }
+  ],
+  "hourlyChangedRowsByColumn": {
+    "utc": 0,
+    "sun_elevation_deg": 0,
+    "skyline_at_sun_deg": 168,
+    "sun_disk_visible_fraction": 168,
+    "earth_elevation_deg": 33,
+    "skyline_at_earth_deg": 168,
+    "earth_in_view": 123,
+    "array_power_w": 168,
+    "bus_demand_w": 121,
+    "battery_above_floor_wh": 168,
+    "full_power_fraction": 160,
+    "contact_state": 134,
+    "link_rate_bps": 121,
+    "downlink_bits": 121,
+    "planned_receiving_complex_mask": 121,
+    "chosen_reference_antenna_mask": 121,
+    "dss24_terrain_clearance_deg": 168,
+    "dss24_receiver_elevation_deg": 168,
+    "dss24_range_km": 151,
+    "dss54_terrain_clearance_deg": 168,
+    "dss54_receiver_elevation_deg": 168,
+    "dss54_range_km": 155,
+    "dss34_terrain_clearance_deg": 168,
+    "dss34_receiver_elevation_deg": 168,
+    "dss34_range_km": 148
+  },
+  "referenceSha256": "5ab79859a854413dbf79ea1bcfbf8afde444cb1ac81e08214f27fff7277cc785",
+  "codeSha256": {
+    "pipeline/build_local_sky_reference.py": "cd9b22eae3da70ce95778e3ab9564ed34d655737dda92969a6b7ca5653ba45b0",
+    "pipeline/validate_local_sky_exports.py": "3b3c1198517bdc310b143bd4ac624215e2c957cc9740399d0a8f5b2abc644929",
+    "pipeline/lunar_geo.py": "d2c111c3304403a799eff959e6e6528fe2c65d8dacdf5a26082a1e85789d4a0e",
+    "pipeline/test_geodesic.py": "5601821a4bec9f9e5a4de122d384dbc9be1eca1583ba7af12a8d456243bf0ce2",
+    "app/src/lib/local-sky.ts": "e30f1e05ba872ed6b31d7190c2e7c592c7ae30db06788812b27c703c3089702b",
+    "app/src/lib/horizon.worker.ts": "6502470462f589cb43356cad047588db9ae94555df60eba470763793a8f6779c",
+    "app/src/lib/data.ts": "533d6ea3c154411a5628c0c32cc6bda183c1ee06856712df2bc19369fea99ebb",
+    "app/src/lib/terrain.ts": "3ccb146e4512caa5d958fc52261782b5c41cd127ec4d50bc16f198703d8692da",
+    "app/src/components/CustomSite.tsx": "bf973a95a30687aa79ccd46abb5dde737ca76f584f9f3ca5cecd2aa2418e5de8",
+    "app/src/components/LocalSkyPanel.tsx": "447454922c24b9948157e267b68bcb2f834efdf3e00e46763d2306347c9b7eb6",
+    "app/src/App.tsx": "c6890f16b3992974ed0ba0713212aa878d3ead08417049b0af4d10528d8408f5",
+    "app/src/lib/share.ts": "bf42b0103abc9b199880e1325823b88cc538f14f3677142d10038f28cdf3757a",
+    "app/src/lib/export.ts": "7ed10f5eb04190b05d4c417f5301a092ad8a033c6e5bc84b313b784850bcf28a"
+  },
+  "limits": [
+    "Same source grids and explicitly declared interpolation/sampling; independent geometry is not independent terrain truth.",
+    "Imported synthetic heights deliberately have a large datum mismatch; the test verifies propagation and visible seam limits, not a realistic landing choice.",
+    "No moving-route physics, flight registration, confidence bounds, independent competitor runtime or human usability result is inferred."
+  ]
+}

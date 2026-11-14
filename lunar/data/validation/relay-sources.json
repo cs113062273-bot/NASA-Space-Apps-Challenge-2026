@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "purpose": "Research reference orbits, not operational provider ephemerides",
+  "sources": {
+    "de421.bsp": {
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de421.bsp",
+      "bytes": 16790528,
+      "sha256": "08b20db2ae22488650641c5a9033e5bfda4b1c4b440cfeaf20f621cfa18ecdb3",
+      "etag": null,
+      "last_modified": "Tue, 08 Apr 2008 21:07:58 GMT"
+    },
+    "moon_pa_de421_1900-2050.bpc": {
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/moon_pa_de421_1900-2050.bpc",
+      "bytes": 1770496,
+      "sha256": "656f90616403d75a75f0cd6c8830fc5b44f8cb4facb5ccb8915e752b397520cf",
+      "etag": null,
+      "last_modified": "Wed, 19 Mar 2008 04:51:40 GMT"
+    },
+    "moon_080317.tf": {
+      "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/moon_080317.tf",
+      "bytes": 21437,
+      "sha256": "78732477b96f9863e7b0d65bcee3c22b8707ca5ed0db56d1173319cb2e8c7993",
+      "etag": null,
+      "last_modified": "Thu, 18 Jul 2013 10:07:49 GMT"
+    },
+    "header.421": {
+      "url": "https://ssd.jpl.nasa.gov/ftp/eph/planets/ascii/de421/header.421",
+      "bytes": 8422,
+      "sha256": "0fe9e0d60df4b33772e7332d87eb883eaf4cf3219b5a4cd2d5bc2356e98b2d16",
+      "etag": "\"511403ad-20e6\"",
+      "last_modified": "Thu, 07 Feb 2013 19:42:37 GMT"
+    },
+    "gggrx_0900c_sha.tab": {
+      "url": "https://pds-geosciences.wustl.edu/grail/grail-l-lgrs-5-rdr-v1/grail_1001/shadr/gggrx_0900c_sha.tab",
+      "bytes": 49574944,
+      "sha256": "dab6ab06e0d3d7cbc594ea4bd03151a65534ed5fdf4f147ae38662428c04454e",
+      "etag": "\"7bd5d0a54f7bcf1:0\"",
+      "last_modified": "Thu, 29 May 2014 15:07:03 GMT"
+    },
+    "gggrx_0900c_sha.lbl": {
+      "url": "https://pds-geosciences.wustl.edu/grail/grail-l-lgrs-5-rdr-v1/grail_1001/shadr/gggrx_0900c_sha.lbl",
+      "bytes": 10828,
+      "sha256": "acc623e4b42a19f8feba1e7bda5189e984aa907491db12dede64bd426a1681c0",
+      "etag": "\"06fc05a578ed91:0\"",
+      "last_modified": "Wed, 24 May 2023 15:49:42 GMT"
+    },
+    "lcrns-reference-3.1.pdf": {
+      "url": "https://www.nasa.gov/wp-content/uploads/2025/08/nasa-lunar-communications-relay-and-navigation-systems-lcrns-reference-constellation-3-1.pdf?emrc=68cc484867c73",
+      "bytes": 168556,
+      "sha256": "78c442f5a114151af3599e576a2d2b38455df3266ee9129e8d3bdf3740c5726a",
+      "etag": "\"9d6e7f175a4d514c\"",
+      "last_modified": "Wed, 20 Aug 2025 14:13:48 GMT"
+    }
+  }
+}

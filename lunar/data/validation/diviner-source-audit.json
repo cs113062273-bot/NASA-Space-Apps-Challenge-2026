@@ -1,0 +1,264 @@
+{
+  "scope": "Source labels/format and first-three-record previews only; no site sampling, temporal interpolation, spatial validation or boundary selection",
+  "interpretation": {
+    "PCP": "Multi-year bolometric brightness averages binned by season and subsolar longitude; empty spatial bins omitted; not a mission-day equipment temperature",
+    "PRP": "Model-calculated annual average at 2 cm, annual surface maximum and ice-stability depth; not instantaneous measurements or confirmed ice; exclusion value -999 applies to ice depth"
+  },
+  "products": [
+    {
+      "product": "pcp_avg_tbol_pols_ls030_slon01_240",
+      "label_url": "https://pds-geosciences.wustl.edu/lro/urn-nasa-pds-lro_diviner_derived1/data_derived_pcp/seasonal/slon/pols/pcp_avg_tbol_pols_ls030_slon01_240.xml",
+      "label_sha256": "c434aa4916cf70917a09ecbed4c6bd44537ff343687c6c9c056ede843a4064e8",
+      "table_url": "https://pds-geosciences.wustl.edu/lro/urn-nasa-pds-lro_diviner_derived1/data_derived_pcp/seasonal/slon/pols/pcp_avg_tbol_pols_ls030_slon01_240.tab",
+      "table_description": "This table contains bolometric brightness \n        temperatures from the Diviner Lunar Radiometer\n        Experiment binned at 240 m resolution derived\n        from a compilation of all nadir observations\n        acquired from 5-July-2009 to 15-March-2020\n        with ecliptic longitude (L_s) 0 to 60 degrees and\n        subsolar longitude 0 to 15 degrees. Columns are \n        distances from pole (x,y) normalized by mean radius\n        1737.4 km, longitude, latitude, local time, \n        bolometric temperature. Empty bins are omitted.\n        For more information, please see:\n        Schorghofer and Williams (2020) 'Mapping of ice storage \n        processes on the Moon with time-dependent temperatures', \n        PSJ, 1, 54, https://doi.org/10.3847/PSJ/abb6ff.",
+      "rows": 3176166,
+      "row_bytes": 68,
+      "header_bytes": 68,
+      "source_bytes": 215979356,
+      "preview_sha256": "f0fddc791c5da7425d933df0c59454effd53f497c086cb8209481d5dcbe47a8a",
+      "preview_bytes": 272,
+      "preview_record_indices": [
+        0,
+        1,
+        2
+      ],
+      "headers": {
+        "etag": "\"5a157aa5539dd81:0\"",
+        "last-modified": "Thu, 21 Jul 2022 22:45:59 GMT",
+        "content-range": "bytes 0-271/215979356"
+      },
+      "fields": [
+        {
+          "name": "x",
+          "location": 1,
+          "length": 9,
+          "description": "Polar Stereographic X-Coordinate, normalized by\n            the mean lunar radius 1737.4 km"
+        },
+        {
+          "name": "y",
+          "location": 12,
+          "length": 9,
+          "description": "Polar Stereographic Y-Coordinate, normalized by\n            the mean lunar radius 1737.4 km"
+        },
+        {
+          "name": "clon",
+          "location": 23,
+          "length": 11,
+          "description": "The longitude of the grid center (degrees)"
+        },
+        {
+          "name": "clat",
+          "location": 36,
+          "length": 10,
+          "description": "The latitude of the grid center (degrees)"
+        },
+        {
+          "name": "ltim",
+          "location": 48,
+          "length": 7,
+          "description": "Lunar Local Time (hours)"
+        },
+        {
+          "name": "tbol",
+          "location": 57,
+          "length": 10,
+          "description": "The average bolometric brightness temperature\n            (degrees Kelvin)"
+        }
+      ],
+      "preview": [
+        {
+          "x": -0.174908,
+          "y": -0.00525,
+          "clon": -91.719263,
+          "clat": -79.999451,
+          "ltim": 5.3854,
+          "tbol": 68.790047
+        },
+        {
+          "x": -0.174908,
+          "y": -0.005112,
+          "clon": -91.674044,
+          "clat": -79.999684,
+          "ltim": 5.3884,
+          "tbol": 61.884186
+        },
+        {
+          "x": -0.174908,
+          "y": -0.004974,
+          "clon": -91.628824,
+          "clat": -79.99991,
+          "ltim": 5.3914,
+          "tbol": 61.211094
+        }
+      ]
+    },
+    {
+      "product": "dlre_prp_south",
+      "label_url": "https://pds-geosciences.wustl.edu/lro/urn-nasa-pds-lro_diviner_derived1/data_derived_prp/dlre_prp_south.xml",
+      "label_sha256": "24a7bba837bbf013f59dc657a8766b6c4d1d06c0d4eea35a5f497908b17beece",
+      "table_url": "https://pds-geosciences.wustl.edu/lro/urn-nasa-pds-lro_diviner_derived1/data_derived_prp/dlre_prp_south.tab",
+      "table_description": "This table contains South polar resource product \n                data from the Diviner Lunar Radiometer Experiment",
+      "rows": 2880000,
+      "row_bytes": 210,
+      "header_bytes": 210,
+      "source_bytes": 604800210,
+      "preview_sha256": "13a9da642aa84fb32f097de343841ff8af07d3a8012cdd2fe92df21b6999b718",
+      "preview_bytes": 840,
+      "preview_record_indices": [
+        0,
+        1,
+        2
+      ],
+      "headers": {
+        "etag": "\"96add61994abd31:0\"",
+        "last-modified": "Thu, 22 Feb 2018 04:17:50 GMT",
+        "content-range": "bytes 0-839/604800210"
+      },
+      "fields": [
+        {
+          "name": "tri1_x",
+          "location": 1,
+          "length": 12,
+          "description": "The x coordinate of triangle vertex 1 in a\n                        Moon-centered frame (km)"
+        },
+        {
+          "name": "tri1_y",
+          "location": 15,
+          "length": 12,
+          "description": "The y coordinate of triangle vertex 1 in a\n                        Moon-centered frame (km)"
+        },
+        {
+          "name": "tri1_z",
+          "location": 29,
+          "length": 12,
+          "description": "The z coordinate of triangle vertex 1 in a\n                        Moon-centered frame (km)"
+        },
+        {
+          "name": "tri2_x",
+          "location": 43,
+          "length": 12,
+          "description": "The x coordinate of triangle vertex 2 in a\n                        Moon-centered frame (km)"
+        },
+        {
+          "name": "tri2_y",
+          "location": 57,
+          "length": 12,
+          "description": "The y coordinate of triangle vertex 2 in a\n                        Moon-centered frame (km)"
+        },
+        {
+          "name": "tri2_z",
+          "location": 71,
+          "length": 12,
+          "description": "The z coordinate of triangle vertex 2 in a\n                        Moon-centered frame (km)"
+        },
+        {
+          "name": "tri3_x",
+          "location": 85,
+          "length": 12,
+          "description": "The x coordinate of triangle vertex 3 in a\n                        Moon-centered frame (km)"
+        },
+        {
+          "name": "tri3_y",
+          "location": 99,
+          "length": 12,
+          "description": "The y coordinate of triangle vertex 3 in a\n                        Moon-centered frame (km)"
+        },
+        {
+          "name": "tri3_z",
+          "location": 113,
+          "length": 12,
+          "description": "The z coordinate of triangle vertex 3 in a\n                        Moon-centered frame (km)"
+        },
+        {
+          "name": "tri_clon",
+          "location": 127,
+          "length": 15,
+          "description": "The planetocentric east longitude of the center\n                        of the triangle (degrees)"
+        },
+        {
+          "name": "tri_clat",
+          "location": 144,
+          "length": 15,
+          "description": "The planetocentric latitude of the center of the\n                        triangle (degrees)"
+        },
+        {
+          "name": "tri_calt",
+          "location": 161,
+          "length": 15,
+          "description": "The altitude of the center of the triangle\n                        relative to a 1737.4 km radius sphere (km)"
+        },
+        {
+          "name": "temp_avg",
+          "location": 178,
+          "length": 8,
+          "description": "The annual average temperature (K), calculated at\n                        a depth of 2 cm below the surface"
+        },
+        {
+          "name": "temp_max",
+          "location": 188,
+          "length": 8,
+          "description": "The annual maximum temperature (K), calculated at\n                        the surface"
+        },
+        {
+          "name": "ice_depth",
+          "location": 198,
+          "length": 11,
+          "description": "The calculated depth at which water ice would be\n                        sublimated at a rate of 1 kg m-2 per billion years\n                        (m). Notes: If the calculated depth at which water\n                        ice would be sublimated at a rate of 1 kg m-2 per\n                        billion years is zero, then water ice is stable to\n                        sublimation at the surface. Also, if the\n                        calculated depth at which water ice would be\n                        sublimated at a rate of 1 kg m-2 per billion years\n                        is greater than 2.8738 meters, then the exclude\n                        value of -999.0 is reported."
+        }
+      ],
+      "preview": [
+        {
+          "tri1_x": 299.52036,
+          "tri1_y": -299.52036,
+          "tri1_z": -1685.56519,
+          "tri2_x": 299.02863,
+          "tri2_y": -299.5285,
+          "tri2_z": -1685.65479,
+          "tri3_x": 299.03738,
+          "tri3_y": -299.03738,
+          "tri3_z": -1685.7478,
+          "tri_clon": -45.015949249,
+          "tri_clat": -75.905227661,
+          "tri_calt": 0.579086423,
+          "temp_avg": 162.934,
+          "temp_max": 272.164,
+          "ice_depth": -999.0
+        },
+        {
+          "tri1_x": 299.52036,
+          "tri1_y": -299.52036,
+          "tri1_z": -1685.56519,
+          "tri2_x": 299.03738,
+          "tri2_y": -299.03738,
+          "tri2_z": -1685.7478,
+          "tri3_x": 299.5296,
+          "tri3_y": -299.02975,
+          "tri3_z": -1685.66101,
+          "tri_clon": -44.984050751,
+          "tri_clat": -75.905227661,
+          "tri_calt": 0.581244111,
+          "temp_avg": 162.969,
+          "temp_max": 272.136,
+          "ice_depth": -999.0
+        },
+        {
+          "tri1_x": 299.5296,
+          "tri1_y": -299.02975,
+          "tri1_z": -1685.66101,
+          "tri2_x": 299.03738,
+          "tri2_y": -299.03738,
+          "tri2_z": -1685.7478,
+          "tri3_x": 299.04599,
+          "tri3_y": -298.54782,
+          "tri3_z": -1685.83972,
+          "tri_clon": -44.968128204,
+          "tri_clat": -75.916862488,
+          "tri_calt": 0.5869748,
+          "temp_avg": 162.151,
+          "temp_max": 270.967,
+          "ice_depth": -999.0
+        }
+      ]
+    }
+  ]
+}

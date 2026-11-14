@@ -1,0 +1,2160 @@
+{
+  "schema": 1,
+  "indexSha256": "655920fec8382b0c5f4b6b029c8c037398b5e8dff16c6ee1f1f7288edd18567e",
+  "method": "Independent uncompressed TIFF strip parser; SciPy four-neighbour label and half-cell Euclidean distance transform",
+  "pixelChecks": [
+    {
+      "id": "c1",
+      "field": "slp",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "c1",
+      "field": "slperr",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "c1",
+      "field": "ldec",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "c1",
+      "field": "surf",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "c1",
+      "field": "toterr",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "c2",
+      "field": "slp",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "c2",
+      "field": "slperr",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "c2",
+      "field": "ldec",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "c2",
+      "field": "surf",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "c2",
+      "field": "toterr",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "shackleton",
+      "field": "slp",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "shackleton",
+      "field": "slperr",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "shackleton",
+      "field": "ldec",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "shackleton",
+      "field": "surf",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "shackleton",
+      "field": "toterr",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "nobile-dm2",
+      "field": "slp",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "nobile-dm2",
+      "field": "slperr",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "nobile-dm2",
+      "field": "ldec",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "nobile-dm2",
+      "field": "surf",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "nobile-dm2",
+      "field": "toterr",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "a3-haworth",
+      "field": "slp",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "a3-haworth",
+      "field": "slperr",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "a3-haworth",
+      "field": "ldec",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "a3-haworth",
+      "field": "surf",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "a3-haworth",
+      "field": "toterr",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "a3-malapert",
+      "field": "slp",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "a3-malapert",
+      "field": "slperr",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "a3-malapert",
+      "field": "ldec",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "a3-malapert",
+      "field": "surf",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "a3-malapert",
+      "field": "toterr",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "a3-mouton",
+      "field": "slp",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "a3-mouton",
+      "field": "slperr",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "a3-mouton",
+      "field": "ldec",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "a3-mouton",
+      "field": "surf",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "a3-mouton",
+      "field": "toterr",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "a3-nobile-1",
+      "field": "slp",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "a3-nobile-1",
+      "field": "slperr",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "a3-nobile-1",
+      "field": "ldec",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "a3-nobile-1",
+      "field": "surf",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "a3-nobile-1",
+      "field": "toterr",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "a3-nobile-2",
+      "field": "slp",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "a3-nobile-2",
+      "field": "slperr",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "a3-nobile-2",
+      "field": "ldec",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "a3-nobile-2",
+      "field": "surf",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "a3-nobile-2",
+      "field": "toterr",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "a3-degerlache-2",
+      "field": "slp",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "a3-degerlache-2",
+      "field": "slperr",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "a3-degerlache-2",
+      "field": "ldec",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "a3-degerlache-2",
+      "field": "surf",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "a3-degerlache-2",
+      "field": "toterr",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "pole",
+      "field": "slp",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "pole",
+      "field": "slperr",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "pole",
+      "field": "ldec",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "pole",
+      "field": "surf",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    },
+    {
+      "id": "pole",
+      "field": "toterr",
+      "cells": 65536,
+      "exact_float32_equal": true,
+      "bitwise_float32_equal": true
+    }
+  ],
+  "cases": [
+    {
+      "id": "c1",
+      "targetX": -11548.381710975696,
+      "targetY": -12458.026879291678,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 0,
+        "diameterM": 100,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31028,
+        "known": 31028,
+        "nominal": 28541,
+        "eligible": 28541,
+        "directReturns": 2735,
+        "mapAreaM2": 713525,
+        "largestConnectedM2": 709650,
+        "components": 22,
+        "fittingCentres": 8468,
+        "best": {
+          "index": 31602,
+          "x": -11617.5,
+          "y": -12432.5,
+          "radiusM": 177.93959649274245
+        },
+        "point": {
+          "radiusM": 109.85697031620512,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "c1",
+      "targetX": -11548.381710975696,
+      "targetY": -12458.026879291678,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 100,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31028,
+        "known": 31028,
+        "nominal": 28541,
+        "eligible": 24734,
+        "directReturns": 2735,
+        "mapAreaM2": 618350,
+        "largestConnectedM2": 591575,
+        "components": 66,
+        "fittingCentres": 3531,
+        "best": {
+          "index": 28816,
+          "x": -11467.5,
+          "y": -12377.5,
+          "radiusM": 98.04335775563789
+        },
+        "point": {
+          "radiusM": 66.08203175716774,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "c1",
+      "targetX": -11548.381710975696,
+      "targetY": -12458.026879291678,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 2,
+        "diameterM": 150,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31028,
+        "known": 31028,
+        "nominal": 28541,
+        "eligible": 19503,
+        "directReturns": 2735,
+        "mapAreaM2": 487575,
+        "largestConnectedM2": 448725,
+        "components": 116,
+        "fittingCentres": 31,
+        "best": {
+          "index": 29073,
+          "x": -11462.5,
+          "y": -12382.5,
+          "radiusM": 85.51315688243535
+        },
+        "point": {
+          "radiusM": 48.02687929167769,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "c1",
+      "targetX": -11548.381710975696,
+      "targetY": -12458.026879291678,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 100,
+        "requireReturns": true
+      },
+      "result": {
+        "inCircle": 31028,
+        "known": 31028,
+        "nominal": 28541,
+        "eligible": 2146,
+        "directReturns": 2735,
+        "mapAreaM2": 53650,
+        "largestConnectedM2": 175,
+        "components": 1804,
+        "fittingCentres": 0,
+        "best": {
+          "index": 33408,
+          "x": -11547.5,
+          "y": -12467.5,
+          "radiusM": 2.5
+        },
+        "point": {
+          "radiusM": 0.0,
+          "eligible": false
+        }
+      }
+    },
+    {
+      "id": "c1",
+      "targetX": -11548.381710975696,
+      "targetY": -12458.026879291678,
+      "maxSlope": 5,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 50,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31028,
+        "known": 31028,
+        "nominal": 15136,
+        "eligible": 6256,
+        "directReturns": 2735,
+        "mapAreaM2": 156400,
+        "largestConnectedM2": 52000,
+        "components": 230,
+        "fittingCentres": 103,
+        "best": {
+          "index": 28566,
+          "x": -11437.5,
+          "y": -12372.5,
+          "radiusM": 39.52847075210474
+        },
+        "point": {
+          "radiusM": 7.749863323696715,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "c2",
+      "targetX": -19028.377574608076,
+      "targetY": -8479.93959065132,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 0,
+        "diameterM": 100,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31006,
+        "known": 27521,
+        "nominal": 21434,
+        "eligible": 21434,
+        "directReturns": 1981,
+        "mapAreaM2": 535850,
+        "largestConnectedM2": 530175,
+        "components": 48,
+        "fittingCentres": 3344,
+        "best": {
+          "index": 41277,
+          "x": -19362.5,
+          "y": -8642.5,
+          "radiusM": 121.91185340236609
+        },
+        "point": {
+          "radiusM": 26.05235208472936,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "c2",
+      "targetX": -19028.377574608076,
+      "targetY": -8479.93959065132,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 100,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31006,
+        "known": 27521,
+        "nominal": 21434,
+        "eligible": 18140,
+        "directReturns": 1981,
+        "mapAreaM2": 453500,
+        "largestConnectedM2": 386650,
+        "components": 69,
+        "fittingCentres": 1591,
+        "best": {
+          "index": 41784,
+          "x": -19387.5,
+          "y": -8652.5,
+          "radiusM": 93.34077351297236
+        },
+        "point": {
+          "radiusM": 22.43035790307196,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "c2",
+      "targetX": -19028.377574608076,
+      "targetY": -8479.93959065132,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 2,
+        "diameterM": 150,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31006,
+        "known": 27521,
+        "nominal": 21434,
+        "eligible": 13983,
+        "directReturns": 1981,
+        "mapAreaM2": 349575,
+        "largestConnectedM2": 241925,
+        "components": 115,
+        "fittingCentres": 0,
+        "best": {
+          "index": 42036,
+          "x": -19407.5,
+          "y": -8657.5,
+          "radiusM": 72.54309064273454
+        },
+        "point": {
+          "radiusM": 4.939590651320032,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "c2",
+      "targetX": -19028.377574608076,
+      "targetY": -8479.93959065132,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 100,
+        "requireReturns": true
+      },
+      "result": {
+        "inCircle": 31006,
+        "known": 27521,
+        "nominal": 21434,
+        "eligible": 1351,
+        "directReturns": 1981,
+        "mapAreaM2": 33775,
+        "largestConnectedM2": 100,
+        "components": 1181,
+        "fittingCentres": 0,
+        "best": {
+          "index": 32896,
+          "x": -19027.5,
+          "y": -8477.5,
+          "radiusM": 2.5
+        },
+        "point": {
+          "radiusM": 0.06040934867996839,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "c2",
+      "targetX": -19028.377574608076,
+      "targetY": -8479.93959065132,
+      "maxSlope": 5,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 50,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31006,
+        "known": 27521,
+        "nominal": 9898,
+        "eligible": 4277,
+        "directReturns": 1981,
+        "mapAreaM2": 106925,
+        "largestConnectedM2": 32850,
+        "components": 203,
+        "fittingCentres": 24,
+        "best": {
+          "index": 35236,
+          "x": -18847.5,
+          "y": -8522.5,
+          "radiusM": 33.354160160315836
+        },
+        "point": {
+          "radiusM": 0.06040934867996839,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "shackleton",
+      "targetX": -2808.636047555975,
+      "targetY": -9078.846153895764,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 0,
+        "diameterM": 100,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31020,
+        "known": 31020,
+        "nominal": 7528,
+        "eligible": 7528,
+        "directReturns": 2796,
+        "mapAreaM2": 188200,
+        "largestConnectedM2": 115250,
+        "components": 135,
+        "fittingCentres": 12,
+        "best": {
+          "index": 31863,
+          "x": -2852.5,
+          "y": -9057.5,
+          "radiusM": 52.5594901040716
+        },
+        "point": {
+          "radiusM": 29.97128055948884,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "shackleton",
+      "targetX": -2808.636047555975,
+      "targetY": -9078.846153895764,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 100,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31020,
+        "known": 31020,
+        "nominal": 7528,
+        "eligible": 5120,
+        "directReturns": 2796,
+        "mapAreaM2": 128000,
+        "largestConnectedM2": 40425,
+        "components": 113,
+        "fittingCentres": 0,
+        "best": {
+          "index": 34688,
+          "x": -2807.5,
+          "y": -9112.5,
+          "radiusM": 44.30011286667337
+        },
+        "point": {
+          "radiusM": 28.846153895763564,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "shackleton",
+      "targetX": -2808.636047555975,
+      "targetY": -9078.846153895764,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 2,
+        "diameterM": 150,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31020,
+        "known": 31020,
+        "nominal": 7528,
+        "eligible": 3351,
+        "directReturns": 2796,
+        "mapAreaM2": 83775,
+        "largestConnectedM2": 25575,
+        "components": 119,
+        "fittingCentres": 0,
+        "best": {
+          "index": 34176,
+          "x": -2807.5,
+          "y": -9102.5,
+          "radiusM": 38.242646351945886
+        },
+        "point": {
+          "radiusM": 25.237218206764467,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "shackleton",
+      "targetX": -2808.636047555975,
+      "targetY": -9078.846153895764,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 100,
+        "requireReturns": true
+      },
+      "result": {
+        "inCircle": 31020,
+        "known": 31020,
+        "nominal": 7528,
+        "eligible": 514,
+        "directReturns": 2796,
+        "mapAreaM2": 12850,
+        "largestConnectedM2": 125,
+        "components": 436,
+        "fittingCentres": 0,
+        "best": {
+          "index": 32638,
+          "x": -2817.5,
+          "y": -9072.5,
+          "radiusM": 2.5
+        },
+        "point": {
+          "radiusM": 0.0,
+          "eligible": false
+        }
+      }
+    },
+    {
+      "id": "shackleton",
+      "targetX": -2808.636047555975,
+      "targetY": -9078.846153895764,
+      "maxSlope": 5,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 50,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31020,
+        "known": 31020,
+        "nominal": 1928,
+        "eligible": 906,
+        "directReturns": 2796,
+        "mapAreaM2": 22650,
+        "largestConnectedM2": 6925,
+        "components": 86,
+        "fittingCentres": 0,
+        "best": {
+          "index": 34178,
+          "x": -2797.5,
+          "y": -9102.5,
+          "radiusM": 21.50581316760657
+        },
+        "point": {
+          "radiusM": 4.080841342108151,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "nobile-dm2",
+      "targetX": 153465.14503018535,
+      "targetY": 86121.01029266065,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 0,
+        "diameterM": 100,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31011,
+        "known": 31011,
+        "nominal": 29527,
+        "eligible": 29527,
+        "directReturns": 613,
+        "mapAreaM2": 738175,
+        "largestConnectedM2": 737550,
+        "components": 12,
+        "fittingCentres": 15297,
+        "best": {
+          "index": 26278,
+          "x": 153657.5,
+          "y": 86252.5,
+          "radiusM": 258.4811405112566
+        },
+        "point": {
+          "radiusM": 207.4988070544319,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "nobile-dm2",
+      "targetX": 153465.14503018535,
+      "targetY": 86121.01029266065,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 100,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31011,
+        "known": 31011,
+        "nominal": 29527,
+        "eligible": 24801,
+        "directReturns": 613,
+        "mapAreaM2": 620025,
+        "largestConnectedM2": 597300,
+        "components": 25,
+        "fittingCentres": 10775,
+        "best": {
+          "index": 25503,
+          "x": 153622.5,
+          "y": 86267.5,
+          "radiusM": 218.66069605669878
+        },
+        "point": {
+          "radiusM": 146.17225481525307,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "nobile-dm2",
+      "targetX": 153465.14503018535,
+      "targetY": 86121.01029266065,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 2,
+        "diameterM": 150,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31011,
+        "known": 31011,
+        "nominal": 29527,
+        "eligible": 19780,
+        "directReturns": 613,
+        "mapAreaM2": 494500,
+        "largestConnectedM2": 482675,
+        "components": 57,
+        "fittingCentres": 1920,
+        "best": {
+          "index": 28548,
+          "x": 153487.5,
+          "y": 86207.5,
+          "radiusM": 155.60366319595434
+        },
+        "point": {
+          "radiusM": 102.13937126644645,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "nobile-dm2",
+      "targetX": 153465.14503018535,
+      "targetY": 86121.01029266065,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 100,
+        "requireReturns": true
+      },
+      "result": {
+        "inCircle": 31011,
+        "known": 31011,
+        "nominal": 29527,
+        "eligible": 503,
+        "directReturns": 613,
+        "mapAreaM2": 12575,
+        "largestConnectedM2": 75,
+        "components": 477,
+        "fittingCentres": 0,
+        "best": {
+          "index": 38781,
+          "x": 153452.5,
+          "y": 86007.5,
+          "radiusM": 2.5
+        },
+        "point": {
+          "radiusM": 0.0,
+          "eligible": false
+        }
+      }
+    },
+    {
+      "id": "nobile-dm2",
+      "targetX": 153465.14503018535,
+      "targetY": 86121.01029266065,
+      "maxSlope": 5,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 50,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31011,
+        "known": 31011,
+        "nominal": 15346,
+        "eligible": 7346,
+        "directReturns": 613,
+        "mapAreaM2": 183650,
+        "largestConnectedM2": 84475,
+        "components": 81,
+        "fittingCentres": 1622,
+        "best": {
+          "index": 26780,
+          "x": 153607.5,
+          "y": 86242.5,
+          "radiusM": 87.82084035125149
+        },
+        "point": {
+          "radiusM": 0.14503018534742296,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "a3-haworth",
+      "targetX": -36695.05497250911,
+      "targetY": 81364.7991491482,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 0,
+        "diameterM": 100,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31013,
+        "known": 31013,
+        "nominal": 27933,
+        "eligible": 27933,
+        "directReturns": 2979,
+        "mapAreaM2": 698325,
+        "largestConnectedM2": 696075,
+        "components": 20,
+        "fittingCentres": 5851,
+        "best": {
+          "index": 33175,
+          "x": -36582.5,
+          "y": 81357.5,
+          "radiusM": 124.5491870708115
+        },
+        "point": {
+          "radiusM": 14.946377078345336,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "a3-haworth",
+      "targetX": -36695.05497250911,
+      "targetY": 81364.7991491482,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 100,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31013,
+        "known": 31013,
+        "nominal": 27933,
+        "eligible": 23308,
+        "directReturns": 2979,
+        "mapAreaM2": 582700,
+        "largestConnectedM2": 524125,
+        "components": 77,
+        "fittingCentres": 1760,
+        "best": {
+          "index": 18281,
+          "x": -36812.5,
+          "y": 81647.5,
+          "radiusM": 101.30399794677405
+        },
+        "point": {
+          "radiusM": 14.945027490888606,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "a3-haworth",
+      "targetX": -36695.05497250911,
+      "targetY": 81364.7991491482,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 2,
+        "diameterM": 150,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31013,
+        "known": 31013,
+        "nominal": 27933,
+        "eligible": 16753,
+        "directReturns": 2979,
+        "mapAreaM2": 418825,
+        "largestConnectedM2": 318775,
+        "components": 180,
+        "fittingCentres": 0,
+        "best": {
+          "index": 16999,
+          "x": -36822.5,
+          "y": 81672.5,
+          "radiusM": 72.88689868556625
+        },
+        "point": {
+          "radiusM": 11.22285263991504,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "a3-haworth",
+      "targetX": -36695.05497250911,
+      "targetY": 81364.7991491482,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 100,
+        "requireReturns": true
+      },
+      "result": {
+        "inCircle": 31013,
+        "known": 31013,
+        "nominal": 27933,
+        "eligible": 2275,
+        "directReturns": 2979,
+        "mapAreaM2": 56875,
+        "largestConnectedM2": 150,
+        "components": 1882,
+        "fittingCentres": 0,
+        "best": {
+          "index": 33408,
+          "x": -36697.5,
+          "y": 81352.5,
+          "radiusM": 2.5
+        },
+        "point": {
+          "radiusM": 0.0,
+          "eligible": false
+        }
+      }
+    },
+    {
+      "id": "a3-haworth",
+      "targetX": -36695.05497250911,
+      "targetY": 81364.7991491482,
+      "maxSlope": 5,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 50,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31013,
+        "known": 31013,
+        "nominal": 10482,
+        "eligible": 4236,
+        "directReturns": 2979,
+        "mapAreaM2": 105900,
+        "largestConnectedM2": 43375,
+        "components": 271,
+        "fittingCentres": 51,
+        "best": {
+          "index": 14171,
+          "x": -36882.5,
+          "y": 81727.5,
+          "radiusM": 37.5
+        },
+        "point": {
+          "radiusM": 0.0,
+          "eligible": false
+        }
+      }
+    },
+    {
+      "id": "a3-malapert",
+      "targetX": 4341.138772491573,
+      "targetY": 121237.97298792552,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 0,
+        "diameterM": 100,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31023,
+        "known": 31023,
+        "nominal": 18242,
+        "eligible": 18242,
+        "directReturns": 3911,
+        "mapAreaM2": 456050,
+        "largestConnectedM2": 426275,
+        "components": 88,
+        "fittingCentres": 3927,
+        "best": {
+          "index": 16521,
+          "x": 4387.5,
+          "y": 121557.5,
+          "radiusM": 162.51922963145006
+        },
+        "point": {
+          "radiusM": 13.535416269455943,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "a3-malapert",
+      "targetX": 4341.138772491573,
+      "targetY": 121237.97298792552,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 100,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31023,
+        "known": 31023,
+        "nominal": 18242,
+        "eligible": 15268,
+        "directReturns": 3911,
+        "mapAreaM2": 381700,
+        "largestConnectedM2": 362200,
+        "components": 84,
+        "fittingCentres": 1732,
+        "best": {
+          "index": 13948,
+          "x": 4322.5,
+          "y": 121607.5,
+          "radiusM": 98.2980162566875
+        },
+        "point": {
+          "radiusM": 8.858759186944802,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "a3-malapert",
+      "targetX": 4341.138772491573,
+      "targetY": 121237.97298792552,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 2,
+        "diameterM": 150,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31023,
+        "known": 31023,
+        "nominal": 18242,
+        "eligible": 11244,
+        "directReturns": 3911,
+        "mapAreaM2": 281100,
+        "largestConnectedM2": 244925,
+        "components": 108,
+        "fittingCentres": 0,
+        "best": {
+          "index": 14737,
+          "x": 4427.5,
+          "y": 121592.5,
+          "radiusM": 55.339859052946636
+        },
+        "point": {
+          "radiusM": 1.138772491573036,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "a3-malapert",
+      "targetX": 4341.138772491573,
+      "targetY": 121237.97298792552,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 100,
+        "requireReturns": true
+      },
+      "result": {
+        "inCircle": 31023,
+        "known": 31023,
+        "nominal": 18242,
+        "eligible": 1948,
+        "directReturns": 3911,
+        "mapAreaM2": 48700,
+        "largestConnectedM2": 200,
+        "components": 1492,
+        "fittingCentres": 0,
+        "best": {
+          "index": 32639,
+          "x": 4337.5,
+          "y": 121242.5,
+          "radiusM": 2.5
+        },
+        "point": {
+          "radiusM": 0.0,
+          "eligible": false
+        }
+      }
+    },
+    {
+      "id": "a3-malapert",
+      "targetX": 4341.138772491573,
+      "targetY": 121237.97298792552,
+      "maxSlope": 5,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 50,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31023,
+        "known": 31023,
+        "nominal": 9555,
+        "eligible": 3653,
+        "directReturns": 3911,
+        "mapAreaM2": 91325,
+        "largestConnectedM2": 36525,
+        "components": 230,
+        "fittingCentres": 33,
+        "best": {
+          "index": 14480,
+          "x": 4422.5,
+          "y": 121597.5,
+          "radiusM": 35.531676008879735
+        },
+        "point": {
+          "radiusM": 0.0,
+          "eligible": false
+        }
+      }
+    },
+    {
+      "id": "a3-mouton",
+      "targetX": 67651.37072534312,
+      "targetY": 119252.17980393571,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 0,
+        "diameterM": 100,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31026,
+        "known": 31026,
+        "nominal": 27869,
+        "eligible": 27869,
+        "directReturns": 2662,
+        "mapAreaM2": 696725,
+        "largestConnectedM2": 687025,
+        "components": 28,
+        "fittingCentres": 9339,
+        "best": {
+          "index": 28002,
+          "x": 67502.5,
+          "y": 119347.5,
+          "radiusM": 177.65838004439868
+        },
+        "point": {
+          "radiusM": 40.624358074407134,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "a3-mouton",
+      "targetX": 67651.37072534312,
+      "targetY": 119252.17980393571,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 100,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31026,
+        "known": 31026,
+        "nominal": 27869,
+        "eligible": 21643,
+        "directReturns": 2662,
+        "mapAreaM2": 541075,
+        "largestConnectedM2": 515500,
+        "components": 90,
+        "fittingCentres": 3809,
+        "best": {
+          "index": 28009,
+          "x": 67537.5,
+          "y": 119347.5,
+          "radiusM": 113.19231422671771
+        },
+        "point": {
+          "radiusM": 22.22211939921049,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "a3-mouton",
+      "targetX": 67651.37072534312,
+      "targetY": 119252.17980393571,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 2,
+        "diameterM": 150,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31026,
+        "known": 31026,
+        "nominal": 27869,
+        "eligible": 11298,
+        "directReturns": 2662,
+        "mapAreaM2": 282450,
+        "largestConnectedM2": 218900,
+        "components": 229,
+        "fittingCentres": 7,
+        "best": {
+          "index": 27289,
+          "x": 67777.5,
+          "y": 119362.5,
+          "radiusM": 79.45124291035353
+        },
+        "point": {
+          "radiusM": 17.17980393570906,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "a3-mouton",
+      "targetX": 67651.37072534312,
+      "targetY": 119252.17980393571,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 100,
+        "requireReturns": true
+      },
+      "result": {
+        "inCircle": 31026,
+        "known": 31026,
+        "nominal": 27869,
+        "eligible": 1958,
+        "directReturns": 2662,
+        "mapAreaM2": 48950,
+        "largestConnectedM2": 325,
+        "components": 1639,
+        "fittingCentres": 0,
+        "best": {
+          "index": 32897,
+          "x": 67657.5,
+          "y": 119252.5,
+          "radiusM": 2.5
+        },
+        "point": {
+          "radiusM": 0.0,
+          "eligible": false
+        }
+      }
+    },
+    {
+      "id": "a3-mouton",
+      "targetX": 67651.37072534312,
+      "targetY": 119252.17980393571,
+      "maxSlope": 5,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 50,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31026,
+        "known": 31026,
+        "nominal": 13110,
+        "eligible": 3311,
+        "directReturns": 2662,
+        "mapAreaM2": 82775,
+        "largestConnectedM2": 35000,
+        "components": 209,
+        "fittingCentres": 19,
+        "best": {
+          "index": 27564,
+          "x": 67872.5,
+          "y": 119357.5,
+          "radiusM": 32.59601202601325
+        },
+        "point": {
+          "radiusM": 0.0,
+          "eligible": false
+        }
+      }
+    },
+    {
+      "id": "a3-nobile-1",
+      "targetX": 82500.87162246446,
+      "targetY": 107030.60572342688,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 0,
+        "diameterM": 100,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31016,
+        "known": 31016,
+        "nominal": 23966,
+        "eligible": 23966,
+        "directReturns": 2585,
+        "mapAreaM2": 599150,
+        "largestConnectedM2": 579375,
+        "components": 78,
+        "fittingCentres": 4367,
+        "best": {
+          "index": 28800,
+          "x": 82502.5,
+          "y": 107112.5,
+          "radiusM": 154.95967217311735
+        },
+        "point": {
+          "radiusM": 75.61074752059112,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "a3-nobile-1",
+      "targetX": 82500.87162246446,
+      "targetY": 107030.60572342688,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 100,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31016,
+        "known": 31016,
+        "nominal": 23966,
+        "eligible": 15342,
+        "directReturns": 2585,
+        "mapAreaM2": 383550,
+        "largestConnectedM2": 263975,
+        "components": 152,
+        "fittingCentres": 728,
+        "best": {
+          "index": 19342,
+          "x": 82572.5,
+          "y": 107297.5,
+          "radiusM": 99.56153875869938
+        },
+        "point": {
+          "radiusM": 6.0293588114340775,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "a3-nobile-1",
+      "targetX": 82500.87162246446,
+      "targetY": 107030.60572342688,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 2,
+        "diameterM": 150,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31016,
+        "known": 31016,
+        "nominal": 23966,
+        "eligible": 7088,
+        "directReturns": 2585,
+        "mapAreaM2": 177200,
+        "largestConnectedM2": 115450,
+        "components": 210,
+        "fittingCentres": 0,
+        "best": {
+          "index": 18574,
+          "x": 82572.5,
+          "y": 107312.5,
+          "radiusM": 61.74544517614234
+        },
+        "point": {
+          "radiusM": 0.0,
+          "eligible": false
+        }
+      }
+    },
+    {
+      "id": "a3-nobile-1",
+      "targetX": 82500.87162246446,
+      "targetY": 107030.60572342688,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 100,
+        "requireReturns": true
+      },
+      "result": {
+        "inCircle": 31016,
+        "known": 31016,
+        "nominal": 23966,
+        "eligible": 1362,
+        "directReturns": 2585,
+        "mapAreaM2": 34050,
+        "largestConnectedM2": 125,
+        "components": 1155,
+        "fittingCentres": 0,
+        "best": {
+          "index": 32385,
+          "x": 82507.5,
+          "y": 107042.5,
+          "radiusM": 2.5
+        },
+        "point": {
+          "radiusM": 0.0,
+          "eligible": false
+        }
+      }
+    },
+    {
+      "id": "a3-nobile-1",
+      "targetX": 82500.87162246446,
+      "targetY": 107030.60572342688,
+      "maxSlope": 5,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 50,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31016,
+        "known": 31016,
+        "nominal": 7051,
+        "eligible": 1739,
+        "directReturns": 2585,
+        "mapAreaM2": 43475,
+        "largestConnectedM2": 12050,
+        "components": 150,
+        "fittingCentres": 0,
+        "best": {
+          "index": 23166,
+          "x": 82492.5,
+          "y": 107222.5,
+          "radiusM": 22.638462845343543
+        },
+        "point": {
+          "radiusM": 0.0,
+          "eligible": false
+        }
+      }
+    },
+    {
+      "id": "a3-nobile-2",
+      "targetX": 154995.51036948577,
+      "targetY": 92128.78308835847,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 0,
+        "diameterM": 100,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31016,
+        "known": 31016,
+        "nominal": 28172,
+        "eligible": 28172,
+        "directReturns": 911,
+        "mapAreaM2": 704300,
+        "largestConnectedM2": 702100,
+        "components": 13,
+        "fittingCentres": 13669,
+        "best": {
+          "index": 37466,
+          "x": 154807.5,
+          "y": 92037.5,
+          "radiusM": 211.9256945252274
+        },
+        "point": {
+          "radiusM": 103.0909154751421,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "a3-nobile-2",
+      "targetX": 154995.51036948577,
+      "targetY": 92128.78308835847,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 100,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31016,
+        "known": 31016,
+        "nominal": 28172,
+        "eligible": 25089,
+        "directReturns": 911,
+        "mapAreaM2": 627225,
+        "largestConnectedM2": 606525,
+        "components": 19,
+        "fittingCentres": 6474,
+        "best": {
+          "index": 33339,
+          "x": 154652.5,
+          "y": 92117.5,
+          "radiusM": 149.5409642873818
+        },
+        "point": {
+          "radiusM": 14.975351413804665,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "a3-nobile-2",
+      "targetX": 154995.51036948577,
+      "targetY": 92128.78308835847,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 2,
+        "diameterM": 150,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31016,
+        "known": 31016,
+        "nominal": 28172,
+        "eligible": 18466,
+        "directReturns": 911,
+        "mapAreaM2": 461650,
+        "largestConnectedM2": 435725,
+        "components": 93,
+        "fittingCentres": 378,
+        "best": {
+          "index": 32321,
+          "x": 154682.5,
+          "y": 92137.5,
+          "radiusM": 108.91510455395982
+        },
+        "point": {
+          "radiusM": 14.489630514231976,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "a3-nobile-2",
+      "targetX": 154995.51036948577,
+      "targetY": 92128.78308835847,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 100,
+        "requireReturns": true
+      },
+      "result": {
+        "inCircle": 31016,
+        "known": 31016,
+        "nominal": 28172,
+        "eligible": 735,
+        "directReturns": 911,
+        "mapAreaM2": 18375,
+        "largestConnectedM2": 50,
+        "components": 706,
+        "fittingCentres": 0,
+        "best": {
+          "index": 32638,
+          "x": 154987.5,
+          "y": 92132.5,
+          "radiusM": 2.5
+        },
+        "point": {
+          "radiusM": 0.0,
+          "eligible": false
+        }
+      }
+    },
+    {
+      "id": "a3-nobile-2",
+      "targetX": 154995.51036948577,
+      "targetY": 92128.78308835847,
+      "maxSlope": 5,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 50,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31016,
+        "known": 31016,
+        "nominal": 12775,
+        "eligible": 6571,
+        "directReturns": 911,
+        "mapAreaM2": 164275,
+        "largestConnectedM2": 111375,
+        "components": 85,
+        "fittingCentres": 1000,
+        "best": {
+          "index": 31040,
+          "x": 154677.5,
+          "y": 92162.5,
+          "radiusM": 63.73774391990981
+        },
+        "point": {
+          "radiusM": 1.216911641531624,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "a3-degerlache-2",
+      "targetX": -43458.787053492415,
+      "targetY": 17700.527257617287,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 0,
+        "diameterM": 100,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31016,
+        "known": 31016,
+        "nominal": 20599,
+        "eligible": 20599,
+        "directReturns": 2677,
+        "mapAreaM2": 514975,
+        "largestConnectedM2": 473250,
+        "components": 117,
+        "fittingCentres": 3452,
+        "best": {
+          "index": 31862,
+          "x": -43507.5,
+          "y": 17722.5,
+          "radiusM": 107.52906583803284
+        },
+        "point": {
+          "radiusM": 89.03014066300115,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "a3-degerlache-2",
+      "targetX": -43458.787053492415,
+      "targetY": 17700.527257617287,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 100,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31016,
+        "known": 31016,
+        "nominal": 20599,
+        "eligible": 15668,
+        "directReturns": 2677,
+        "mapAreaM2": 391700,
+        "largestConnectedM2": 346900,
+        "components": 138,
+        "fittingCentres": 1363,
+        "best": {
+          "index": 33925,
+          "x": -43432.5,
+          "y": 17682.5,
+          "radiusM": 95.19716382329887
+        },
+        "point": {
+          "radiusM": 76.344080581209,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "a3-degerlache-2",
+      "targetX": -43458.787053492415,
+      "targetY": 17700.527257617287,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 2,
+        "diameterM": 150,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31016,
+        "known": 31016,
+        "nominal": 20599,
+        "eligible": 11074,
+        "directReturns": 2677,
+        "mapAreaM2": 276850,
+        "largestConnectedM2": 254650,
+        "components": 148,
+        "fittingCentres": 9,
+        "best": {
+          "index": 33933,
+          "x": -43392.5,
+          "y": 17682.5,
+          "radiusM": 79.45124291035353
+        },
+        "point": {
+          "radiusM": 30.12047887839614,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "a3-degerlache-2",
+      "targetX": -43458.787053492415,
+      "targetY": 17700.527257617287,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 100,
+        "requireReturns": true
+      },
+      "result": {
+        "inCircle": 31016,
+        "known": 31016,
+        "nominal": 20599,
+        "eligible": 1458,
+        "directReturns": 2677,
+        "mapAreaM2": 36450,
+        "largestConnectedM2": 100,
+        "components": 1234,
+        "fittingCentres": 0,
+        "best": {
+          "index": 33153,
+          "x": -43452.5,
+          "y": 17697.5,
+          "radiusM": 2.5
+        },
+        "point": {
+          "radiusM": 0.0,
+          "eligible": false
+        }
+      }
+    },
+    {
+      "id": "a3-degerlache-2",
+      "targetX": -43458.787053492415,
+      "targetY": 17700.527257617287,
+      "maxSlope": 5,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 50,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31016,
+        "known": 31016,
+        "nominal": 7143,
+        "eligible": 3955,
+        "directReturns": 2677,
+        "mapAreaM2": 98875,
+        "largestConnectedM2": 76450,
+        "components": 138,
+        "fittingCentres": 67,
+        "best": {
+          "index": 38346,
+          "x": -43087.5,
+          "y": 17597.5,
+          "radiusM": 37.58324094593227
+        },
+        "point": {
+          "radiusM": 6.700175439663093,
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "pole",
+      "targetX": 0.0,
+      "targetY": 3.0323350424463915,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 0,
+        "diameterM": 100,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31000,
+        "known": 31000,
+        "nominal": 15189,
+        "eligible": 15189,
+        "directReturns": 2841,
+        "mapAreaM2": 379725,
+        "largestConnectedM2": 180000,
+        "components": 106,
+        "fittingCentres": 758,
+        "best": {
+          "index": 47429,
+          "x": -292.5,
+          "y": -282.5,
+          "radiusM": 81.62413858657254
+        },
+        "point": {
+          "radiusM": 0.0,
+          "eligible": false
+        }
+      }
+    },
+    {
+      "id": "pole",
+      "targetX": 0.0,
+      "targetY": 3.0323350424463915,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 100,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31000,
+        "known": 31000,
+        "nominal": 15189,
+        "eligible": 11535,
+        "directReturns": 2841,
+        "mapAreaM2": 288375,
+        "largestConnectedM2": 133700,
+        "components": 126,
+        "fittingCentres": 231,
+        "best": {
+          "index": 48197,
+          "x": -292.5,
+          "y": -297.5,
+          "radiusM": 72.88689868556625
+        },
+        "point": {
+          "radiusM": 0.0,
+          "eligible": false
+        }
+      }
+    },
+    {
+      "id": "pole",
+      "targetX": 0.0,
+      "targetY": 3.0323350424463915,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 2,
+        "diameterM": 150,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31000,
+        "known": 31000,
+        "nominal": 15189,
+        "eligible": 8256,
+        "directReturns": 2841,
+        "mapAreaM2": 206400,
+        "largestConnectedM2": 76350,
+        "components": 160,
+        "fittingCentres": 0,
+        "best": {
+          "index": 43070,
+          "x": -327.5,
+          "y": -197.5,
+          "radiusM": 48.08846015417836
+        },
+        "point": {
+          "radiusM": 0.0,
+          "eligible": false
+        }
+      }
+    },
+    {
+      "id": "pole",
+      "targetX": 0.0,
+      "targetY": 3.0323350424463915,
+      "maxSlope": 10,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 100,
+        "requireReturns": true
+      },
+      "result": {
+        "inCircle": 31000,
+        "known": 31000,
+        "nominal": 15189,
+        "eligible": 1148,
+        "directReturns": 2841,
+        "mapAreaM2": 28700,
+        "largestConnectedM2": 175,
+        "components": 975,
+        "fittingCentres": 0,
+        "best": {
+          "index": 32906,
+          "x": 52.5,
+          "y": 2.5,
+          "radiusM": 2.5
+        },
+        "point": {
+          "radiusM": 0.0,
+          "eligible": false
+        }
+      }
+    },
+    {
+      "id": "pole",
+      "targetX": 0.0,
+      "targetY": 3.0323350424463915,
+      "maxSlope": 5,
+      "settings": {
+        "rmsMultiplier": 1,
+        "diameterM": 50,
+        "requireReturns": false
+      },
+      "result": {
+        "inCircle": 31000,
+        "known": 31000,
+        "nominal": 4523,
+        "eligible": 2327,
+        "directReturns": 2841,
+        "mapAreaM2": 58175,
+        "largestConnectedM2": 11050,
+        "components": 134,
+        "fittingCentres": 0,
+        "best": {
+          "index": 45120,
+          "x": -317.5,
+          "y": -237.5,
+          "radiusM": 24.748737341529164
+        },
+        "point": {
+          "radiusM": 0.0,
+          "eligible": false
+        }
+      }
+    }
+  ],
+  "codeSha256": "c241e79535e5a196990ab93a5e02da13f10f18f95f6e9fdd4337f2c2b46d93e5",
+  "limits": [
+    "Same source DEM products, not independent terrain truth",
+    "Areas/lengths in the stated map plane; nominal frame registration",
+    "Slope RMS stress is not a confidence bound; no flight hazard or landing qualification"
+  ]
+}

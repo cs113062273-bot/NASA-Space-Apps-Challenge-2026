@@ -1,0 +1,362 @@
+{
+  "im2-actual": {
+    "n": 301,
+    "step_m": 40.0,
+    "units": "decimetres relative to site ground",
+    "ground_m": 5321.3,
+    "layout": "row 0 = +Y (0\u00b0E side), col 0 = -X",
+    "frame": "polar",
+    "source": [
+      "NAC_DTM_NOBILE03",
+      "im2-actual"
+    ]
+  },
+  "im2-target": {
+    "n": 301,
+    "step_m": 40.0,
+    "units": "decimetres relative to site ground",
+    "ground_m": 5312.5,
+    "layout": "row 0 = +Y (0\u00b0E side), col 0 = -X",
+    "frame": "polar",
+    "source": [
+      "NAC_DTM_NOBILE03",
+      "im2-target"
+    ]
+  },
+  "im1": {
+    "n": 301,
+    "step_m": 40.0,
+    "units": "decimetres relative to site ground",
+    "ground_m": 2594.4,
+    "layout": "row 0 = +Y (0\u00b0E side), col 0 = -X",
+    "frame": "polar",
+    "source": [
+      "im1",
+      "ldem_80s_80m"
+    ]
+  },
+  "ch3": {
+    "n": 301,
+    "step_m": 40.0,
+    "units": "decimetres relative to site ground",
+    "ground_m": 532.4,
+    "layout": "row 0 = +Y (0\u00b0E side), col 0 = -X",
+    "frame": "polar",
+    "source": [
+      "NAC_DTM_VIKRAMSITE1",
+      "ldem_75s_240m"
+    ]
+  },
+  "c1": {
+    "n": 301,
+    "step_m": 40.0,
+    "units": "decimetres relative to site ground",
+    "ground_m": 1958.0,
+    "layout": "row 0 = +Y (0\u00b0E side), col 0 = -X",
+    "frame": "polar",
+    "source": [
+      "c1",
+      "ldem_80s_80m"
+    ]
+  },
+  "c2": {
+    "n": 301,
+    "step_m": 40.0,
+    "units": "decimetres relative to site ground",
+    "ground_m": 1692.5,
+    "layout": "row 0 = +Y (0\u00b0E side), col 0 = -X",
+    "frame": "polar",
+    "source": [
+      "c2",
+      "ldem_80s_80m"
+    ]
+  },
+  "shackleton": {
+    "n": 301,
+    "step_m": 40.0,
+    "units": "decimetres relative to site ground",
+    "ground_m": 1728.9,
+    "layout": "row 0 = +Y (0\u00b0E side), col 0 = -X",
+    "frame": "polar",
+    "source": [
+      "shackleton",
+      "ldem_80s_80m"
+    ]
+  },
+  "nobile-dm2": {
+    "n": 301,
+    "step_m": 40.0,
+    "units": "decimetres relative to site ground",
+    "ground_m": 1122.3,
+    "layout": "row 0 = +Y (0\u00b0E side), col 0 = -X",
+    "frame": "polar",
+    "source": [
+      "nobile-dm2",
+      "ldem_80s_80m"
+    ]
+  },
+  "a3-cabeus-b": {
+    "n": 301,
+    "step_m": 40.0,
+    "units": "decimetres relative to site ground",
+    "ground_m": 4407.6,
+    "layout": "row 0 = +Y (0\u00b0E side), col 0 = -X",
+    "frame": "polar",
+    "source": [
+      "a3-cabeus-b",
+      "ldem_80s_80m"
+    ]
+  },
+  "a3-haworth": {
+    "n": 301,
+    "step_m": 40.0,
+    "units": "decimetres relative to site ground",
+    "ground_m": 1667.0,
+    "layout": "row 0 = +Y (0\u00b0E side), col 0 = -X",
+    "frame": "polar",
+    "source": [
+      "a3-haworth",
+      "ldem_80s_80m"
+    ]
+  },
+  "a3-malapert": {
+    "n": 301,
+    "step_m": 40.0,
+    "units": "decimetres relative to site ground",
+    "ground_m": 5156.6,
+    "layout": "row 0 = +Y (0\u00b0E side), col 0 = -X",
+    "frame": "polar",
+    "source": [
+      "a3-malapert",
+      "ldem_80s_80m"
+    ]
+  },
+  "a3-mouton-plateau": {
+    "n": 301,
+    "step_m": 40.0,
+    "units": "decimetres relative to site ground",
+    "ground_m": 3943.5,
+    "layout": "row 0 = +Y (0\u00b0E side), col 0 = -X",
+    "frame": "polar",
+    "source": [
+      "a3-mouton-plateau",
+      "ldem_80s_80m"
+    ]
+  },
+  "a3-mouton": {
+    "n": 301,
+    "step_m": 40.0,
+    "units": "decimetres relative to site ground",
+    "ground_m": 6184.1,
+    "layout": "row 0 = +Y (0\u00b0E side), col 0 = -X",
+    "frame": "polar",
+    "source": [
+      "a3-mouton",
+      "ldem_80s_80m"
+    ]
+  },
+  "a3-nobile-1": {
+    "n": 301,
+    "step_m": 40.0,
+    "units": "decimetres relative to site ground",
+    "ground_m": 6117.5,
+    "layout": "row 0 = +Y (0\u00b0E side), col 0 = -X",
+    "frame": "polar",
+    "source": [
+      "a3-nobile-1",
+      "ldem_80s_80m"
+    ]
+  },
+  "a3-nobile-2": {
+    "n": 301,
+    "step_m": 40.0,
+    "units": "decimetres relative to site ground",
+    "ground_m": 1460.7,
+    "layout": "row 0 = +Y (0\u00b0E side), col 0 = -X",
+    "frame": "polar",
+    "source": [
+      "a3-nobile-2",
+      "ldem_80s_80m"
+    ]
+  },
+  "a3-degerlache-2": {
+    "n": 301,
+    "step_m": 40.0,
+    "units": "decimetres relative to site ground",
+    "ground_m": 1578.6,
+    "layout": "row 0 = +Y (0\u00b0E side), col 0 = -X",
+    "frame": "polar",
+    "source": [
+      "a3-degerlache-2",
+      "ldem_80s_80m"
+    ]
+  },
+  "a3-slater": {
+    "n": 301,
+    "step_m": 40.0,
+    "units": "decimetres relative to site ground",
+    "ground_m": 532.5,
+    "layout": "row 0 = +Y (0\u00b0E side), col 0 = -X",
+    "frame": "polar",
+    "source": [
+      "a3-slater",
+      "ldem_80s_80m"
+    ]
+  },
+  "pole": {
+    "n": 301,
+    "step_m": 40.0,
+    "units": "decimetres relative to site ground",
+    "ground_m": 1290.0,
+    "layout": "row 0 = +Y (0\u00b0E side), col 0 = -X",
+    "frame": "polar",
+    "source": [
+      "pole",
+      "ldem_80s_80m"
+    ]
+  },
+  "apollo11": {
+    "n": 301,
+    "step_m": 40.0,
+    "units": "decimetres relative to site ground",
+    "ground_m": -1933.6,
+    "layout": "row 0 = north, col 0 = west",
+    "frame": "enu",
+    "source": [
+      "LDEM_512[apollo11]",
+      "ldem_64"
+    ]
+  },
+  "apollo12": {
+    "n": 301,
+    "step_m": 40.0,
+    "units": "decimetres relative to site ground",
+    "ground_m": -1426.9,
+    "layout": "row 0 = north, col 0 = west",
+    "frame": "enu",
+    "source": [
+      "LDEM_512[apollo12]",
+      "ldem_64"
+    ]
+  },
+  "apollo14": {
+    "n": 301,
+    "step_m": 40.0,
+    "units": "decimetres relative to site ground",
+    "ground_m": -1060.9,
+    "layout": "row 0 = north, col 0 = west",
+    "frame": "enu",
+    "source": [
+      "LDEM_512[apollo14]",
+      "ldem_64"
+    ]
+  },
+  "apollo15": {
+    "n": 301,
+    "step_m": 40.0,
+    "units": "decimetres relative to site ground",
+    "ground_m": -1926.4,
+    "layout": "row 0 = north, col 0 = west",
+    "frame": "enu",
+    "source": [
+      "LDEM_512[apollo15]",
+      "ldem_64"
+    ]
+  },
+  "apollo16": {
+    "n": 301,
+    "step_m": 40.0,
+    "units": "decimetres relative to site ground",
+    "ground_m": 12.2,
+    "layout": "row 0 = north, col 0 = west",
+    "frame": "enu",
+    "source": [
+      "LDEM_512[apollo16]",
+      "ldem_64"
+    ]
+  },
+  "apollo17": {
+    "n": 301,
+    "step_m": 40.0,
+    "units": "decimetres relative to site ground",
+    "ground_m": -2627.9,
+    "layout": "row 0 = north, col 0 = west",
+    "frame": "enu",
+    "source": [
+      "LDEM_512[apollo17]",
+      "ldem_64"
+    ]
+  },
+  "slim": {
+    "n": 301,
+    "step_m": 40.0,
+    "units": "decimetres relative to site ground",
+    "ground_m": -916.5,
+    "layout": "row 0 = north, col 0 = west",
+    "frame": "enu",
+    "source": [
+      "LDEM_512[slim]",
+      "ldem_64"
+    ]
+  },
+  "change6": {
+    "n": 301,
+    "step_m": 40.0,
+    "units": "decimetres relative to site ground",
+    "ground_m": -5254.0,
+    "layout": "row 0 = north, col 0 = west",
+    "frame": "enu",
+    "source": [
+      "LDEM_512[change6]",
+      "ldem_64"
+    ]
+  },
+  "change4": {
+    "n": 301,
+    "step_m": 40.0,
+    "units": "decimetres relative to site ground",
+    "ground_m": -5928.8,
+    "layout": "row 0 = north, col 0 = west",
+    "frame": "enu",
+    "source": [
+      "LDEM_512[change4]",
+      "ldem_64"
+    ]
+  },
+  "change5": {
+    "n": 301,
+    "step_m": 40.0,
+    "units": "decimetres relative to site ground",
+    "ground_m": -2542.0,
+    "layout": "row 0 = north, col 0 = west",
+    "frame": "enu",
+    "source": [
+      "LDEM_512[change5]",
+      "ldem_64"
+    ]
+  },
+  "reiner-gamma": {
+    "n": 301,
+    "step_m": 40.0,
+    "units": "decimetres relative to site ground",
+    "ground_m": -1749.9,
+    "layout": "row 0 = north, col 0 = west",
+    "frame": "enu",
+    "source": [
+      "LDEM_512[reiner-gamma]",
+      "ldem_64"
+    ]
+  },
+  "blue-ghost": {
+    "n": 301,
+    "step_m": 40.0,
+    "units": "decimetres relative to site ground",
+    "ground_m": -3650.9,
+    "layout": "row 0 = north, col 0 = west",
+    "frame": "enu",
+    "source": [
+      "LDEM_512[blue-ghost]",
+      "ldem_64"
+    ]
+  }
+}

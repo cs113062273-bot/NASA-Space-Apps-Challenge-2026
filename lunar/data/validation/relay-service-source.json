@@ -1,0 +1,11 @@
+{
+  "url": "https://www.nasa.gov/wp-content/uploads/2025/08/lunar-relay-services-requirements-document-srd.pdf?emrc=68cc4848682bc",
+  "bytes": 1619912,
+  "sha256": "4779d15380ae16bd8fc40588ca1dafc938730bec4871dcbb76c49e116e9e8c75",
+  "document": "ESC-LCRNS-REQ-0090 Revision B with DCN001, baseline 2022-12-05",
+  "scope": "Public uncontrolled copy; Table 3-6 user-terminal requirements are not satellite receiver specifications or verified provider performance",
+  "inspected_pdf_pages": [
+    1,
+    34
+  ]
+}

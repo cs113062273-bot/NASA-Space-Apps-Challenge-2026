@@ -1,0 +1,64 @@
+name: Verify LUNORIZON
+
+on:
+  push:
+    paths:
+      - lunar/**
+      - .github/workflows/lastlight.yml
+  pull_request:
+    paths:
+      - lunar/**
+      - .github/workflows/lastlight.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  frontend:
+    name: Frontend on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    defaults:
+      run:
+        working-directory: lunar/app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: lunar/app/.nvmrc
+          cache: npm
+          cache-dependency-path: lunar/app/package-lock.json
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+      - name: Install browser
+        if: runner.os == 'Linux'
+        run: npx playwright install --with-deps chromium
+      - name: Review desktop flows
+        if: runner.os == 'Linux'
+        run: npm run test:browser
+      - name: Upload browser evidence
+        if: always() && runner.os == 'Linux'
+        uses: actions/upload-artifact@v4
+        with:
+          name: desktop-browser-review
+          path: lunar/app/test-results
+          if-no-files-found: ignore
+  science:
+    name: Scientific regressions
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: lunar/pipeline/requirements.txt
+      - run: python -m pip install -r lunar/pipeline/requirements.txt
+      - run: python -m unittest discover -s lunar/pipeline -p "test_*.py"
